@@ -1,13 +1,41 @@
-# build outputs & local tooling
+# build outputs
 *.apk
+*.aab
+app/dist/
+app/aws-bridge-app.zip
+node_modules/
+
+# flutter / android (generated, machine-specific)
 flutter_app/build/
 flutter_app/.dart_tool/
 flutter_app/.idea/
+flutter_app/.flutter-plugins*
+flutter_app/.packages
 flutter_app/android/.gradle/
 flutter_app/android/local.properties
-flutter_app/.flutter-plugins*
+flutter_app/android/key.properties
 *.iml
-app/dist/
-app/aws-bridge-app.zip
+*.jks
+*.keystore
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# editor / OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# logs / temp
+*.log
+*.tmp
+
+# local tooling
 .claude/
-node_modules/

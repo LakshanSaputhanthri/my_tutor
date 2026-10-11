@@ -219,6 +219,18 @@ if (fs.existsSync(ccpFile)) {
   }
 }
 
+// SAA-C03 bank (tools/sync-cloudcertprep.js saa): content/saa-c03.json. Sets carry exam:'saa'; sets without `exam` belong to CLF-C02.
+const saaFile = path.join(__dirname, 'content', 'saa-c03.json');
+if (fs.existsSync(saaFile)) {
+  for (const s of JSON.parse(fs.readFileSync(saaFile, 'utf8')).sets) {
+    s.exam = 'saa';
+    s.qs.forEach((x, i) => {
+      if (x.a.some(k => k >= x.o.length)) problems.push(`${s.id} Q${i + 1}: answer index has no option`);
+    });
+    sets.push(s);
+  }
+}
+
 const cheat = fs.readFileSync(path.join(__dirname, 'content', 'cheatsheet.md'), 'utf8').replace(/\r/g, '');
 lessons.push({ id: 'cheat', title: cheat.match(/^#\s+(.*)$/m)[1], short: 'Exam night', html: md(cheat.replace(/^#\s+.*\n/, '')) });
 lessonSrc.cheat = cheat.replace(/^#\s+.*\n/, '');
@@ -254,5 +266,5 @@ if (fs.existsSync(path.dirname(flutterAssets))) {
 }
 
 const total = sets.reduce((s, x) => s + x.qs.length, 0);
-console.log(`OK: ${lessons.length} lessons, ${sets.length} sets, ${total} episode questions`);
+console.log(`OK: ${lessons.length} lessons, ${sets.length} sets, ${total} questions`);
 sets.forEach(s => console.log(`  ${s.id}: ${s.qs.length} questions`));

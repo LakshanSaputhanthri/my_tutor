@@ -32,7 +32,58 @@ class BridgeApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: _theme(Brightness.light),
       darkTheme: _theme(Brightness.dark),
-      home: Shell(state: state),
+      home: ListenableBuilder(
+        listenable: state,
+        builder: (context, _) =>
+            state.exam == null ? ExamPickerPage(state: state) : Shell(key: ValueKey(state.exam), state: state),
+      ),
+    );
+  }
+}
+
+/* ---------------- EXAM PICKER ---------------- */
+
+class ExamPickerPage extends StatelessWidget {
+  const ExamPickerPage({super.key, required this.state});
+  final AppState state;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = Theme.of(context).textTheme;
+    return Scaffold(
+      body: SafeArea(
+        child: ListView(padding: const EdgeInsets.all(20), children: [
+          const SizedBox(height: 16),
+          const Label('AWS Exam Prep'),
+          const SizedBox(height: 6),
+          Text('Which exam are you preparing for?', style: t.headlineMedium?.copyWith(fontWeight: FontWeight.w800)),
+          const SizedBox(height: 8),
+          Text('Pick one to get started. You can switch any time — progress for each exam is saved separately.',
+              style: t.bodyMedium),
+          const SizedBox(height: 16),
+          for (final e in kExams)
+            Card(
+              child: InkWell(
+                borderRadius: BorderRadius.circular(12),
+                onTap: () => state.setExam(e.id),
+                child: Padding(
+                  padding: const EdgeInsets.all(18),
+                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    Text(e.code, style: t.headlineSmall?.copyWith(fontWeight: FontWeight.w800, color: kTeal)),
+                    const SizedBox(height: 4),
+                    Text(e.name, style: t.titleMedium?.copyWith(fontWeight: FontWeight.w700)),
+                    const SizedBox(height: 4),
+                    Text(e.blurb, style: t.bodyMedium),
+                    const SizedBox(height: 6),
+                    Text('${state.content.questionsFor(e.id)} questions', style: t.bodySmall),
+                    const SizedBox(height: 8),
+                    Text('Start →', style: t.labelLarge?.copyWith(color: kTeal, fontWeight: FontWeight.w700)),
+                  ]),
+                ),
+              ),
+            ),
+        ]),
+      ),
     );
   }
 }
@@ -79,27 +130,40 @@ class _ShellState extends State<Shell> {
   @override
   Widget build(BuildContext context) {
     final s = widget.state;
+    final saa = s.exam == 'saa';
     return Scaffold(
       appBar: AppBar(
-        title: const Text('AWS English Bridge', style: TextStyle(fontWeight: FontWeight.w800)),
+        title: Text(saa ? 'AWS SAA-C03' : 'AWS English Bridge', style: const TextStyle(fontWeight: FontWeight.w800)),
+        actions: [
+          TextButton.icon(
+            onPressed: () => s.setExam(null),
+            icon: const Icon(Icons.swap_horiz),
+            label: const Text('Change exam'),
+          ),
+        ],
         bottom: PreferredSize(preferredSize: const Size.fromHeight(34), child: OverallBar(state: s)),
       ),
-      body: IndexedStack(index: tab, children: [
-        HomePage(state: s, goTab: goTab),
-        LessonsPage(state: s),
-        WordsPage(state: s),
-        PracticePage(state: s),
-        GamePage(state: s),
-      ]),
+      body: IndexedStack(
+        index: tab,
+        children: saa
+            ? [HomePage(state: s, goTab: goTab), PracticePage(state: s)]
+            : [
+                HomePage(state: s, goTab: goTab),
+                LessonsPage(state: s),
+                WordsPage(state: s),
+                PracticePage(state: s),
+                GamePage(state: s),
+              ],
+      ),
       bottomNavigationBar: NavigationBar(
         selectedIndex: tab,
         onDestinationSelected: goTab,
-        destinations: const [
-          NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home), label: 'Home'),
-          NavigationDestination(icon: Icon(Icons.menu_book_outlined), selectedIcon: Icon(Icons.menu_book), label: 'Lessons'),
-          NavigationDestination(icon: Icon(Icons.style_outlined), selectedIcon: Icon(Icons.style), label: 'Words'),
-          NavigationDestination(icon: Icon(Icons.fact_check_outlined), selectedIcon: Icon(Icons.fact_check), label: 'Practice'),
-          NavigationDestination(icon: Icon(Icons.bolt_outlined), selectedIcon: Icon(Icons.bolt), label: 'Game'),
+        destinations: [
+          const NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home), label: 'Home'),
+          if (!saa) const NavigationDestination(icon: Icon(Icons.menu_book_outlined), selectedIcon: Icon(Icons.menu_book), label: 'Lessons'),
+          if (!saa) const NavigationDestination(icon: Icon(Icons.style_outlined), selectedIcon: Icon(Icons.style), label: 'Words'),
+          const NavigationDestination(icon: Icon(Icons.fact_check_outlined), selectedIcon: Icon(Icons.fact_check), label: 'Practice'),
+          if (!saa) const NavigationDestination(icon: Icon(Icons.bolt_outlined), selectedIcon: Icon(Icons.bolt), label: 'Game'),
         ],
       ),
     );
@@ -123,6 +187,19 @@ class NextStep {
 
 NextStep nextStep(AppState s, void Function(int) goTab) {
   final c = s.content;
+  if (s.exam == 'saa') {
+    for (final q in s.sets) {
+      if (s.answersOf(q.id).length < q.qs.length) {
+        return NextStep('Practice: ${q.title}', 'Next set to work through.', (ctx) => openSet(ctx, s, q));
+      }
+    }
+    for (final q in s.sets) {
+      if (s.correctOf(q.id) < q.qs.length * .85) {
+        return NextStep('Review: ${q.title}', 'Below 85% — try the wrong ones again.', (ctx) => openSet(ctx, s, q));
+      }
+    }
+    return NextStep('Practice again', 'All sets at 85%+ — you look ready!', (ctx) => openSet(ctx, s, s.sets.first));
+  }
   if (s.known.length < 10) {
     return NextStep('Words 10ක් ඉගෙන ගන්න', 'මුලින්ම exam English වචන 10ක්.', (_) => goTab(2));
   }
@@ -135,7 +212,7 @@ NextStep nextStep(AppState s, void Function(int) goTab) {
       return NextStep('කියවන්න: ${l.short}', 'ඊළඟට කියවන්න ඕන lesson එක.', (ctx) => openLesson(ctx, s, l));
     }
   }
-  for (final q in c.sets) {
+  for (final q in s.sets) {
     if (s.correctOf(q.id) < q.qs.length * .85) {
       return NextStep('Practice: ${q.title}', '85%ට අඩු set එක.', (ctx) => openSet(ctx, s, q));
     }
@@ -200,7 +277,11 @@ class _HomePageState extends State<HomePage> {
       listenable: s,
       builder: (context, _) {
         final next = nextStep(s, widget.goTab);
+        final saa = s.exam == 'saa';
         return ListView(padding: const EdgeInsets.all(16), children: [
+          if (saa)
+            Text(kExams.firstWhere((e) => e.id == 'saa').name, style: t.titleLarge?.copyWith(fontWeight: FontWeight.w800))
+          else
           Rich('ලොකු English දැනුමක් ඕන නෑ. Exam එකේ නැවත නැවත එන **English වචන ${c.words.length}**, **question patterns ${c.patterns.length}** සහ **keywords** ටික හඳුනගත්තම ඇති. මුලින් සිංහලෙන්, ඊට පස්සේ ටික ටික English විතරක්.',
               style: t.bodyLarge),
           const SizedBox(height: 12),
@@ -210,11 +291,11 @@ class _HomePageState extends State<HomePage> {
               child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
                 const Label('Your progress'),
                 const SizedBox(height: 6),
-                _stat('Lessons', '${s.lessonsDone.length} / ${c.lessons.length}', s.lessonsDone.length / c.lessons.length),
-                _stat('Words', '${s.known.length} / ${c.words.length}', s.known.length / c.words.length),
-                _stat('Questions correct', '${s.totalCorrect} / ${c.totalQuestions}', s.totalCorrect / c.totalQuestions),
-                _stat('Mock exam best', s.mockBest > 0 ? '${s.mockBest}%' : '–', s.mockBest / 100),
-                _stat('Game best streak', '${s.gameBest}', null),
+                if (!saa) _stat('Lessons', '${s.lessonsDone.length} / ${c.lessons.length}', s.lessonsDone.length / c.lessons.length),
+                if (!saa) _stat('Words', '${s.known.length} / ${c.words.length}', s.known.length / c.words.length),
+                _stat('Questions correct', '${s.totalCorrect} / ${s.totalQuestions}', s.totalCorrect / s.totalQuestions),
+                if (!saa) _stat('Mock exam best', s.mockBest > 0 ? '${s.mockBest}%' : '–', s.mockBest / 100),
+                if (!saa) _stat('Game best streak', '${s.gameBest}', null),
                 const SizedBox(height: 10),
                 FilledButton(onPressed: () => next.go(context), child: Text(next.label)),
                 const SizedBox(height: 6),
@@ -222,6 +303,7 @@ class _HomePageState extends State<HomePage> {
               ]),
             ),
           ),
+          if (!saa) ...[
           const SizedBox(height: 12),
           Text('දවස් 21 පාලම', style: t.titleLarge?.copyWith(fontWeight: FontWeight.w800)),
           const SizedBox(height: 4),
@@ -262,6 +344,7 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
           ),
+          ],
           Card(
             child: ExpansionTile(
               title: const Text('Progress backup / reset'),
@@ -613,9 +696,9 @@ class PracticePage extends StatelessWidget {
     return ListenableBuilder(
       listenable: state,
       builder: (context, _) => ListView(padding: const EdgeInsets.all(16), children: [
-        Text('${state.totalCorrect} / ${state.content.totalQuestions} questions correct', style: t.titleMedium),
+        Text('${state.totalCorrect} / ${state.totalQuestions} questions correct', style: t.titleMedium),
         const SizedBox(height: 8),
-        for (final q in state.content.sets)
+        for (final q in state.sets)
           Card(
             child: InkWell(
               borderRadius: BorderRadius.circular(12),
@@ -789,9 +872,9 @@ class _QuizPageState extends State<QuizPage> {
                       padding: const EdgeInsets.all(12),
                       decoration: BoxDecoration(color: scheme.surfaceContainerHighest, borderRadius: BorderRadius.circular(10)),
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        Rich('**${done.ok ? 'හරි!' : 'වැරදියි.'}** Answer: **${q.a.map((i) => letters[i]).join(', ')}**. ${q.e}', style: t.bodyLarge),
+                        Rich('**${widget.set.exam == 'saa' ? (done.ok ? 'Correct!' : 'Incorrect.') : (done.ok ? 'හරි!' : 'වැරදියි.')}** Answer: **${q.a.map((i) => letters[i]).join(', ')}**. ${q.e}', style: t.bodyLarge),
                         const SizedBox(height: 6),
-                        Text('ඇයි කියලා සිංහලෙන් ශබ්ද නඟලා කියන්න.', style: t.bodySmall),
+                        if (widget.set.exam != 'saa') Text('ඇයි කියලා සිංහලෙන් ශබ්ද නඟලා කියන්න.', style: t.bodySmall),
                       ]),
                     ),
                   ],

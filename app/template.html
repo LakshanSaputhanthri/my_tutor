@@ -133,46 +133,65 @@ details summary{cursor:pointer;font-weight:600}
 .gk{font:800 clamp(1.35rem,5vw,1.9rem)/1.25 var(--f-display);text-align:center;padding:10px 0}
 .ggrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
 @media (max-width:420px){.ggrid{grid-template-columns:1fr}}
+/* exam picker */
+.exam{text-align:left;width:100%;background:var(--surface);color:var(--ink);border:1.5px solid var(--line);border-radius:var(--r);padding:18px;display:grid;gap:6px;cursor:pointer;font:inherit}
+.exam:hover,.exam:focus-visible{border-color:var(--accent)}
+.exam .code{font:800 1.5rem var(--f-display);color:var(--accent)}
+.exam .name{font:700 1.05rem var(--f-display)}
+.exam .go{font:600 .9rem var(--f-body);color:var(--accent);margin-top:4px}
+.linkbtn{border:0;background:transparent;color:var(--accent);font:600 .8rem var(--f-body);cursor:pointer;padding:0;text-decoration:underline}
+body[data-exam="saa"] .clf-only,body:not([data-exam]) .top,body:not([data-exam]) .tabbar{display:none}
+body[data-exam="saa"] .tabbar .in{grid-template-columns:repeat(2,1fr)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
 <div class="wrap">
   <div class="top" aria-live="polite">
-    <div class="row"><span class="eyebrow">AWS English Bridge · CLF-C02</span><span><b id="ov-pct">0%</b> <span class="muted si">ready</span></span></div>
+    <div class="row"><span class="eyebrow"><span id="top-exam">AWS English Bridge · CLF-C02</span> · <button class="linkbtn" id="switch-exam">Change exam</button></span><span><b id="ov-pct">0%</b> <span class="muted si">ready</span></span></div>
     <div class="meter big"><i id="ov-bar"></i></div>
   </div>
 
+  <!-- EXAM PICKER -->
+  <section id="v-exams" role="tabpanel" hidden>
+    <div class="hero" style="padding-top:24px">
+      <span class="eyebrow">AWS Exam Prep</span>
+      <h1>Which exam are you preparing for?</h1>
+      <p class="lede">Pick one to get started. You can switch any time — progress for each exam is saved separately.</p>
+    </div>
+    <div id="exam-list" style="display:grid;gap:12px"></div>
+  </section>
+
   <!-- HOME -->
-  <section id="v-home" role="tabpanel">
+  <section id="v-home" role="tabpanel" hidden>
     <div class="hero">
-      <h1>AWS English Bridge</h1>
-      <p class="lede si">ලොකු English දැනුමක් ඕන නෑ. Exam එකේ නැවත නැවත එන <b>English වචන 64</b>, <b>question patterns 12</b> සහ <b>keywords</b> ටික හඳුනගත්තම ඇති. මුලින් සිංහලෙන්, ඊට පස්සේ ටික ටික English විතරක්.</p>
+      <h1 id="home-title">AWS English Bridge</h1>
+      <p class="lede si clf-only">ලොකු English දැනුමක් ඕන නෑ. Exam එකේ නැවත නැවත එන <b>English වචන 64</b>, <b>question patterns 12</b> සහ <b>keywords</b> ටික හඳුනගත්තම ඇති. මුලින් සිංහලෙන්, ඊට පස්සේ ටික ටික English විතරක්.</p>
     </div>
     <div class="card">
       <span class="eyebrow">Your progress</span>
       <div class="statlist">
-        <div class="stat"><span>Lessons</span><b id="s-les"></b><div class="meter"><i id="b-les"></i></div></div>
-        <div class="stat"><span>Words</span><b id="s-wor"></b><div class="meter"><i id="b-wor"></i></div></div>
+        <div class="stat clf-only"><span>Lessons</span><b id="s-les"></b><div class="meter"><i id="b-les"></i></div></div>
+        <div class="stat clf-only"><span>Words</span><b id="s-wor"></b><div class="meter"><i id="b-wor"></i></div></div>
         <div class="stat"><span>Questions correct</span><b id="s-que"></b><div class="meter"><i id="b-que"></i></div></div>
-        <div class="stat"><span>Mock exam best</span><b id="s-moc"></b><div class="meter"><i id="b-moc"></i></div></div>
-        <div class="stat"><span>Game best streak</span><b id="s-gam"></b></div>
+        <div class="stat clf-only"><span>Mock exam best</span><b id="s-moc"></b><div class="meter"><i id="b-moc"></i></div></div>
+        <div class="stat clf-only"><span>Game best streak</span><b id="s-gam"></b></div>
       </div>
       <button class="btn primary si" id="continue">ඊළඟ පියවර</button>
       <p class="muted si" id="continue-note" style="margin:0"></p>
     </div>
 
-    <div class="card">
+    <div class="card clf-only">
       <span class="eyebrow">The method</span>
       <h2 class="si">දවස් 21 පාලම</h2>
       <p class="muted si" style="margin:0">Stage එකෙන් stage එකට සිංහල උදව් අඩු වෙනවා. Practice එකේ <b>Sinhala bridge</b> set එකේ mode එක මාරු කරන්න.</p>
     </div>
-    <div class="stages">
+    <div class="stages clf-only">
       <div class="stage"><span class="n">1</span><h3 class="si">සිංහලෙන් තේරුම් ගන්න</h3><span class="chip">Day 1 – 7</span><p class="si">Episodes 1–3 කියවන්න. Bridge questions <b>"සිංහල උදව්"</b> mode එකේ. දවසකට words 10ක්.</p></div>
       <div class="stage"><span class="n">2</span><h3 class="si">Keywords දඩයම</h3><span class="chip">Day 8 – 14</span><p class="si">Episodes 4–5. Mode එක <b>"Keywords විතරයි"</b>. Patterns 12 ඔක්කොම. Episode questions කරන්න.</p></div>
       <div class="stage"><span class="n">3</span><h3 class="si">English විතරයි</h3><span class="chip">Day 15 – 21</span><p class="si">Mode එක <b>"English only"</b>. Mock exam එක. <b>ඇයි කියලා සිංහලෙන් ශබ්ද නඟලා කියන්න.</b> 85%+ → book කරන්න.</p></div>
     </div>
 
-    <div class="card">
+    <div class="card clf-only">
       <span class="eyebrow">Every day · 30 minutes</span>
       <ol class="plain si">
         <li><b>Words — විනාඩි 10.</b> අලුත් වචන 10ක්.</li>
@@ -182,7 +201,7 @@ details summary{cursor:pointer;font-weight:600}
       </ol>
     </div>
 
-    <details class="card">
+    <details class="card clf-only">
       <summary class="si">English බය නැති කරන නීති 6</summary>
       <ul class="plain si">
         <li><b>හැම වචනයම translate කරන්න එපා.</b> වැදගත් වචන 2–3 හොයන්න.</li>
@@ -298,10 +317,10 @@ details summary{cursor:pointer;font-weight:600}
 <nav class="tabbar" aria-label="Sections">
   <div class="in" role="tablist">
     <button role="tab" data-v="home" aria-selected="true"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>Home</button>
-    <button role="tab" data-v="lessons" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M4 5h6a2 2 0 0 1 2 2v13a2 2 0 0 0-2-2H4z"/><path d="M20 5h-6a2 2 0 0 0-2 2v13a2 2 0 0 1 2-2h6z"/></svg>Lessons</button>
-    <button role="tab" data-v="words" aria-selected="false"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="M8 10h8M8 14h5"/></svg>Words</button>
+    <button class="clf-only" role="tab" data-v="lessons" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M4 5h6a2 2 0 0 1 2 2v13a2 2 0 0 0-2-2H4z"/><path d="M20 5h-6a2 2 0 0 0-2 2v13a2 2 0 0 1 2-2h6z"/></svg>Lessons</button>
+    <button class="clf-only" role="tab" data-v="words" aria-selected="false"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="M8 10h8M8 14h5"/></svg>Words</button>
     <button role="tab" data-v="practice" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M9 11l2 2 4-4"/><rect x="4" y="4" width="16" height="16" rx="3"/></svg>Practice</button>
-    <button role="tab" data-v="game" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M13 3L5 14h6l-1 7 8-11h-6z"/></svg>Game</button>
+    <button class="clf-only" role="tab" data-v="game" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M13 3L5 14h6l-1 7 8-11h-6z"/></svg>Game</button>
   </div>
 </nav>
 
@@ -334,9 +353,24 @@ const PAIRS = window.DATA.pairs;
 
 /* ---------- CONTENT ASSEMBLY ---------- */
 const D = window.DATA || {lessons:[],sets:[]};
-const SETS = [{id:'bridge',title:'Sinhala bridge (20)',sub:'සිංහල උදව් එක්ක — මෙතනින් පටන් ගන්න',qs:BRIDGE,bridge:true}].concat(D.sets.map(s=>({...s,sub:s.id==='ep6'?'Exam එක වගේ — විනාඩි 40':s.id==='mock2'?'සම්පූර්ණ exam එක — questions 65, විනාඩි 90':s.id==='mock3'?'කෙටි සරල questions — "මේ service එක මොකටද?"':''})));
+const EXAMS = [
+  {id:'clf', code:'CLF-C02', name:'AWS Certified Cloud Practitioner', blurb:'Foundational · Sinhala bridge, lessons, words, keyword game and mock exams.'},
+  {id:'saa', code:'SAA-C03', name:'AWS Certified Solutions Architect – Associate', blurb:'Associate · scenario-based practice questions by exam domain.'}
+];
+let EXAM = null;
+const examOf = s => s.exam || 'clf';
+const ALL_SETS = [{id:'bridge',title:'Sinhala bridge (20)',sub:'සිංහල උදව් එක්ක — මෙතනින් පටන් ගන්න',qs:BRIDGE,bridge:true}].concat(D.sets.map(s=>({...s,sub:s.exam==='saa'?s.sub:(s.id==='ep6'?'Exam එක වගේ — විනාඩි 40':s.id==='mock2'?'සම්පූර්ණ exam එක — questions 65, විනාඩි 90':s.id==='mock3'?'කෙටි සරල questions — "මේ service එක මොකටද?"':'')})));
+let SETS = [];
 const LESSONS = D.lessons.filter(l=>l.id!=='cheat').concat([{id:'patterns',title:'Question Patterns',short:'12 patterns',patterns:true}], D.lessons.filter(l=>l.id==='cheat'));
-const TOTAL_Q = SETS.reduce((n,s)=>n+s.qs.length,0);
+let TOTAL_Q = 0;
+const VIEWS = () => EXAM==='saa' ? ['home','practice'] : ['home','lessons','words','practice','game'];
+function applyExam(id){
+  EXAM = id; SETS = ALL_SETS.filter(s=>examOf(s)===id); TOTAL_Q = SETS.reduce((n,s)=>n+s.qs.length,0);
+  document.body.dataset.exam = id;
+  const ex = EXAMS.find(e=>e.id===id);
+  $('top-exam').textContent = id==='clf' ? 'AWS English Bridge · CLF-C02' : 'AWS '+ex.code;
+  $('home-title').textContent = id==='clf' ? 'AWS English Bridge' : ex.name;
+}
 
 /* ---------- PROGRESS ---------- */
 const known = () => new Set(S.get('known',[]));
@@ -346,7 +380,9 @@ function correctOf(id){ return Object.values(answersOf(id)).filter(x=>x.ok).leng
 function totalCorrect(){ return SETS.reduce((n,s)=>n+correctOf(s.id),0); }
 function mockBest(){ return S.get('mockBest',0); }
 function overall(){
-  const l = done().size/LESSONS.length, w = known().size/WORDS.length, q = totalCorrect()/TOTAL_Q;
+  const q = totalCorrect()/TOTAL_Q;
+  if(EXAM==='saa') return q;
+  const l = done().size/LESSONS.length, w = known().size/WORDS.length;
   return l*.25 + w*.25 + q*.5;
 }
 function renderProgress(){
@@ -362,6 +398,13 @@ function renderProgress(){
   $('continue').textContent = next.label; $('continue-note').textContent = next.note;
 }
 function nextStep(){
+  if(EXAM==='saa'){
+    const open = SETS.find(s=>Object.keys(answersOf(s.id)).length < s.qs.length);
+    if(open) return {label:`Practice: ${open.title}`, note:'Next set to work through.', go:()=>{show('practice'); openSet(open.id);}};
+    const weak = SETS.find(s=>correctOf(s.id) < s.qs.length*.85);
+    if(weak) return {label:`Review: ${weak.title}`, note:'Below 85% — try the wrong ones again.', go:()=>{show('practice'); openSet(weak.id);}};
+    return {label:'Practice again', note:'All sets at 85%+ — you look ready!', go:()=>{show('practice'); openSet(SETS[0].id);}};
+  }
   const d = done(), kw = known().size;
   const firstLesson = LESSONS.find(l=>!d.has(l.id));
   if(kw < 10) return {label:'Words 10ක් ඉගෙන ගන්න', note:'මුලින්ම exam English වචන 10ක්.', go:()=>show('words')};
@@ -460,7 +503,7 @@ function renderQ(){
   }).join('');
   $('qz-check').hidden = !(multi && !d);
   $('qz-exp').hidden = !d;
-  if(d) $('qz-exp').innerHTML = `<b>${d.ok?'හරි!':'වැරදියි.'}</b> Answer: <b>${q.a.map(i=>'ABCDE'[i]).join(', ')}</b>. ${inl(q.e||'')}<br><span class="muted">ඇයි කියලා සිංහලෙන් ශබ්ද නඟලා කියන්න.</span>`;
+  if(d) $('qz-exp').innerHTML = `<b>${EXAM==='saa'?(d.ok?'Correct!':'Incorrect.'):(d.ok?'හරි!':'වැරදියි.')}</b> Answer: <b>${q.a.map(i=>'ABCDE'[i]).join(', ')}</b>. ${inl(q.e||'')}${EXAM==='clf'?'<br><span class="muted">ඇයි කියලා සිංහලෙන් ශබ්ද නඟලා කියන්න.</span>':''}`;
   const n = Object.keys(a).length, ok = correctOf(cur.id);
   $('qz-score').textContent = `${ok} / ${cur.qs.length} correct`;
   $('qz-dots').innerHTML = cur.qs.map((x,i)=>`<button data-j="${i}" class="${a[i]?(a[i].ok?'ok':'no'):''} ${i===qi?'cur':''}" aria-label="Question ${i+1}">${i+1}</button>`).join('');
@@ -530,21 +573,34 @@ $('bk-reset').addEventListener('click',()=>{
 
 /* ---------- NAV ---------- */
 function show(v){
+  if(v!=='exams' && !EXAM) v = 'exams';
   document.querySelectorAll('[role=tabpanel]').forEach(p=>p.hidden = p.id!=='v-'+v);
   document.querySelectorAll('.tabbar [role=tab]').forEach(t=>t.setAttribute('aria-selected', String(t.dataset.v===v)));
   if(v==='lessons' && $('les-read').hidden) renderLessonList();
   if(v==='practice' && $('quiz').hidden) renderSetList();
   if(v==='home') renderProgress();
-  S.set('view',v); window.scrollTo({top:0});
+  if(v==='exams') renderExams();
+  if(v!=='exams') S.set('view',v); window.scrollTo({top:0});
 }
 document.querySelector('.tabbar').addEventListener('click',e=>{ const b=e.target.closest('[role=tab]'); if(b) show(b.dataset.v); });
+function renderExams(){
+  $('exam-list').innerHTML = EXAMS.map(e=>{
+    const sets = ALL_SETS.filter(s=>examOf(s)===e.id), n = sets.reduce((a,s)=>a+s.qs.length,0), c = sets.reduce((a,s)=>a+correctOf(s.id),0);
+    return `<button class="exam" data-e="${e.id}"><span class="code">${e.code}</span><span class="name">${esc(e.name)}</span><span class="muted">${esc(e.blurb)}</span><span class="muted" style="font-size:.85rem">${n} questions${c?' · '+c+' correct so far':''}</span><span class="go">${S.get('exam',null)===e.id?'Continue':'Start'} →</span></button>`;
+  }).join('');
+}
+function pickExam(id){ S.set('exam',id); applyExam(id); refreshAll(); show('home'); }
+$('exam-list').addEventListener('click',e=>{ const b=e.target.closest('[data-e]'); if(b) pickExam(b.dataset.e); });
+$('switch-exam').addEventListener('click',()=>{ $('quiz').hidden=true; $('set-list').hidden=false; EXAM=null; document.body.removeAttribute('data-exam'); show('exams'); });
 function refreshAll(){ mode=S.get('mode',0); wFilter=S.get('wFilter','all'); renderWFilter(); buildWOrder(); renderWord(); renderLessonList(); renderSetList(); $('g-best').textContent=S.get('gBest',0); renderProgress(); }
 
+const savedExam = S.get('exam',null);
+applyExam(EXAMS.some(e=>e.id===savedExam) ? savedExam : 'clf');
 refreshAll(); newRound();
-const startV = (location.hash||'').slice(1) || S.get('view','home');
-show(['home','lessons','words','practice','game'].includes(startV)? startV : 'home');
+if(EXAMS.some(e=>e.id===savedExam)){ const startV = (location.hash||'').slice(1) || S.get('view','home'); show(VIEWS().includes(startV)? startV : 'home'); }
+else { EXAM = null; document.body.removeAttribute('data-exam'); show('exams'); }
 
-window.addEventListener('hashchange',()=>{ const v=location.hash.slice(1); if(['home','lessons','words','practice','game'].includes(v)) show(v); });
+window.addEventListener('hashchange',()=>{ const v=location.hash.slice(1); if(EXAM && VIEWS().includes(v)) show(v); });
 if('serviceWorker' in navigator && (location.protocol==='https:' || location.hostname==='localhost') && window.self===window.top){
   navigator.serviceWorker.register('sw.js').catch(()=>{});
 }

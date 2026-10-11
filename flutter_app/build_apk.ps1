@@ -16,5 +16,4 @@ if (-not (Test-Path 'android')) {
 
 flutter pub get
 flutter build apk --release
-Copy-Item build\app\outputs\flutter-apk\app-release.apk .\aws-bridge.apk -Force
-Write-Host "Done: $PSScriptRoot\aws-bridge.apk"
+& ..\tools\rotate-apk.ps1 -Source build\app\outputs\flutter-apk\app-release.apk -OutDir $PSScriptRoot

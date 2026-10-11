@@ -48,7 +48,7 @@ analyze: get
 
 apk: get
 	$(ENV) Set-Location flutter_app; flutter build apk --release
-	Copy-Item $(APK) aws-bridge.apk -Force; Write-Host 'APK ready: aws-bridge.apk'
+	./tools/rotate-apk.ps1 -Source $(APK) -OutDir .
 
 devices:
 	$(ENV) flutter devices
@@ -57,8 +57,8 @@ run: get
 	$(ENV) Set-Location flutter_app; flutter run
 
 install:
-	$(ENV) adb install -r aws-bridge.apk
+	$(ENV) adb install -r (Get-ChildItem aws-bridge*.apk | Sort-Object LastWriteTime -Descending | Select-Object -First 1).FullName
 
 clean:
 	$(ENV) Set-Location flutter_app; flutter clean
-	Remove-Item -Recurse -Force -ErrorAction SilentlyContinue app/dist, aws-bridge.apk
+	Remove-Item -Recurse -Force -ErrorAction SilentlyContinue app/dist, aws-bridge*.apk

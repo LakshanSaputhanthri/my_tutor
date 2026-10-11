@@ -1,6 +1,11 @@
 # AWS CLF-C02 Bridge
 
-Study material and apps for the AWS Certified Cloud Practitioner (CLF-C02) exam, in Sinhala with English technical terms.
+Study material and apps for AWS certification exams. The first page lets you pick the exam:
+
+- **CLF-C02** (Cloud Practitioner) — lessons, words, keyword game and mock exams, in Sinhala with English technical terms.
+- **SAA-C03** (Solutions Architect – Associate) — practice questions by exam domain.
+
+Progress is saved separately per exam. To refresh the imported question banks: `node tools/sync-cloudcertprep.js [clf|saa|all]`, then `make content`.
 
 | Folder | What it is |
 | --- | --- |

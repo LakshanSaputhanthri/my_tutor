@@ -38,8 +38,9 @@ class Question {
 }
 
 class QSet {
-  QSet(this.id, this.title, this.sub, this.qs, {this.bridge = false});
+  QSet(this.id, this.title, this.sub, this.qs, {this.bridge = false, this.exam = 'clf'});
   final String id;
+  final String exam;
   final String title;
   final String sub;
   final List<Question> qs;
@@ -55,6 +56,21 @@ class Lesson {
   final bool patterns;
 }
 
+class Exam {
+  const Exam(this.id, this.code, this.name, this.blurb);
+  final String id;
+  final String code;
+  final String name;
+  final String blurb;
+}
+
+const kExams = [
+  Exam('clf', 'CLF-C02', 'AWS Certified Cloud Practitioner',
+      'Foundational · Sinhala bridge, lessons, words, keyword game and mock exams.'),
+  Exam('saa', 'SAA-C03', 'AWS Certified Solutions Architect – Associate',
+      'Associate · scenario-based practice questions by exam domain.'),
+];
+
 class Content {
   Content(this.lessons, this.sets, this.words, this.patterns, this.pairs);
 
@@ -64,7 +80,8 @@ class Content {
   final List<List<String>> patterns;
   final List<List<String>> pairs;
 
-  int get totalQuestions => sets.fold(0, (n, s) => n + s.qs.length);
+  List<QSet> setsFor(String exam) => sets.where((s) => s.exam == exam).toList();
+  int questionsFor(String exam) => setsFor(exam).fold(0, (n, s) => n + s.qs.length);
 
   QSet? setById(String id) {
     for (final s in sets) {
@@ -108,11 +125,13 @@ class Content {
       ...(j['sets'] as List).map((s) {
         final m = s as Map<String, dynamic>;
         final id = m['id'] as String;
+        final exam = (m['exam'] ?? 'clf') as String;
         return QSet(
           id,
           m['title'] as String,
-          subFor(id),
+          exam == 'saa' ? ((m['sub'] ?? '') as String) : subFor(id),
           (m['qs'] as List).map((q) => Question.fromJson(q as Map<String, dynamic>)).toList(),
+          exam: exam,
         );
       }),
     ];
@@ -149,6 +168,7 @@ class AppState extends ChangeNotifier {
   int gameBest = 0;
   int mode = 0;
   String wFilter = 'all';
+  String? exam; // null until the user picks one on the first page
 
   void _load(String? raw) {
     known = {};
@@ -158,6 +178,7 @@ class AppState extends ChangeNotifier {
     gameBest = 0;
     mode = 0;
     wFilter = 'all';
+    exam = null;
     if (raw == null || raw.isEmpty) return;
     final j = jsonDecode(raw) as Map<String, dynamic>;
     known = ((j['known'] ?? const []) as List).map((x) => (x as num).toInt()).toSet();
@@ -172,6 +193,8 @@ class AppState extends ChangeNotifier {
     gameBest = ((j['gBest'] ?? 0) as num).toInt();
     mode = ((j['mode'] ?? 0) as num).toInt();
     wFilter = (j['wFilter'] ?? 'all') as String;
+    final e = j['exam'];
+    exam = kExams.any((x) => x.id == e) ? e as String : null;
   }
 
   String _export() => jsonEncode({
@@ -182,6 +205,7 @@ class AppState extends ChangeNotifier {
         'gBest': gameBest,
         'mode': mode,
         'wFilter': wFilter,
+        'exam': exam,
       });
 
   void _save() {
@@ -204,18 +228,31 @@ class AppState extends ChangeNotifier {
   }
 
   void reset() {
+    final keep = exam;
     _load(null);
+    exam = keep;
     _save();
   }
 
+  void setExam(String? id) {
+    exam = id;
+    _save();
+  }
+
+  List<QSet> get sets => content.setsFor(exam ?? 'clf');
+  int get totalQuestions => content.questionsFor(exam ?? 'clf');
+
   Map<int, Ans> answersOf(String id) => answers[id] ?? const {};
   int correctOf(String id) => answersOf(id).values.where((x) => x.ok).length;
-  int get totalCorrect => content.sets.fold(0, (n, s) => n + correctOf(s.id));
+  int get totalCorrect => sets.fold(0, (n, s) => n + correctOf(s.id));
 
-  double get overall =>
-      lessonsDone.length / content.lessons.length * .25 +
-      known.length / content.words.length * .25 +
-      totalCorrect / content.totalQuestions * .5;
+  double get overall {
+    final q = totalCorrect / totalQuestions;
+    if (exam == 'saa') return q;
+    return lessonsDone.length / content.lessons.length * .25 +
+        known.length / content.words.length * .25 +
+        q * .5;
+  }
 
   void toggleLesson(String id) {
     if (!lessonsDone.remove(id)) lessonsDone.add(id);
