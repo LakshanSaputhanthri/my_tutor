@@ -1,0 +1,551 @@
+<title>AWS English Bridge</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Sinhala:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one study column; overall progress pinned on top; app-style tab bar pinned to the bottom; the saffron highlighter marks exam keywords. */
+:root{
+  --bg:#F2F5F5; --surface:#FFFFFF; --ink:#132628; --muted:#566B6D; --line:#D5DFE0;
+  --accent:#0D676B; --accent-ink:#FFFFFF; --mark:#F5C451; --mark-ink:#2B2000;
+  --good:#24774A; --good-bg:#E3F3EA; --bad:#B23E2B; --bad-bg:#FBE9E5; --chip:#E4ECEC;
+  --f-display:"Bricolage Grotesque","Noto Sans","Noto Sans Sinhala",system-ui,sans-serif;
+  --f-body:"Noto Sans","Noto Sans Sinhala",system-ui,sans-serif;
+  --f-si:"Noto Sans Sinhala","Noto Sans",system-ui,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  --r:12px; --navh:62px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E191A; --surface:#152325; --ink:#E5EEEE; --muted:#97ADAE; --line:#2A3C3E;
+  --accent:#55BDB8; --accent-ink:#06211F; --mark:#E2A938; --mark-ink:#1C1400;
+  --good:#71D19B; --good-bg:#16302A; --bad:#F2917C; --bad-bg:#3A1F1A; --chip:#1E3133; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E191A; --surface:#152325; --ink:#E5EEEE; --muted:#97ADAE; --line:#2A3C3E;
+  --accent:#55BDB8; --accent-ink:#06211F; --mark:#E2A938; --mark-ink:#1C1400;
+  --good:#71D19B; --good-bg:#16302A; --bad:#F2917C; --bad-bg:#3A1F1A; --chip:#1E3133; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6;margin:0}
+.wrap{max-width:760px;margin:0 auto;padding-inline:16px;padding-block:8px calc(var(--navh) + 32px + env(safe-area-inset-bottom,0px))}
+h1,h2,h3,h4{font-family:var(--f-display);text-wrap:balance;line-height:1.2;margin:0}
+h1{font-size:clamp(1.7rem,6vw,2.4rem);font-weight:800;letter-spacing:-.02em}
+h2{font-size:1.4rem;font-weight:800}
+h3{font-size:1.15rem;font-weight:700}
+h4,h5{font-size:1rem;font-weight:700}
+.si{font-family:var(--f-si)}
+mark{background:var(--mark);color:var(--mark-ink);padding:0 .2em;border-radius:3px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.eyebrow{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.muted{color:var(--muted)}
+/* top progress */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;background:var(--bg);padding-block:10px 8px;display:grid;gap:6px;border-bottom:1px solid var(--line);margin-bottom:12px}
+.top .row{justify-content:space-between}
+.top b{font:800 1.05rem var(--f-display);font-variant-numeric:tabular-nums}
+.meter{height:8px;background:var(--chip);border-radius:99px;overflow:hidden}
+.meter.big{height:12px}
+.meter i{display:block;height:100%;width:0;background:var(--accent);border-radius:99px;transition:width .35s}
+/* bottom tab bar */
+.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:8;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
+.tabbar .in{max-width:760px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);height:var(--navh)}
+.tabbar button{border:0;background:transparent;color:var(--muted);font:600 .74rem var(--f-body);display:grid;justify-items:center;align-content:center;gap:3px;cursor:pointer}
+.tabbar svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.tabbar button[aria-selected="true"]{color:var(--accent)}
+.tabbar button[aria-selected="true"] svg{stroke-width:2.4}
+section{display:grid;gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:grid;gap:10px;min-width:0}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.btn{font:600 .95rem var(--f-body);border-radius:10px;padding:.6rem 1rem;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.danger{border-color:var(--bad);color:var(--bad)}
+.btn:disabled{opacity:.45;cursor:default}
+.btn:focus-visible,.tabbar button:focus-visible,.opt:focus-visible,.seg button:focus-visible,.item:focus-visible{outline:3px solid var(--mark);outline-offset:2px}
+.chip{display:inline-block;font:600 .72rem var(--f-mono);background:var(--chip);color:var(--muted);border-radius:6px;padding:.15rem .5rem}
+.chip.done{background:var(--good-bg);color:var(--good)}
+/* home */
+.hero{display:grid;gap:8px}
+.lede{color:var(--muted);margin:0;max-width:62ch}
+.statlist{display:grid;gap:12px}
+.stat{display:grid;grid-template-columns:1fr auto;gap:4px 12px;align-items:center}
+.stat .meter{grid-column:1 / -1}
+.stat span{font-weight:600}
+.stat b{font-variant-numeric:tabular-nums}
+.stages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:620px){.stages{grid-template-columns:1fr}}
+.stage{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:grid;gap:6px;align-content:start}
+.stage .n{font:800 1.8rem/1 var(--f-display);color:var(--accent)}
+.stage p{margin:0}
+ol.plain,ul.plain{margin:0;padding-left:1.3rem;display:grid;gap:6px}
+textarea{width:100%;min-height:90px;font:500 .8rem var(--f-mono);background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px}
+/* lists of items */
+.items{display:grid;gap:8px}
+.item{text-align:left;width:100%;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:grid;gap:8px;cursor:pointer;color:var(--ink);font:inherit}
+.item .t{font:700 1.02rem var(--f-display)}
+.item .row{justify-content:space-between}
+/* reader */
+.reader{font-size:1.02rem}
+.reader h2{font-size:1.25rem;margin-top:1.4rem}
+.reader h3{margin-top:1.1rem}
+.reader h4,.reader h5{margin-top:1rem}
+.reader p{margin:.5rem 0}
+.reader blockquote{margin:.8rem 0;padding:.6rem .9rem;border-left:4px solid var(--mark);background:var(--chip);border-radius:0 10px 10px 0}
+.reader blockquote p{margin:.3rem 0}
+.reader ul,.reader ol{padding-left:1.3rem;margin:.4rem 0}
+.reader li{margin:.2rem 0}
+.reader li.task{list-style:"\2610  "}
+.reader hr{border:0;border-top:1px solid var(--line);margin:1.2rem 0}
+.reader code{font-family:var(--f-mono);font-size:.88em;background:var(--chip);padding:0 .3em;border-radius:4px}
+.tablewrap{overflow-x:auto;margin:.5rem 0}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{text-align:left;padding:.45rem .55rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 .72rem var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+/* words */
+.flash{min-height:220px;align-content:center;text-align:center;cursor:pointer;user-select:none}
+.flash .word{font:800 clamp(1.6rem,6vw,2.3rem)/1.15 var(--f-display)}
+.flash .mean{font:700 1.3rem var(--f-si);color:var(--accent)}
+.flash .ex{font-size:.95rem;color:var(--muted);margin:.5rem 0 0}
+.seg{display:inline-flex;flex-wrap:wrap;gap:4px;background:var(--chip);padding:4px;border-radius:10px}
+.seg button{font:600 .82rem var(--f-body);border:0;background:transparent;color:var(--muted);padding:.4rem .65rem;border-radius:7px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+td.ok::before{content:"\2713  ";color:var(--good);font-weight:700}
+details summary{cursor:pointer;font-weight:600}
+/* patterns */
+.pat .en{font:600 1.05rem var(--f-body)}
+.pat dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 12px}
+.pat dt{font:600 .72rem var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding-top:.25rem}
+.pat dd{margin:0;min-width:0}
+/* quiz */
+.stem{font-size:1.08rem;line-height:1.7}
+.trans{border-left:3px solid var(--accent);padding-left:12px;font-family:var(--f-si)}
+.hints{display:flex;flex-wrap:wrap;gap:6px}
+.hint{font-size:.86rem;background:var(--chip);border-radius:8px;padding:.25rem .6rem}
+.opts{display:grid;gap:8px}
+.opt{text-align:left;font:500 1rem var(--f-body);background:var(--surface);color:var(--ink);border:1.5px solid var(--line);border-radius:10px;padding:.7rem .9rem;cursor:pointer;display:flex;gap:.6rem;align-items:baseline}
+.opt .l{font:600 .82rem var(--f-mono);color:var(--muted)}
+.opt.sel{border-color:var(--accent)}
+.opt.right{border-color:var(--good);background:var(--good-bg)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-bg)}
+.opt[disabled]{cursor:default}
+.explain{font-family:var(--f-si);background:var(--chip);border-radius:10px;padding:12px}
+.dots{display:flex;flex-wrap:wrap;gap:4px}
+.dots button{width:26px;height:26px;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--muted);font:600 .7rem var(--f-mono);cursor:pointer;padding:0}
+.dots button.ok{background:var(--good-bg);border-color:var(--good);color:var(--good)}
+.dots button.no{background:var(--bad-bg);border-color:var(--bad);color:var(--bad)}
+.dots button.cur{outline:2px solid var(--accent);outline-offset:1px}
+/* game */
+.gk{font:800 clamp(1.35rem,5vw,1.9rem)/1.25 var(--f-display);text-align:center;padding:10px 0}
+.ggrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+@media (max-width:420px){.ggrid{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <div class="top" aria-live="polite">
+    <div class="row"><span class="eyebrow">AWS English Bridge · CLF-C02</span><span><b id="ov-pct">0%</b> <span class="muted si">ready</span></span></div>
+    <div class="meter big"><i id="ov-bar"></i></div>
+  </div>
+
+  <!-- HOME -->
+  <section id="v-home" role="tabpanel">
+    <div class="hero">
+      <h1>AWS English Bridge</h1>
+      <p class="lede si">ලොකු English දැනුමක් ඕන නෑ. Exam එකේ නැවත නැවත එන <b>English වචන 64</b>, <b>question patterns 12</b> සහ <b>keywords</b> ටික හඳුනගත්තම ඇති. මුලින් සිංහලෙන්, ඊට පස්සේ ටික ටික English විතරක්.</p>
+    </div>
+    <div class="card">
+      <span class="eyebrow">Your progress</span>
+      <div class="statlist">
+        <div class="stat"><span>Lessons</span><b id="s-les"></b><div class="meter"><i id="b-les"></i></div></div>
+        <div class="stat"><span>Words</span><b id="s-wor"></b><div class="meter"><i id="b-wor"></i></div></div>
+        <div class="stat"><span>Questions correct</span><b id="s-que"></b><div class="meter"><i id="b-que"></i></div></div>
+        <div class="stat"><span>Mock exam best</span><b id="s-moc"></b><div class="meter"><i id="b-moc"></i></div></div>
+        <div class="stat"><span>Game best streak</span><b id="s-gam"></b></div>
+      </div>
+      <button class="btn primary si" id="continue">ඊළඟ පියවර</button>
+      <p class="muted si" id="continue-note" style="margin:0"></p>
+    </div>
+
+    <div class="card">
+      <span class="eyebrow">The method</span>
+      <h2 class="si">දවස් 21 පාලම</h2>
+      <p class="muted si" style="margin:0">Stage එකෙන් stage එකට සිංහල උදව් අඩු වෙනවා. Practice එකේ <b>Sinhala bridge</b> set එකේ mode එක මාරු කරන්න.</p>
+    </div>
+    <div class="stages">
+      <div class="stage"><span class="n">1</span><h3 class="si">සිංහලෙන් තේරුම් ගන්න</h3><span class="chip">Day 1 – 7</span><p class="si">Episodes 1–3 කියවන්න. Bridge questions <b>"සිංහල උදව්"</b> mode එකේ. දවසකට words 10ක්.</p></div>
+      <div class="stage"><span class="n">2</span><h3 class="si">Keywords දඩයම</h3><span class="chip">Day 8 – 14</span><p class="si">Episodes 4–5. Mode එක <b>"Keywords විතරයි"</b>. Patterns 12 ඔක්කොම. Episode questions කරන්න.</p></div>
+      <div class="stage"><span class="n">3</span><h3 class="si">English විතරයි</h3><span class="chip">Day 15 – 21</span><p class="si">Mode එක <b>"English only"</b>. Mock exam එක. <b>ඇයි කියලා සිංහලෙන් ශබ්ද නඟලා කියන්න.</b> 85%+ → book කරන්න.</p></div>
+    </div>
+
+    <div class="card">
+      <span class="eyebrow">Every day · 30 minutes</span>
+      <ol class="plain si">
+        <li><b>Words — විනාඩි 10.</b> අලුත් වචන 10ක්.</li>
+        <li><b>Lesson — විනාඩි 10.</b> Episode එකක කොටසක් ශබ්ද නඟලා කියවන්න.</li>
+        <li><b>Practice — විනාඩි 5.</b> Questions 5–10ක්.</li>
+        <li><b>Keyword game — විනාඩි 5.</b> වේගයෙන්.</li>
+      </ol>
+    </div>
+
+    <details class="card">
+      <summary class="si">English බය නැති කරන නීති 6</summary>
+      <ul class="plain si">
+        <li><b>හැම වචනයම translate කරන්න එපා.</b> වැදගත් වචන 2–3 හොයන්න.</li>
+        <li><b>අන්තිම වාක්‍යය මුලින් කියවන්න.</b> "Which service…?" එකෙන් අහන දේ දැනගන්න.</li>
+        <li><b>පොඩි වචන 4:</b> <mark>MOST</mark> · <mark>LEAST</mark> · <mark>NOT</mark> · <mark>TWO</mark>.</li>
+        <li><b>Service names translate කරන්න ඕන නෑ.</b> ඒවා ඔයා දැනටමත් දන්නවා.</li>
+        <li><b>Book කරන්න කලින් ESL +30 minutes ඉල්ලන්න.</b></li>
+        <li><b>තේරෙන්නේ නැත්නම් flag කරලා යන්න.</b></li>
+      </ul>
+    </details>
+
+    <details class="card">
+      <summary class="si">Progress backup / reset</summary>
+      <p class="si muted" style="margin:0">Phone එක මාරු කරනවා නම්: <b>Copy backup</b> ඔබලා text එක save කරගන්න. අලුත් phone එකේ paste කරලා <b>Restore</b> ඔබන්න.</p>
+      <textarea id="bk-text" aria-label="Backup text"></textarea>
+      <div class="row">
+        <button class="btn" id="bk-copy">Copy backup</button>
+        <button class="btn" id="bk-restore">Restore</button>
+        <button class="btn danger" id="bk-reset">Reset all progress</button>
+      </div>
+      <p class="si muted" id="bk-msg" style="margin:0"></p>
+    </details>
+  </section>
+
+  <!-- LESSONS -->
+  <section id="v-lessons" role="tabpanel" hidden>
+    <div id="les-list" class="items"></div>
+    <div id="les-read" hidden style="display:grid;gap:14px">
+      <div class="row" style="justify-content:space-between">
+        <button class="btn" id="les-back">← Lessons</button>
+        <span class="chip" id="les-chip"></span>
+      </div>
+      <h2 id="les-title"></h2>
+      <div class="card reader" id="les-body"></div>
+      <div class="row">
+        <button class="btn primary si" id="les-done"></button>
+        <button class="btn si" id="les-practice">මේ episode එකේ questions</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORDS -->
+  <section id="v-words" role="tabpanel" hidden>
+    <div class="row" style="justify-content:space-between">
+      <div class="seg" id="w-filter" aria-label="Word group"></div>
+      <span class="muted" id="w-count"></span>
+    </div>
+    <div class="meter"><i id="w-meter"></i></div>
+    <div class="card flash" id="w-card" tabindex="0" role="button" aria-label="Show meaning">
+      <span class="chip" id="w-cat"></span>
+      <div class="word" id="w-word"></div>
+      <div id="w-back" hidden><div class="mean" id="w-mean"></div><p class="ex" id="w-ex"></p></div>
+      <p class="muted si" id="w-tap" style="margin:0">තේරුම බලන්න tap කරන්න</p>
+    </div>
+    <div class="row" style="justify-content:center">
+      <button class="btn si" id="w-again">ආයෙත් බලන්න</button>
+      <button class="btn primary si" id="w-know">මට තේරෙනවා</button>
+    </div>
+    <details class="card">
+      <summary class="si">ඔක්කොම වචන — list එක</summary>
+      <div class="tablewrap"><table><thead><tr><th>English</th><th>සිංහල</th><th>Group</th></tr></thead><tbody id="w-list"></tbody></table></div>
+    </details>
+  </section>
+
+  <!-- PRACTICE -->
+  <section id="v-practice" role="tabpanel" hidden>
+    <div id="set-list" style="display:grid;gap:8px"></div>
+    <div id="quiz" hidden style="display:grid;gap:14px">
+      <div class="row" style="justify-content:space-between">
+        <button class="btn" id="qz-back">← Sets</button>
+        <span class="muted" id="qz-score"></span>
+      </div>
+      <h3 id="qz-title"></h3>
+      <div class="seg" id="qz-mode" aria-label="Sinhala help level">
+        <button data-m="0" class="si">සිංහල උදව්</button>
+        <button data-m="1" class="si">Keywords විතරයි</button>
+        <button data-m="2">English only</button>
+      </div>
+      <div class="dots" id="qz-dots"></div>
+      <div class="card">
+        <div class="row" style="justify-content:space-between"><span class="eyebrow" id="qz-num"></span><span class="chip" id="qz-dom"></span></div>
+        <div class="stem" id="qz-stem"></div>
+        <div class="trans" id="qz-trans"></div>
+        <div class="hints" id="qz-hints"></div>
+        <div class="opts" id="qz-opts"></div>
+        <div class="row"><button class="btn primary" id="qz-check" hidden>Check</button></div>
+        <div class="explain" id="qz-exp" hidden></div>
+      </div>
+      <div class="row" style="justify-content:space-between">
+        <button class="btn" id="qz-prev">Back</button>
+        <button class="btn si" id="qz-retry">වැරදුණු ඒවා ආයෙත්</button>
+        <button class="btn primary" id="qz-next">Next</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- GAME -->
+  <section id="v-game" role="tabpanel" hidden>
+    <div class="card">
+      <div class="row" style="justify-content:space-between">
+        <span class="eyebrow">Keyword → Service</span>
+        <span>Streak <b id="g-streak">0</b> · Best <b id="g-best">0</b></span>
+      </div>
+      <p class="muted si" style="margin:0">Keyword එක දැක්කම service එක තත්පර 2කින් මතක් වෙන්න ඕන.</p>
+      <div class="gk" id="g-key"></div>
+      <div class="ggrid" id="g-opts"></div>
+      <div class="explain" id="g-msg" hidden></div>
+      <div class="row" style="justify-content:center"><button class="btn primary" id="g-next" hidden>Next</button></div>
+    </div>
+  </section>
+</div>
+
+<nav class="tabbar" aria-label="Sections">
+  <div class="in" role="tablist">
+    <button role="tab" data-v="home" aria-selected="true"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>Home</button>
+    <button role="tab" data-v="lessons" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M4 5h6a2 2 0 0 1 2 2v13a2 2 0 0 0-2-2H4z"/><path d="M20 5h-6a2 2 0 0 0-2 2v13a2 2 0 0 1 2-2h6z"/></svg>Lessons</button>
+    <button role="tab" data-v="words" aria-selected="false"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="M8 10h8M8 14h5"/></svg>Words</button>
+    <button role="tab" data-v="practice" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M9 11l2 2 4-4"/><rect x="4" y="4" width="16" height="16" rx="3"/></svg>Practice</button>
+    <button role="tab" data-v="game" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M13 3L5 14h6l-1 7 8-11h-6z"/></svg>Game</button>
+  </div>
+</nav>
+
+<script>
+/*__DATA__*/
+const S = (()=>{ let d={}; try{ d=JSON.parse(localStorage.getItem('awsBridge2')||'{}')||{} }catch(e){} return {
+  get:(k,v)=> (k in d? d[k] : v),
+  set:(k,v)=>{ d[k]=v; try{ localStorage.setItem('awsBridge2',JSON.stringify(d)) }catch(e){} },
+  all:()=>d, load:o=>{ d=o||{}; try{ localStorage.setItem('awsBridge2',JSON.stringify(d)) }catch(e){} }
+}})();
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const inl = s => esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>');
+const hl = s => esc(s).replace(/\[\[(.+?)\]\]/g,'<mark>$1</mark>');
+const plain = s => esc(s).replace(/\[\[(.+?)\]\]/g,'$1');
+const setBar = (id,f) => { $(id).style.width = Math.max(0,Math.min(1,f))*100+'%'; };
+
+/* ---------- WORDS DATA ---------- */
+const WORDS = window.DATA.words;
+const WCAT = {all:"All", Q:"Question", "$":"Money", S:"Security", T:"Tech"};
+
+/* ---------- PATTERNS DATA ---------- */
+const PATTERNS = window.DATA.patterns;
+
+/* ---------- BRIDGE QUESTIONS (with Sinhala help) ---------- */
+const BRIDGE = window.DATA.bridge;
+
+/* ---------- GAME DATA ---------- */
+const PAIRS = window.DATA.pairs;
+
+/* ---------- CONTENT ASSEMBLY ---------- */
+const D = window.DATA || {lessons:[],sets:[]};
+const SETS = [{id:'bridge',title:'Sinhala bridge (20)',sub:'සිංහල උදව් එක්ක — මෙතනින් පටන් ගන්න',qs:BRIDGE,bridge:true}].concat(D.sets.map(s=>({...s,sub:s.id==='ep6'?'Exam එක වගේ — විනාඩි 40':s.id==='mock2'?'සම්පූර්ණ exam එක — questions 65, විනාඩි 90':s.id==='mock3'?'කෙටි සරල questions — "මේ service එක මොකටද?"':''})));
+const LESSONS = D.lessons.filter(l=>l.id!=='cheat').concat([{id:'patterns',title:'Question Patterns',short:'12 patterns',patterns:true}], D.lessons.filter(l=>l.id==='cheat'));
+const TOTAL_Q = SETS.reduce((n,s)=>n+s.qs.length,0);
+
+/* ---------- PROGRESS ---------- */
+const known = () => new Set(S.get('known',[]));
+const done = () => new Set(S.get('lessonsDone',[]));
+const answersOf = id => (S.get('ans',{})[id]) || {};
+function correctOf(id){ return Object.values(answersOf(id)).filter(x=>x.ok).length; }
+function totalCorrect(){ return SETS.reduce((n,s)=>n+correctOf(s.id),0); }
+function mockBest(){ return S.get('mockBest',0); }
+function overall(){
+  const l = done().size/LESSONS.length, w = known().size/WORDS.length, q = totalCorrect()/TOTAL_Q;
+  return l*.25 + w*.25 + q*.5;
+}
+function renderProgress(){
+  const ov = overall();
+  const pct = ov*100; $('ov-pct').textContent = (pct>0 && pct<10 ? pct.toFixed(1) : Math.round(pct))+'%'; setBar('ov-bar',ov);
+  const ld = done().size, kw = known().size, tc = totalCorrect(), mb = mockBest();
+  $('s-les').textContent = `${ld} / ${LESSONS.length}`; setBar('b-les', ld/LESSONS.length);
+  $('s-wor').textContent = `${kw} / ${WORDS.length}`; setBar('b-wor', kw/WORDS.length);
+  $('s-que').textContent = `${tc} / ${TOTAL_Q}`; setBar('b-que', tc/TOTAL_Q);
+  $('s-moc').textContent = mb? mb+'%' : '–'; setBar('b-moc', mb/100);
+  $('s-gam').textContent = S.get('gBest',0);
+  const next = nextStep();
+  $('continue').textContent = next.label; $('continue-note').textContent = next.note;
+}
+function nextStep(){
+  const d = done(), kw = known().size;
+  const firstLesson = LESSONS.find(l=>!d.has(l.id));
+  if(kw < 10) return {label:'Words 10ක් ඉගෙන ගන්න', note:'මුලින්ම exam English වචන 10ක්.', go:()=>show('words')};
+  if(Object.keys(answersOf('bridge')).length < BRIDGE.length) return {label:'Sinhala bridge questions', note:'සිංහල උදව් එක්ක questions 20.', go:()=>{show('practice'); openSet('bridge');}};
+  if(firstLesson) return {label:`කියවන්න: ${firstLesson.short||firstLesson.title}`, note:'ඊළඟට කියවන්න ඕන lesson එක.', go:()=>{show('lessons'); openLesson(firstLesson.id);}};
+  const weak = SETS.find(s=>correctOf(s.id) < s.qs.length*.85);
+  if(weak) return {label:`Practice: ${weak.title}`, note:'85%ට අඩු set එක.', go:()=>{show('practice'); openSet(weak.id);}};
+  return {label:'Mock exam 2 ආයෙත්', note:'ඔක්කොම 85%+ — exam එක book කරන්න පුළුවන්!', go:()=>{show('practice'); openSet('mock2');}};
+}
+$('continue').addEventListener('click',()=>nextStep().go());
+
+/* ---------- LESSONS ---------- */
+function renderLessonList(){
+  const d = done();
+  $('les-list').innerHTML = LESSONS.map(l=>{
+    const set = SETS.find(s=>s.id===l.id);
+    const qp = set ? `<div class="meter"><i style="width:${correctOf(set.id)/set.qs.length*100}%"></i></div><span class="muted" style="font-size:.85rem">Questions: ${correctOf(set.id)} / ${set.qs.length} correct</span>` : '';
+    return `<button class="item" data-l="${l.id}"><div class="row"><span class="t">${esc(l.title)}</span><span class="chip ${d.has(l.id)?'done':''}">${d.has(l.id)?'Done':'To read'}</span></div>${qp}</button>`;
+  }).join('');
+}
+let curLesson = null;
+function openLesson(id){
+  const l = LESSONS.find(x=>x.id===id); if(!l) return;
+  curLesson = l; S.set('lastLesson',id);
+  $('les-list').hidden = true; $('les-read').hidden = false;
+  $('les-title').textContent = l.title;
+  $('les-chip').textContent = l.short||'';
+  $('les-body').innerHTML = l.patterns ? patternsHTML() : l.html;
+  $('les-practice').hidden = !SETS.find(s=>s.id===id);
+  renderDoneBtn(); window.scrollTo({top:0});
+}
+function renderDoneBtn(){ const isDone = done().has(curLesson.id); $('les-done').textContent = isDone? 'කියවලා ඉවරයි ✓' : 'කියවලා ඉවරයි කියලා mark කරන්න'; $('les-done').classList.toggle('primary',!isDone); }
+$('les-done').addEventListener('click',()=>{ const d=done(); d.has(curLesson.id)? d.delete(curLesson.id) : d.add(curLesson.id); S.set('lessonsDone',[...d]); renderDoneBtn(); renderProgress(); });
+$('les-back').addEventListener('click',()=>{ $('les-read').hidden=true; $('les-list').hidden=false; renderLessonList(); window.scrollTo({top:0}); });
+$('les-practice').addEventListener('click',()=>{ show('practice'); openSet(curLesson.id); });
+$('les-list').addEventListener('click',e=>{ const b=e.target.closest('[data-l]'); if(b) openLesson(b.dataset.l); });
+function patternsHTML(){
+  return `<p class="si">Exam questions <b>එකම හැඩයෙන්</b> නැවත නැවත එනවා. Pattern එක හඳුනගත්තම ඉතුරු English වචන ගොඩක් තේරෙන්න ඕන නෑ.</p>` +
+    PATTERNS.map((p,i)=>`<div class="pat" style="border-top:1px solid var(--line);padding-top:12px;margin-top:12px;display:grid;gap:8px"><span class="eyebrow">Pattern ${i+1}</span><div class="en">${hl(p[0])}</div><dl><dt>සිංහලෙන්</dt><dd class="si">${p[1]}</dd><dt>කරන්න</dt><dd class="si">${p[2]}</dd><dt>Example</dt><dd>${p[3]}</dd></dl></div>`).join('');
+}
+
+/* ---------- WORDS ---------- */
+let wFilter = S.get('wFilter','all'), wIdx = 0, wOrder = [];
+const pool = () => WORDS.map((w,i)=>i).filter(i=> wFilter==='all' || WORDS[i][2]===wFilter);
+function buildWOrder(){ const k=known(), p=pool(), un=p.filter(i=>!k.has(i)); wOrder = un.length? un : p; wIdx=0; }
+function renderWFilter(){ $('w-filter').innerHTML = Object.entries(WCAT).map(([k,v])=>`<button data-f="${k}" aria-pressed="${k===wFilter}">${v}</button>`).join(''); }
+function renderWord(){
+  const k=known(), p=pool(), kn=p.filter(i=>k.has(i)).length;
+  $('w-count').textContent = `${kn} / ${p.length} known`; setBar('w-meter', p.length? kn/p.length:0);
+  const i = wOrder[wIdx % wOrder.length], w = WORDS[i];
+  $('w-cat').textContent = WCAT[w[2]] + (k.has(i)?' · known':'');
+  $('w-word').textContent = w[0]; $('w-mean').textContent = w[1]; $('w-ex').textContent = w[3];
+  $('w-back').hidden = true; $('w-tap').hidden = false;
+  $('w-list').innerHTML = WORDS.map((x,j)=>`<tr><td class="${k.has(j)?'ok':''}"><b>${esc(x[0])}</b></td><td class="si">${esc(x[1])}</td><td class="muted">${WCAT[x[2]]}</td></tr>`).join('');
+  renderProgress();
+}
+$('w-filter').addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b) return; wFilter=b.dataset.f; S.set('wFilter',wFilter); renderWFilter(); buildWOrder(); renderWord(); });
+const flip = ()=>{ $('w-back').hidden = !$('w-back').hidden; $('w-tap').hidden = !$('w-back').hidden; };
+$('w-card').addEventListener('click',flip);
+$('w-card').addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); flip(); } });
+$('w-know').addEventListener('click',()=>{ const k=known(); k.add(wOrder[wIdx % wOrder.length]); S.set('known',[...k]); wOrder.splice(wIdx % wOrder.length,1); if(!wOrder.length) buildWOrder(); renderWord(); });
+$('w-again').addEventListener('click',()=>{ wIdx++; renderWord(); });
+
+/* ---------- PRACTICE ---------- */
+let cur = null, qi = 0, sel = [], mode = S.get('mode',0);
+function renderSetList(){
+  $('set-list').innerHTML = SETS.map(s=>{
+    const c = correctOf(s.id), n = Object.keys(answersOf(s.id)).length;
+    return `<button class="item" data-s="${s.id}"><div class="row"><span class="t">${esc(s.title)}</span><span class="chip ${c===s.qs.length?'done':''}">${c} / ${s.qs.length}</span></div>${s.sub?`<span class="muted si" style="font-size:.88rem">${s.sub}</span>`:''}<div class="meter"><i style="width:${c/s.qs.length*100}%"></i></div><span class="muted" style="font-size:.82rem">Answered ${n} · Correct ${c}</span></button>`;
+  }).join('');
+}
+$('set-list').addEventListener('click',e=>{ const b=e.target.closest('[data-s]'); if(b) openSet(b.dataset.s); });
+function openSet(id){
+  cur = SETS.find(s=>s.id===id); if(!cur) return;
+  const a = answersOf(id); qi = cur.qs.findIndex((q,i)=>!a[i]); if(qi<0) qi=0;
+  $('set-list').hidden = true; $('quiz').hidden = false;
+  $('qz-title').textContent = cur.title; $('qz-mode').hidden = !cur.bridge;
+  renderMode(); renderQ(); window.scrollTo({top:0});
+}
+$('qz-back').addEventListener('click',()=>{ $('quiz').hidden=true; $('set-list').hidden=false; renderSetList(); window.scrollTo({top:0}); });
+function renderMode(){ document.querySelectorAll('#qz-mode button').forEach(b=>b.setAttribute('aria-pressed', String(+b.dataset.m===mode))); }
+$('qz-mode').addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b) return; mode=+b.dataset.m; S.set('mode',mode); renderMode(); renderQ(); });
+function renderQ(){
+  const q = cur.qs[qi], a = answersOf(cur.id), d = a[qi], help = cur.bridge ? mode : 2;
+  $('qz-num').textContent = `Question ${qi+1} / ${cur.qs.length}`;
+  $('qz-dom').textContent = q.d||'';
+  $('qz-stem').innerHTML = help===2 ? plain(q.q) : hl(q.q);
+  $('qz-trans').hidden = !(cur.bridge && help===0); $('qz-trans').textContent = q.t||'';
+  $('qz-hints').hidden = !(cur.bridge && help<2);
+  $('qz-hints').innerHTML = (q.h||[]).map(h=>`<span class="hint"><b>${esc(h[0])}</b> = <span class="si">${esc(h[1])}</span></span>`).join('');
+  sel = d ? d.sel.slice() : sel.filter(()=>false);
+  const multi = q.a.length>1;
+  $('qz-opts').innerHTML = q.o.map((o,i)=>{
+    let c='opt'; if(d){ if(q.a.includes(i)) c+=' right'; else if(d.sel.includes(i)) c+=' wrong'; }
+    return `<button class="${c}" data-i="${i}" ${d?'disabled':''}><span class="l">${'ABCDE'[i]}</span><span>${esc(o)}</span></button>`;
+  }).join('');
+  $('qz-check').hidden = !(multi && !d);
+  $('qz-exp').hidden = !d;
+  if(d) $('qz-exp').innerHTML = `<b>${d.ok?'හරි!':'වැරදියි.'}</b> Answer: <b>${q.a.map(i=>'ABCDE'[i]).join(', ')}</b>. ${inl(q.e||'')}<br><span class="muted">ඇයි කියලා සිංහලෙන් ශබ්ද නඟලා කියන්න.</span>`;
+  const n = Object.keys(a).length, ok = correctOf(cur.id);
+  $('qz-score').textContent = `${ok} / ${cur.qs.length} correct`;
+  $('qz-dots').innerHTML = cur.qs.map((x,i)=>`<button data-j="${i}" class="${a[i]?(a[i].ok?'ok':'no'):''} ${i===qi?'cur':''}" aria-label="Question ${i+1}">${i+1}</button>`).join('');
+  $('qz-prev').disabled = qi===0;
+  $('qz-next').textContent = qi===cur.qs.length-1 ? 'Finish' : 'Next';
+}
+function grade(){
+  const q = cur.qs[qi], ok = sel.length===q.a.length && q.a.every(i=>sel.includes(i));
+  const all = S.get('ans',{}); all[cur.id] = {...(all[cur.id]||{}), [qi]:{sel:sel.slice(),ok}}; S.set('ans',all);
+  if((cur.id==='ep6'||cur.id==='mock2'||cur.id==='mock3') &&Object.keys(all[cur.id]).length===cur.qs.length){ const pct=Math.round(correctOf(cur.id)/cur.qs.length*100); if(pct>mockBest()) S.set('mockBest',pct); }
+  renderQ(); renderProgress();
+}
+$('qz-opts').addEventListener('click',e=>{
+  const b=e.target.closest('.opt'); if(!b||b.disabled) return;
+  const i=+b.dataset.i, q=cur.qs[qi];
+  if(q.a.length>1){ sel = sel.includes(i)? sel.filter(x=>x!==i) : sel.concat(i); b.classList.toggle('sel'); }
+  else { sel=[i]; grade(); }
+});
+$('qz-check').addEventListener('click',()=>{ if(sel.length) grade(); });
+$('qz-dots').addEventListener('click',e=>{ const b=e.target.closest('[data-j]'); if(!b) return; qi=+b.dataset.j; sel=[]; renderQ(); });
+$('qz-prev').addEventListener('click',()=>{ if(qi>0){ qi--; sel=[]; renderQ(); } });
+$('qz-next').addEventListener('click',()=>{ if(qi<cur.qs.length-1){ qi++; sel=[]; renderQ(); window.scrollTo({top:0}); } else { $('qz-back').click(); } });
+$('qz-retry').addEventListener('click',()=>{
+  const all = S.get('ans',{}), a = all[cur.id]||{};
+  Object.keys(a).forEach(k=>{ if(!a[k].ok) delete a[k]; }); all[cur.id]=a; S.set('ans',all);
+  qi = cur.qs.findIndex((q,i)=>!a[i]); if(qi<0) qi=0; sel=[]; renderQ(); renderProgress();
+});
+
+/* ---------- GAME ---------- */
+let gCur=null, streak=0;
+function newRound(){
+  gCur = PAIRS[Math.floor(Math.random()*PAIRS.length)];
+  const others = PAIRS.filter(p=>p!==gCur).sort(()=>Math.random()-.5).slice(0,3).map(p=>p[1]);
+  const opts = others.concat(gCur[1]).sort(()=>Math.random()-.5);
+  $('g-key').textContent = gCur[0];
+  $('g-opts').innerHTML = opts.map(o=>`<button class="opt" data-v="${esc(o)}"><span>${esc(o)}</span></button>`).join('');
+  $('g-msg').hidden = true; $('g-next').hidden = true;
+}
+$('g-opts').addEventListener('click',e=>{
+  const b=e.target.closest('.opt'); if(!b||b.disabled) return;
+  const ok = b.dataset.v===gCur[1];
+  [...$('g-opts').children].forEach(x=>{ x.disabled=true; if(x.dataset.v===gCur[1]) x.classList.add('right'); });
+  if(!ok) b.classList.add('wrong');
+  streak = ok? streak+1 : 0;
+  if(streak > S.get('gBest',0)) S.set('gBest',streak);
+  $('g-streak').textContent = streak; $('g-best').textContent = S.get('gBest',0);
+  $('g-msg').hidden=false; $('g-msg').innerHTML = ok ? '<b>හරි!</b>' : `<b>වැරදියි.</b> “${esc(gCur[0])}” → <b>${esc(gCur[1])}</b>`;
+  $('g-next').hidden=false; $('g-next').focus(); renderProgress();
+});
+$('g-next').addEventListener('click',newRound);
+
+/* ---------- BACKUP ---------- */
+$('bk-copy').addEventListener('click',()=>{
+  const t = btoa(unescape(encodeURIComponent(JSON.stringify(S.all())))); $('bk-text').value = t;
+  const ok = ()=>{ $('bk-msg').textContent='Backup copy කළා. Notes එකක save කරගන්න.'; };
+  try{ navigator.clipboard.writeText(t).then(ok,()=>{ $('bk-text').select(); $('bk-msg').textContent='Text එක select කළා — copy කරගන්න.'; }); }catch(e){ $('bk-text').select(); }
+});
+$('bk-restore').addEventListener('click',()=>{
+  try{ const o = JSON.parse(decodeURIComponent(escape(atob($('bk-text').value.trim())))); S.load(o); $('bk-msg').textContent='Restore කළා!'; refreshAll(); }
+  catch(e){ $('bk-msg').textContent='Backup text එක වැරදියි. ආයෙත් paste කරන්න.'; }
+});
+let resetArmed=false;
+$('bk-reset').addEventListener('click',()=>{
+  if(!resetArmed){ resetArmed=true; $('bk-reset').textContent='ආයෙත් ඔබන්න — ඔක්කොම මැකෙනවා'; setTimeout(()=>{ resetArmed=false; $('bk-reset').textContent='Reset all progress'; },4000); return; }
+  S.load({}); resetArmed=false; $('bk-reset').textContent='Reset all progress'; $('bk-msg').textContent='Progress මැකුවා.'; refreshAll();
+});
+
+/* ---------- NAV ---------- */
+function show(v){
+  document.querySelectorAll('[role=tabpanel]').forEach(p=>p.hidden = p.id!=='v-'+v);
+  document.querySelectorAll('.tabbar [role=tab]').forEach(t=>t.setAttribute('aria-selected', String(t.dataset.v===v)));
+  if(v==='lessons' && $('les-read').hidden) renderLessonList();
+  if(v==='practice' && $('quiz').hidden) renderSetList();
+  if(v==='home') renderProgress();
+  S.set('view',v); window.scrollTo({top:0});
+}
+document.querySelector('.tabbar').addEventListener('click',e=>{ const b=e.target.closest('[role=tab]'); if(b) show(b.dataset.v); });
+function refreshAll(){ mode=S.get('mode',0); wFilter=S.get('wFilter','all'); renderWFilter(); buildWOrder(); renderWord(); renderLessonList(); renderSetList(); $('g-best').textContent=S.get('gBest',0); renderProgress(); }
+
+refreshAll(); newRound();
+const startV = (location.hash||'').slice(1) || S.get('view','home');
+show(['home','lessons','words','practice','game'].includes(startV)? startV : 'home');
+
+window.addEventListener('hashchange',()=>{ const v=location.hash.slice(1); if(['home','lessons','words','practice','game'].includes(v)) show(v); });
+if('serviceWorker' in navigator && (location.protocol==='https:' || location.hostname==='localhost') && window.self===window.top){
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+</script>

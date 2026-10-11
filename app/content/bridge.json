@@ -1,0 +1,1156 @@
+{
+ "words": [
+  [
+   "MOST cost-effective",
+   "අඩුම වියදමට වැඩේ කරන එක",
+   "Q",
+   "Which option is the MOST cost-effective? → වැඩේ කරන ලාභම option එක."
+  ],
+  [
+   "LEAST operational overhead",
+   "අඩුම manage කරන වැඩ (AWS බලාගන්නා)",
+   "Q",
+   "LEAST operational overhead → managed / serverless service."
+  ],
+  [
+   "MOST secure",
+   "වැඩිම ආරක්ෂිත",
+   "Q",
+   "MOST secure → IAM role, MFA, encryption."
+  ],
+  [
+   "Select TWO",
+   "උත්තර දෙකක් තෝරන්න",
+   "Q",
+   "(Select TWO.) → හරියටම options 2ක් click කරන්න."
+  ],
+  [
+   "NOT",
+   "නැති / නොවන",
+   "Q",
+   "Which is NOT a benefit? → වාසියක් නොවන එක හොයන්න."
+  ],
+  [
+   "requirement",
+   "අවශ්‍යතාවය",
+   "Q",
+   "The company's requirement is low cost. → company එකට ඕන අඩු වියදම."
+  ],
+  [
+   "without",
+   "නැතුව",
+   "Q",
+   "without managing servers → servers බලාගන්නේ නැතුව."
+  ],
+  [
+   "instead of",
+   "වෙනුවට",
+   "Q",
+   "Use S3 instead of EBS. → EBS වෙනුවට S3."
+  ],
+  [
+   "ensure",
+   "තහවුරු කරන්න / සහතික කරන්න",
+   "Q",
+   "ensure data is encrypted → data encrypt වෙලා බව තහවුරු කරන්න."
+  ],
+  [
+   "minimize",
+   "අවම කරන්න",
+   "Q",
+   "minimize cost → වියදම අඩුම කරන්න."
+  ],
+  [
+   "automatically",
+   "ඉබේම (මිනිහෙක් නැතුව)",
+   "Q",
+   "scale automatically → ඉබේම ලොකු-පොඩි වෙනවා."
+  ],
+  [
+   "responsibility",
+   "වගකීම",
+   "Q",
+   "customer responsibility → customer ගේ වගකීම."
+  ],
+  [
+   "upfront",
+   "මුලින්ම ගෙවන (කලින්)",
+   "$",
+   "No upfront cost → මුලින් ගෙවන්න දෙයක් නෑ."
+  ],
+  [
+   "pay-as-you-go",
+   "පාවිච්චි කරන තරමට ගෙවීම",
+   "$",
+   "Like an electricity bill → කරන්ට් බිල වගේ."
+  ],
+  [
+   "commit / commitment",
+   "පොරොන්දු වීම (අවුරුදු 1 හෝ 3)",
+   "$",
+   "1-year commitment → Reserved Instances, Savings Plans."
+  ],
+  [
+   "discount",
+   "වට්ටම",
+   "$",
+   "Spot gives up to 90% discount."
+  ],
+  [
+   "estimate",
+   "ඇස්තමේන්තු කරනවා (කලින් ගණන් හදනවා)",
+   "$",
+   "estimate costs → Pricing Calculator."
+  ],
+  [
+   "forecast",
+   "අනාගතය අනුමාන කරනවා",
+   "$",
+   "forecast spending → Cost Explorer, Budgets."
+  ],
+  [
+   "billing / invoice",
+   "බිල",
+   "$",
+   "billing dashboard → බිල බලන තැන."
+  ],
+  [
+   "consolidated",
+   "එකතු කරලා එකක් කළ",
+   "$",
+   "consolidated billing → accounts ගොඩකට එක බිලක්."
+  ],
+  [
+   "steady / steady-state",
+   "නිතර එකම මට්ටමෙන් run වෙන",
+   "$",
+   "steady workload → Reserved Instances."
+  ],
+  [
+   "unpredictable",
+   "කලින් කියන්න බැරි",
+   "$",
+   "unpredictable traffic → On-Demand + Auto Scaling."
+  ],
+  [
+   "interrupt / interruption",
+   "අතරමග නවත්වනවා",
+   "$",
+   "can be interrupted → Spot Instances."
+  ],
+  [
+   "dedicated",
+   "ඔයාට විතරක් වෙන් කරපු",
+   "$",
+   "dedicated server → Dedicated Host."
+  ],
+  [
+   "license",
+   "බලපත්‍රය (software පාවිච්චි කිරීමේ අවසරය)",
+   "$",
+   "bring your own license (BYOL)."
+  ],
+  [
+   "on-premises",
+   "company එකේම data center එකේ",
+   "$",
+   "on-premises servers → තමන්ගේම servers."
+  ],
+  [
+   "migrate / migration",
+   "මාරු කරනවා (on-prem → AWS)",
+   "$",
+   "migrate a database → AWS DMS."
+  ],
+  [
+   "encrypt / encryption",
+   "රහස් code එකකට හරවනවා",
+   "S",
+   "encrypt data at rest → KMS."
+  ],
+  [
+   "at rest",
+   "තැන්පත්ව තියෙනකොට (disk එකේ)",
+   "S",
+   "encryption at rest → storage එකේ."
+  ],
+  [
+   "in transit",
+   "ගමන් කරනකොට (network එකේ)",
+   "S",
+   "encryption in transit → TLS / HTTPS."
+  ],
+  [
+   "vulnerability",
+   "දුර්වලතාවය (හොරුට එන්න පුළුවන් සිදුරක්)",
+   "S",
+   "scan for vulnerabilities → Inspector."
+  ],
+  [
+   "threat",
+   "තර්ජනය",
+   "S",
+   "threat detection → GuardDuty."
+  ],
+  [
+   "malicious",
+   "නරක චේතනාවෙන් කරන",
+   "S",
+   "malicious activity → GuardDuty."
+  ],
+  [
+   "sensitive data",
+   "පෞද්ගලික / රහස්‍ය data",
+   "S",
+   "sensitive data in S3 → Macie."
+  ],
+  [
+   "permission / grant",
+   "අවසරය / අවසර දෙනවා",
+   "S",
+   "grant permissions → IAM policy."
+  ],
+  [
+   "least privilege",
+   "අවශ්‍ය අවම අවසර විතරයි",
+   "S",
+   "principle of least privilege."
+  ],
+  [
+   "credentials",
+   "Login විස්තර (password, keys)",
+   "S",
+   "store credentials → Secrets Manager."
+  ],
+  [
+   "rotate",
+   "කලින් කලට අලුත් එකකට මාරු කරනවා",
+   "S",
+   "rotate passwords → Secrets Manager."
+  ],
+  [
+   "audit",
+   "පරීක්ෂාව (කවුද මොනවද කළේ)",
+   "S",
+   "audit API calls → CloudTrail."
+  ],
+  [
+   "comply / compliance",
+   "නීති රීති වලට අනුකූල වීම",
+   "S",
+   "compliance reports → Artifact."
+  ],
+  [
+   "monitor",
+   "නිරීක්ෂණය කරනවා (බලාගෙන ඉන්නවා)",
+   "S",
+   "monitor CPU → CloudWatch."
+  ],
+  [
+   "notify / notification",
+   "දැනුම් දෙනවා",
+   "S",
+   "send notifications → SNS."
+  ],
+  [
+   "managed",
+   "AWS බලාගන්නා (ඔයාට වැඩ අඩුයි)",
+   "T",
+   "managed database → RDS."
+  ],
+  [
+   "serverless",
+   "Servers බලාගන්න ඕන නැති",
+   "T",
+   "serverless → Lambda, Fargate, DynamoDB."
+  ],
+  [
+   "infrastructure",
+   "පාදක පහසුකම් (servers, network)",
+   "T",
+   "infrastructure as code → CloudFormation."
+  ],
+  [
+   "deploy",
+   "Run වෙන්න දාන එක",
+   "T",
+   "deploy a web app → Elastic Beanstalk."
+  ],
+  [
+   "provision",
+   "Resources හදලා ලෑස්ති කරනවා",
+   "T",
+   "provision servers in minutes."
+  ],
+  [
+   "workload",
+   "Run වෙන application එක / වැඩේ",
+   "T",
+   "production workload."
+  ],
+  [
+   "scalable / scale",
+   "ලොකු වෙන්න පුළුවන් / ලොකු-පොඩි වෙනවා",
+   "T",
+   "scale out → instances ගණන වැඩි කරනවා."
+  ],
+  [
+   "elastic / elasticity",
+   "Demand අනුව ඉබේම ලොකු-පොඩි වෙන",
+   "T",
+   "elasticity → Auto Scaling."
+  ],
+  [
+   "highly available",
+   "හැමවෙලේම වැඩ (කොටසක් කැඩුණත්)",
+   "T",
+   "highly available → multiple AZs."
+  ],
+  [
+   "fault tolerant",
+   "කැඩුණත් නොනැවතී වැඩ",
+   "T",
+   "fault tolerant system."
+  ],
+  [
+   "durable / durability",
+   "Data නැති නොවන (ස්ථිර)",
+   "T",
+   "S3 durability → 11 nines."
+  ],
+  [
+   "latency",
+   "ප්‍රමාදය (response එන්න යන කාලය)",
+   "T",
+   "low latency → ඉක්මන් response."
+  ],
+  [
+   "decouple",
+   "කොටස් වෙන් කරනවා",
+   "T",
+   "decouple components → SQS."
+  ],
+  [
+   "distribute",
+   "බෙදනවා",
+   "T",
+   "distribute traffic → Load Balancer."
+  ],
+  [
+   "replicate / replica",
+   "Copy කරනවා / copy එක",
+   "T",
+   "Read Replica → read-only copy."
+  ],
+  [
+   "recover / recovery",
+   "යථා තත්ත්වයට එනවා",
+   "T",
+   "disaster recovery → multiple Regions."
+  ],
+  [
+   "outage / failure",
+   "බිඳ වැටීම / කැඩීම",
+   "T",
+   "AZ outage → Multi-AZ helps."
+  ],
+  [
+   "archive",
+   "දිගු කාලීන ගබඩාව",
+   "T",
+   "archive data → Glacier."
+  ],
+  [
+   "retrieve / retrieval",
+   "ආපහු ගන්නවා",
+   "T",
+   "retrieval time 12 hours → Deep Archive."
+  ],
+  [
+   "frequently / infrequently",
+   "නිතර / කලාතුරකින්",
+   "T",
+   "infrequently accessed → S3 Standard-IA."
+  ],
+  [
+   "region",
+   "කලාපය (ලෝකයේ AWS ප්‍රදේශයක්)",
+   "T",
+   "choose a Region → latency, compliance, price."
+  ],
+  [
+   "cache",
+   "ළඟින් තියාගන්න copy එක (වේගයට)",
+   "T",
+   "cache at edge → CloudFront."
+  ]
+ ],
+ "patterns": [
+  [
+   "A company wants to [[do something]]. Which AWS service should it use?",
+   "Company එකකට මේ දේ කරන්න ඕන. මොන service එකද?",
+   "\"wants to\" ට පස්සේ තියෙන <b>ක්‍රියාපදය</b> (verb) හොයන්න — store, monitor, block, send… ඒක keyword එක.",
+   "wants to <mark>send notifications</mark> → SNS"
+  ],
+  [
+   "Which solution is the [[MOST cost-effective]]?",
+   "වැඩේ කරන අතරින් <b>ලාභම</b> එක මොකක්ද?",
+   "ලාභම option එක තෝරන්න — ඒත් වැඩේ කරන්න පුළුවන් එකක් වෙන්න ඕන.",
+   "rarely accessed + MOST cost-effective → Glacier Deep Archive"
+  ],
+  [
+   "…with the [[LEAST operational overhead]]?",
+   "<b>අඩුම වැඩ</b> ඔයාට තියෙන ක්‍රමය?",
+   "AWS බලාගන්නා <b>managed / serverless</b> service එක. \"Install on EC2\" වගේ options අයින් කරන්න.",
+   "database + LEAST overhead → Amazon RDS"
+  ],
+  [
+   "Under the AWS [[shared responsibility model]], which is the responsibility of the [[customer]]?",
+   "Shared Responsibility අනුව <b>customer ගේ</b> වගකීම මොකක්ද?",
+   "Physical / hardware / data center = AWS. Data, IAM, EC2 OS patching, security groups = customer.",
+   "customer → Patching the guest OS on EC2"
+  ],
+  [
+   "Which actions should the company take? [[(Select TWO.)]]",
+   "Company එක කරන්න ඕන දේවල්? (උත්තර <b>දෙකක්</b>)",
+   "Options පහෙන් <b>හරියටම දෙකක්</b>. ලේසිම හරි එක මුලින් තෝරලා, දෙවෙනි එක හොයන්න.",
+   "root user protect → Enable MFA + Don't use daily"
+  ],
+  [
+   "…[[without managing servers]]…",
+   "Servers <b>බලාගන්නේ නැතුව</b>…",
+   "Serverless → <b>Lambda</b> (code), <b>Fargate</b> (containers), <b>DynamoDB</b> (NoSQL), <b>Athena</b> (SQL on S3).",
+   "run code without managing servers → Lambda"
+  ],
+  [
+   "The workload [[can be interrupted]] / has [[flexible start and end times]].",
+   "වැඩේ <b>අතරමග නැවැත්තුවාට කමක් නෑ</b>.",
+   "ලාභම EC2 option එක → <b>Spot Instances</b> (90% දක්වා).",
+   "batch job, can be interrupted → Spot"
+  ],
+  [
+   "The application will run [[steadily]] for the next [[3 years]].",
+   "අවුරුදු 3ක් <b>නොනවත්වා එකම විදිහට</b> run වෙනවා.",
+   "Commit කරලා discount → <b>Reserved Instances</b> හෝ <b>Savings Plans</b>.",
+   "24/7 database, 3 years → Reserved Instances"
+  ],
+  [
+   "Which AWS service can identify [[who made changes]]?",
+   "<b>කවුද</b> වෙනස්කම් කළේ?",
+   "\"Who\" → <b>CloudTrail</b>. \"Alarm / metrics\" → CloudWatch. \"Configuration\" → Config.",
+   "who deleted the bucket → CloudTrail"
+  ],
+  [
+   "Which pillar of the [[AWS Well-Architected Framework]]…?",
+   "Well-Architected <b>කුළුණු 6න්</b> මොකක්ද?",
+   "Recover → Reliability · Waste → Cost · Automate → Operational Excellence · Environment → Sustainability · Right resource → Performance · Protect → Security.",
+   "recover from failure → Reliability"
+  ],
+  [
+   "Which is a [[benefit]] of the AWS Cloud?",
+   "AWS Cloud එකේ <b>වාසියක්</b> මොකක්ද?",
+   "Advantages 6: variable expense, economies of scale, stop guessing capacity, speed, no data centers, go global.",
+   "no need to guess server numbers → Stop guessing capacity"
+  ],
+  [
+   "Which AWS Support plan is the [[least expensive]] option that provides [[X]]?",
+   "X දෙන <b>ලාභම</b> support plan එක?",
+   "X ලැබෙන <b>පොඩිම</b> plan එක. Free → Basic · 24/7 + full Trusted Advisor → Business Support+ · TAM → Enterprise.",
+   "designated TAM, least expensive → Enterprise Support"
+  ]
+ ],
+ "bridge": [
+  {
+   "d": "Technology",
+   "q": "A company wants to run code [[without managing servers]] and [[pay only when the code runs]]. Which AWS service should it use?",
+   "o": [
+    "Amazon EC2",
+    "AWS Lambda",
+    "Amazon EBS",
+    "Amazon VPC"
+   ],
+   "a": [
+    1
+   ],
+   "t": "Company එකකට servers බලාගන්නේ නැතුව code run කරන්න ඕන. Code එක run වෙන වෙලාවට විතරක් ගෙවන්න ඕන. මොන AWS service එකද?",
+   "h": [
+    [
+     "without managing servers",
+     "servers බලාගන්නේ නැතුව"
+    ],
+    [
+     "pay only when the code runs",
+     "run වෙන වෙලාවට විතරක් ගෙවනවා"
+    ]
+   ],
+   "e": "\"Without managing servers\" = serverless. Code run කරන serverless service එක **Lambda**. EC2 වල servers ඔයා බලාගන්න ඕන."
+  },
+  {
+   "d": "Technology",
+   "q": "Which storage option is the [[MOST cost-effective]] for data that is [[rarely accessed]] and must be kept for [[7 years]]?",
+   "o": [
+    "Amazon S3 Standard",
+    "Amazon S3 Glacier Deep Archive",
+    "Amazon EBS",
+    "Amazon EFS"
+   ],
+   "a": [
+    1
+   ],
+   "t": "කලාතුරකින් පාවිච්චි කරන, අවුරුදු 7ක් තියාගන්න ඕන data වලට ලාභම storage එක මොකක්ද?",
+   "h": [
+    [
+     "MOST cost-effective",
+     "ලාභම"
+    ],
+    [
+     "rarely accessed",
+     "කලාතුරකින් පාවිච්චි කරන"
+    ],
+    [
+     "7 years",
+     "අවුරුදු 7"
+    ]
+   ],
+   "e": "කලාතුරකින් + අවුරුදු ගාණක් + ලාභම → **Glacier Deep Archive**."
+  },
+  {
+   "d": "Security",
+   "q": "Under the [[shared responsibility model]], which task is the [[customer's responsibility]]?",
+   "o": [
+    "Physical security of data centers",
+    "Patching the guest operating system on Amazon EC2",
+    "Maintaining network hardware",
+    "Managing the hypervisor"
+   ],
+   "a": [
+    1
+   ],
+   "t": "Shared responsibility model එක අනුව, customer ගේ වගකීම මොකක්ද?",
+   "h": [
+    [
+     "shared responsibility model",
+     "වගකීම් බෙදාගැනීමේ ක්‍රමය"
+    ],
+    [
+     "customer's responsibility",
+     "customer ගේ වගකීම"
+    ]
+   ],
+   "e": "Data center, hardware, hypervisor = AWS. **EC2 OS patching = customer.**"
+  },
+  {
+   "d": "Security",
+   "q": "A company wants to find out [[who deleted]] an Amazon S3 bucket yesterday. Which service should it use?",
+   "o": [
+    "Amazon CloudWatch",
+    "AWS CloudTrail",
+    "Amazon Inspector",
+    "AWS Trusted Advisor"
+   ],
+   "a": [
+    1
+   ],
+   "t": "ඊයේ S3 bucket එකක් delete කළේ කවුද කියලා හොයාගන්න ඕන. මොන service එකද?",
+   "h": [
+    [
+     "who deleted",
+     "delete කළේ කවුද"
+    ]
+   ],
+   "e": "\"Who\" = **CloudTrail** (visitor's book). CloudWatch = metrics, alarms."
+  },
+  {
+   "d": "Technology",
+   "q": "A company needs to [[send an alarm]] when the [[CPU usage]] of an EC2 instance is too high. Which service?",
+   "o": [
+    "Amazon CloudWatch",
+    "AWS CloudTrail",
+    "AWS Config",
+    "AWS Artifact"
+   ],
+   "a": [
+    0
+   ],
+   "t": "EC2 එකේ CPU පාවිච්චිය වැඩි වුණාම alarm එකක් යවන්න ඕන. මොන service එකද?",
+   "h": [
+    [
+     "send an alarm",
+     "alarm එකක් යවන්න"
+    ],
+    [
+     "CPU usage",
+     "CPU පාවිච්චිය"
+    ]
+   ],
+   "e": "Metrics + alarms = **CloudWatch** (heart monitor)."
+  },
+  {
+   "d": "Billing",
+   "q": "Which EC2 pricing option is the [[MOST cost-effective]] for batch jobs that [[can be interrupted]]?",
+   "o": [
+    "On-Demand Instances",
+    "Reserved Instances",
+    "Spot Instances",
+    "Dedicated Hosts"
+   ],
+   "a": [
+    2
+   ],
+   "t": "අතරමග නැවැත්තුවාට කමක් නැති batch jobs වලට ලාභම EC2 option එක මොකක්ද?",
+   "h": [
+    [
+     "MOST cost-effective",
+     "ලාභම"
+    ],
+    [
+     "can be interrupted",
+     "අතරමග නැවැත්තුවාට කමක් නෑ"
+    ]
+   ],
+   "e": "Interrupt වුණාට කමක් නෑ + ලාභම → **Spot** (90% දක්වා)."
+  },
+  {
+   "d": "Billing",
+   "q": "A company wants to [[estimate]] its monthly costs [[before]] moving to AWS. Which tool should it use?",
+   "o": [
+    "AWS Pricing Calculator",
+    "AWS Cost Explorer",
+    "AWS Budgets",
+    "AWS Cost and Usage Report"
+   ],
+   "a": [
+    0
+   ],
+   "t": "AWS එකට යන්න කලින් මාසික වියදම ඇස්තමේන්තු කරන්න ඕන. මොන tool එකද?",
+   "h": [
+    [
+     "estimate",
+     "ඇස්තමේන්තු කරන්න"
+    ],
+    [
+     "before",
+     "කලින්"
+    ]
+   ],
+   "e": "කලින් + estimate = **Pricing Calculator** (quotation). Cost Explorer = පහුගිය වියදම්."
+  },
+  {
+   "d": "Security",
+   "q": "Which AWS service helps protect applications from [[DDoS attacks]]?",
+   "o": [
+    "AWS WAF",
+    "AWS Shield",
+    "Amazon Macie",
+    "AWS KMS"
+   ],
+   "a": [
+    1
+   ],
+   "t": "DDoS ප්‍රහාර වලින් applications ආරක්ෂා කරන්නේ මොන service එකද?",
+   "h": [
+    [
+     "DDoS attacks",
+     "DDoS ප්‍රහාර (fake traffic ගොඩක්)"
+    ]
+   ],
+   "e": "DDoS = **Shield**. WAF = SQL injection වගේ web attacks."
+  },
+  {
+   "d": "Technology",
+   "q": "How can a company make its application [[highly available]]?",
+   "o": [
+    "Use one very large EC2 instance",
+    "Deploy the application across multiple Availability Zones",
+    "Use only edge locations",
+    "Use Spot Instances"
+   ],
+   "a": [
+    1
+   ],
+   "t": "Application එක හැමවෙලේම වැඩ කරන විදිහට හදන්නේ කොහොමද?",
+   "h": [
+    [
+     "highly available",
+     "හැමවෙලේම වැඩ"
+    ]
+   ],
+   "e": "බිත්තර සේරම එක කූඩයට දාන්න එපා → **multiple AZs**."
+  },
+  {
+   "d": "Technology",
+   "q": "Which AWS database is a [[NoSQL]] database with [[single-digit millisecond]] performance?",
+   "o": [
+    "Amazon RDS",
+    "Amazon DynamoDB",
+    "Amazon Redshift",
+    "Amazon Aurora"
+   ],
+   "a": [
+    1
+   ],
+   "t": "Milliseconds කිහිපයකින් වැඩ කරන NoSQL database එක මොකක්ද?",
+   "h": [
+    [
+     "NoSQL",
+     "SQL නොවන database"
+    ],
+    [
+     "single-digit millisecond",
+     "ඉතාම වේගවත්"
+    ]
+   ],
+   "e": "NoSQL = **DynamoDB**. RDS, Aurora = SQL. Redshift = data warehouse."
+  },
+  {
+   "d": "Technology",
+   "q": "A company wants to [[decouple]] the parts of its application by using a [[message queue]]. Which service?",
+   "o": [
+    "Amazon SNS",
+    "Amazon SQS",
+    "Amazon SES",
+    "Amazon Route 53"
+   ],
+   "a": [
+    1
+   ],
+   "t": "Message queue එකක් පාවිච්චි කරලා application එකේ කොටස් වෙන් කරන්න ඕන. මොන service එකද?",
+   "h": [
+    [
+     "decouple",
+     "කොටස් වෙන් කරනවා"
+    ],
+    [
+     "message queue",
+     "පණිවිඩ පෝලිම"
+    ]
+   ],
+   "e": "Queue = **SQS** (තැපැල් පෙට්ටිය). SNS = notifications."
+  },
+  {
+   "d": "Security",
+   "q": "Where can a customer [[download]] AWS [[compliance reports]], such as SOC reports?",
+   "o": [
+    "AWS Artifact",
+    "AWS Config",
+    "AWS Security Hub",
+    "Amazon Inspector"
+   ],
+   "a": [
+    0
+   ],
+   "t": "SOC වගේ AWS compliance reports download කරන්නේ කොහෙන්ද?",
+   "h": [
+    [
+     "download",
+     "බාගන්න"
+    ],
+    [
+     "compliance reports",
+     "නීති අනුකූලතා වාර්තා"
+    ]
+   ],
+   "e": "Compliance reports download = **Artifact**."
+  },
+  {
+   "d": "Cloud Concepts",
+   "q": "A company does [[not want to guess]] how many servers it will need next year. Which benefit of the AWS Cloud helps?",
+   "o": [
+    "Economies of scale",
+    "Stop guessing capacity",
+    "Go global in minutes",
+    "Increase speed and agility"
+   ],
+   "a": [
+    1
+   ],
+   "t": "ලබන අවුරුද්දට servers කීයක් ඕනද කියලා අනුමාන කරන්න company එකට ඕන නෑ. මොන වාසියද?",
+   "h": [
+    [
+     "not want to guess",
+     "අනුමාන කරන්න ඕන නෑ"
+    ]
+   ],
+   "e": "Guess කරන්න ඕන නෑ → **Stop guessing capacity**."
+  },
+  {
+   "d": "Technology",
+   "q": "Which service [[delivers]] website content to users from [[edge locations]] with [[low latency]]?",
+   "o": [
+    "Amazon CloudFront",
+    "AWS Direct Connect",
+    "Amazon VPC",
+    "Amazon EFS"
+   ],
+   "a": [
+    0
+   ],
+   "t": "Edge locations වලින් users ලට ඉක්මනින් website content දෙන්නේ මොන service එකද?",
+   "h": [
+    [
+     "delivers",
+     "ලබා දෙනවා"
+    ],
+    [
+     "edge locations",
+     "users ලට ළඟ AWS තැන්"
+    ],
+    [
+     "low latency",
+     "අඩු ප්‍රමාදය"
+    ]
+   ],
+   "e": "Edge locations + content = **CloudFront** (CDN)."
+  },
+  {
+   "d": "Technology",
+   "q": "A company needs a [[dedicated private connection]] from its office to AWS that [[does not use the public internet]]. Which service?",
+   "o": [
+    "AWS Site-to-Site VPN",
+    "AWS Direct Connect",
+    "Amazon CloudFront",
+    "Amazon Route 53"
+   ],
+   "a": [
+    1
+   ],
+   "t": "Public internet එක පාවිච්චි නොකර office එකේ ඉඳන් AWS එකට private connection එකක් ඕන. මොන service එකද?",
+   "h": [
+    [
+     "dedicated private connection",
+     "තමන්ටම වෙන් කරපු private line එකක්"
+    ],
+    [
+     "does not use the public internet",
+     "internet හරහා නොයන"
+    ]
+   ],
+   "e": "Internet නැති private line = **Direct Connect**. VPN යන්නේ internet හරහා."
+  },
+  {
+   "d": "Security",
+   "q": "Which IAM best practice [[grants]] users [[only the permissions they need]]?",
+   "o": [
+    "Enable MFA",
+    "Principle of least privilege",
+    "Use the root user",
+    "Share access keys"
+   ],
+   "a": [
+    1
+   ],
+   "t": "Users ලට ඕන permissions විතරක් දෙන IAM best practice එක මොකක්ද?",
+   "h": [
+    [
+     "grants",
+     "දෙනවා"
+    ],
+    [
+     "only the permissions they need",
+     "ඕන අවසර විතරයි"
+    ]
+   ],
+   "e": "ඕන තරමට විතරයි = **least privilege**."
+  },
+  {
+   "d": "Security",
+   "q": "Which actions help [[protect]] the AWS account [[root user]]? [[(Select TWO.)]]",
+   "o": [
+    "Enable multi-factor authentication (MFA)",
+    "Share the root password with the team",
+    "Do not use the root user for daily tasks",
+    "Create access keys for the root user",
+    "Turn off IAM"
+   ],
+   "a": [
+    0,
+    2
+   ],
+   "t": "Root user ආරක්ෂා කරන්න උදව් වෙන ක්‍රියා මොනවද? (උත්තර දෙකක්)",
+   "h": [
+    [
+     "protect",
+     "ආරක්ෂා කරන්න"
+    ],
+    [
+     "root user",
+     "account එකේ ප්‍රධාන user"
+    ],
+    [
+     "(Select TWO.)",
+     "උත්තර දෙකක්"
+    ]
+   ],
+   "e": "**MFA** + **daily වැඩට පාවිච්චි නොකිරීම**."
+  },
+  {
+   "d": "Billing",
+   "q": "Which AWS Support plan is the [[least expensive]] option that includes a [[designated Technical Account Manager]] (TAM)?",
+   "o": [
+    "Basic",
+    "Business Support+",
+    "Enterprise Support",
+    "Unified Operations"
+   ],
+   "a": [
+    2
+   ],
+   "t": "වෙනම Technical Account Manager කෙනෙක් ලැබෙන ලාභම support plan එක මොකක්ද?",
+   "h": [
+    [
+     "least expensive",
+     "ලාභම"
+    ],
+    [
+     "designated Technical Account Manager",
+     "ඔයාටම වෙන් කරපු AWS උපදේශකයෙක්"
+    ]
+   ],
+   "e": "Designated TAM ලැබෙන පොඩිම plan එක = **Enterprise Support**."
+  },
+  {
+   "d": "Billing",
+   "q": "A company wants to [[analyze]] its [[past]] AWS spending by using [[graphs]]. Which tool?",
+   "o": [
+    "AWS Cost Explorer",
+    "AWS Pricing Calculator",
+    "AWS Budgets",
+    "AWS Trusted Advisor"
+   ],
+   "a": [
+    0
+   ],
+   "t": "පහුගිය AWS වියදම් graphs වලින් විශ්ලේෂණය කරන්න ඕන. මොන tool එකද?",
+   "h": [
+    [
+     "analyze",
+     "විශ්ලේෂණය කරන්න"
+    ],
+    [
+     "past",
+     "පහුගිය"
+    ],
+    [
+     "graphs",
+     "ප්‍රස්තාර"
+    ]
+   ],
+   "e": "පහුගිය වියදම් + graphs = **Cost Explorer**."
+  },
+  {
+   "d": "Technology",
+   "q": "Which AWS service [[converts text into speech]]?",
+   "o": [
+    "Amazon Transcribe",
+    "Amazon Polly",
+    "Amazon Lex",
+    "Amazon Comprehend"
+   ],
+   "a": [
+    1
+   ],
+   "t": "Text එක කතාවක් බවට හරවන්නේ මොන service එකද?",
+   "h": [
+    [
+     "converts text into speech",
+     "text එක කතාවක් කරනවා"
+    ]
+   ],
+   "e": "**Polly** = ගිරවා = කතා කරනවා. Transcribe = speech → text."
+  }
+ ],
+ "pairs": [
+  [
+   "Who made this API call?",
+   "CloudTrail"
+  ],
+  [
+   "CPU alarm",
+   "CloudWatch"
+  ],
+  [
+   "Configuration history",
+   "AWS Config"
+  ],
+  [
+   "Download compliance reports",
+   "AWS Artifact"
+  ],
+  [
+   "DDoS protection",
+   "AWS Shield"
+  ],
+  [
+   "Block SQL injection",
+   "AWS WAF"
+  ],
+  [
+   "Detect threats",
+   "GuardDuty"
+  ],
+  [
+   "Scan for vulnerabilities",
+   "Inspector"
+  ],
+  [
+   "Find PII in S3",
+   "Macie"
+  ],
+  [
+   "Encryption keys",
+   "AWS KMS"
+  ],
+  [
+   "Rotate passwords",
+   "Secrets Manager"
+  ],
+  [
+   "App user sign-in",
+   "Cognito"
+  ],
+  [
+   "Object storage",
+   "Amazon S3"
+  ],
+  [
+   "Disk for one EC2",
+   "Amazon EBS"
+  ],
+  [
+   "Shared Linux file system",
+   "Amazon EFS"
+  ],
+  [
+   "Cheapest archive",
+   "Glacier Deep Archive"
+  ],
+  [
+   "Unknown access pattern",
+   "S3 Intelligent-Tiering"
+  ],
+  [
+   "Huge data, slow internet",
+   "Snowball Edge"
+  ],
+  [
+   "Managed SQL database",
+   "Amazon RDS"
+  ],
+  [
+   "NoSQL database",
+   "DynamoDB"
+  ],
+  [
+   "Data warehouse",
+   "Redshift"
+  ],
+  [
+   "In-memory cache",
+   "ElastiCache"
+  ],
+  [
+   "Serverless code",
+   "AWS Lambda"
+  ],
+  [
+   "Serverless containers",
+   "AWS Fargate"
+  ],
+  [
+   "Kubernetes",
+   "Amazon EKS"
+  ],
+  [
+   "Infrastructure as code",
+   "CloudFormation"
+  ],
+  [
+   "Just deploy my web app",
+   "Elastic Beanstalk"
+  ],
+  [
+   "CDN",
+   "CloudFront"
+  ],
+  [
+   "DNS",
+   "Route 53"
+  ],
+  [
+   "Private line to AWS",
+   "Direct Connect"
+  ],
+  [
+   "Message queue",
+   "Amazon SQS"
+  ],
+  [
+   "Send notifications",
+   "Amazon SNS"
+  ],
+  [
+   "SQL on S3 files",
+   "Athena"
+  ],
+  [
+   "Real-time streaming",
+   "Kinesis"
+  ],
+  [
+   "BI dashboards",
+   "Quick Sight"
+  ],
+  [
+   "Build ML models",
+   "SageMaker AI"
+  ],
+  [
+   "Generative AI models",
+   "Bedrock"
+  ],
+  [
+   "Chatbot",
+   "Amazon Lex"
+  ],
+  [
+   "Text → speech",
+   "Amazon Polly"
+  ],
+  [
+   "Speech → text",
+   "Transcribe"
+  ],
+  [
+   "Estimate cost before building",
+   "Pricing Calculator"
+  ],
+  [
+   "Analyze past costs",
+   "Cost Explorer"
+  ],
+  [
+   "Cost alert",
+   "AWS Budgets"
+  ],
+  [
+   "Interruptible = cheapest",
+   "Spot Instances"
+  ],
+  [
+   "Server-bound licenses",
+   "Dedicated Hosts"
+  ],
+  [
+   "Designated TAM",
+   "Enterprise Support"
+  ],
+  [
+   "Virtual desktops",
+   "WorkSpaces"
+  ],
+  [
+   "Contact center",
+   "Amazon Connect"
+  ]
+ ]
+}

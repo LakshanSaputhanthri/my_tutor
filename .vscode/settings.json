@@ -1,0 +1,11 @@
+{
+  "dart.flutterSdkPath": "D:\\DevTools\\flutter",
+  "dart.projectSearchDepth": 3,
+  "terminal.integrated.env.windows": {
+    "JAVA_HOME": "D:\\DevTools\\jdk17",
+    "ANDROID_HOME": "D:\\DevTools\\android-sdk",
+    "ANDROID_SDK_ROOT": "D:\\DevTools\\android-sdk",
+    "GRADLE_USER_HOME": "D:\\DevTools\\gradle-home",
+    "PUB_CACHE": "D:\\DevTools\\pub-cache"
+  }
+}

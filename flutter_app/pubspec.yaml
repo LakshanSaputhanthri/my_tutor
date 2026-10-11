@@ -1,0 +1,17 @@
+name: aws_bridge
+description: Sinhala to English study app for the AWS Cloud Practitioner (CLF-C02) exam. Works offline.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/content.json

@@ -1,0 +1,13 @@
+# build outputs & local tooling
+*.apk
+flutter_app/build/
+flutter_app/.dart_tool/
+flutter_app/.idea/
+flutter_app/android/.gradle/
+flutter_app/android/local.properties
+flutter_app/.flutter-plugins*
+*.iml
+app/dist/
+app/aws-bridge-app.zip
+.claude/
+node_modules/

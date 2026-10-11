@@ -1,0 +1,46 @@
+name: Build APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Create Android project files
+        run: |
+          flutter create --project-name aws_bridge --org com.awsbridge --platforms android .
+          rm -f test/widget_test.dart
+          for d in mdpi hdpi xhdpi xxhdpi xxxhdpi; do
+            cp branding/mipmap-$d/ic_launcher.png android/app/src/main/res/mipmap-$d/ic_launcher.png
+          done
+          sed -i 's/android:label="aws_bridge"/android:label="AWS Bridge"/' android/app/src/main/AndroidManifest.xml
+
+      - run: flutter pub get
+
+      - run: flutter build apk --release
+
+      - run: mv build/app/outputs/flutter-apk/app-release.apk aws-bridge.apk
+
+      - name: Publish APK as a release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          name: AWS Bridge build ${{ github.run_number }}
+          files: aws-bridge.apk
