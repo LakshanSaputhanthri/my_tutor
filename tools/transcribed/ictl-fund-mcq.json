@@ -1,0 +1,1907 @@
+[
+ {
+  "n": 1,
+  "d": "2011 Q04",
+  "q": "The abbreviation GSM stands for,",
+  "qs": "GSM කෙටි යෙදුම භාවිත වන්නේ,",
+  "o": [
+   "Global System for Mobile Access",
+   "Global System for Mobile Communication",
+   "Global System for Mobile Phone",
+   "Global System for Mobile Transmission",
+   "Global System for Mobile Interconnection"
+  ]
+ },
+ {
+  "n": 2,
+  "d": "2011 Q14",
+  "q": "The main role of a \"router\" in computer network is,",
+  "qs": "පරිගණක ජාලයක රවුටරයක ප්‍රධාන කාර්යය වන්නේ,",
+  "o": [
+   "to broadcast data packets to all hosts in the network.",
+   "to monitor the network for malicious activities.",
+   "to retransmit the received signal at a higher power.",
+   "to allow hosts in two networks to communicate.",
+   "to allow load balancing between multiple separate networks."
+  ],
+  "os": [
+   "ජාලයේ සියලු ම සත්කාරකයින්ට දත්ත මලු විකාශය කිරීමයි.",
+   "අහිතකර ක්‍රියාකාරකම් පිළිබඳව ජාලය නියාමනය කිරීමයි.",
+   "ලැබූ සංඥා ඉහළ බලයකින් ප්‍රතිසම්ප්‍රේෂණය කිරීමයි.",
+   "ජාල දෙකක සත්කාරකයින්ට සන්නිවේදනය සඳහා ඉඩ ලබාදීමයි.",
+   "වෙන් වූ විවිධ ජාල අතර භාරය සංතුලනය කර ගැනීමට ඉඩ සැලසීමයි."
+  ]
+ },
+ {
+  "n": 3,
+  "d": "2011 Q42",
+  "q": "A command that can be used to check network connectivity to a computer is,",
+  "qs": "පරිගණකයක ජාල සම්බන්ධතාව ඇත්දැයි පිරික්සීමට යොදාගත හැකි විධානයක් වනුයේ,",
+  "o": [
+   "ipconfig",
+   "ping",
+   "traceroute",
+   "netstat",
+   "hostname"
+  ]
+ },
+ {
+  "n": 4,
+  "d": "2012 Q04",
+  "q": "What is the main function of a DHCP server?",
+  "qs": "DHCP සේවාදායක පරිගණකයක ප්‍රධාන කාර්යය කුමක් ද?",
+  "o": [
+   "Allocating IP addresses.",
+   "Resolving domain names from IP addresses.",
+   "Providing directory services to users.",
+   "Sharing an Internet connection among users.",
+   "Protecting a computer network from virus attacks."
+  ],
+  "os": [
+   "IP ලිපින ලබා දීම.",
+   "IP ලිපිනවලින් වසම් නාම ලබා දීම.",
+   "පරිශීලකයින්ට නාමාවලි සේවා සැපයීම.",
+   "පරිශීලකයින් අතර අන්තර්ජාල සම්බන්ධතාවක් හවුලේ බුක්ති විඳීමට සැලසීම.",
+   "වයිරස් ප්‍රහාරවලින් පරිගණක ජාලයක් ආරක්ෂා කිරීම."
+  ]
+ },
+ {
+  "n": 5,
+  "d": "2012 Q34",
+  "q": "Consider the IP address 192.248.87.3 and the subnet mask 255.255.255.224. How many hosts can be directly connected to this network?",
+  "qs": "192.248.87.3 යන IP ලිපිනය හා 255.255.255.224 අනුජාල වසාය සලකන්න. මෙම ජාලයට සත්කාරකයින් කී දෙනකු සෘජුවම සම්බන්ධ කළ හැකි ද?",
+  "o": [
+   "16",
+   "24",
+   "30",
+   "64",
+   "128"
+  ]
+ },
+ {
+  "n": 6,
+  "d": "2012 Q14",
+  "q": "What is the most suitable media to transmit a high definition video over a distance of 5 km?",
+  "qs": "5km දුරක් ආවරණය වන පරිදි ඒක් විභේදන වීඩියෝවක් සම්ප්‍රේෂණය කිරීම සඳහා වඩාත් සුදුසු මාධ්‍ය කුමක් ද?",
+  "o": [
+   "Radio waves",
+   "Twisted pair copper cables",
+   "Fibre optics cables",
+   "Coaxial cables",
+   "Open wire cables"
+  ],
+  "os": [
+   "රේඩියෝ තරංග",
+   "ඇබිරි යුගල තඹ කේබල",
+   "ප්‍රකාශ තන්තු කේබල",
+   "ඒකාක්ෂ කේබල",
+   "විවෘත වයර් කේබල"
+  ]
+ },
+ {
+  "n": 7,
+  "d": "2013 Q31",
+  "q": "The transport layer of the OSI reference model provides,",
+  "qs": "OSI නිර්දේශ ආකෘතියේ ප්‍රවාහන තලය මගින් සපයනු ලබන්නේ,",
+  "o": [
+   "error correction",
+   "routing of data packets",
+   "flow control",
+   "process-to-process communication",
+   "error detection"
+  ],
+  "os": [
+   "දෝෂ නිවැරදි කිරීමයි.",
+   "දත්ත මලු මාර්ගගත කිරීමයි.",
+   "ගැලීම් පාලනයයි.",
+   "ක්‍රියාවලි-සිට-ක්‍රියාවලි සන්නිවේදනයයි.",
+   "දෝෂ අනාවරණයයි."
+  ]
+ },
+ {
+  "n": 8,
+  "d": "2013 Q32",
+  "q": "In computer networks, acronym DHCP stands for,",
+  "qs": "පරිගණක ජාලවල DHCP හැඳින්වීමෙන් අදහස් වන්නේ,",
+  "o": [
+   "Dynamic Host Control Protocol",
+   "Dynamic Host Configuration Protocol",
+   "Domain Host Configuration Protocol",
+   "Dynamic Host Configuration Practice",
+   "Dynamic Host Control Parameters"
+  ]
+ },
+ {
+  "n": 9,
+  "d": "2013 Q33",
+  "q": "What is the function of a DNS in a Computer Network?",
+  "qs": "පරිගණක ජාලයක DNS හි කාර්යය කුමක් ද?",
+  "o": [
+   "Assigns IP addresses",
+   "Translates domain names to IP addresses",
+   "Protects a network from viruses",
+   "Provides directory services to users",
+   "Connects multiple computer networks together"
+  ],
+  "os": [
+   "IP ලිපින පවරා දෙයි.",
+   "වසම් නාම, IP ලිපින බවට පරිවර්තනය කරයි.",
+   "ජාලයක් වයිරසවලින් ආරක්ෂා කරයි.",
+   "පරිශීලකයන්ට නාමාවලි සේවා සපයයි.",
+   "පරිගණක ජාල කිහිපයක් එකිනෙකට සම්බන්ධ කරයි."
+  ]
+ },
+ {
+  "n": 10,
+  "d": "2014 Q08",
+  "q": "The command that can be used to check the network configuration of a computer is,",
+  "qs": "පරිගණකයක ජාල වින්‍යාසය පරීක්ෂා කිරීම සඳහා යොදාගත හැකි විධානය වනුයේ,",
+  "o": [
+   "traceroute",
+   "netstat",
+   "hostname",
+   "ipconfig",
+   "ping"
+  ]
+ },
+ {
+  "n": 11,
+  "d": "2014 Q09",
+  "q": "Which of the following statements is correct about IP addresses and subnet masks?",
+  "qs": "IP ලිපින සහ අනුජාල ආවරණ පිළිබඳව පහත දක්වෙන කවර ප්‍රකාශය නිවැරදි වේ ද?",
+  "o": [
+   "192.248.32.3 is a Class B IP address.",
+   "A network with a subnet mask 255.255.255.248 can accommodate six hosts.",
+   "An IP address consists of 16 bits.",
+   "10.32.1.5 is a Class C IP address.",
+   "255.255.255.0 is a Class C IP address."
+  ],
+  "os": [
+   "192.248.32.3 යනු B පන්තියේ IP ලිපිනයකි.",
+   "255.255.255.248 අනුජාල ආවරණයක් සහිත ජාලයකට සත්කාරකයින් හයදෙනකුට පහසුකම් සැලසිය හැකි ය.",
+   "IP ලිපිනයක් ද්වයමය 16 කින් සමන්විත වේ.",
+   "10.32.1.5 යනු C පන්තියේ IP ලිපිනයකි.",
+   "255.255.255.0 යනු C පන්තියේ IP ලිපිනයකි."
+  ]
+ },
+ {
+  "n": 12,
+  "d": "2014 Q21",
+  "q": "The network layer of the OSI reference model provides,",
+  "qs": "OSI යොමු ආදර්ශයේ ජාල ස්තරය,",
+  "o": [
+   "error correction",
+   "inter-process communication",
+   "flow control",
+   "routing of data packets",
+   "error detection"
+  ],
+  "os": [
+   "වැරදි නිවැරදිකිරීම් සිදු කරයි.",
+   "අන්තර්-ක්‍රියාවලි සන්නිවේදනය සිදු කරයි.",
+   "ගැලීම් පාලනය සිදු කරයි.",
+   "දත්ත පැකැට්ටු මාර්ගගත කිරීම සිදු කරයි.",
+   "දෝෂ අනාවරණය සිදු කරයි."
+  ]
+ },
+ {
+  "n": 13,
+  "d": "2014 Q22",
+  "q": "Which of the following is most cost effective and secure in transmitting private and confidential messages and notices among the employees of an organization?",
+  "qs": "සංවිධානයක සේවකයින් අතර පෞද්ගලික සහ රහසය පණිවිඩ හා දැන්වීම් සම්ප්‍රේෂණය සඳහා වඩාත් පිරිමැසුම්දායක හා ආරක්ෂිත වන්නේ පහත දැක්වෙන කවර ක්‍රමය ද?",
+  "o": [
+   "Electronic notice boards",
+   "Teleconferencing",
+   "e-mail",
+   "A social network",
+   "A website"
+  ],
+  "os": [
+   "ඉලෙක්ට්‍රොනික දැන්වීම් පුවරු",
+   "ටෙලි සම්මන්ත්‍රණ පැවැත්වීම",
+   "විද්‍යුත් තැපෑල",
+   "සමාජ ජාලයක්",
+   "වෙබ් අඩවියක්"
+  ]
+ },
+ {
+  "n": 14,
+  "d": "2015 Q10",
+  "q": "\"Video conferencing is best described as a/an ........................ discussion through ........................ between two or more individuals in different locations.\"\nWhich of the following is the most appropriate answer to fill the blanks in the above statement?",
+  "qs": "\"වීඩියෝ සම්මන්ත්‍රණ පැවැත්වීම යන්න, විවිධ ස්ථානවල සිටින දෙදෙනකු හෝ කිහිපදෙනකු අතර ........................ හරහා සිදුවන ........................ සාකච්ඡාවක් ලෙස වඩාත් හොඳින් විස්තර කෙරේ.\"\nඉහත ප්‍රකාශයෙහි හිස්තැන් පිරවීම සඳහා පිළිවෙළින් වඩාත් සුදුසු පිළිතුරු වන්නේ පහත දැක්වෙන කවර පද යුගලය ද?",
+  "o": [
+   "video, TV",
+   "audio, telephone",
+   "audio, network",
+   "audio visual, TV",
+   "audio visual, network"
+  ],
+  "os": [
+   "රූපවාහිනියක්, වීඩියෝ",
+   "දුරකථනයක්, ශ්‍රව්‍ය",
+   "ජාලයක්, ශ්‍රව්‍ය",
+   "රූපවාහිනියක්, ශ්‍රව්‍යදෘශ්‍ය",
+   "ජාලයක්, ශ්‍රව්‍යදෘශ්‍ය"
+  ]
+ },
+ {
+  "n": 15,
+  "d": "2015 Q21",
+  "q": "What is the main function of a PROXY server in Internet communication?",
+  "qs": "අන්තර්ජාල සන්නිවේදනයේ දී ප්‍රොක්සි සේවාදායකයක ප්‍රධාන කාර්යය වන්නේ කුමක් ද?",
+  "o": [
+   "Allocate and release IP addresses",
+   "Translate domain names to IP addresses",
+   "Protect a network from viruses",
+   "Provide printing services to users",
+   "Share an Internet connection among several computers"
+  ],
+  "os": [
+   "IP ලිපින පවරාගෙන මුදා හැරීම",
+   "වසම් නාම IP ලිපිනවලට පරිවර්තනය කිරීම",
+   "ජාල වයිරස්වලින් ආරක්ෂා කර ගැනීම",
+   "පරිශීලකයන්ට මුද්‍රණ සේවා සැපයීම",
+   "පරිගණක කිහිපයක් අතර අන්තර්ජාල සම්බන්ධතාවක් හවුලේ භාවිත කිරීම"
+  ]
+ },
+ {
+  "n": 16,
+  "d": "2015 Q25",
+  "q": "An organization has been allocated a Class C IP address range having a subnet mask of 255.255.255.0. If the organization is to setup a web server and an email server, what are the IP addresses that can be allocated to these two servers?",
+  "qs": "ආයතනයකට 255.255.255.0 ලෙස ඇති උප ජාල ආවරණයක් සහිත C පන්තියේ IP ලිපින පරාසයක් වෙන්කර දී තිබේ. මෙම ආයතනයට වෙබ් සේවාදායකයක් හා විද්‍යුත් තැපැල් සේවාදායකයක් ස්ථාපිත කර ගත යුතුව ඇත්නම් මෙම සේවාදායක දෙක සඳහා වෙන් කළ හැකි ලිපින මොනවාද?",
+  "o": [
+   "192.248.87.2, 192.248.32.3",
+   "192.248.87.4, 192.248.87.5",
+   "192.248.32.3, 192.248.33.3",
+   "192.248.40.2, 192.248.41.3",
+   "192.248.87.1, 192.248.60.2"
+  ]
+ },
+ {
+  "n": 17,
+  "d": "2015 Q27",
+  "q": "In communication networks, ISDN stands for,",
+  "qs": "සන්නිවේදන ජාලවල දී ISDN මගින් දැක්වෙන්නේ,",
+  "o": [
+   "Integrated Service Domain Name",
+   "Internet Service Directory Name",
+   "Integrated Service Digital Network",
+   "Internet Service Digital Network",
+   "Integrated Service Domain Network"
+  ]
+ },
+ {
+  "n": 18,
+  "d": "2015 Q35",
+  "q": "In the OSI reference model, detection of errors during communication between two computers in a network is a function of the ........................",
+  "qs": "OSI සම්දේශ ආකෘතියේ දී ජාලයක ඇති පරිගණක දෙකක් අතර සන්නිවේදනයේ දී ඇතිවන වැරදි සොයා ගැනුම ........................ කාර්යයක් වන්නේ ය. ඉහත හිස්තැන පිරවීමට වඩාත් ම යෝග්‍ය පිළිතුර කුමක් ද?",
+  "o": [
+   "physical layer",
+   "data link layer",
+   "network layer",
+   "transport layer",
+   "application layer"
+  ],
+  "os": [
+   "භෞතික ස්ථරයේහි",
+   "දත්ත සම්බන්ධක ස්ථරයේහි",
+   "ජාල ස්ථරයේහි",
+   "ප්‍රවාහන ස්ථරයේහි",
+   "යෙදුම් ස්ථරයේහි"
+  ]
+ },
+ {
+  "n": 19,
+  "d": "2016 Q10",
+  "q": "The command that can be used to login to a remote computer through a network is?",
+  "qs": "ජාලයක් හරහා දුරස්ථ පරිගණකයකට පුරන්න යාමේ දී භාවිත කළ යුතු විධානය වන්නේ කුමක් ද?",
+  "o": [
+   "ipconfig",
+   "ftp",
+   "telnet",
+   "tracert",
+   "route"
+  ]
+ },
+ {
+  "n": 20,
+  "d": "2016 Q27",
+  "q": "Which of the following devices can be used to connect two physical networks having IP addresses 72.110.0.0 (subnet mask: 255.255.0.0) and 192.248.10.0 (subnet mask: 255.255.255.0)?",
+  "qs": "IP ලිපින 72.110.0.0 (උප ජාල ආවරණය 255.255.0.0) සහ 192.248.10.0 (උප ජාල ආවරණය 255.255.255.0) ලෙස ඇති භෞතික ජාල දෙකක් සම්බන්ධ කිරීමට යොදා ගත හැක්කේ පහත දක්වා ඇති කවර උපක්‍රමය ද?",
+  "o": [
+   "Hub",
+   "Repeater",
+   "Switch",
+   "Router",
+   "Multiplexer"
+  ],
+  "os": [
+   "නාභිය",
+   "රීපීටරය",
+   "ස්විචය",
+   "මංහසුරුව",
+   "බහුපථකාරකය"
+  ]
+ },
+ {
+  "n": 21,
+  "d": "2017 Q06",
+  "q": "Which of the following converts digital data to analog data to transmit over an analog telephone network?",
+  "qs": "ප්‍රතිසම දුරකථන ජාලයක් හරහා සම්ප්‍රේෂණය කිරීම සඳහා සංඛ්‍යාංක දත්ත, ප්‍රතිසම දත්තවලට පරිවර්තනය කරන්නේ පහත සඳහන් කුමකින් ද?",
+  "o": [
+   "Network Interface Card (NIC)",
+   "Modem",
+   "Multiplexer",
+   "Bluetooth adaptor",
+   "Wi-Fi card"
+  ],
+  "os": [
+   "ජාල අතුරු මුහුණත",
+   "මොඩමය",
+   "බහු පථ කාරකය",
+   "බ්ලූටූත් අනුවර්තකය",
+   "Wi-Fi කාඩ්පත"
+  ]
+ },
+ {
+  "n": 22,
+  "d": "2017 Q08",
+  "q": "Computers attached to a LAN use the default gateway connected to the same network ........................",
+  "qs": "ස්ථානීය පෙදෙස් ජාලයකට සම්බන්ධිත පරිගණක එම ජාලයට ම සම්බන්ධ කර ඇති පුරඳු දොරටුව භාවිත කරනු ලබන්නේ ........................",
+  "o": [
+   "to translate the domain names to IP addresses.",
+   "to forward IP packets when they do not know any specific route to the destination.",
+   "as the firewall for the network.",
+   "to send all the data packets to other computers in the same LAN.",
+   "to assign IP address to a computer on the LAN."
+  ],
+  "os": [
+   "වසම් නාම IP ලිපිනවලට පරිවර්තනය කිරීමට ය.",
+   "ගමනාන්තයට විශේෂිත වූ මාර්ගයක් නොදන්නා විට IP පැකැට්ටු ඉදිරියට යැවීම සඳහා ය.",
+   "ජාලය සඳහා වූ ගිනි පවුර ලෙස ය.",
+   "මෙම ජාලය වූ අනෙකුත් පරිගණක සියලු දත්ත පැකැට්ටු යැවීම සඳහා ය.",
+   "LAN එක තුළ වූ පරිගණකයකට IP ලිපිනයක් දීමට ය."
+  ]
+ },
+ {
+  "n": 23,
+  "d": "2017 Q27",
+  "q": "The command that can be used to measure the round trip propagation delay between two computers on the Internet is,",
+  "qs": "අන්තර්ජාලයට සම්බන්ධ පරිගණක දෙකක් අතර පවතින වටරවුම් චාරිකා ප්‍රචාරණ පමාව මැන ගැනීම සඳහා භාවිත වන විධානය වන්නේ?",
+  "o": [
+   "ping",
+   "ifconfig",
+   "ssh",
+   "ftp",
+   "telnet"
+  ]
+ },
+ {
+  "n": 24,
+  "d": "2018 Q03",
+  "q": "In the OSI seven layer reference model, IP protocol maps to the ........................ layer.\nWhich of the following is most appropriate to fill the blank in the above statement?",
+  "qs": "OSI සත්ත ස්ථර සම්දේශ ආකෘතිය තුළ දී IP නියමාවලිය අනුරූපණය වන්නේ ........................ ස්ථරයට ය.\nඉහත හිස්තැන පිරවීමට වඩාත් ම යෝග්‍ය පිළිතුර වන්නේ?",
+  "o": [
+   "application",
+   "session",
+   "transport",
+   "network",
+   "physical"
+  ],
+  "os": [
+   "යෙදුම්",
+   "සැසි",
+   "ප්‍රවාහන",
+   "ජාල",
+   "භෞතික"
+  ]
+ },
+ {
+  "n": 25,
+  "d": "2018 Q18",
+  "q": "The function of the DHCP server in an IP network is to ........................",
+  "qs": "IP ජාලයක් තුළ DHCP සේවාදායකයේ කාර්යය වන්නේ ........................",
+  "o": [
+   "translate domain names to IP addresses",
+   "cache the web pages",
+   "dynamically allocate IP addresses",
+   "filter IP packets",
+   "provide security"
+  ],
+  "os": [
+   "වසම් නාම IP ලිපිනවලට පරිවර්තනය කිරීම ය.",
+   "වෙබ් පිටු නිහිත කිරීම ය.",
+   "IP ලිපින ගතිකව පැවරීම ය.",
+   "IP පැකැට්ටු පෙරීම ය.",
+   "ආරක්ෂාව ලබාදීම ය."
+  ]
+ },
+ {
+  "n": 26,
+  "d": "2018 Q20",
+  "q": "Which of the following is a valid subnet mask?",
+  "qs": "පහත සඳහන් දෑ අතුරෙන් වලංගු උපජාල ආවරණයක් වන්නේ කවරක් ද?",
+  "o": [
+   "255.255.255.192",
+   "255.0.255.0",
+   "256.255.255.64",
+   "255.256.255.96",
+   "0.0.0.255"
+  ]
+ },
+ {
+  "n": 27,
+  "d": "2018 Q50",
+  "q": "Which of the following is a valid subnet mask?",
+  "qs": "පහත සඳහන් දෑ අතුරෙන් වලංගු උපජාල ආවරණයක් වන්නේ කවරක් ද?",
+  "o": [
+   "255.255.255.192",
+   "255.0.255.0",
+   "256.255.255.64",
+   "255.256.255.96",
+   "0.0.0.255"
+  ]
+ },
+ {
+  "n": 28,
+  "d": "2019 Q32",
+  "q": "The ping command indicates that there is a 5% packet loss between the computers X and Y. There is an FTP server running on Y. A file is downloaded to X from Y using FTP protocol. Which of the following is the most appropriate statement regarding this file download?",
+  "qs": "X හා Y පරිගණක අතර 5% ක පැකැට්ටු හානියක් සිදුව ඇති බව ping විධානය මගින් පෙන්වයි. Y පරිගණකයේ FTP සේවාදායකයක් ක්‍රියාත්මක වෙමින් පවතී. FTP නියමාවලිය භාවිත කර ගොනුවක් Y පරිගණකයේ සිට X පරිගණකය වෙත බාගත කරනු ලැබේ. පහත සඳහන් වගන්ති අතුරෙන් මෙම ගොනු බාගත කිරීම පිළිබඳ ව වඩාත් ම සුදුසු වගන්තිය කුමක් ද?",
+  "o": [
+   "The downloaded file has exactly 5% of the data missing.",
+   "The downloaded file has more than 5% of the data missing.",
+   "The downloaded file has 5% of data in a different order than the original file.",
+   "The downloaded file has the data in exactly the same order as the original file.",
+   "FTP protocol cannot run on a network connection with errors."
+  ],
+  "os": [
+   "බාගත් ගොනුවේ හරියටම ම 5% ක් දත්ත ගිලිහී ගොස් ඇත.",
+   "බාගත් ගොනුවේ 5% කට වඩා දත්ත ගිලිහී ගොස් ඇත.",
+   "බාගත් ගොනුවේ හරියටම ම 5% ක ප්‍රමාණයක් දත්ත මුල් ගොනුවට වඩා වෙනස් වූ අනුපිළිවෙළකට පවතී.",
+   "බාගත් ගොනුවේ දත්ත මුල් ගොනුවේ දත්ත සමග හරියට ම එකම අනුපිළිවෙළකට පවතී.",
+   "දෝෂ සහිත ජාල සම්බන්ධනයක FTP නියමාවලිය ධාවනය කළ නොහැක ය."
+  ]
+ },
+ {
+  "n": 29,
+  "d": "2019 Q22",
+  "q": "........................ is used for analog signal to digital signal conversion.\nWhich of the following is most appropriate to fill the blank in the above statement?",
+  "qs": "ප්‍රතිසම සංඥාවක් සංඛ්‍යාංක සංඥාවක් බවට පරිවර්තනය කිරීමට ........................ භාවිත කරනු ලැබේ. ඉහත වගන්තියේ හිස්තැන පිරවීමට ම යෝග්‍ය වන්නේ පහත සඳහන් කවරක් ද?",
+  "o": [
+   "Amplitude Modulation (AM)",
+   "Frequency Modulation (FM)",
+   "Pulse Code Modulation (PCM)",
+   "Phase Modulation (PM)",
+   "Time Division Modulation (TDM)"
+  ],
+  "os": [
+   "විස්තාර මූර්ජනය",
+   "සංඛ්‍යාත මූර්ජනය",
+   "ස්පන්දිත කේත මූර්ජනය",
+   "කලා මූර්ජනය",
+   "කාල බෙදුම් මූර්ජනය"
+  ]
+ },
+ {
+  "n": 30,
+  "d": "2021 Q01",
+  "q": "A computer in a network is configured with the IP address 192.248.16.91 and the subnet mask 255.255.255.128. Which of the following IP addresses cannot be assigned to a computer in the same network?",
+  "qs": "ජාලයක් පවතින පරිගණකයක් 192.248.16.91 යන IP ලිපිනය සහ 255.255.255.128 යන උපජාල ආවරණය මගින් වින්‍යාසගත කර ඇත. මෙම ජාලයේ පවතින පරිගණකයක් සඳහා ලබාදිය නොහැක්කේ පහත පෙන්වා ඇති කවර IP ලිපිනයක් ද?",
+  "o": [
+   "192.248.16.161",
+   "192.248.16.78",
+   "192.248.16.110",
+   "192.148.16.75",
+   "192.248.16.120"
+  ]
+ },
+ {
+  "n": 31,
+  "d": "2021 Q02",
+  "q": "Which of the following statements is correct with respect to the Transmission Control Protocol (TCP)?",
+  "qs": "සම්ප්‍රේෂණ පාලන නියමාවලිය සම්බන්ධයෙන් පහත සඳහන් වගන්ති අතුරෙන් නිවැරදි වන්නේ කුමක් ද?",
+  "o": [
+   "TCP is a network layer protocol.",
+   "TCP guarantees that each byte sent is received at the receiver.",
+   "Only one application at a time can use TCP in a computer.",
+   "HTTP uses TCP.",
+   "TCP uses User Datagram Protocol (UDP) as the transport protocol."
+  ],
+  "os": [
+   "TCP යනු ජාල ස්ථර නියමාවලියකි.",
+   "යවනු ලබන සෑම බයිටයක්ම ග්‍රාහකයා වෙත ලැබීම TCP මගින් සහතික කරයි.",
+   "එක් පරිගණකයක් තුළ TCP භාවිත කළ හැක්කේ එක් වරකට එක් යෙදුමකට පමණි.",
+   "HTTP, TCP භාවිත කරයි.",
+   "TCP විසින් ප්‍රවාහන නියමාවලිය ලෙස User Datagram නියමාවලිය (UDP) භාවිත කරනු ලබයි."
+  ]
+ },
+ {
+  "n": 32,
+  "d": "2022 Q01",
+  "q": "A LAN uses the subnet mask 255.255.240.0. How many different IP addresses can be assigned to devices in this LAN?",
+  "qs": "ස්ථානීය පෙදෙස් ජාලයක් 255.255.240.0 යන උපජාල ආවරණය භාවිත කරයි. මෙම ජාලයේ පවතින උපක්‍රම සඳහා භාවිත කළ හැකි එකිනෙකට වෙනස් IP ලිපින කොපමණ සංඛ්‍යාවක් පවතින්නේ ද?",
+  "o": [
+   "254",
+   "256",
+   "1024",
+   "2046",
+   "4094"
+  ]
+ },
+ {
+  "n": 33,
+  "d": "2022 Q02",
+  "q": "Which of the following statements is correct with respect to routing in the Internet?",
+  "qs": "අන්තර්ජාලයේ මංහසිරවීම සම්බන්ධයෙන් නිවැරදි වන්නේ පහත වගන්ති අතුරෙන් කවරක් ද?",
+  "o": [
+   "There can be at most one router in any given LAN.",
+   "A router can have more than one network interface.",
+   "Routing is a functionality of the Transport Layer.",
+   "All routers function as HTTP proxies.",
+   "The Internet does not need routing if all applications use TCP."
+  ],
+  "os": [
+   "දෙන ලද ඕනෑම LAN එකක උපරිම වශයෙන් පැවතිය හැක්කේ එක් මංහසුරුවකි.",
+   "එක් මංහසුරුවකට ජාල අතුරු මුහුණත් එකකට වඩා පැවතිය හැකි ය.",
+   "මංහසිරවීම ප්‍රවාහන ස්ථරයේ එක් කාර්යයකි.",
+   "සියලු මංහසුරු HTTP proxies ලෙස ක්‍රියාකරයි.",
+   "සියලු යෙදුම් TCP භාවිත කරයි නම් අන්තර්ජාලයට මංහසිරවීම අවශ්‍ය නොවේ."
+  ]
+ },
+ {
+  "n": 34,
+  "d": "2023 Q01",
+  "q": "In a public key encryption system, the private key of a person x is given by the function priv(x) and the public key is given by pub(x). Consider the following statements:\nA - pub(x) is used to encrypt a message that can only be decrypted using priv(x).\nB - pub(x) is used to sign a message to be sent to x.\nC - A message encrypted using pub(x) can be decrypted using pub(x).\nWhich of the above statement(s) is/are correct?",
+  "qs": "පොදු යතුරු ගුප්ත කේතන පද්ධතියක x නම් පුද්ගලයකුගේ පෞද්ගලික යතුර priv(x) යන ශ්‍රිතයෙන් හා පොදු යතුර pub(x) යන ශ්‍රිතයෙන් ද දෙනු ලැබේ. පහත සඳහන් වගන්ති සලකා බලන්න:\nA - pub(x) භාවිත කිරීම මගින් පමණක් විකේතනය කළ හැකි සේ පණිවුඩයක් ගුප්ත කේතනය කිරීම සඳහා pub(x) භාවිත කරයි.\nB - x වෙත යවන පණිවුඩයක අත්සන් තැබීම සඳහා pub(x) භාවිත කරයි.\nC - pub(x) භාවිතයෙන් ගුප්ත කේතනය කරනු ලැබූ පණිවුඩයක් pub(x) භාවිතයෙන් විකේතනය කළ හැකි වේ.\nඉහත වගන්ති අතුරෙන් නිවැරදි වන්නේ,",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and B only",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා B පමණි",
+   "B හා C පමණි"
+  ]
+ },
+ {
+  "n": 35,
+  "d": "2023 Q02",
+  "q": "Consider the following statements regarding a server with the domain name www.bogus.lk:\nA - The server www.bogus.lk can be located anywhere in the world.\nB - www.bogus.lk must be a web server.\nC - The domain names www.bogus.lk and www.bogus.com can be resolved to the same IP address.\nWhich of the above statement(s) is/are correct?",
+  "qs": "www.bogus.lk වසම්නාමය සහිත සේවාදායක පරිගණකයක් සම්බන්ධයෙන් පහත වගන්ති සලකා බලන්න:\nA - www.bogus.lk සේවාදායකය ලෝකයේ ඕනෑම තැනක ස්ථානගත වී තිබිය හැකි ය.\nB - www.bogus.lk වෙබ් සේවාදායකයක් ම විය යුතු ය.\nC - www.bogus.lk සහ www.bogus.com යන වසම්නාම එකම IP ලිපිනයකට හා බැඳී පැවැතිය හැකි ය.\nඉහත වගන්ති අතුරෙන් නිවැරදි වන්නේ,",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and B only",
+   "A and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි"
+  ]
+ },
+ {
+  "n": 36,
+  "d": "2024 Q02",
+  "q": "A file of 1 MB has been successfully sent from the machine X to machine Y in a network over a TCP connection. It has been observed that the 10th byte of the file has passed through the router R. Consider the following statements regarding this communication:\nA - The 10,000th byte must have gone through the router R after the 10th byte.\nB - The 10,000th byte must have gone through the same path from X to Y as the 10th byte.\nC - The 10,000th byte may or may not have gone through the router R.\nWhich of the above statement(s) is/are correct?",
+  "qs": "ජාලයක පවතින X නම් යන්ත්‍රයක සිට Y නම් යන්ත්‍රයක් වෙත 1MB වූ ගොනුවක් TCP සම්බන්ධයක් හරහා සාර්ථකව යවන ලදී. මෙම ගොනුවේ 10 වැනි බයිටය R නම් වූ මංහසුරුව තුළින් ගමන් කර ඇති බව නිරීක්ෂණය විය. මෙම සන්නිවේදනය සම්බන්ධයෙන් පහත දී ඇති වගන්ති සලකා බලන්න:\nA - 10 වැනි බයිටයට පසු 10,000 වැනි බයිටය ද, R නම් මංහසුරුව තුළින් ගමන් කර තිබිය යුතුම ය.\nB - 10,000 වැනි බයිටය ද X සිට Y දක්වා 10 වැනි බයිටය ගමන් ගත් මාර්ගයේ ම ගමන් කර තිබිය යුතුම ය.\nC - 10,000 වැනි බයිටය R නම් වූ මංහසුරුව තුළින් ගමන් කර හෝ ගමන් නොකර හෝ තිබිය හැකි ය.\nඉහත සඳහන් කුමන වගන්තිය/වගන්ති නිවැරදි වන්නේ ද?",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and B only",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා B පමණි",
+   "B හා C පමණි"
+  ]
+ },
+ {
+  "n": 37,
+  "d": "2024 Q01",
+  "q": "\"An analog signal is sampled at regular intervals and represented as 16 bit values.\"\nWhich of the followings is best described by the above statement?",
+  "qs": "\"ප්‍රතිසම සංඥාවක් නියත කාලාන්තරවල දී නියැදි කර බිටු 16 හි අගයන් ලෙස නිරූපණය කරනු ලැබේ.\"\nඉහත වගන්තිය හොඳින් ම විස්තර කරනු ලබන්නේ පහත සඳහන් කුමකින් ද?",
+  "o": [
+   "Amplitude Modulation (AM)",
+   "Frequency Modulation (FM)",
+   "Pulse Code Modulation (PCM)",
+   "Phase Modulation (PM)",
+   "Pulse Width Modulation (PWM)"
+  ],
+  "os": [
+   "විස්තාර මූර්ජනය",
+   "සංඛ්‍යාත මූර්ජනය",
+   "ස්පන්දිත කේත මූර්ජනය",
+   "කලා මූර්ජනය",
+   "ස්පන්ද විතර මූර්ජනය"
+  ]
+ },
+ {
+  "n": 38,
+  "d": "2024 Q03",
+  "q": "Two machines with the IP addresses 192.248.16.30 and 192.248.16.90 are connected to a Local Area Network (LAN). Which of the followings is a suitable subnet mask for this network?",
+  "qs": "IP ලිපින 192.248.16.30 සහ 192.248.16.90 සහිත යන්ත්‍ර දෙකක් ස්ථානීය පෙදෙස් ජාලයකට (LAN) සම්බන්ධ කොට ඇත. පහත සඳහන් කවරක් මෙම ජාලය සඳහා සුදුසු උපජාල ආවරණයක් වන්නේ ද?",
+  "o": [
+   "192.255.255.255",
+   "192.248.16.0",
+   "255.255.255.224",
+   "255.255.255.128",
+   "255.255.255.255"
+  ]
+ },
+ {
+  "n": 39,
+  "d": "2025 Q01",
+  "q": "Which of the following is a correct IPv4 address?",
+  "qs": "පහත සඳහන් කවරක් නිවැරදි IPv4 ලිපිනයක් වන්නේ ද?",
+  "o": [
+   "192.248.0.0.1",
+   "192.258.2.1",
+   "8.8.8.8",
+   "10.256.8.9",
+   "255.255.255.268"
+  ]
+ },
+ {
+  "n": 40,
+  "d": "2025 Q02",
+  "q": "User Datagram Protocol (UDP) is a ................ layer protocol.\nWhich of the following layers is the most suitable to fill the blank in the above statement?",
+  "qs": "User Datagram Protocol (UDP) යනු ................ ස්තර නියමාවලියකි.\nඉහත වැකියේ හිස්තැන පිරවීම සඳහා වඩාත් ම සුදුසු වන්නේ පහත ස්තර අතුරෙන් කුමක් ද?",
+  "o": [
+   "physical",
+   "data link",
+   "network",
+   "transport",
+   "application"
+  ],
+  "os": [
+   "භෞතික",
+   "දත්ත සන්ධාන",
+   "ජාල",
+   "ප්‍රවාහන",
+   "යෙදුම්"
+  ]
+ },
+ {
+  "n": 41,
+  "d": "2025 Q03",
+  "q": "Local Area Network (LAN) has 500 network devices. What is the most appropriate subnet mask for this computer network?",
+  "qs": "ස්ථානීය පෙදෙස් ජාලයක ජාල උපකරණ 500 ක් තිබේ. එම පරිගණක ජාලය සඳහා ම සුදුසු උපජාල ආවරණය කුමක් ද?",
+  "o": [
+   "255.255.255.0",
+   "255.255.255.128",
+   "255.255.255.192",
+   "255.255.255.224",
+   "255.255.254.0"
+  ]
+ },
+ {
+  "n": 42,
+  "d": "2011 Q01",
+  "q": "Consider the following statements regarding routing in IP networks:\nA - All routers must use a DNS server for IP packet forwarding.\nB - Routers must forward all receiving IP packets along the same path.\nC - A router may discard an IP packet.\nWhich of the above statement(s) is/are correct?",
+  "qs": "IP ජාලවල මං හැසිරවීම සම්බන්ධයෙන් පහත දී ඇති වගන්ති සලකන්න:\nA - සියලු මංහසුරු IP පැකැට්ටු ඉදිරියට යැවීම සඳහා DNS සේවාදායකයක් භාවිතා කළ යුතුම ය.\nB - මංහසුරුවලට ලැබෙන සියලු IP පැකැට්ටු එකම මාර්ගය ඔස්සේ ම ඉදිරියට යැවිය යුතුම ය.\nC - මංහසුරුවකට IP පැකැට්ටුවක් ඉවත දැමිය හැකි ය.\nඉහත වගන්ති අතුරෙන් නිවැරදි වන්නේ කවරක් ද?",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and B only",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා B පමණි",
+   "B හා C පමණි"
+  ]
+ },
+ {
+  "n": 43,
+  "d": "2011 Q02",
+  "q": "In a public key cryptographic system, the private key of a person x is given by the function priv(x) and the public key is given by the function pub(x). Consider the following statements:\nA - priv(x) and pub(x) should be the same for better security.\nB - A message encrypted using pub(x) can be decrypted using pub(x).\nC - The person x knows both priv(x) and pub(x).\nWhich of the above statement(s) is/are correct?",
+  "qs": "පොදු යතුරු ගුප්ත කේතන පද්ධතියක x නම් පුද්ගලයෙකුගේ පෞද්ගලික යතුර priv(x) යන ශ්‍රිතය මගින් හා පොදු යතුර pub(x) යන ශ්‍රිතය මගින් දෙනු ලැබේ. පහත වගන්ති සලකන්න:\nA - වඩා හොඳ ආරක්ෂාවක් සඳහා priv(x) හා pub(x) යන දෙක ම එකක් විය යුතු ය.\nB - pub(x) භාවිත කර ගුප්ත කේතනය කරන ලද පණිවුඩයක් pub(x) භාවිත කර විකේතනය කළ හැකි ය.\nC - x නම් පුද්ගලයා priv(x) හා pub(x) යන දෙක ම දැන සිටී.\nඉහත වගන්ති අතුරෙන් නිවැරදි වන්නේ කවරක් ද?",
+  "o": [
+   "A only",
+   "C only",
+   "A and B only",
+   "A and C only",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "C පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි"
+  ]
+ },
+ {
+  "n": 44,
+  "d": "2011 Q03",
+  "q": "In electronic mail systems, the protocol used by mail clients to retrieve messages from the mail server is,",
+  "qs": "විද්‍යුත් තැපැල් පද්ධතිවල තැපැල් සේවාදායකයෙන් පණිවිඩ ලබා ගැනීම සඳහා තැපැල් සේවාග්‍රාහක භාවිත කරන නියමාවලිය වනුයේ,",
+  "o": [
+   "Simple Mail Transfer Protocol (SMTP)",
+   "File Transfer Protocol (FTP)",
+   "Internet Control Message Protocol (ICMP)",
+   "Internet Message Access Protocol (IMAP)",
+   "Telnet"
+  ]
+ },
+ {
+  "n": 45,
+  "d": "2011 Q29",
+  "q": "The transport layer protocol User Datagram Protocol (UDP) can be used for is,",
+  "qs": "User Datagram Protocol (UDP) නම් ප්‍රවාහන ස්ථර නියමාවලිය .............................. සඳහා භාවිත කළ හැකිය. ඉහත වගන්තියේ හිස්තැන පිරවීම සඳහා වඩාත් සුදුසු වන්නේ පහත කවරක් ද?",
+  "o": [
+   "reliable communication",
+   "guaranteed delivery",
+   "connection oriented communication",
+   "ordered delivery",
+   "exchanging state information among routers."
+  ],
+  "os": [
+   "විශ්වසනීය සන්නිවේදනය",
+   "සහතික කරන ලද බෙදා හැරීම",
+   "සම්බන්ධනාහිමුඛ සන්නිවේදනය",
+   "ක්‍රමානුකූල බෙදා හැරීම",
+   "මංහසුරු අතර තත්ත්ව තොරතුරු හුවමාරු කිරීම"
+  ]
+ },
+ {
+  "n": 46,
+  "d": "2011 Q30",
+  "q": "The first and the last IP addresses of a subnet are 192.192.48.0 and 192.192.63.255 respectively. Which of the followings is the subnet mask of this subnet?",
+  "qs": "උපජාලයක පළමු සහ අවසාන IP ලිපින පිළිවෙළින් 192.192.48.0 සහ 192.192.63.255 වේ. මෙම උපජාලයේ උපජාල ආවරණය වන්නේ පහත දැක්වෙන දෑ අතුරෙන් කුමක් ද?",
+  "o": [
+   "255.255.255.0",
+   "255.255.192.0",
+   "255.255.255.192",
+   "255.255.240.0",
+   "255.240.0.0"
+  ]
+ },
+ {
+  "n": 47,
+  "d": "2011 Q33",
+  "q": "Which of the following statements regarding MAC addresses is correct?",
+  "qs": "MAC ලිපින සම්බන්ධයෙන් පහත දැක්වෙන වගන්ති අතුරෙන් කවරක් නිවැරදි වේ ද?",
+  "o": [
+   "Every network device has a unique MAC address.",
+   "Every network host has a unique MAC address.",
+   "Every network interface has a unique MAC address.",
+   "It is assigned for a device at the time of installation.",
+   "It is used for routing."
+  ],
+  "os": [
+   "සෑම ජාල උපාංගයකට ම අනන්‍ය MAC ලිපිනයක් ඇත.",
+   "සෑම ජාල සංග්‍රාහකයකට ම අනන්‍ය MAC ලිපිනයක් ඇත.",
+   "සෑම ජාල අතුරුමුහුණතකට අනන්‍ය MAC ලිපිනයක් ඇත.",
+   "එය උපාංගයක් ස්ථාපනය කරන අවස්ථාවේ දී පවරනු ලබයි.",
+   "එය මං හැසිරවීම සඳහා භාවිත කරයි."
+  ]
+ },
+ {
+  "n": 48,
+  "d": "2012 Q01",
+  "q": "172.16.48.200/24 is a,",
+  "qs": "172.16.48.200/24 යනු",
+  "o": [
+   "host address in a class B network.",
+   "network address of a class C network.",
+   "host address in 172.16.48.0/24 subnet.",
+   "network address of a subnet with 255 hosts.",
+   "host address with 8 network bits."
+  ],
+  "os": [
+   "B පන්තියේ ජාලයක සංග්‍රාහක ලිපිනයක් වේ.",
+   "C පන්තියේ ජාලයක ජාල ලිපිනයක් වේ.",
+   "172.16.48.0/24 උපජාලය තුළ සංග්‍රාහක ලිපිනයක් වේ.",
+   "සංග්‍රාහක 255 කින් යුත් උපජාලයක ජාල ලිපිනයක් වේ.",
+   "ජාල බිටු 8 කින් යුත් සංග්‍රාහක ලිපිනයක් වේ."
+  ]
+ },
+ {
+  "n": 49,
+  "d": "2012 Q02",
+  "q": "In TCP/IP computer networks, Transport Protocol Data Unit (TPDU) is referred to as a,",
+  "qs": "TCP/IP පරිගණක ජාලය තුළ Transport Protocol Data Unit (TPDU) ලෙස සඳහන් වනුයේ,",
+  "o": [
+   "packet",
+   "frame",
+   "segment",
+   "window",
+   "message"
+  ],
+  "os": [
+   "පැකැට්ටුවක් ය.",
+   "රාමුවක් ය.",
+   "කොටසක් ය.",
+   "කවුළුවක් ය.",
+   "පණිවිඩයක් ය."
+  ]
+ },
+ {
+  "n": 50,
+  "d": "2012 Q03",
+  "q": "Consider the following statements.\nA - In public key encryption systems each pair of communicating entities share a single key for encryption and decryption.\nB - Phishing is a type of social engineering attack often used to steal user data such as user name and password.\nC - Port scanning is a method which can be used by attackers to identify open ports or services on a network host.\nD - Digital signatures can be used for email message authentication.\nWhich of the above statements are correct?",
+  "qs": "පහත දැක්වෙන ප්‍රකාශ සලකන්න.\nA - පොදු යතුරු ගුප්ත කේතන පද්ධතිවල සන්නිවේදනයේ යෙදෙන, එක් එක් භූමාර්ථ යුගල ගුප්ත කේතනය හා විකේතනය සඳහා තනි යතුරක් හවුලේ භාවිත කරයි.\nB - තනි බවම යනු බොහෝ විට පරිශීලක නම සහ මුරපදය වැනි පරිශීලක දත්ත සොරා ගැනීමට යොදා ගනෙන සමාජ ඉංජිනේරු ප්‍රහාර වර්ගයකි.\nC - කවුළු පරිලෝකනය යනු ප්‍රහාරකයන් විසින් ජාල සත්කාරකයක ඇති විවෘත කවුළු හෝ සේවාවන් හඳුනා ගැනීම සඳහා භාවිත කෙරෙන ක්‍රමයකි.\nD - සංඛ්‍යාංක අත්සන් විද්‍යුත් තැපැල් පණිවුඩ සත්‍යාපනය කිරීම සඳහා භාවිත කෙරේ.\nඉහත ප්‍රකාශ කවරක් නිවැරදි වේ ද?",
+  "o": [
+   "B and C only.",
+   "A, B and C only.",
+   "A, C and D only.",
+   "B, C and D only.",
+   "All of the above."
+  ],
+  "os": [
+   "B හා C පමණි.",
+   "A, B හා C පමණි.",
+   "A, C හා D පමණි.",
+   "B, C හා D පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 51,
+  "d": "2012 Q28",
+  "q": "Consider the following statements.\nA - DHCP server in an IP network dynamically allocates IP addresses to network devices.\nB - DNS server translates domain names to IP addresses.\nC - FTP server caches the recently accessed web pages.\nWhich of the above statement(s) is/are correct?",
+  "qs": "පහත ප්‍රකාශ සලකන්න.\nA - IP ජාලයක ඇති DHCP සේවාදායක ජාල උපක්‍රම සඳහා IP ලිපින ගතිකව වෙන් කරයි.\nB - DNS සේවාදායකය වසම් නාම IP ලිපිනවලට පරිවර්තනය කරයි.\nC - FTP සේවාදායකය මෑතදී ප්‍රවේශ වන ලද වෙබ් පිටු නිහිත කරයි.\nඉහත ප්‍රකාශ කවරක් නිවැරදි වේ ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "A and B only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "A හා B පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 52,
+  "d": "2012 Q29",
+  "q": "Consider the following statements.\nA - TCP is a connection oriented and a reliable protocol.\nB - UDP is a connectionless and an unreliable protocol.\nC - TCP and UDP are transport layer protocols.\nWhich of the above statement(s) is/are correct?",
+  "qs": "පහත ප්‍රකාශ සලකන්න.\nA - TCP යනු සම්බන්ධතා නැඹුරු විශ්වාස සහගත නියමාවලියකි.\nB - UDP යනු සම්බන්ධතා රහිත විශ්වාසයෙන් තොර නියමාවලියකි.\nC - TCP සහ UDP යනු ප්‍රවාහන ස්ථරයේහි නියමාවලි වේ.\nඉහත ප්‍රකාශ කවරක් නිවැරදි වේ ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "A and B only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "A හා B පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 53,
+  "d": "2013 Q03",
+  "q": "In the OSI reference model, the network layer is responsible for ............................ communication.\nWhich of the following is suitable to fill the blank in the above statement?",
+  "qs": "OSI සම්දේශ ආකෘතියෙහි ජාල ස්ථරය ............................ සන්නිවේදනය සඳහා දායක වේ. ඉහත ප්‍රකාශයෙහි හිස්තැන පිරවීමට පහත කවරක් යෝග්‍ය වේ ද?",
+  "o": [
+   "node to node",
+   "source to destination",
+   "hop to hop",
+   "switch to router",
+   "process to process"
+  ],
+  "os": [
+   "ජාල අගයේ සිට පුරුකයට",
+   "ප්‍රභවයේ සිට ගමනාන්තයට",
+   "පිම්මෙන් පිම්මට",
+   "ස්විචයෙහි සිට මාර්ගකාරකයට",
+   "ක්‍රියාවලියෙන් ක්‍රියාවලියට"
+  ]
+ },
+ {
+  "n": 54,
+  "d": "2013 Q04",
+  "q": "Which of the following indicates the number of host bits and the number of IP addresses respectively in a class C network?",
+  "qs": "පහත කවරක් C පන්තියේ ජාලයක ඇති සත්කාරක බිටු ගණන සහ IP ලිපින ගණන පිළිවෙළින් දක්වයි ද?",
+  "o": [
+   "8, 256",
+   "8, 65536",
+   "16, 256",
+   "16, 65536",
+   "24, 256"
+  ]
+ },
+ {
+  "n": 55,
+  "d": "2013 Q05",
+  "q": "To which of the following network classes does the IP address 192.248.254.1 belong?",
+  "qs": "පහත දැක්වෙන කුමන ජාල පන්තියකට 192.248.254.1 යන IP ලිපිනය අයත් වේ ද?",
+  "o": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ]
+ },
+ {
+  "n": 56,
+  "d": "2013 Q07",
+  "q": "In the OSI reference model, a protocol data unit of the network layer is referred to as a ............................\nWhich of the following terms is suitable to fill the blank in the above statement?",
+  "qs": "OSI සම්දේශ ආකෘතියේ ජාල ස්ථරයේහි නියමාවලි දත්ත ඒකකයක් ............................ ක් ලෙස හැඳින්වේ. මෙම ප්‍රකාශයෙහි හිස්තැන පිරවීමට පහත කවරක් සුදුසු වේ ද?",
+  "o": [
+   "frame",
+   "segment",
+   "window",
+   "message",
+   "packet"
+  ],
+  "os": [
+   "රාමුව",
+   "ඛණ්ඩය",
+   "කවුළුව",
+   "පණිවිඩය",
+   "පැකැට්ටුව"
+  ]
+ },
+ {
+  "n": 57,
+  "d": "2013 Q08",
+  "q": "Use of public key and private key in encryption and decryption processes is called,",
+  "qs": "පොදු යතුර සහ පෞද්ගලික යතුර භාවිතයෙන් සිදු කෙරෙන ගුප්ත කේතනය සහ ගුප්ත විකේතනය හඳුන්වනු ලබන්නේ,",
+  "o": [
+   "asymmetric encryption",
+   "digital encryption",
+   "hybrid encryption",
+   "private key encryption",
+   "symmetric encryption"
+  ],
+  "os": [
+   "අසමමිතික ගුප්ත කේතනය ලෙස ය.",
+   "සංඛ්‍යාංක ගුප්ත කේතනය ලෙස ය.",
+   "දෙමුහුම් ගුප්ත කේතනය ලෙස ය.",
+   "පෞද්ගලික යතුරු ගුප්ත කේතනය ලෙස ය.",
+   "සමමිතික ගුප්ත කේතනය ලෙස ය."
+  ]
+ },
+ {
+  "n": 58,
+  "d": "2013 Q34",
+  "q": "In a particular network, each node is connected directly to a central network device. This topology is referred to as a,",
+  "qs": "එක්තරා පරිගණක ජාලයක සෑම නෝඩුවක්ම මධ්‍යගත ජාල උපක්‍රමයකට සෘජුවම සම්බන්ධ කර ඇත. මෙවැනි ස්ථලකයක් හඳුන්වනු ලබන්නේ,",
+  "o": [
+   "bus",
+   "hybrid",
+   "mesh",
+   "ring",
+   "Star"
+  ],
+  "os": [
+   "බස් ස්ථලකයක් ලෙස ය.",
+   "දෙමුහුම් ස්ථලකයක් ලෙස ය.",
+   "දැල් ස්ථලකයක් ලෙස ය.",
+   "මුදු ස්ථලකයක් ලෙස ය.",
+   "තාරකා ස්ථලකයක් ලෙස ය."
+  ]
+ },
+ {
+  "n": 59,
+  "d": "2014 Q01",
+  "q": "Which of the following are the properties of a signal?",
+  "qs": "පහත කවරක් සංඥාවක ගුණ වන්නේ ද?",
+  "o": [
+   "Amplitude, Clock time, Frequency and Wavelength",
+   "Amplitude, Frequency, Phase and Time",
+   "Amplitude, Frequency, Phase and Wavelength",
+   "Amplitude, Frequency, Time and Wavelength",
+   "Amplitude, Impulse, Phase and Wavelength"
+  ],
+  "os": [
+   "විස්තාරය, ස්පන්දක වේගය, සංඛ්‍යාතය සහ තරංග ආයාමය",
+   "විස්තාරය, සංඛ්‍යාතය, කලාව සහ කාලය",
+   "විස්තාරය, සංඛ්‍යාතය, කලාව සහ තරංග ආයාමය",
+   "විස්තාරය, සංඛ්‍යාතය, කාලය සහ තරංග ආයාමය",
+   "විස්තාරය, ආවේගය, කලාව සහ තරංග ආයාමය"
+  ]
+ },
+ {
+  "n": 60,
+  "d": "2014 Q02",
+  "q": "Which of the following options contains only guided media?",
+  "qs": "පහත කුමන වරණයෙහි නියමු මාධ්‍ය පමණක් අන්තර්ගත වේ ද?",
+  "o": [
+   "Coaxial, Fiber optics and Infrared",
+   "Coaxial, Fiber optics and Microwave",
+   "Coaxial, Fiber optics and Twisted pair",
+   "Coaxial, Infrared and Twisted pair",
+   "Fiber optics, Satellite communication and Twisted pair"
+  ],
+  "os": [
+   "සමාක්ෂ, ප්‍රකාශ තන්තු සහ අධෝරක්ත",
+   "සමාක්ෂ, ප්‍රකාශ තන්තු සහ ක්ෂුද්‍ර තරංග",
+   "සමාක්ෂ, ප්‍රකාශ තන්තු සහ ඇඹරි යුගල",
+   "සමාක්ෂ, අධෝරක්ත සහ ඇඹරි යුගල",
+   "ප්‍රකාශ තන්තු, චන්ද්‍රිකා සන්නිවේදනය සහ ඇඹරි යුගල"
+  ]
+ },
+ {
+  "n": 61,
+  "d": "2014 Q14",
+  "q": "The frequency modulation technique is used to change only,",
+  "qs": "සංඛ්‍යාත මූර්ජන ශිල්ප ක්‍රමය භාවිතයෙන් වෙනස් කරනු ලබන්නේ,",
+  "o": [
+   "the amplitude and frequency",
+   "the amplitude, frequency and phase",
+   "the amplitude and phase",
+   "the frequency",
+   "the frequency and phase"
+  ],
+  "os": [
+   "විස්තාරය සහ සංඛ්‍යාතය පමණි.",
+   "විස්තාරය, සංඛ්‍යාතය සහ කලාව පමණි.",
+   "විස්තාරය සහ කලාව පමණි.",
+   "සංඛ්‍යාතය පමණි.",
+   "සංඛ්‍යාතය සහ කලාව පමණි."
+  ]
+ },
+ {
+  "n": 62,
+  "d": "2014 Q43",
+  "q": "Consider the following statements:\nA - A hub connects only the networked computers but a switch connects multiple devices.\nB - A switch manages the ports and the VLAN security settings.\nC - In data transmission, a hub uses bits while a switch uses frames and packets.\nD - The data transmission speed in a hub is higher than that in a switch.\nWhich of the above statements are correct?",
+  "qs": "පහත ප්‍රකාශ සලකන්න:\nA - නාභිය මගින් ජාලගත පරිගණක පමණක් සම්බන්ධ කෙරෙන අතර ස්විචය මගින් බහුවිධ උපක්‍රම සම්බන්ධ කෙරේ.\nB - ස්විචය මගින් කෙවළි සහ එයින් හි ආරක්ෂිත පිහිටුම් කළමනාකරණය කෙරේ.\nC - දත්ත සම්ප්‍රේෂණයේ දී නාභිය විසින් බිටු භාවිතා කෙරෙන අතර, ස්විචය මගින් රාමු සහ පොදි භාවිත කෙරේ.\nD - නාභියෙහි දත්ත සම්ප්‍රේෂණ වේගය ස්විචයේ එම අගයට වඩා වැඩි වේ.\nඉහත ප්‍රකාශ කවරක් නිවැරදි වේ ද?",
+  "o": [
+   "A, B and C only.",
+   "A, B and D only.",
+   "A, C and D only.",
+   "B, C and D only.",
+   "All of the above."
+  ],
+  "os": [
+   "A, B හා C පමණි.",
+   "A, B හා D පමණි.",
+   "A, C හා D පමණි.",
+   "B, C හා D පමණි.",
+   "ඉහත සියල්ලම්."
+  ]
+ },
+ {
+  "n": 63,
+  "d": "2015 Q01",
+  "q": "Consider the following statements about the proxy server:\nA - It helps to hide the true IP address.\nB - It is used to restrict the access of the website in the network.\nC - It uses the cached data for the quick loading of regularly accessed websites.\nD - It helps to detect the locations of the visitors and load web pages as per their needs.\nWhich of the above statements are correct?",
+  "qs": "නියෝජ්ය සේවාදායකය පිළිබඳ පහත දැක්වෙන ප්‍රකාශ සලකන්න:\nA - එය සත්‍ය IP ලිපිනය සැඟවීමට උපකාරී වේ.\nB - එය ජාලයක ඇති වෙබ් අඩවියකට ප්‍රවේශ සීමා කිරීමට භාවිත කෙරේ.\nC - එය නිරතුරුව ප්‍රවේශ වන වෙබ් අඩවි ඉක්මනින් පූරණය කිරීම සඳහා නිහිත දත්ත භාවිත කරයි.\nD - එය ආගන්තුකයන් සිටින ස්ථානය සොයා දැනගෙන ඔවුන්ගේ අවශ්‍යතා අනුව වෙබ් පිටු ප්‍රවේශ කිරීමට උපකාරී වේ.\nඉහත ප්‍රකාශ කවරක් නිවැරදි වේ ද?",
+  "o": [
+   "A, B and C only.",
+   "A, B and D only.",
+   "A, C and D only.",
+   "B, C and D only.",
+   "All of the above."
+  ],
+  "os": [
+   "A, B හා C පමණි.",
+   "A, B හා D පමණි.",
+   "A, C හා D පමණි.",
+   "B, C හා D පමණි.",
+   "ඉහත සියල්ලම්."
+  ]
+ },
+ {
+  "n": 64,
+  "d": "2015 Q02",
+  "q": "Which of the following statements regarding guided and unguided media are correct?\nA - Guided media transmission supports higher data speeds than unguided media transmission.\nB - Guided media is subjected to less interference than unguided media.\nC - Unguided media transmission is more secure than guided media transmission.\nD - Unguided media transmission uses low bandwidth than guided media transmission.",
+  "qs": "නියමු මාධ්‍ය සහ නියමු නොවන මාධ්‍ය සම්බන්ධයෙන් පහත කවර වගන්ති සත්‍ය වේ ද?\nA - නියමු මාධ්‍යවල සම්ප්‍රේෂණය, නියමු නොවන මාධ්‍යවල සම්ප්‍රේෂණයට වඩා ඉහළ දත්ත වේග ලබාගැනීමට ඉවහල්වේ.\nB - නියමු මාධ්‍ය, නියමු නොවන මාධ්‍යවලට වඩා අඩු බාධාවකට බඳුන් වේ.\nC - නියමු නොවන මාධ්‍යවල සම්ප්‍රේෂණය, නියමු මාධ්‍යවල සම්ප්‍රේෂණයට වඩා ආරක්ෂාකාරී වේ.\nD - නියමු නොවන මාධ්‍යවල සම්ප්‍රේෂණය, නියමු මාධ්‍යවල සම්ප්‍රේෂණයට වඩා අඩු කලාප පළලක් භාවිත කරයි.",
+  "o": [
+   "A, B and C only.",
+   "A, B and D only.",
+   "A, C and D only.",
+   "B, C and D only.",
+   "All of the above."
+  ],
+  "os": [
+   "A, B හා C පමණි.",
+   "A, B හා D පමණි.",
+   "A, C හා D පමණි.",
+   "B, C හා D පමණි.",
+   "ඉහත සියල්ලම්."
+  ]
+ },
+ {
+  "n": 65,
+  "d": "2015 Q05",
+  "q": "What is the process carried-out in the modulation technique in data transmission?",
+  "qs": "දත්ත සම්ප්‍රේෂණයෙහි ඇති මූර්ජන තාක්ෂණයේ දී සිදු කෙරෙන ක්‍රියාවලිය කුමක් ද?",
+  "o": [
+   "encoding information in transmitted signal.",
+   "encoding signals in transmitted information.",
+   "extracting information from the transmitted signal.",
+   "extracting signal from the transmitted information.",
+   "transfer information with minimum distortion."
+  ],
+  "os": [
+   "සම්ප්‍රේෂණය කරන ලද සංඥාවෙහි තොරතුරු කේතනය කිරීම.",
+   "සම්ප්‍රේෂණය කරන ලද තොරතුරුවල සංඥා කේතනය කිරීම.",
+   "සම්ප්‍රේෂණය කරන ලද සංඥාවෙන් තොරතුරු ලබාගැනීම.",
+   "සම්ප්‍රේෂණය කරන ලද තොරතුරුවලින් සංඥාව ලබාගැනීම.",
+   "අවම විකෘතියක් සහිතව තොරතුරු හුවමාරු කිරීම."
+  ]
+ },
+ {
+  "n": 66,
+  "d": "2015 Q08",
+  "q": "Which of the following statements about bus topology are incorrect?\nA - Computers and network devices are connected to a single cable.\nB - All traffic flows are either clockwise or anticlockwise.\nC - Bandwidth is shared among the nodes.\nD - Each node is connected to two of its neighbors.",
+  "qs": "බස් ස්ථලකය පිළිබඳ පහත කවර වගන්ති සාවද්‍ය වේ ද?\nA - පරිගණක සහ ජාල උපක්‍රම තනි රැහැනකට සම්බන්ධ කර ඇත.\nB - සියලු ම ගමනාගමන දක්ෂිණාවර්තව හෝ වාමාවර්තව හෝ සිදු වේ.\nC - කලාප පළල නෝඩු අතර හවුලේ බෙදා ගැනේ.\nD - සෑම නෝඩුවක්ම තමන්ගේ අසල්වැසියන් දෙදෙනාට සම්බන්ධ කර ඇත.",
+  "o": [
+   "A and B only.",
+   "A and D only.",
+   "B and C only.",
+   "B and D only.",
+   "C and D only."
+  ],
+  "os": [
+   "A හා B පමණි.",
+   "A හා D පමණි.",
+   "B හා C පමණි.",
+   "B හා D පමණි.",
+   "C හා D පමණි."
+  ]
+ },
+ {
+  "n": 67,
+  "d": "2015 Q09",
+  "q": "Consider the following statement with a blank.\nA Media Access Control (MAC) address is usually represented in ....................... numbers.\nWhich of the following is suitable to fill the blank?",
+  "qs": "හිස්තැනක් සහිත පහත ප්‍රකාශය සලකන්න.\nමාධ්‍ය ප්‍රවේශ පාලන යොමු සාමාන්‍යයෙන් ............... අංකවලින් ඉදිරිපත් කෙරේ.\nහිස්තැන පිරවීමට සුදුසු වන්නේ පහත කවරක් ද?",
+  "o": [
+   "binary",
+   "decimal",
+   "hexadecimal",
+   "natural",
+   "octal"
+  ],
+  "os": [
+   "ද්විමය",
+   "දශම",
+   "ෂඩ් දශම",
+   "ස්වභාවික",
+   "අෂ්ටක"
+  ]
+ },
+ {
+  "n": 68,
+  "d": "2015 Q26",
+  "q": "You are requested to create 16 subnets with a Class C IP. Which subnet mask is suited to create the subnet?",
+  "qs": "ඔබ විසින් C පන්තියෙහි අන්තර්ගත නියමාවලියක් සහිත උපජාල 16 ක් නිර්මාණය කළ යුතුව ඇත. මෙම උපජාල නිර්මාණ කිරීම සඳහා පහත දැක්වෙන කුමන උපජාල ආවරණය සුදුසු වේ ද?",
+  "o": [
+   "255.255.255.240",
+   "255.255.255.248",
+   "255.255.255.250",
+   "255.255.255.252",
+   "255.255.255.224"
+  ]
+ },
+ {
+  "n": 69,
+  "d": "2016 Q01",
+  "q": "Which of the following could be used to digitally represent analog signals?",
+  "qs": "ප්‍රතිසම සංඥා, අංකිත ලෙස නිරූපණය කිරීමට පහත කවරක් භාවිත කළ හැකි ද?",
+  "o": [
+   "attenuation",
+   "decoding",
+   "distortion",
+   "pulse code modulation",
+   "synchronization"
+  ],
+  "os": [
+   "වැහැරීම",
+   "විකේතනය",
+   "විකෘතිය",
+   "ස්පන්දන කේත මූර්ජනය",
+   "සම්මුහූර්තකරණය"
+  ]
+ },
+ {
+  "n": 70,
+  "d": "2016 Q02",
+  "q": "Which of the following is/are correct with respect to a digital signal?\nA - denoted by a square wave.\nB - contains a continuous range of values.\nC - uses discrete values to represent information.",
+  "qs": "අංකිත සංඥාවක් සම්බන්ධයෙන් පහත කවරක් නිවැරදි වේ ද?\nA - චතුරස්‍ර තරංගයක් මගින් නිරූපණය වේ.\nB - සන්නතික අගය පරාසයකින් සමන්විත වේ.\nC - තොරතුරු නියෝජනය සඳහා වෙන් වූ, විචිත්‍ර අගයයන් භාවිත කරයි.",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "A and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි."
+  ]
+ },
+ {
+  "n": 71,
+  "d": "2016 Q06",
+  "q": "Which of the following is/are correct with respect to guided media used for data transmission?\nA - a physical path is used for data transmission.\nB - signal is broadcast through air.\nC - Example: radio waves",
+  "qs": "දත්ත සම්ප්‍රේෂණයෙහිදී භාවිතවන නියමු මාධ්‍ය සම්බන්ධයෙන් පහත කවරක් නිවැරදි වන්නේ ද?\nA - දත්ත සම්ප්‍රේෂණයට භෞතික පථයක් භාවිත වේ.\nB - සංඥාව වායුගෝලය හරහා විකාශනය කෙරේ.\nC - උදා: ගුවන් විදුලි තරංග",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 72,
+  "d": "2016 Q26",
+  "q": "Read the following sentence.\nWhen devices send and receive data over a network, a protocol is used uniquely identify the sender interface and the correct delivery of the data to the receiver's interface.\nWhat is the protocol that the writer in above sentence is referring to?",
+  "qs": "පහත වගන්තිය කියවන්න.\nජාලයක් හරහා උපාංගවලින් දත්ත යැවීමේ හා ලැබීම සිදුවන විට, වෙන්නාගේ අතුරුමුහුණත අනන්‍යව හඳුනාගැනීමට හා ග්‍රාහකයාගේ අතුරුමුහුණතට නිවැරදිව දත්ත ප්‍රකාශනය කිරීමට නියමාවලියක් යොදාගැනේ.\nඉහත වගන්තියේ රචකයා අදහස් කරන නියමාවලිය කුමක් ද?",
+  "o": [
+   "FTP",
+   "HTTP",
+   "MAC",
+   "TCP",
+   "UDP"
+  ]
+ },
+ {
+  "n": 73,
+  "d": "2016 Q35",
+  "q": "Given below are some characteristics of Transmission Control Protocol (TCP) and User Datagram Protocol (UDP).\nA - best suited for applications that need high reliability and where the transmission time is less critical.\nB - faster and requires fewer resources.\nC - guarantees that no packets are missing.\nD - packets may not arrive in order.\nE - used for voice communications over internet.\nWhich of the above are the characteristics of UDP?",
+  "qs": "පහත දී ඇත්තේ සම්ප්‍රේෂණ පාලන නියමාවලිය (TCP) සහ පරිශීලක දත්ත ප්‍රස්තාර නියමාවලියේ (UDP) ලක්ෂණ කිහිපයකි:\nA - ඉහළ විශ්වසනීයත්වයක් සහ සම්ප්‍රේෂණ කාලය එතරම් වැදගත් නොවන යෙදුම් සඳහා ඉතා යෝග්‍ය වේ.\nB - වේගවත් හා සම්පත් ප්‍රමාණයක් අඩු අවශ්‍ය වේ.\nC - කිසිදු පොදියක් නැති නොවන බවට සහතික වේ.\nD - පොදි අනුපිළිවෙළට නොලැබීමට ඉඩ ඇත.\nE - අන්තර්ජාලය හරහා කටහඬ සන්නිවේදනයට භාවිත වේ.\nඉහත වීයාවන් UDP හි ලක්ෂණ වන්නේ මොනවා ද?",
+  "o": [
+   "A, B and C only.",
+   "A, C and E only.",
+   "A, D and E only.",
+   "B, C and D only.",
+   "B, D and E only."
+  ],
+  "os": [
+   "A, B හා C පමණි.",
+   "A, C හා E පමණි.",
+   "A, D හා E පමණි.",
+   "B, C හා D පමණි.",
+   "B, D හා E පමණි."
+  ]
+ },
+ {
+  "n": 74,
+  "d": "2017 Q01",
+  "q": "Which of the following is/are examples for the use of Client-Server model?\nA - A user printing a document using a printer connected to her computer.\nB - A bank customer accessing online banking services with a web browser.\nC - A cashier of a shop that accepts payments by credit cards.",
+  "qs": "සේවායෝජක-සේවාදායක ආකෘතියේ භාවිතය සඳහා උදාහරණ වන්නේ මොනවා ද?\nA - තම පරිගණකයට සම්බන්ධ කර ඇති මුද්‍රකයක් මගින් පරිශීලකයෙකු ලේඛනයක් මුද්‍රණය කිරීම.\nB - බැංකු ගනුදෙනුකරුවෙකු වෙබ් බ්‍රවුසරයක් හරහා මාර්ගගත බැංකු සේවාවන් වෙත පිවිසීම.\nC - සාප්පුවක මුදල් අයකැම් විසින් ණයපත් මගින් කරන ගෙවීම් භාරගැනීම.",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and C only",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි"
+  ]
+ },
+ {
+  "n": 75,
+  "d": "2017 Q02",
+  "q": "Sender A wants to send the message HELLO to receiver B. Before sending the message, it is converted to IFMMP. Which of the following is correct with respect to this scenario?\nA - HELLO is the plaintext while IFMMP is the ciphertext.\nB - IFMMP is the result of applying the ASCII code to HELLO.\nC - +1 is the encryption key while -1 is the decryption key.",
+  "qs": "HELLO යන පණිවුඩය B වෙත යැවීමට A ට අවශ්‍ය ය. එම පණිවුඩය යැවීමට පෙර එය IFMMP බවට හරවනු ලැබේ. මෙම අවස්ථාවට අදාළව පහත කවරක් නිවැරදි ද?\nA - HELLO සරල පෙළ වන අතර IFMMP කේතික පෙළ වේ.\nB - IFMMP යනු HELLO මත ASCII කේතය යෙදූ විට ලැබෙන ප්‍රතිඵලයයි.\nC - කේතන යතුර +1 වන අතර විකේතන යතුර -1 වේ.",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 76,
+  "d": "2017 Q05",
+  "q": "Consider the following paragraph with three blanks labelled A, B and C:\nWhen there are multiple computers in an office, each computer can be given a private IP address. The router in the office gets a .....A..... IP address, and each of the computers connected to that router through guided/unguided media gets a private IP address from the .....B..... via the ....C.... protocol.\nWhich of the following is the correct combination for the blanks A, B and C?",
+  "qs": "A, B සහ C ලෙස හිස්තැන් තුනක් සහිත පහත ජේදය සලකන්න.\nකාර්යාලයක පරිගණක කිහිපයක් ඇති විට, එම එක් එක් පරිගණකයට පෞද්ගලික IP ලිපියක් දිය හැක. කාර්යාලයේ මං හසුරුවට ......A...... IP ලිපියක් ලැබෙන අතර, නියමු/ නියමු නොවන මාධ්‍ය හරහා එම මං හසුරුවට සම්බන්ධ අනෙකුත් එක් එක් පරිගණකයට, ......B...... වෙතින් ......C...... නියමාවලිය හරහා පෞද්ගලික IP ලිපියක් ලබා දේ.\nඉහත A, B සහ C හිස්තැන්වලට සුදුසු නිවැරදි සංයෝජනය පහත කවරක් ද?",
+  "o": [
+   "A - private, B - file server, C - HTTP",
+   "A - private, B - Internet, C - DHCP",
+   "A - private, B - router, C - FTP",
+   "A - public, B - file server, C - FTP",
+   "A - public, B - router, C - DHCP"
+  ],
+  "os": [
+   "A - පෞද්ගලික, B - ගොනු සේවාදායකය, C - HTTP",
+   "A - පෞද්ගලික, B - අන්තර්ජාලය, C - DHCP",
+   "A - පෞද්ගලික, B - මං හසුරුව, C - FTP",
+   "A - පොදු, B - ගොනු සේවාදායකය, C - FTP",
+   "A - පොදු, B - මං හසුරුව, C - DHCP"
+  ]
+ },
+ {
+  "n": 77,
+  "d": "2017 Q06",
+  "q": "An organization with the assigned IP address block 193.1.1.0/24 needs to define eight subnets. Each subnet should provide for more than 25 IP addresses. Which of the following correctly lists the number of bits needed to identify the given network, the total number of bits needed to identify the subnets, and the number of bits needed to assign unique IP addresses for this requirement, respectively?",
+  "qs": "IP ලිපින 193.1.1.0/24 කාණ්ඩය පවරා ඇති සංවිධානයකට උපජාල අටක් සැදීමට අවශ්‍ය වේ. එක් එක් උපජාලය IP ලිපින 25කට වඩා සපයාදිය යුතු ය. දෙන ලද ජාලය හඳුනාගැනීමට අවශ්‍ය බිටු සංඛ්‍යාව, උපජාලය හඳුනාගැනීමට අවශ්‍ය මුළු බිටු සංඛ්‍යාව සහ අනන්‍ය IP ලිපින පැවරීමට අවශ්‍ය බිටු සංඛ්‍යාව නිවැරදිව පිළිවෙළින් ලැයිස්තුගත කර ඇත්තේ පහත සඳහන් කවරක් ද?",
+  "o": [
+   "24, 3, 5",
+   "24, 5, 3",
+   "24, 27, 5",
+   "27, 3, 5",
+   "27, 30, 2"
+  ]
+ },
+ {
+  "n": 78,
+  "d": "2017 Q07",
+  "q": "Which of the following are Transport Layer protocols of the TCP/IP stack?\nA - Transmission Control Protocol (TCP)\nB - User Datagram Protocol (UDP)\nC - File Transfer Protocol (FTP)\nD - Internet Protocol (IP)",
+  "qs": "TCP/IP ආකෘතියේ ප්‍රවාහන ස්ථරයේ නියමාවලි වන්නේ මොනවා ද?\nA - සම්ප්‍රේෂණ පාලන නියමාවලිය\nB - පරිශීලක දත්ත පණිවිඩ නියමාවලිය\nC - ගොනු හුවමාරු නියමාවලිය\nD - අන්තර්ජාල නියමාවලිය",
+  "o": [
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "B and D only.",
+   "All of the above"
+  ],
+  "os": [
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "B හා D පමණි.",
+   "ඉහත සියල්ලම"
+  ]
+ },
+ {
+  "n": 79,
+  "d": "2017 Q12",
+  "q": "Which of the following statements is/are correct about MAC and IPv4 addresses?\nA - MAC addresses are 32 bits in length and are used in the network layer.\nB - MAC addresses are 48 bits in length and are used in the datalink layer.\nC - IPv4 addresses are 32 bits in length and are used in the network layer.",
+  "qs": "MAC සහ IPv4 ලිපියොමු සම්බන්ධයෙන් පහත කවරක් නිවැරදි ද?\nA - MAC ලිපියොමුවල දිග බිටු 32 ක් වන අතර ඒවා ජාල ස්තරයේ භාවිත වේ.\nB - MAC ලිපියොමුවල දිග බිටු 48 ක් වන අතර ඒවා දත්ත සබැඳි ස්තරයේ භාවිත වේ.\nC - IPv4 ලිපියොමුවල දිග බිටු 32 ක් වන අතර ඒවා ජාල ස්තරයේ භාවිත වේ.",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and C only",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි"
+  ]
+ },
+ {
+  "n": 80,
+  "d": "2017 Q39",
+  "q": "Which of the following is/are correct regarding a firewall?\nA - It can monitor and filter outgoing traffic from an internal network.\nB - It protects a network from unauthorized accesses.\nC - It can be a hardware, a software or a combination of both.",
+  "qs": "ගිනිපවුරක් සම්බන්ධයෙන් පහත කවරක් නිවැරදි ද?\nA - එයට අභ්‍යන්තර ජාලයකින් පිටතට යන දත්ත ප්‍රවාහයන් නිරීක්ෂණය සහ පෙරීම සිදු කළ හැකි ය.\nB - එය ජාලයක් අනවසර ප්‍රවේශයන්ගෙන් ආරක්ෂා කිරීම සිදු කරයි.\nC - එය දෘඩාංගයක්, මෘදුකාංගයක් හෝ ඒ දෙකම හෝ විය හැකි ය.",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 81,
+  "d": "2018 Q04",
+  "q": "Which of the following statements is correct regarding network topologies?",
+  "qs": "ජාල ස්ථලක සම්බන්ධයෙන් පහත කුමන ප්‍රකාශය නිවැරදි ද?",
+  "o": [
+   "In bus topology, a central network hub is used to connect all nodes.",
+   "In star topology, a linear cable is used to connect all nodes.",
+   "In ring topology, messages are sent only clockwise.",
+   "In ring topology, each node is directly connected only to two of its neighbors.",
+   "In mesh topology, each node is always connected to one other node only."
+  ],
+  "os": [
+   "බස් ස්ථලකයේදී, සියලු ම නෝඩු සම්බන්ධ කිරීමට මධ්‍යගත ජාල නාභියක් භාවිත වේ.",
+   "තාරකා ස්ථලකයේදී, සියලු ම නෝඩු සම්බන්ධ කිරීමට රේඛීය කේබලයක් භාවිත වේ.",
+   "මුදු ස්ථලකයේදී, පණිවිඩ යවනු ලබන්නේ දක්ෂිණාවර්තව පමණි.",
+   "මුදු ස්ථලකයේදී, එක් එක් නෝඩුව සෘජුව සම්බන්ධ වන්නේ අසල්වැසි නෝඩු දෙකකට පමණි.",
+   "බැඳි ස්ථලකයේදී, එක් එක් නෝඩුව සැමවිටම තවත් එක් නෝඩුවකට පමණක් සම්බන්ධ වේ."
+  ]
+ },
+ {
+  "n": 82,
+  "d": "2018 Q12",
+  "q": "Consider the seven layer OSI reference model and match each of the given layers labeled from P to S to the corresponding responsibility of it labeled from 1 to 4.\n[Table: Layer | Responsibility]\nLayer (P) Application layer | 1 - binary transmission over the communication medium\nLayer (Q) Physical layer | 2 - route determination\nLayer (R) Transport layer | 3 - user services that include file transfer, remote access etc.\nLayer (S) Network Layer | 4 - data delivery from process to process\n(In the printed table the layers are listed A, B, C, D in that order, corresponding to P, Q, R, S in the options.)",
+  "qs": "ස්ථර හතකින් යුත් OSI ජාල ආකෘතිය සලකා පහත P සිට S දක්වා සලකුණු කරන ලද එක් එක් ස්ථරය 1 සිට 4 දක්වා සලකුණු කරන ලද එයට අදාළ වගකීම හා ගළපන්න.\nP - යෙදුම් ස්ථරය | 1 - සන්නිවේදන මාධ්‍ය හරහා ද්වීමය සම්ප්‍රේෂණය\nQ - භෞතික ස්ථරය | 2 - මං නිර්ණය\nR - ප්‍රවාහන ස්ථරය | 3 - ගොනු හුවමාරුව, දුරස්ථ ප්‍රවේශය වැනි පරිශීලක සේවා\nS - ජාල ස්ථරය | 4 - ක්‍රියාවලියෙන් ක්‍රියාවලියට දත්ත යැවීම",
+  "o": [
+   "P - 1, Q - 3, R - 2, S - 4",
+   "P - 2, Q - 4, R - 3, S - 1",
+   "P - 3, Q - 1, R - 2, S - 4",
+   "P - 3, Q - 1, R - 4, S - 2",
+   "P - 4, Q - 2, R - 1, S - 3"
+  ]
+ },
+ {
+  "n": 83,
+  "d": "2018 Q13",
+  "q": "Which of the following statements is/are correct?\nA - A digital signature ensures the authenticity of a message.\nB - In asymmetric key encryption, different keys are used for encryption and decryption.\nC - The encryption process transforms plaintext to ciphertext.",
+  "qs": "පහත කුමන ප්‍රකාශ/ය නිවැරදි ද?\nA - අංකිත අත්සන පණිවිඩයක සත්‍යතාව සහතික කරයි.\nB - අසමමිතික යතුරු කේතනයේදී ගුප්තකේතනය සහ විකේතනය සඳහා විවිධ යතුරු භාවිත වේ.\nC - ගුප්තකේතන ක්‍රියාවලිය සරල අක්ෂර රහස් අක්ෂර බවට පරිවර්තනය කරයි.",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and B only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා B පමණි",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 84,
+  "d": "2018 Q19",
+  "q": "Match each of the given data communication protocols labelled from P to T to the corresponding descriptions labelled from 1 to 5.\nProtocol:\nP - Hyper Text Transfer Protocol (HTTP)\nQ - Transmission Control Protocol (TCP)\nR - Domain Name System (DNS)\nS - Internet Protocol (IP)\nT - User Datagram Protocol (UDP)\nDescription:\n1 - Provides directory lookup service for given web addresses and URLs\n2 - Provides a very reliable data transfer service\n3 - Used in the world wide web\n4 - Provides a connection-less transport service\n5 - Handles unique addressing of hosts in the Internet",
+  "qs": "P සිට T දක්වා ලබා දී ඇති එක් එක් දත්ත සන්නිවේදන නියමාවලිය, 1 සිට 5 දක්වා සලකුණු කර ඇති විස්තර කිරීම්වලට ගළපන්න.\nනියමාවලි:\nP - අධි පාඨ සම්ප්‍රේෂණ නියමාවලිය\nQ - සම්ප්‍රේෂණ පාලන නියමාවලිය\nR - වසම් නාම පද්ධතිය\nS - අන්තර්ජාල නියමාවලිය\nT - පරිශීලක දත්ත පණිවිඩ නියමාවලිය\nවිස්තර:\n1 - ලබා දී ඇති වෙබ් ලිපින සහ URL සඳහා නාමාවලි සේවාව සපයයි\n2 - ඉතා විශ්වාසදායක දත්ත හුවමාරුව සේවාවක් සපයයි\n3 - ලෝක විසිරි වියමනෙහි භාවිත වේ\n4 - සම්බන්ධතා රහිත ප්‍රවාහන සේවාවක් සපයයි\n5 - අන්තර්ජාල සත්කාරක සඳහා අනන්‍ය ලිපින ලබාදීම මෙහෙයවයි",
+  "o": [
+   "P - 2, Q - 4, R - 1, S - 5, T - 3",
+   "P - 2, Q - 5, R - 4, S - 1, T - 3",
+   "P - 3, Q - 2, R - 1, S - 5, T - 4",
+   "P - 3, Q - 4, R - 5, S - 1, T - 2",
+   "P - 4, Q - 2, R - 3, S - 1, T - 5"
+  ]
+ },
+ {
+  "n": 38,
+  "d": "2019 Q19",
+  "q": "A ........................ on motherboard is used to expand the functionality of a computer.\nWhich of the followings is the most appropriate to fill in the blank in the above statement?",
+  "qs": "මව් පුවරුව මත ඇති ........................ පරිගණකයක ක්‍රියාකාරීත්වය විදැහීම සඳහා භාවිත කරයි.\nඉහත වගන්තියේ හිස්තැන පිරවීම සඳහා වඩාත් සුදුසු වන්නේ පහත සඳහන් කවරක් ද?",
+  "o": [
+   "Bus",
+   "Clock",
+   "RAM",
+   "Slot",
+   "ROM"
+  ],
+  "os": [
+   "බසය",
+   "ඔරලෝසුව",
+   "RAM",
+   "විවරය",
+   "ROM"
+  ]
+ },
+ {
+  "n": 39,
+  "d": "2019 Q08",
+  "q": "Consider the following data input devices:\nA - On screen keyboard (virtual keyboard)\nB - Bar code reader\nC - Magnetic card reader\nWhich of the above devices can be used to input data more efficiently?",
+  "qs": "පහත දැක්වෙන දත්ත ආදාන උපාංග සලකන්න:\nA - තිරය මත දැක්වෙන යතුරු පුවරුව\nB - තීරු කේත කියවනය\nC - චුම්බක කාඩ් පත් කියවනය\nවඩාත් කාර්යක්ෂමව දත්ත ආදානය කිරීම සඳහා ඉහත කවර උපාංග භාවිත කළ හැකි ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "B හා C පමණි."
+  ]
+ },
+ {
+  "n": 40,
+  "d": "2020 Q01",
+  "q": "Consider the following statements.\nA - Word size is the number of bits processed by the CPU of a computer in a single action (instance).\nB - Data bus width and register width are directly related to word size of a computer.\nC - Word size of modern general purpose computers is either 32 or 64 bits.\nWhich of the above statements is/are correct?",
+  "qs": "ගතික සසම්භාවී ප්‍රවේශ මතකය (DRAM) සම්බන්ධයෙන් පහත දී ඇති වගන්ති සලකන්න.\nA - පරිගණකයක පද දිග යනු මධ්‍යම සැකසුම් ඒකකය මගින් එක් (තනි) ක්‍රියාවකදී සකසනු ලබන බිටු සංඛ්‍යාව වේ.\nB - දත්ත බසයේ දිග හා රෙජිස්ටරයක දිග පරිගණකයක පද දිගට සෘජුව සම්බන්ධ වේ.\nC - පොදු අවශ්‍යතා සඳහා වන නවීන පරිගණකවල පද දිග බිටු 32 හෝ 64 හෝ වේ.\nඉහත ප්‍රකාශ කවරක් නිවැරදි වේ ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 41,
+  "d": "2020 Q02",
+  "q": "Which of the following correctly lists the given computer storage components in the descending order of access speed?",
+  "qs": "දී ඇති පරිගණක ආචයන අංග ප්‍රවේශ වේගයෙහි අවරෝහණ පිළිවෙළට නිවැරදිව පෙළගස්වා ඇත්තේ පහත කවරකද?",
+  "o": [
+   "cache memory > main memory > magnetic disk > register",
+   "magnetic disk > main memory > cache memory > register",
+   "magnetic disk > main memory > register > cache memory",
+   "register > cache memory > main memory > magnetic disk",
+   "register > main memory > magnetic disk > cache memory"
+  ],
+  "os": [
+   "නිහිත මතකය > ප්‍රධාන මතකය > චුම්බක ඩිස්කය > රෙජිස්ටරය",
+   "චුම්බක ඩිස්කය > ප්‍රධාන මතකය > නිහිත මතකය > රෙජිස්ටරය",
+   "චුම්බක ඩිස්කය > ප්‍රධාන මතකය > රෙජිස්ටරය > නිහිත මතකය",
+   "රෙජිස්ටරය > නිහිත මතකය > ප්‍රධාන මතකය > චුම්බක ඩිස්කය",
+   "රෙජිස්ටරය > ප්‍රධාන මතකය > චුම්බක ඩිස්කය > නිහිත මතකය"
+  ]
+ },
+ {
+  "n": 42,
+  "d": "2020 Q03",
+  "q": "Consider the following computer memory types.\nA - CMOS memory\nB - cache memory\nC - flash memory\nD - hard disk\nE - RAM\nF - registers\nWhich of the above are volatile memory types:",
+  "qs": "පහත දැක්වෙන පරිගණක මතක වර්ග සලකන්න.\nA - CMOS මතකය\nB - නිහිත මතකය\nC - සැනෙළි මතකය\nD - දෘඩ තැටිය\nE - RAM\nF - රෙජිස්ටර\nඉහත දෑ අතුරෙන් නශ්‍ය මතක වර්ග වන්නේ:",
+  "o": [
+   "A, C and D only.",
+   "A, D and E only.",
+   "A, E and F only.",
+   "B, E and F only.",
+   "C, E and F only"
+  ],
+  "os": [
+   "A, C හා D පමණි.",
+   "A, D හා E පමණි.",
+   "A, E හා F පමණි.",
+   "B, E හා F පමණි.",
+   "C, E හා F පමණි."
+  ]
+ },
+ {
+  "n": 43,
+  "d": "2021 Q03",
+  "q": "Consider the following statements related to the development of computers over time.\nA - Both processing speed and power consumption of computers have increased.\nB - Processing speed of a computer has increased while physical size of a computer has decreased.\nC - Both power consumption and the physical size of a computer have reduced.\nWhich of the above statements is/are correct?",
+  "qs": "කාලයත් සමග පරිගණකවල සංවර්ධනයට අදාළ පහත ප්‍රකාශ සලකන්න.\nA - පරිගණකවල සකසන වේගය සහ විදුලි පරිභෝජනය යන දෙකම වැඩි වී ඇත.\nB - පරිගණකවල සකසන වේගය වැඩි වූ අතර පරිගණකයක භෞතික ප්‍රමාණය අඩු වී ඇත.\nC - පරිගණකවල විදුලි පරිභෝජනය සහ පරිගණකයක භෞතික ප්‍රමාණය අඩු වී ඇත.\nඉහත කවර වගන්තියක්/වගන්ති නිවැරදි වේ ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "A and B only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "A හා B පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 44,
+  "d": "2021 Q04",
+  "q": "In the memory hierarchy diagram given, which of the following represents A, B, C and D respectively?\n[Figure: a pyramid divided into 7 horizontal levels from top to bottom. Level 1 (top triangle) is labelled A; level 2 is pointed to by an arrow labelled 'Cache Memory'; level 3 is labelled B; level 4 is pointed to by an arrow labelled 'Solid State Storage'; level 5 is labelled C; level 6 is pointed to by an arrow labelled 'Optical Disk'; level 7 (bottom) is labelled D.]",
+  "qs": "දී ඇති මතක ධුරාවලි සටහනට අනුව පහත කවරක් A, B, C සහ D පිළිවෙළින් නිරූපනය කරයි ද?\n[රූපය: ස්ථර 7කින් යුත් පිරමීඩයක්; ඉහළ සිට: A, නිහිත මතකය, B, ඝන අවස්ථා ගබඩාව, C, ප්‍රකාශ තැටිය, D]",
+  "o": [
+   "Magnetic Tape, Magnetic (Hard) Disk, Random Access Memory (RAM), Processor Register",
+   "Processor Registers, Magnetic (Hard) Disk, Random Access Memory (RAM), Magnetic Tape",
+   "Processor Registers, Random Access Memory (RAM), Magnetic (Hard) Disk, Magnetic Tape",
+   "Processor Registers, Random Access Memory (RAM), Magnetic Tape, Magnetic (Hard) Disk",
+   "Random Access Memory (RAM), Processor Registers, Magnetic (Hard) Disk, Magnetic Tape"
+  ],
+  "os": [
+   "චුම්බක පටය, චුම්බක (දෘඩ) තැටිය, සසම්භාවී ප්‍රවේශ මතකය (RAM), සකසනයෙහි රෙජිස්ටර",
+   "සකසනයෙහි රෙජිස්ටර, චුම්බක (දෘඩ) තැටිය, සසම්භාවී ප්‍රවේශ මතකය (RAM), චුම්බක පටය",
+   "සකසනයෙහි රෙජිස්ටර, සසම්භාවී ප්‍රවේශ මතකය (RAM), චුම්බක (දෘඩ) තැටිය, චුම්බක පටය",
+   "සකසනයෙහි රෙජිස්ටර, සසම්භාවී ප්‍රවේශ මතකය (RAM), චුම්බක පටය, චුම්බක (දෘඩ) තැටිය",
+   "සසම්භාවී ප්‍රවේශ මතකය (RAM), සකසනයෙහි රෙජිස්ටර, චුම්බක (දෘඩ) තැටිය, චුම්බක පටය"
+  ]
+ },
+ {
+  "n": 45,
+  "d": "2022 Q03",
+  "q": "Which of the following made a significant contribution to the growth of Information and Communication Technology (ICT) usage?\nA - exponential progress of the semiconductor technology paving the way for low cost hardware\nB - introduction of user-friendly software and interfaces to computers\nC - merge of computer and communication technologies to produce smart and mobile devices",
+  "qs": "තොරතුරු හා සන්නිවේදන තාක්ෂණයෙහි (ICT) භාවිතය ඉහළ යාම සඳහා පහත කවරකින් සැලකිය යුතු දායකත්වයක් ලබුණි ද?\nA - අර්ධ සන්නායක තාක්ෂණයෙහි ශීඝ්‍ර ප්‍රගතිය තුළින් අඩු පිරිවැයක් සහිත දෘඩාංගවලට මග පෑදීම\nB - පරිශීලක මිත්‍රශීලී මෘදුකාංග සහ අතුරුමුහුණත් පරිගණකවලට හඳුන්වා දීම\nC - පරිගණක සහ සන්නිවේදන තාක්ෂණ මුහුන්වීම හේතුවෙන් සුහුරු සහ සචල උපක්‍රම නිපදවීම",
+  "o": [
+   "A only.",
+   "B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 46,
+  "d": "2023 Q03",
+  "q": "A computer processor will operate fastest when the data that it wants is in the,",
+  "qs": "පරිගණකයක සකසනය වඩාත්ම වේගයෙන් මෙහෙයවනු ලබන්නේ එයට අවශ්‍ය දත්ත පහත කවරක ඇති විට ද?",
+  "o": [
+   "cache memory",
+   "hard disk",
+   "magnetic tape",
+   "main memory",
+   "optical disk"
+  ],
+  "os": [
+   "නිහිත මතකයෙහි",
+   "දෘඩ තැටියෙහි",
+   "චුම්බක පටියෙහි",
+   "ප්‍රධාන මතකයෙහි",
+   "ප්‍රකාශ තැටියෙහි"
+  ]
+ },
+ {
+  "n": 47,
+  "d": "2023 Q04",
+  "q": "Which of the following hardware components will lose data when the power to a computer is switched off?\nA - registers\nB - cache memory\nC - main memory",
+  "qs": "පරිගණකයකට ලබා දී ඇති විදුලි බලය විසන්ධි කළ විට පහත කුමන දෘඩාංග සංරචකවල ඇති දත්ත අහිමි වේ ද?\nA - රෙජිස්තර\nB - නිහිත මතකය\nC - ප්‍රධාන මතකය",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 48,
+  "d": "2023 Q06",
+  "q": "Computer has evolved from the early main frames to the relatively small smart devices with high computing power used today. Which of the following inventions contributed to reduce the physical size of computers?",
+  "qs": "අතීතයේ භාවිත වූ විශාල ප්‍රමාණයේ (main frame) පරිගණකවල සිට වර්තමානයේ භාවිත වන ඉහළ පරිගණන හැකියාව ඇති ප්‍රමාණයෙන් කුඩා සුහුරු (smart) උපාංග දක්වා පරිගණකය පරිණාමනය වී ඇත. පහත කුමන නිපැයුමක් පරිගණකවල භෞතික ප්‍රමාණය අඩු කිරීමට දායක වූයේ ද?",
+  "o": [
+   "bus",
+   "integrated circuits",
+   "registers",
+   "solid state memory",
+   "vacuum tube"
+  ],
+  "os": [
+   "බසය",
+   "අනුකලිත පරිපථ",
+   "රෙජිස්ටර",
+   "ඝන තත්ත්ව මතක",
+   "රික්ත නල"
+  ]
+ },
+ {
+  "n": 49,
+  "d": "2024 Q04",
+  "q": "There are different storage components which vary in capacity and access speed. Consider that the shown diagram portrays capacity and access speed variation of the storage components L1 cache, L2 cache, main memory, registers and the hard disk. The capacity increases and access speed decreases from top to bottom, as shown.\n[Figure: a stack of five boxes forming a pyramid, narrowest at the top and widest at the bottom, labelled from top to bottom A, B, C, D, E, with up/down arrows between adjacent boxes. On the left a wedge labelled 'Capacity' widens from top to bottom; on the right a wedge labelled 'Access Speed' narrows from top to bottom.]\nWhich is correct with respect to the A, B, C, D and E above?",
+  "qs": "ධාරිතාව හා ප්‍රවේශ වේගය අනුව වෙනස්වන විවිධ ආචයන උපාංග පවතී. L1 නිහිත මතකය, L2 නිහිත මතකය, ප්‍රධාන මතකය, රෙජිස්ටර හා දෘඩ ඩිස්කය යන ආචයනයන්ගේ ධාරිතාව හා ප්‍රවේශ වේගයේ වෙනස්කම් දැක්වෙන රූපසටහන සලකා බලන්න. එහි දැක්වා ඇති පරිදි, ඉහළ සිට පහළට ධාරිතාව වැඩිවන අතර, ප්‍රවේශ වේගය අඩු වේ.\nඉහත රූපයේ A, B, C, D හා E සඳහා කුමක් නිවැරදි වන්නේ ද?",
+  "o": [
+   "A – hard disk, B – registers, C – L2 cache, D – L1 cache, E – main memory",
+   "A – L1 cache, B – L2 cache, C – registers, D – hard disk, E – main memory",
+   "A – main memory, B – registers, C – hard disk, D – L1 cache, E – L2 cache",
+   "A – registers, B – L1 cache, C – L2 cache, D – main memory, E – hard disk",
+   "A – registers, B – main memory, C – L2 cache, D – L1 cache, E – hard disk"
+  ],
+  "os": [
+   "A – දෘඩ ඩිස්කය, B – රෙජිස්ටර, C – L2 නිහිත මතකය, D – L1 නිහිත මතකය, E – ප්‍රධාන මතකය",
+   "A – L1 නිහිත මතකය, B – L2 නිහිත මතකය, C – රෙජිස්ටර, D – දෘඩ ඩිස්කය, E – ප්‍රධාන මතකය",
+   "A – ප්‍රධාන මතකය, B – රෙජිස්ටර, C – දෘඩ ඩිස්කය, D – L1 නිහිත මතකය, E – L2 නිහිත මතකය",
+   "A – රෙජිස්ටර, B – L1 නිහිත මතකය, C – L2 නිහිත මතකය, D – ප්‍රධාන මතකය, E – දෘඩ ඩිස්කය",
+   "A – රෙජිස්ටර, B – ප්‍රධාන මතකය, C – L2 නිහිත මතකය, D – L1 නිහිත මතකය, E – දෘඩ ඩිස්කය"
+  ]
+ },
+ {
+  "n": 50,
+  "d": "2024 Q05",
+  "q": "Consider the following paragraph:\nTo run a program, the program code is copied from ........A........ into ........B........ The Central Processing Unit's (CPU's) program counter register is set to the memory location where the first instruction of the program has been saved and execution of the program starts. The ........C........ implements the fetch-decode-execute cycle.\nWhich of the following is the correct combination for A, B and C?",
+  "qs": "පහත ඡේදය සලකන්න:\nක්‍රමලේඛයක් ධාවනය කිරීමට, ක්‍රමලේඛ කේතය ........A........ සිට ........B........ වෙත පිටපත් කරනු ලැබේ. මධ්‍ය සැකසුම් ඒකකයේ ඇති වැඩසටහන ගණක (program counter) රෙජිස්ටරය ක්‍රමලේඛයේ පළමු උපදෙස ගබඩා කර ඇති ස්ථානයට (memory) රඳවා ඇති ස්ථානය වන අතර, ක්‍රමලේඛය ක්‍රියාත්මක වීම ඇරඹේ. ........C........ මගින් ආහරණ-විකේතන-ක්‍රියාත්මක (fetch–decode–execute) චක්‍රය ක්‍රියාත්මක කෙරේ.\nඉහත A, B හා C සඳහා ගැළපෙන සංයෝජනය පහත කුමක් ද?",
+  "o": [
+   "A - CPU, B - primary memory, C - secondary storage",
+   "A - CPU, B - secondary storage, C - primary memory",
+   "A - primary memory, B - secondary storage, C - CPU",
+   "A - secondary storage, B - CPU, C - primary memory",
+   "A - secondary storage, B - primary memory, C - CPU"
+  ],
+  "os": [
+   "A - මධ්‍ය සැකසුම් ඒකකයේ, B - ප්‍රාථමික මතකයට, C - ද්විතීයික ආචයනය",
+   "A - මධ්‍ය සැකසුම් ඒකකයේ, B - ද්විතීයික ආචයනය, C - ප්‍රාථමික මතකය",
+   "A - ප්‍රාථමික මතකයේ, B - ද්විතීයික ආචයනය, C - මධ්‍ය සැකසුම් ඒකකය",
+   "A - ද්විතීයික ආචයනයේ, B - මධ්‍ය සැකසුම් ඒකකය, C - ප්‍රාථමික මතකය",
+   "A - ද්විතීයික ආචයනයේ, B - ප්‍රාථමික මතකයට, C - මධ්‍ය සැකසුම් ඒකකය"
+  ]
+ },
+ {
+  "n": 51,
+  "d": "2024 Q06",
+  "q": "Which of the following lists a computer memory hierarchy in the descending order of access speed?",
+  "qs": "පරිගණක මතක ධුරාවලියක් ප්‍රවේශ වේගයේ අවරෝහණ පටිපාටියට සකසා ඇත්තේ පහත සඳහන් කවරක් ද?",
+  "o": [
+   "hard disk, registers, L2 cache, L1 cache, main memory",
+   "main memory, L1 cache, registers, L2 cache, hard disk",
+   "registers, main memory, hard disk, L1 cache, L2 cache",
+   "registers, L1 cache, L2 cache, main memory, hard disk",
+   "L1 cache, L2 cache, registers, main memory, hard disk"
+  ],
+  "os": [
+   "දෘඩ ඩිස්කය, රෙජිස්ටර, L2 නිහිත මතකය, L1 නිහිත මතකය, ප්‍රධාන මතකය",
+   "ප්‍රධාන මතකය, L1 නිහිත මතකය, රෙජිස්ටර, L2 නිහිත මතකය, දෘඩ ඩිස්කය",
+   "රෙජිස්ටර, ප්‍රධාන මතකය, දෘඩ ඩිස්කය, L1 නිහිත මතකය, L2 නිහිත මතකය",
+   "රෙජිස්ටර, L1 නිහිත මතකය, L2 නිහිත මතකය, ප්‍රධාන මතකය, දෘඩ ඩිස්කය",
+   "L1 නිහිත මතකය, L2 නිහිත මතකය, රෙජිස්ටර, ප්‍රධාන මතකය, දෘඩ ඩිස්කය"
+  ]
+ },
+ {
+  "n": 52,
+  "d": "2025 Q04",
+  "q": "The existing book management system in a school library is used with a computer, a monitor, a keyboard and a mouse. The school management wants to minimize the time taken presently for book lending/returning. Which of the following is most suitable for this purpose?",
+  "qs": "පාසල් පුස්තකාලයක දැනට පවතින ග්‍රන්ථ කළමනාකරණ පද්ධතිය පරිගණකයක්, මොනිටරයක්, යතුරු පුවරුවක් සහ මූසිකයක් යොදා ගෙන භාවිත වේ. පොත් බැහැරදීමට/ආපසු භාර ගැනීමට දැනට ගතවන කාලය අවම කිරීමට පාසල කළමනාකාරිත්වයට අවශ්‍ය වේ. මෙම අවශ්‍යතාවයට පහත කවරක් වඩාත් උචිත වේ ද?",
+  "o": [
+   "Using a digitizer",
+   "Using an external hard disk",
+   "Using a touch screen",
+   "Using a magnetic stripe reader",
+   "Using bar code technology"
+  ],
+  "os": [
+   "සංඛ්‍යාංකකයක් භාවිත කිරීම",
+   "බාහිර දෘඩ තැටියක් භාවිත කිරීම",
+   "ස්පර්ශක තිරයක් භාවිත කිරීම",
+   "චුම්බක තීරු කියවනයක් භාවිත කිරීම",
+   "තීරු කේත තාක්ෂණය භාවිත කිරීම"
+  ]
+ },
+ {
+  "n": 53,
+  "d": "2025 Q05",
+  "q": "Listed below are some phrases about the internal operation of three printers:\nA - a moving print head striking an ink ribbon against the paper\nB - toner attracting to what is printed on a cylinder which is then transferred to paper\nC - nozzles spraying ink onto paper\nWhich of the following correctly matches dot matrix, inkjet and laser printers to the above phrases?",
+  "qs": "මුද්‍රක තුනක අභ්‍යන්තර ක්‍රියාවලි පහත වාක්‍ය ඛණ්ඩ මගින් ලැයිස්තුගත කර දැක්වේ:\nA - චලනය වන මුද්‍රණ හිසක් මගින් තීන්ත ආලේපිත පටියක් මුද්‍රණ කඩදාසියේ වැද්දීම\nB - සිලින්ඩරයක මුද්‍රණය වන දෙයට ටෝනර් ආකර්ෂණය වී ඒවා පසුව කඩදාසියට මාරු වීම\nC - තුඩු මගින් කඩදාසියට තීන්ත ඉසීම\nඉහත වාක්‍ය ඛණ්ඩ සමග තිත් න්‍යාස, තීන්ත විදුම් සහ ලේසර් මුද්‍රක නිවැරදිව ගළපා ඇත්තේ පහත කවරක් ද?",
+  "o": [
+   "A – dot matrix, B – laser, C – inkjet",
+   "A – dot matrix, B – inkjet, C – laser",
+   "A – inkjet, B – dot matrix, C – laser",
+   "A – laser, B – dot matrix, C – inkjet",
+   "A – laser, B – inkjet, C – dot matrix"
+  ],
+  "os": [
+   "A – තිත් න්‍යාස, B – ලේසර්, C – තීන්ත විදුම්",
+   "A – තිත් න්‍යාස, B – තීන්ත විදුම්, C – ලේසර්",
+   "A – තීන්ත විදුම්, B – තිත් න්‍යාස, C – ලේසර්",
+   "A – ලේසර්, B – තිත් න්‍යාස, C – තීන්ත විදුම්",
+   "A – ලේසර්, B – තීන්ත විදුම්, C – තිත් න්‍යාස"
+  ]
+ },
+ {
+  "n": 54,
+  "d": "2025 Q06",
+  "q": "A program runs fastest when the data it requires are in the,",
+  "qs": "ක්‍රමලේඛයක් වේගයෙන්ම ක්‍රියාත්මක වන්නේ එයට අවශ්‍ය දත්ත,",
+  "o": [
+   "hard disk",
+   "L1 cache",
+   "L2 cache",
+   "magnetic tape",
+   "main memory"
+  ],
+  "os": [
+   "දෘඩ තැටියේ තිබෙන විට ය.",
+   "L1 නිහිත මතකයේ තිබෙන විට ය.",
+   "L2 නිහිත මතකයේ තිබෙන විට ය.",
+   "චුම්බක පටියේ තිබෙන විට ය.",
+   "ප්‍රධාන මතකයේ තිබෙන විට ය."
+  ]
+ },
+ {
+  "n": 55,
+  "d": "2025 Q07",
+  "q": "A village of houses constructed mainly with the aid of a special equipment is nearing completion in the United States of America. This equipment has been used to construct the walls of the houses with the foundations and the roofs constructed in the traditional way. This equipment reduces the number of workers required for the construction process and has made the process faster and cheaper with minimized construction waste. What could be this special equipment?",
+  "qs": "විශේෂ උපකරණයක මූලික ආධාරයෙන් ඉදිකෙරුනු නිවාස ගම්මානයක් ඇමරිකා එක්සත් ජනපදයේ නිමවීමට ආසන්නය. නිවාසවල බිත්ති මෙම උපකරණය භාවිතයෙන් ගොඩනගා ඇති අතර, අත්තිවාරම් සහ වහල සාම්ප්‍රදායික ක්‍රමයට ගොඩනගා ඇත. ඉදිකිරීම් ක්‍රියාවලියට අවශ්‍ය සේවකයන්ගේ ගණන මෙම උපකරණය අඩු කරන අතර ක්‍රියාවලිය ඉක්මන් සහ ලාභදායී කොට, ඉදිකිරීම්කදී ඇතිවන නාස්තිය ද අවම කර ඇත. මෙම විශේෂ උපකරණය කුමක් විය හැකි ද?",
+  "o": [
+   "a digitizer",
+   "a large 3D printer",
+   "a plotter",
+   "a pointing device",
+   "a joystick"
+  ],
+  "os": [
+   "සංඛ්‍යාංකකයක්",
+   "විශාල ත්‍රිමාණ මුද්‍රකයක්",
+   "ලකුණු කරනයක්",
+   "දැක්වුම් උපාංගයක්",
+   "මෙහෙයුම් යටියක්"
+  ]
+ },
+ {
+  "n": 56,
+  "d": "2025 Q08",
+  "q": "The figure below shows some components and connections on a computer motherboard.\n[Figure: a rectangular motherboard outline. Top-left edge: 'Power supply'. Top-right: 'Battery'. Left: 'Fan' (circle). Components inside: a box labelled Y (top left), a cylinder labelled A, a small box labelled B, a box labelled X (inside a double-bordered square, left-centre), a central box labelled 'Connector', and a larger box at upper right labelled 'Connector'. Lines: Y, A, B and X each connect to the central 'Connector'; the central 'Connector' is linked by a line to the right-hand 'Connector'; four small boxes at the bottom edge, labelled C, Z, D, E, are connected by lines upward (C and Z towards the central Connector region, D and E to the right-hand Connector).]\nThe labels A–E indicate the following:\nA - hard disk\nB - ROM BIOS\nC - connector for audio port\nD - connector for network port\nE - connector for USB port\nWhat are indicated by the labels X, Y and Z respectively?",
+  "qs": "පරිගණක මවු පුවරුවක ඇති සංරචක සහ සම්බන්ධතා සමහරක් පහත රූපයේ දක්වා ඇත.\nඑහි ලේබල A–E මගින් පහත දෑ දැක්වේ:\nA - දෘඩ ඩිස්කය\nB - ROM BIOS\nC - ශ්‍රව්‍ය කෙවෙනිය සඳහා සම්බන්ධකය\nD - ජාල කෙවෙනිය සඳහා සම්බන්ධකය\nE - USB කෙවෙනිය සඳහා සම්බන්ධකය\nX, Y සහ Z ලේබල මගින් පිළිවෙළින් දැක්වෙන්නේ මොනවා ද?",
+  "o": [
+   "X – connector for video port | Y – CPU | Z – memory",
+   "X – connector for video port | Y – memory | Z – CPU",
+   "X – CPU | Y – memory | Z – connector for video port",
+   "X – CPU | Y – connector for video port | Z – memory",
+   "X – memory | Y – connector for video port | Z – CPU"
+  ],
+  "os": [
+   "X – වීඩියෝ කෙවෙනිය සඳහා සම්බන්ධකය | Y – CPU | Z – මතකය",
+   "X – වීඩියෝ කෙවෙනිය සඳහා සම්බන්ධකය | Y – මතකය | Z – CPU",
+   "X – CPU | Y – මතකය | Z – වීඩියෝ කෙවෙනිය සඳහා සම්බන්ධකය",
+   "X – CPU | Y – වීඩියෝ කෙවෙනිය සඳහා සම්බන්ධකය | Z – මතකය",
+   "X – මතකය | Y – වීඩියෝ කෙවෙනිය සඳහා සම්බන්ධකය | Z – CPU"
+  ]
+ },
+ {
+  "n": 57,
+  "d": "2025 Q09",
+  "q": "A person notes that a desktop computer was booting very fast from the hard disk after the computer was repaired. Which of the following would have been done during the repair?",
+  "qs": "අලුත්වැඩියා කිරීමකින් පසුව මේස පරිගණකයක් දෘඩ ඩිස්කයෙන් ඉතා වේගයෙන් ආරම්භ වන බව පුද්ගලයක් නිරීක්ෂණය කරයි. අලුත්වැඩියාවේ දී පහත කවරක් සිදු කරන්නට ඇති ද?",
+  "o": [
+   "decreasing RAM and reinstalling the operating system",
+   "formatting the hard disk only",
+   "installing a new CD drive only",
+   "replacing the small fan inside the computer only",
+   "replacing the hard disk with a Solid-state Drive (SSD) and reinstalling the operating system"
+  ],
+  "os": [
+   "RAM අඩු කර මෙහෙයුම් පද්ධතිය නැවත ස්ථාපනය කිරීම",
+   "දෘඩ ඩිස්කය ආකෘතිකරණය කිරීම පමණක්",
+   "අලුත් CD ධාවකයක් පිහිටුවීම පමණක්",
+   "පරිගණකය තුළ ඇති කුඩා පංකාව ආදේශ කිරීම පමණක්",
+   "දෘඩ ඩිස්කයක් වෙනුවට ඝන තත්ත්ව ධාවකයක් ආදේශ කර මෙහෙයුම් පද්ධතිය නැවත ස්ථාපනය කිරීම"
+  ]
+ }
+]

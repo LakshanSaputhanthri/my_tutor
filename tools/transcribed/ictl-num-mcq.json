@@ -1,0 +1,752 @@
+[
+ {
+  "n": 1,
+  "d": "2011 Q05",
+  "q": "The binary number equivalent to the 27₁₀ is,",
+  "qs": "27₁₀ ට තුලය ද්විමය සංඛ්‍යාව වන්නේ,",
+  "o": [
+   "000111",
+   "111000",
+   "011011",
+   "101011",
+   "111010"
+  ]
+ },
+ {
+  "n": 2,
+  "d": "2011 Q15",
+  "q": "C1A₁₆ + 4A2₁₆ =",
+  "o": [
+   "523₁₆",
+   "FBC₁₆",
+   "FBB₁₆",
+   "0BC₁₆",
+   "10BC₁₆"
+  ]
+ },
+ {
+  "n": 3,
+  "d": "2012 Q05",
+  "q": "The binary number equivalent to the 37₁₀ is,",
+  "qs": "37₁₀ ට තුලය ද්විමය සංඛ්‍යාව වනුයේ,",
+  "o": [
+   "0100101",
+   "0100111",
+   "0100100",
+   "0110110",
+   "0110111"
+  ]
+ },
+ {
+  "n": 4,
+  "d": "2012 Q15",
+  "q": "144₈ + 175₈ =",
+  "o": [
+   "225₈",
+   "341₈",
+   "441₈",
+   "531₈",
+   "314₈"
+  ]
+ },
+ {
+  "n": 5,
+  "d": "2013 Q20",
+  "q": "The binary number equivalent to the 25₁₀ is,",
+  "qs": "25₁₀ ට තුලය ද්විමය සංඛ්‍යාව වනුයේ,",
+  "o": [
+   "0100101",
+   "0100111",
+   "0011001",
+   "0010110",
+   "0010111"
+  ]
+ },
+ {
+  "n": 6,
+  "d": "2013 Q21",
+  "q": "124₈ + 165₈ =",
+  "o": [
+   "201₈",
+   "289₁₀",
+   "289₈",
+   "311₈",
+   "389₈"
+  ]
+ },
+ {
+  "n": 7,
+  "d": "2013 Q49",
+  "q": "What is the two's complement of −6₁₀?",
+  "qs": "−6₁₀ හි දෙකෙහි අනුපූරකය කුමක් ද?",
+  "o": [
+   "11111010",
+   "00000110",
+   "11111001",
+   "01011111",
+   "00000101"
+  ]
+ },
+ {
+  "n": 8,
+  "d": "2014 Q06",
+  "q": "The decimal number equivalent to the 100111₂ is,",
+  "qs": "100111₂ සඳහා තුල්‍ය වන දශම සංඛ්‍යාව වන්නේ,",
+  "o": [
+   "40",
+   "39",
+   "38",
+   "37",
+   "36"
+  ]
+ },
+ {
+  "n": 9,
+  "d": "2014 Q10",
+  "q": "4A6₁₆ + 99₁₀ =",
+  "o": [
+   "615₁₆",
+   "615₁₀",
+   "509₁₀",
+   "509₁₆",
+   "659₁₆"
+  ]
+ },
+ {
+  "n": 10,
+  "d": "2014 Q11",
+  "q": "Representations of 5₁₀ and −9₁₀ in 8-bit Two's complement forms are,",
+  "qs": "5₁₀ සහ −9₁₀ හි බිට් 8 ක් සමන්විත දෙකෙහි අනුපූරක ආකාර පිළිවෙළින්,",
+  "o": [
+   "00000101 and 11110111 respectively.",
+   "11111011 and 11110111 respectively.",
+   "00000101 and 10001001 respectively.",
+   "00000101 and 11110110 respectively.",
+   "11111011 and 11110110 respectively."
+  ],
+  "os": [
+   "00000101 සහ 11110111 ය.",
+   "11111011 සහ 11110111 ය.",
+   "00000101 සහ 10001001 ය.",
+   "00000101 සහ 11110110 ය.",
+   "11111011 සහ 11110110 ය."
+  ]
+ },
+ {
+  "n": 11,
+  "d": "2015 Q07",
+  "q": "48B₁₆ + 00101011₂ =",
+  "o": [
+   "4B6₁₆",
+   "310₁₆",
+   "503₁₆",
+   "513₁₆",
+   "559₁₆"
+  ]
+ },
+ {
+  "n": 12,
+  "d": "2015 Q42",
+  "q": "What is the two's complement representation of 6₁₀?",
+  "qs": "6₁₀ හි දෙකෙහි අනුපූරකය නිරූපණය වන්නේ කුමකින් ද?",
+  "o": [
+   "11111010",
+   "00000110",
+   "11111001",
+   "01011111",
+   "00000101"
+  ]
+ },
+ {
+  "n": 13,
+  "d": "2016 Q03",
+  "q": "Which of the following binary numbers is equivalent to 109₁₀?",
+  "qs": "109₁₀ ට තුල්‍ය ද්විමය සංඛ්‍යාව කුමක් ද?",
+  "o": [
+   "1100100₂",
+   "1101101₂",
+   "1001101₂",
+   "1101001₂",
+   "1101100₂"
+  ]
+ },
+ {
+  "n": 14,
+  "d": "2016 Q07",
+  "q": "101₁₆ + 110₈ =",
+  "o": [
+   "429₁₀",
+   "1011₁₀",
+   "329₁₀",
+   "529₁₀",
+   "137₁₀"
+  ]
+ },
+ {
+  "n": 15,
+  "d": "2017 Q03",
+  "q": "What is the two's complement representation of 45, if an integer is represented by 8 bits?",
+  "qs": "නිඛිලයක්, බිට් 8කින් නිරූපණය කරන්නේ නම්, 45 නිරූපණය කරන 2 හි අනුපූරකය කුමක් ද?",
+  "o": [
+   "11010011",
+   "10110011",
+   "11001101",
+   "00101111",
+   "00101101"
+  ]
+ },
+ {
+  "n": 16,
+  "d": "2017 Q09",
+  "q": "Which of the following numbers is equivalent to the binary number 101111₂?",
+  "qs": "101111₂ ද්විමය සංඛ්‍යාවට තුලය වන්නේ පහත දැක්වෙන සංඛ්‍යා අතුරෙන් කවරක් ද?",
+  "o": [
+   "57₈",
+   "57₁₆",
+   "57₁₀",
+   "59₁₆",
+   "5F₁₆"
+  ]
+ },
+ {
+  "n": 17,
+  "d": "2017 Q10",
+  "q": "5D₁₆ + 10111₂ =",
+  "o": [
+   "73₈",
+   "75₁₆",
+   "116₈",
+   "163₈",
+   "164₈"
+  ]
+ },
+ {
+  "n": 18,
+  "d": "2017 Q11",
+  "q": "What is the binary representation of 9.25₁₀?",
+  "qs": "9.25₁₀ හි ද්විමය නිරූපණය කුමක් ද?",
+  "o": [
+   "1110011101",
+   "00001001.01",
+   "0000100101",
+   "1000100101",
+   "10001001.01"
+  ]
+ },
+ {
+  "n": 19,
+  "d": "2018 Q01",
+  "q": "Consider the following three numbers in decimal, octal and hexadecimal notations, respectively.\nA - 231₁₀   B - 347₈   C - E7₁₆\nWhich of the above is/are equivalent to 11100111₂ in binary notation?",
+  "qs": "පිළිවෙළින් දශමය, අෂ්ටක සහ ෂඩ් දශමය ආකාරයෙන් ඇති පහත දැක්වෙන සංඛ්‍යා තුන සලකන්න.\nA - 231₁₀   B - 347₈   C - E7₁₆\nඉහත කවර ක්‍රමයෙන් 11100111₂ ට තුලය වේ ද?",
+  "o": [
+   "A only",
+   "B only",
+   "A and C only",
+   "B and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි",
+   "ඉහත සියල්ලම"
+  ]
+ },
+ {
+  "n": 20,
+  "d": "2018 Q02",
+  "q": "What is the decimal equivalent to the binary 110101.11₂?",
+  "qs": "110101.11₂ ට තුල්‍ය වන දශමය සංඛ්‍යාව කුමක් ද?",
+  "o": [
+   "53.00₁₀",
+   "53.50₁₀",
+   "53.75₁₀",
+   "54.25₁₀",
+   "54.75₁₀"
+  ]
+ },
+ {
+  "n": 21,
+  "d": "2019 Q02",
+  "q": "Which of the following represents the bitwise AND operation of the two binary numbers 01010101 and 10101010?",
+  "qs": "පහත කවරක් 01010101 සහ 10101010 යන ද්විමය සංඛ්‍යා දෙකෙහි බිටු ලෙස AND මෙහෙයුම නිරූපණය කරයි ද?",
+  "o": [
+   "00000000",
+   "00001111",
+   "11001100",
+   "11110000",
+   "11111111"
+  ]
+ },
+ {
+  "n": 22,
+  "d": "2019 Q20",
+  "q": "Which of the following represents the result of the binary arithmetic operation of 11001100 - 01010101?",
+  "qs": "පහත කවරක් ද්විමය 11001100 - 01010101 අංක ගණිත මෙහෙයුමේහි ප්‍රතිඵලය ඉදිරිපත් කරයි ද?",
+  "o": [
+   "00110011",
+   "01100110",
+   "01110111",
+   "10011001",
+   "10101010"
+  ]
+ },
+ {
+  "n": 23,
+  "d": "2019 Q21",
+  "q": "Which of the following statements is/are correct about two's complement?\nA - Subtraction is carried out as addition.\nB - Calculations are more efficient.\nC - It is possible to represent negative numbers within the two's complement.",
+  "qs": "දෙකෙහි අනුපූරකය පිළිබඳව පහත කුමන ප්‍රකාශ/ප්‍රකාශය සත්‍ය වේ ද?\nA - අඩු කිරීම, එකතු කිරීම ලෙස සිදු කිරීම\nB - ගණනය කිරීම් වඩා කාර්යක්ෂම වීම\nC - ඍණ සංඛ්‍යා, 2 හි අනුපූරකය තුළම නිරූපණය කිරීමට හැකි වීම",
+  "o": [
+   "A only",
+   "B only",
+   "A and B only",
+   "B and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "A හා B පමණි",
+   "B හා C පමණි",
+   "ඉහත සියල්ලම"
+  ]
+ },
+ {
+  "n": 24,
+  "d": "2019 Q29",
+  "q": "What is the binary equivalent to decimal 54.25?",
+  "qs": "දශමය 54.25 ට තුල්‍ය ද්විමය සංඛ්‍යාව කුමක් ද?",
+  "o": [
+   "00011111.11",
+   "00101010.01",
+   "00110110.01",
+   "00111011.1",
+   "00111110.1"
+  ]
+ },
+ {
+  "n": 25,
+  "d": "2020 Q05",
+  "q": "Consider the two binary numbers P = 10110001 and Q = 01001110. If X = P OR Q and Y = P AND Q, what will be the values of X and Y respectively?",
+  "qs": "P = 10110001 සහ Q = 01001110 වන ද්විමය සංඛ්‍යා දෙක සලකන්න. X = P OR Q සහ Y = P AND Q නම් X සහ Y හි අගයයන් වන්නේ පිළිවෙළින් පහත කවරක් ද?",
+  "o": [
+   "01001110, 10110001",
+   "10110001, 00000000",
+   "10110001, 11111111",
+   "11111111, 00000000",
+   "11111111, 10110001"
+  ]
+ },
+ {
+  "n": 26,
+  "d": "2020 Q06",
+  "q": "What is the 2's complement of decimal -12?",
+  "qs": "දශමය -12 හි 2 හි අනුපූරකය කුමක් ද?",
+  "o": [
+   "00001100",
+   "00110011",
+   "11110011",
+   "11110100",
+   "11111011"
+  ]
+ },
+ {
+  "n": 27,
+  "d": "2020 Q07",
+  "q": "Which of the following is true about 2's complement?",
+  "qs": "2 හි අනුපූරකය සම්බන්ධයෙන් පහත කවරක් සත්‍ය වේ ද?",
+  "o": [
+   "An extra bit is used to represent the sign.",
+   "Makes it possible to build low-cost, high-speed hardware to perform arithmetic operations.",
+   "Addition and subtraction are used as two different operations.",
+   "Usually represented in hexadecimal number system.",
+   "Used in first generation computers to perform logic operations."
+  ],
+  "os": [
+   "ලකුණ නිරූපණය කිරීමට අමතර බිටුවක් භාවිත කෙරේ.",
+   "අංක ගණිත මෙහෙයුම් සිදු කිරීම සඳහා වේගවත් මිල අඩු දෘඩාංග නිපදවීමට ඉවහල් වේ.",
+   "එකතු කිරීම සහ අඩු කිරීම එකිනෙකට වෙනස් මෙහෙයුම් දෙකක් ලෙස සිදු කෙරේ.",
+   "සාමාන්‍යයෙන් ෂඩ් දශම සංඛ්‍යා පද්ධතිය මගින් නිරූපණය කෙරේ.",
+   "තාර්කික මෙහෙයුම් සිදු කිරීම සඳහා පළමු පරම්පරාවේ පරිගණකවල භාවිත විය."
+  ]
+ },
+ {
+  "n": 28,
+  "d": "2020 Q08",
+  "q": "Consider the character representations in Table 1 and Table 2 given below:\n[Table 1: four Sinhala letters අ ආ ඇ ඈ with codes 0D85 | 0D86 | 0D87 | 0D88]\n[Table 2: four Sinhala letters in a legacy-font style with codes 0B85 | 0B86 | 0B87 | 0B88]\nIn which of the character encoding systems given below, the above characters in Table 1 and Table 2 are represented?",
+  "qs": "පහත වගුව 1 හා වගුව 2 හි ඇති අක්ෂර දැක්වීම් සලකන්න.\n[වගුව 1: අ ආ ඇ ඈ — 0D85 | 0D86 | 0D87 | 0D88]\n[වගුව 2: 0B85 | 0B86 | 0B87 | 0B88]\nඉහත වගුව 1 හා වගුව 2 හි අක්ෂර ඉදිරිපත් කරනු ලබා ඇත්තේ පහත කුමන අක්ෂර කේතන පද්ධතිවලින් ද?",
+  "o": [
+   "Both Tables 1 and 2 : in ASCII",
+   "Both Tables 1 and 2 : in UNICODE",
+   "Table 1: in ASCII, Table 2: in UNICODE",
+   "Table 1: in EBCDIC, Table 2: in ASCII",
+   "Table 1: in UNICODE, Table 2: in ASCII"
+  ],
+  "os": [
+   "වගු 1 හා 2 යන දෙකම ASCII කේතයෙනි",
+   "වගු 1 හා 2 යන දෙකම UNICODE කේතයෙනි",
+   "වගුව 1 : ASCII කේතයෙනි, වගුව 2 : UNICODE කේතයෙනි",
+   "වගුව 1 : EBCDIC කේතයෙනි, වගුව 2 : ASCII කේතයෙනි",
+   "වගුව 1 : UNICODE කේතයෙනි, වගුව 2 : ASCII කේතයෙනි"
+  ]
+ },
+ {
+  "n": 29,
+  "d": "2021 Q05",
+  "q": "What is the correct result of bit-wise XOR operation between the two binary numbers 01011100₂ and 11111001₂?",
+  "qs": "01011100₂ සහ 11111001₂ යන ද්විමය සංඛ්‍යා දෙක අතර බිටු අනුසාරිත XOR මෙහෙයුමේ නිවැරදි ප්‍රතිඵලය කුමක්ද?",
+  "o": [
+   "00000010",
+   "01011000",
+   "01011010",
+   "10100101",
+   "11111101"
+  ]
+ },
+ {
+  "n": 30,
+  "d": "2021 Q06",
+  "q": "What is the correct 2's complement binary representation of decimal -32₁₀ using 8-bits?",
+  "qs": "බිටු 8 භාවිතයෙන් දශමය -32₁₀ හි නිවැරදි 2 හි අනුපූරක ද්විමය නියෝජනය කුමක් ද?",
+  "o": [
+   "00100000",
+   "10100000",
+   "11011111",
+   "11100000",
+   "11100001"
+  ]
+ },
+ {
+  "n": 31,
+  "d": "2021 Q07",
+  "q": "What is the correct decimal equivalent of hexadecimal 88.8₁₆?",
+  "qs": "ෂඩ්දශමය 88.8₁₆ ට තුල්‍ය වන නිවැරදි දශමය සංඛ්‍යාව කුමක් ද?",
+  "o": [
+   "88.5₁₀",
+   "88.8₁₀",
+   "129.5₁₀",
+   "136.5₁₀",
+   "136.8₁₀"
+  ]
+ },
+ {
+  "n": 32,
+  "d": "2021 Q08",
+  "q": "A particular command can be used to output the values of every byte in a file in decimal format. Assume a file contains the following text:\nLove trees!\nReferring the two Notes (i) and (ii) given below, select the correct output that will result when the said command is run on that file.\nNotes:\n(i) Some selected rows from the ASCII table are given below:\nDecimal | Character\n10 | (LINE FEED)\n32 | (SPACE)\n33 | !\n76 | L\n101 | e\n108 | l\n111 | o\n114 | r\n115 | s\n116 | t\n118 | v\n(ii) The file ends with a LINEFEED character.",
+  "qs": "ගොනුවක ඇති සෑම බයිටයකම අගය දශමය ආකාරයෙන් දැක්වීමට යම් විධානයක් භාවිත කළ හැක. එක්තරා ගොනුවක් පහත පාඨයෙන් සමන්විත යැයි සිතන්න.\nLove trees!\nපහත දක්වා ඇති සටහන් (i) සහ (ii) සලකා බලමින්, එකී විධානය ඉහත ගොනුව මත ක්‍රියාත්මක කළ විට ලබාදෙන නිවැරදි ප්‍රතිදානය තෝරන්න.\nසටහන් :\n(i) ASCII වගුවේ තෝරාගත් පේළි කිහිපයක් පහත දැක්වේ.\n(ii) ගොනුව LINEFEED අනුලක්ෂණයෙන් අවසන් වේ.",
+  "o": [
+   "76 111 118 101 32 116 114 101 101 115 10",
+   "76 111 118 101 116 114 101 101 115 33 10",
+   "76 111 118 101 32 116 114 101 101 115 33 10",
+   "108 111 118 101 116 114 101 101 115 33 10",
+   "108 111 118 101 32 116 114 101 101 115 33 10"
+  ]
+ },
+ {
+  "n": 33,
+  "d": "2022 Q04",
+  "q": "Which of the following gives the correct results of bit-wise AND and bit-wise OR operations between the two binary numbers 010101002 and 111010012 respectively?",
+  "qs": "01010100₂ සහ 11101001₂ යන ද්විමය සංඛ්‍යා දෙක අතර බිටු අනුසාරිත AND සහ බිටු අනුසාරිත OR මෙහෙයුම්වල නිවැරදි ප්‍රතිඵල පිළිවෙළින් දැක්වෙන්නේ පහත කවරක් ද?",
+  "o": [
+   "01000000₂, 11111101₂",
+   "00000010₂, 10111001₂",
+   "10111101₂, 11001010₂",
+   "11000000₂, 00101100₂",
+   "11111101₂, 01010011₂"
+  ]
+ },
+ {
+  "n": 34,
+  "d": "2022 Q05",
+  "q": "What is the correct binary equivalent of decimal 12.75₁₀?",
+  "qs": "දශමය 12.75₁₀ ට තුල්‍ය වන නිවැරදි ද්විමය සංඛ්‍යාව කුමක් ද?",
+  "o": [
+   "1011.01₂",
+   "1011.11₂",
+   "1100.00₂",
+   "1100.11₂",
+   "1100.01₂"
+  ]
+ },
+ {
+  "n": 35,
+  "d": "2022 Q06",
+  "q": "What is the correct 2's complement binary representation of decimal −41₁₀ using 8-bits?",
+  "qs": "බිටු 8 භාවිතයෙන් දශමය −41₁₀ හි නිවැරදි 2 හි අනුපූරක ද්විමය නියෝජනය කුමක් ද?",
+  "o": [
+   "00101001",
+   "01010110",
+   "10101001",
+   "11010110",
+   "11010111"
+  ]
+ },
+ {
+  "n": 36,
+  "d": "2022 Q07",
+  "q": "The address of an instruction was shown as 10f9 in hexadecimal. What is that address in decimal?",
+  "qs": "උපදෙසක යොමුව ෂඩ්දශමය 10f9 ලෙස පෙනවිණි. එම යොමුව දශමය ආකාරයෙන් කුමක් වේ ද?",
+  "o": [
+   "25",
+   "1249",
+   "4345",
+   "10159",
+   "16249"
+  ]
+ },
+ {
+  "n": 37,
+  "d": "2022 Q08",
+  "q": "A particular command can be used to output a text file in its binary format. Assume a file contains the following text:\n0 Waste!\nReferring the Important notes (i) and (ii) given below, select the correct output that will result when the said command is run on that file.\nImportant notes:\n(i) The file ends with a LINE FEED character.\n(ii) Some selected rows from the 7-bit ASCII table are given below:\nCharacter | Binary\n(LINE FEED) | 0001010\n(SPACE) | 0100000\n! | 0100001\n0 | 0110000\nW | 1010111\na | 1100001\ne | 1100101\ns | 1110011\nt | 1110100\nw | 1110111",
+  "qs": "පාඨ ගොනුවක් ද්විමය ආකාරයෙන් පෙන්වීමට යම් විධානයක් භාවිත කළ හැකි ය. එක්තරා ගොනුවක් පහත පාඨයෙන් සමන්විත යැයි උපකල්පනය කරන්න.\n0 Waste!\nපහත දක්වා ඇති වැදගත් සටහන් (i) සහ (ii) සලකා බලමින් එකී විධානය ඉහත ගොනුව මත ක්‍රියාත්මක කළ විට ලබාදෙන නිවැරදි ප්‍රතිදානය තෝරන්න.\nසටහන් :\n(i) ගොනුව LINE FEED අනුලක්ෂණයෙන් අවසන් වේ.\n(ii) 7-bit ASCII වගුවේ තෝරාගත් පේළි කිහිපයක් පහත දැක්වේ.",
+  "o": [
+   "00110000 00100000 01010111 01100001 01110011 01110100 01100101 00001010",
+   "00110000 01010111 01100001 01110011 01110100 01100101 00100001 00001010",
+   "00110000 00100000 01010111 01100001 01110011 01110100 01100101 00100001 00001010",
+   "00110000 00100000 01110111 01100001 01110011 01110100 01100101 00100001 00001010",
+   "00110000 00100000 01010111 01100001 01110011 01110100 01100101 00100000 00001010"
+  ]
+ },
+ {
+  "n": 38,
+  "d": "2023 Q07",
+  "q": "What is the correct binary equivalent of decimal 13.125₁₀?",
+  "qs": "දශමය 13.125₁₀ ට තුල්‍ය වන නිවැරදි ද්විමය සංඛ්‍යාව කුමක් ද?",
+  "o": [
+   "1100.001",
+   "1100.100",
+   "1101.001",
+   "1101.100",
+   "1101.101"
+  ]
+ },
+ {
+  "n": 39,
+  "d": "2023 Q08",
+  "q": "Which of the following are equivalent to octal 674₈?\nA - 110 111 100₂   B - 444₁₀   C - 2BC₁₆",
+  "qs": "පහත කවරක් අෂ්ඨමය 674₈ ට තුල්‍ය වේද?\nA - 110 111 100₂   B - 444₁₀   C - 2BC₁₆",
+  "o": [
+   "A only",
+   "A and B only",
+   "A and C only",
+   "B and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි",
+   "ඉහත සියල්ලම"
+  ]
+ },
+ {
+  "n": 40,
+  "d": "2023 Q09",
+  "q": "The address of an instruction was shown as 5A1 in hexadecimal. What is that address in decimal?",
+  "qs": "උපදෙසක යොමුව ෂඩ්දශමය 5A1 ලෙස දැක්විණි. එම යොමුව දශමය ආකාරයෙන් කුමක් වේද?",
+  "o": [
+   "41",
+   "1441",
+   "1457",
+   "2641",
+   "23056"
+  ]
+ },
+ {
+  "n": 41,
+  "d": "2023 Q10",
+  "q": "A document contains 2048 characters including spaces and line-breaks. How many bits are needed to encode this document in ASCII also using the parity bits?",
+  "qs": "ඉඩ සහ පේළි යැවුම් ද සමග ලේඛනයක් අනුලක්ෂණ 2048 කින් සමන්විත වේ. සමතා බිටු ද භාවිත කරමින් මෙම ලේඛනය ASCII වලින් ආකේතනය කිරීමට බිටු කොපමණ අවශ්‍ය වේද?",
+  "o": [
+   "2048",
+   "2048 x 2",
+   "2048 x 7",
+   "2048 x 8",
+   "2048 / 8"
+  ]
+ },
+ {
+  "n": 42,
+  "d": "2023 Q11",
+  "q": "What is the correct 2's complement binary representation of decimal −49₁₀ using 8-bits?",
+  "qs": "බිටු 8 භාවිතයෙන් දශමය −49₁₀ හි නිවැරදි 2 හි අනුපූරක ද්විමය නියෝජනය කුමක් ද?",
+  "o": [
+   "00110001",
+   "01100010",
+   "10011110",
+   "11001111",
+   "11100010"
+  ]
+ },
+ {
+  "n": 43,
+  "d": "2024 Q07",
+  "q": "What is the correct binary equivalent of decimal 14.25₁₀?",
+  "qs": "දශමය 14.25₁₀ ට තුල්‍ය වන නිවැරදි ද්විමය සංඛ්‍යාව කුමක් ද?",
+  "o": [
+   "1001.10",
+   "1010.11",
+   "1011.01",
+   "1110.01",
+   "1111.10"
+  ]
+ },
+ {
+  "n": 44,
+  "d": "2024 Q08",
+  "q": "What is the correct decimal equivalent of octal 120₈?",
+  "qs": "අෂ්ඨමය 120₈ ට තුල්‍ය වන නිවැරදි දශමය සංඛ්‍යාව කුමක් ද?",
+  "o": [
+   "10",
+   "17",
+   "80",
+   "136",
+   "640"
+  ]
+ },
+ {
+  "n": 45,
+  "d": "2024 Q09",
+  "q": "Which of the following are correct?\nI: EB7₁₆ = 1110 1011 0111₂   II: 84₁₀ = 1010100₂   III: 753₈ = 1001011₂",
+  "qs": "පහත කවරක් නිවැරදි වේ ද?\nI: EB7₁₆ = 1110 1011 0111₂   II: 84₁₀ = 1010100₂   III: 753₈ = 1001011₂",
+  "o": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only",
+   "All of the above"
+  ],
+  "os": [
+   "I පමණි",
+   "I හා II පමණි",
+   "I හා III පමණි",
+   "II හා III පමණි",
+   "ඉහත සියල්ලම"
+  ]
+ },
+ {
+  "n": 46,
+  "d": "2024 Q10",
+  "q": "The second and third rows of the following table contain two English words and their binary representations according to the ASCII code. The binary representation of No! is kept blank.\nWord | Binary representation\nno | 1101110 1101111\nN! | 1001110 0100001\nNo! | ........\nWhat is the correct replacement for the blank?",
+  "qs": "පහත වගුවේ දෙවැනි සහ තුන්වැනි පේළිවල ඉංග්‍රීසි වචන දෙකක් සහ ASCII කේතයට අනුව ඒවායේ ද්විමය නිරූපණයන් ඇත. No! හි ද්විමය නිරූපණය හිස්ව තබා ඇත.\nවචනය | ද්විමය නිරූපණය\nno | 1101110 1101111\nN! | 1001110 0100001\nNo! | ........\nහිස්තැනට සුදුසු ආදේශකය කුමක් ද?",
+  "o": [
+   "0100001 1001110 1101111",
+   "1001110 0100001 1101111",
+   "1001110 1101111 0100001",
+   "1101110 0100001 1101111",
+   "1101110 1101111 0100001"
+  ]
+ },
+ {
+  "n": 47,
+  "d": "2024 Q11",
+  "q": "11001₂ + 10001₂ =",
+  "o": [
+   "101010₂",
+   "101011₂",
+   "101100₂",
+   "111001₂",
+   "111010₂"
+  ]
+ },
+ {
+  "n": 48,
+  "d": "2025 Q10",
+  "q": "What is the correct hexadecimal equivalent of decimal 33.75₁₀?",
+  "qs": "දශමය 33.75₁₀ ට තුල්‍ය වන නිවැරදි ෂඩ්දශමය සංඛ්‍යාව කුමක් ද?",
+  "o": [
+   "11.6₁₆",
+   "21.01₁₆",
+   "21.11₁₆",
+   "21.6₁₆",
+   "21.C₁₆"
+  ]
+ },
+ {
+  "n": 49,
+  "d": "2025 Q11",
+  "q": "If a document with 1024 characters is converted from EBCDIC to ASCII with parity bit, how much space would be saved?",
+  "qs": "අනුලක්ෂණ 1024 ක් සහිත ලේඛනයක් EBCDIC සිට සමතා බිටුවක් සහිත ASCII බවට පරිවර්තනය කළේ නම්, කොපමණ ඉඩක් ඉතිරි වේ ද?",
+  "o": [
+   "0 bits",
+   "512 bits",
+   "1024 bits",
+   "512 bytes",
+   "1024 bytes"
+  ]
+ },
+ {
+  "n": 50,
+  "d": "2025 Q12",
+  "q": "If the two signed numbers 185₁₀ and 96₁₀ are added using 8-bit registers, what is the value of the result stored in the relevant register?",
+  "qs": "185₁₀ සහ 96₁₀ යන ලකුණුවත් සංඛ්‍යා දෙක බිටු 8 හි රෙජිස්තර භාවිත කර එකතු කළේ නම් අදාළ රෙජිස්තරයේ ආචයනය කෙරෙන ප්‍රතිඵලයේ අගය කුමක් ද?",
+  "o": [
+   "−128₁₀",
+   "25₁₀",
+   "127₁₀",
+   "255₁₀",
+   "281₁₀"
+  ]
+ },
+ {
+  "n": 51,
+  "d": "2026 Q06",
+  "q": "What is the 2's complement binary representation of −1 in an 8-bit system?",
+  "qs": "බිටු 8 පද්ධතියක් තුළ −1 හි ද්විමය 2 හි අනුපූරක නිරූපණය කුමක් ද?",
+  "o": [
+   "11111111",
+   "00000000",
+   "00000001",
+   "10000000",
+   "11111110"
+  ]
+ },
+ {
+  "n": 52,
+  "d": "2026 Q07",
+  "q": "If the Unicode code point for A is hexadecimal 41, what does 4E414D45 represent?",
+  "qs": "A සඳහා යුනිකෝඩ් කේත ලක්ෂ්‍යය ෂඩ්දශමය 41 නම්, 4E414D45 නිරූපණය කරන්නේ කුමක් ද?",
+  "o": [
+   "NAVY",
+   "NAME",
+   "FOOD",
+   "GAME",
+   "CAPE"
+  ]
+ },
+ {
+  "n": 53,
+  "d": "2026 Q08",
+  "q": "Which of the following statement(s) regarding number system conversions is/are correct?\nA - 9A₁₆ = 10011010₂   B - 93₁₀ = 1011101₂   C - 645₈ = 110100111₂",
+  "qs": "සංඛ්‍යා පද්ධති පරිවර්තන සම්බන්ධයෙන් වූ පහත ප්‍රකාශ අතුරෙන් නිවැරදි වන්නේ මොනවා ද?\nA - 9A₁₆ = 10011010₂   B - 93₁₀ = 1011101₂   C - 645₈ = 110100111₂",
+  "o": [
+   "A only",
+   "A and B only",
+   "A and C only",
+   "B and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි",
+   "ඉහත සියල්ලම"
+  ]
+ },
+ {
+  "n": 54,
+  "d": "2026 Q09",
+  "q": "What is the correct binary equivalent of decimal 14.3125₁₀?",
+  "qs": "14.3125₁₀ දශමය සංඛ්‍යාවේ නිවැරදි ද්විමය තුල්‍ය සංඛ්‍යාව කුමක් ද?",
+  "o": [
+   "1101.0101₂",
+   "1101.1010₂",
+   "1111.0110₂",
+   "1110.0101₂",
+   "1110.1010₂"
+  ]
+ }
+]

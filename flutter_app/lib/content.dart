@@ -12,6 +12,11 @@ class Question {
     required this.e,
     this.t,
     this.h = const [],
+    this.im = const [],
+    this.img = false,
+    this.qs,
+    this.os,
+    this.es,
   });
 
   final String d;
@@ -21,8 +26,13 @@ class Question {
   final String e;
   final String? t;
   final List<List<String>> h;
+  final List<String> im; // page-crop images (assets/…) for figure / bilingual questions
+  final bool img; // the picture is the question; hide the text
+  final String? qs, es; // Sinhala question / explanation
+  final List<String>? os; // Sinhala options
 
   bool get multi => a.length > 1;
+  bool get pending => a.isEmpty; // answer key not added yet
 
   factory Question.fromJson(Map<String, dynamic> j) => Question(
         d: (j['d'] ?? '') as String,
@@ -34,13 +44,20 @@ class Question {
         h: ((j['h'] ?? const []) as List)
             .map((p) => (p as List).map((x) => x as String).toList())
             .toList(),
+        im: ((j['im'] ?? const []) as List).map((x) => x as String).toList(),
+        img: j['img'] != null,
+        qs: j['qs'] as String?,
+        es: j['es'] as String?,
+        os: j['os'] == null ? null : (j['os'] as List).map((x) => x as String).toList(),
       );
 }
 
 class QSet {
-  QSet(this.id, this.title, this.sub, this.qs, {this.bridge = false, this.exam = 'clf'});
+  QSet(this.id, this.title, this.sub, this.qs, {this.bridge = false, this.exam = 'clf', this.essay = false, this.numbered = false});
   final String id;
   final String exam;
+  final bool numbered; // options labelled 1–5 like the printed papers
+  final bool essay; // read-only written questions, marked "done" instead of answered
   final String title;
   final String sub;
   final List<Question> qs;
@@ -69,6 +86,8 @@ const kExams = [
       'Foundational · Sinhala bridge, lessons, words, keyword game and mock exams.'),
   Exam('saa', 'SAA-C03', 'AWS Certified Solutions Architect – Associate',
       'Associate · scenario-based practice questions by exam domain.'),
+  Exam('ict', 'AL ICT', 'G.C.E. Advanced Level ICT',
+      'Lessons with past-paper questions · English and Sinhala.'),
 ];
 
 class Content {
@@ -129,9 +148,11 @@ class Content {
         return QSet(
           id,
           m['title'] as String,
-          exam == 'saa' ? ((m['sub'] ?? '') as String) : subFor(id),
+          exam != 'clf' ? ((m['sub'] ?? '') as String) : subFor(id),
           (m['qs'] as List).map((q) => Question.fromJson(q as Map<String, dynamic>)).toList(),
           exam: exam,
+          essay: m['kind'] == 'essay',
+          numbered: false,
         );
       }),
     ];
@@ -243,12 +264,24 @@ class AppState extends ChangeNotifier {
   int get totalQuestions => content.questionsFor(exam ?? 'clf');
 
   Map<int, Ans> answersOf(String id) => answers[id] ?? const {};
-  int correctOf(String id) => answersOf(id).values.where((x) => x.ok).length;
+  /// Essays count when marked done; MCQs whose answer key is still missing never count (re-checked when a key is added).
+  int correctOf(String id) {
+    final set = content.setById(id);
+    if (set == null) return answersOf(id).values.where((x) => x.ok).length;
+    return answersOf(id).entries.where((e) => effectiveOk(set, e.key, e.value)).length;
+  }
+
+  bool effectiveOk(QSet set, int qi, Ans a) {
+    if (set.essay) return a.ok;
+    final q = set.qs[qi];
+    if (q.pending) return false;
+    return a.sel.length == q.a.length && q.a.every(a.sel.contains);
+  }
   int get totalCorrect => sets.fold(0, (n, s) => n + correctOf(s.id));
 
   double get overall {
     final q = totalCorrect / totalQuestions;
-    if (exam == 'saa') return q;
+    if (exam != 'clf') return q;
     return lessonsDone.length / content.lessons.length * .25 +
         known.length / content.words.length * .25 +
         q * .5;
@@ -276,7 +309,7 @@ class AppState extends ChangeNotifier {
 
   void answer(QSet s, int qi, List<int> sel) {
     final q = s.qs[qi];
-    final ok = sel.length == q.a.length && q.a.every(sel.contains);
+    final ok = !q.pending && sel.length == q.a.length && q.a.every(sel.contains);
     answers.putIfAbsent(s.id, () => {})[qi] = Ans(List.of(sel), ok);
     if ((s.id == 'ep6' || s.id == 'mock2' || s.id == 'mock3') &&answersOf(s.id).length == s.qs.length) {
       final pct = (correctOf(s.id) / s.qs.length * 100).round();
@@ -285,8 +318,16 @@ class AppState extends ChangeNotifier {
     _save();
   }
 
+  void toggleEssay(QSet s, int qi) {
+    final m = answers.putIfAbsent(s.id, () => {});
+    if (m.remove(qi) == null) m[qi] = Ans(const [], true);
+    _save();
+  }
+
   void retryWrong(String id) {
-    answers[id]?.removeWhere((k, v) => !v.ok);
+    final set = content.setById(id);
+    // keep picks that are only "wrong" because the answer key is missing
+    answers[id]?.removeWhere((k, v) => !v.ok && !(set != null && set.qs[k].pending));
     _save();
   }
 

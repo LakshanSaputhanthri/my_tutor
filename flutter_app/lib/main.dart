@@ -54,7 +54,7 @@ class ExamPickerPage extends StatelessWidget {
       body: SafeArea(
         child: ListView(padding: const EdgeInsets.all(20), children: [
           const SizedBox(height: 16),
-          const Label('AWS Exam Prep'),
+          const Label('Exam Prep'),
           const SizedBox(height: 6),
           Text('Which exam are you preparing for?', style: t.headlineMedium?.copyWith(fontWeight: FontWeight.w800)),
           const SizedBox(height: 8),
@@ -130,10 +130,10 @@ class _ShellState extends State<Shell> {
   @override
   Widget build(BuildContext context) {
     final s = widget.state;
-    final saa = s.exam == 'saa';
+    final saa = s.exam != 'clf';
     return Scaffold(
       appBar: AppBar(
-        title: Text(saa ? 'AWS SAA-C03' : 'AWS English Bridge', style: const TextStyle(fontWeight: FontWeight.w800)),
+        title: Text(s.exam == 'ict' ? 'AL ICT' : saa ? 'AWS SAA-C03' : 'AWS English Bridge', style: const TextStyle(fontWeight: FontWeight.w800)),
         actions: [
           TextButton.icon(
             onPressed: () => s.setExam(null),
@@ -187,7 +187,7 @@ class NextStep {
 
 NextStep nextStep(AppState s, void Function(int) goTab) {
   final c = s.content;
-  if (s.exam == 'saa') {
+  if (s.exam != 'clf') {
     for (final q in s.sets) {
       if (s.answersOf(q.id).length < q.qs.length) {
         return NextStep('Practice: ${q.title}', 'Next set to work through.', (ctx) => openSet(ctx, s, q));
@@ -277,10 +277,10 @@ class _HomePageState extends State<HomePage> {
       listenable: s,
       builder: (context, _) {
         final next = nextStep(s, widget.goTab);
-        final saa = s.exam == 'saa';
+        final saa = s.exam != 'clf';
         return ListView(padding: const EdgeInsets.all(16), children: [
           if (saa)
-            Text(kExams.firstWhere((e) => e.id == 'saa').name, style: t.titleLarge?.copyWith(fontWeight: FontWeight.w800))
+            Text(kExams.firstWhere((e) => e.id == s.exam).name, style: t.titleLarge?.copyWith(fontWeight: FontWeight.w800))
           else
           Rich('ලොකු English දැනුමක් ඕන නෑ. Exam එකේ නැවත නැවත එන **English වචන ${c.words.length}**, **question patterns ${c.patterns.length}** සහ **keywords** ටික හඳුනගත්තම ඇති. මුලින් සිංහලෙන්, ඊට පස්සේ ටික ටික English විතරක්.',
               style: t.bodyLarge),
@@ -836,7 +836,12 @@ class _QuizPageState extends State<QuizPage> {
                     if (q.d.isNotEmpty) Chip(label: Text(q.d), visualDensity: VisualDensity.compact),
                   ]),
                   const SizedBox(height: 8),
-                  Rich(q.q, showMarks: help < 2, style: t.titleMedium?.copyWith(height: 1.5)),
+                  for (final u in q.im) _qImage(context, u),
+                  if (!q.img && q.q.isNotEmpty) Rich(q.q, showMarks: help < 2, style: t.titleMedium?.copyWith(height: 1.5)),
+                  if (!q.img && q.qs != null) ...[
+                    const SizedBox(height: 8),
+                    Text(q.qs!, style: t.bodyMedium?.copyWith(color: scheme.onSurfaceVariant)),
+                  ],
                   if (set.bridge && help == 0 && q.t != null) ...[
                     const SizedBox(height: 10),
                     Container(
@@ -857,8 +862,14 @@ class _QuizPageState extends State<QuizPage> {
                     ]),
                   ],
                   const SizedBox(height: 14),
-                  for (var i = 0; i < q.o.length; i++) _option(context, q, i, done),
-                  if (q.multi && done == null)
+                  if (set.essay)
+                    FilledButton(
+                      onPressed: () => s.toggleEssay(set, qi),
+                      child: Text(done != null ? 'Done ✓ (tap to undo)' : 'Mark as done'),
+                    )
+                  else
+                    for (var i = 0; i < q.o.length; i++) _option(context, q, i, done),
+                  if (!set.essay && q.multi && !q.pending && done == null)
                     Padding(
                       padding: const EdgeInsets.only(top: 6),
                       child: FilledButton(
@@ -866,15 +877,20 @@ class _QuizPageState extends State<QuizPage> {
                         child: Text('Check (${sel.length} / ${q.a.length})'),
                       ),
                     ),
-                  if (done != null) ...[
+                  if (done != null && !set.essay) ...[
                     const SizedBox(height: 10),
                     Container(
                       padding: const EdgeInsets.all(12),
                       decoration: BoxDecoration(color: scheme.surfaceContainerHighest, borderRadius: BorderRadius.circular(10)),
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        Rich('**${widget.set.exam == 'saa' ? (done.ok ? 'Correct!' : 'Incorrect.') : (done.ok ? 'හරි!' : 'වැරදියි.')}** Answer: **${q.a.map((i) => letters[i]).join(', ')}**. ${q.e}', style: t.bodyLarge),
-                        const SizedBox(height: 6),
-                        if (widget.set.exam != 'saa') Text('ඇයි කියලා සිංහලෙන් ශබ්ද නඟලා කියන්න.', style: t.bodySmall),
+                        if (q.pending)
+                          Rich('Your choice **${done.sel.map((i) => 'ABCDE'[i]).join(', ')}** is saved. The answer key for this question has not been added yet.', style: t.bodyLarge)
+                        else ...[
+                          Rich('**${widget.set.exam != 'clf' ? (s.effectiveOk(set, qi, done) ? 'Correct!' : 'Incorrect.') : (s.effectiveOk(set, qi, done) ? 'හරි!' : 'වැරදියි.')}** Answer: **${q.a.map((i) => set.numbered ? '${i + 1}' : letters[i]).join(', ')}**. ${q.e}', style: t.bodyLarge),
+                          if (q.es != null) Text(q.es!, style: t.bodyMedium),
+                          const SizedBox(height: 6),
+                          if (widget.set.exam == 'clf') Text('ඇයි කියලා සිංහලෙන් ශබ්ද නඟලා කියන්න.', style: t.bodySmall),
+                        ],
                       ]),
                     ),
                   ],
@@ -908,10 +924,36 @@ class _QuizPageState extends State<QuizPage> {
     );
   }
 
+  /// Page crop of the question; tap to pinch-zoom.
+  Widget _qImage(BuildContext context, String path) {
+    final img = Image.asset('assets/$path', fit: BoxFit.fitWidth, filterQuality: FilterQuality.medium);
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 10),
+      child: GestureDetector(
+        onTap: () => showDialog<void>(
+          context: context,
+          builder: (_) => Dialog.fullscreen(
+            backgroundColor: Colors.white,
+            child: Stack(children: [
+              Positioned.fill(child: InteractiveViewer(minScale: 1, maxScale: 5, child: Center(child: Image.asset('assets/$path')))),
+              Positioned(top: 8, right: 8, child: IconButton(icon: const Icon(Icons.close), onPressed: () => Navigator.pop(context))),
+            ]),
+          ),
+        ),
+        child: Container(
+          color: Colors.white,
+          padding: const EdgeInsets.all(4),
+          child: img,
+        ),
+      ),
+    );
+  }
+
   Widget _dot(BuildContext context, int i) {
     final a = s.answersOf(set.id)[i];
     final scheme = Theme.of(context).colorScheme;
-    final color = a == null ? scheme.outlineVariant : (a.ok ? goodColor(context) : badColor(context));
+    final pend = a != null && !set.essay && set.qs[i].pending;
+    final color = a == null ? scheme.outlineVariant : pend ? scheme.primary : (s.effectiveOk(set, i, a) ? goodColor(context) : badColor(context));
     return InkWell(
       onTap: () => _go(i),
       borderRadius: BorderRadius.circular(6),
@@ -920,7 +962,7 @@ class _QuizPageState extends State<QuizPage> {
         height: 30,
         alignment: Alignment.center,
         decoration: BoxDecoration(
-          color: a == null ? null : color.withAlpha(40),
+          color: a == null || pend ? null : color.withAlpha(40),
           border: Border.all(color: i == qi ? scheme.primary : color, width: i == qi ? 2.5 : 1),
           borderRadius: BorderRadius.circular(6),
         ),
@@ -933,7 +975,9 @@ class _QuizPageState extends State<QuizPage> {
     final scheme = Theme.of(context).colorScheme;
     Color border = scheme.outlineVariant;
     Color? fill;
-    if (done != null) {
+    if (done != null && q.pending) {
+      if (done.sel.contains(i)) border = scheme.primary;
+    } else if (done != null) {
       if (q.a.contains(i)) {
         border = goodColor(context);
         fill = border.withAlpha(35);
@@ -948,7 +992,7 @@ class _QuizPageState extends State<QuizPage> {
       padding: const EdgeInsets.only(bottom: 8),
       child: InkWell(
         borderRadius: BorderRadius.circular(10),
-        onTap: done != null
+        onTap: done != null && !q.pending
             ? null
             : () {
                 if (q.multi) {
@@ -972,9 +1016,12 @@ class _QuizPageState extends State<QuizPage> {
             borderRadius: BorderRadius.circular(10),
           ),
           child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            Text('ABCDE'[i], style: TextStyle(fontWeight: FontWeight.w700, color: scheme.onSurfaceVariant)),
+            Text(set.numbered ? '${i + 1}' : 'ABCDE'[i], style: TextStyle(fontWeight: FontWeight.w700, color: scheme.onSurfaceVariant)),
             const SizedBox(width: 12),
-            Expanded(child: Text(q.o[i], style: Theme.of(context).textTheme.bodyLarge)),
+            Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(q.o[i], style: Theme.of(context).textTheme.bodyLarge),
+              if (q.os != null && i < q.os!.length) Text(q.os![i], style: Theme.of(context).textTheme.bodySmall),
+            ])),
           ]),
         ),
       ),

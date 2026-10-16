@@ -1,0 +1,32 @@
+[
+ {
+  "d": "2011 ESSAY01[c]",
+  "q": "Show how the computation 5+(-3) is done in 8-bit two's complement arithmetic. Explain how you deal with the carry generated from the most significant bit.",
+  "qs": "(8-බිට්) 8 අංකයේ දෙකෙහි අනුපූරක අංක ගණිතය මගින් 5+(-3) ගණනය කරන අයුරු පෙන්වන්න. වැඩිම වශයෙන් බිටුව (Most significant bit) මගින් උත්පාදනය වූ ආනීතය (Carry) සමග ඔබ කටයුතු කරන ආකාරය පැහැදිලි කරන්න."
+ },
+ {
+  "d": "2012 ESSAY03[b]",
+  "q": "Show how the computation 15+(-5) is done in 8-bit two's complement arithmetic. Explain how you deal with the carry generated in the most significant bit.",
+  "qs": "බිටු 8 හි (8-bit) දෙකේ අනුපූරක අංක ගණිතයෙහි 15+(-5) ගණනය (computation) කරනු ලබන්නේ කෙසේදැයි පෙන්වා දෙන්න. වැඩිම වශයෙන් බිටුවෙහි (most significant bit) උත්පාදන වන ආනීතය (carry) ඔබ හසුරුවන්නේ කෙසේදැයි පැහැදිලි කරන්න."
+ },
+ {
+  "d": "2013 ESSAY03[a]",
+  "q": "Convert 13₁₀ and -19₁₀ into two's complement numbers. Use 8-bits to represent a number.",
+  "qs": "13₁₀ සහ −19₁₀ දෙකෙහි අනුපූරක සංඛ්‍යාවන්ට පරිවර්තනය කරන්න. සංඛ්‍යාවක් නිරූපණය කිරීම සඳහා බිටු 8 ක් භාවිත කරන්න."
+ },
+ {
+  "d": "2014 ESSAY02[a]",
+  "q": "Show that the negative of 0001₂ is 1111₂. Note that both numbers are represented in two's complement form.",
+  "qs": "0001₂ හි සෘණ අගය 1111₂ බව පෙන්වන්න. මෙම සංඛ්‍යා දෙකම දෙකෙහි අනුපූරක ආකාරයෙන් ඇති බව සලකන්න."
+ },
+ {
+  "d": "2018 ESSAY02[b]",
+  "q": "(i) Write down the two's complement representation of 12₁₀ using 8 bits.\n(ii) Write down the two's complement representation of −68₁₀ using 8 bits.\n(iii) Compute −68₁₀ + 12₁₀ using the above representations (i) and (ii).\n(iv) State one advantage of using two's complement representation for data in internal operations of a computer.",
+  "qs": "(i) 12₁₀ සංඛ්‍යාවෙහි දෙකෙහි අනුපූරකය බිටු 8 ක් භාවිතයෙන් නිරූපණය වන ආකාරය ලියා දක්වන්න.\n(ii) −68₁₀ සංඛ්‍යාවෙහි දෙකෙහි අනුපූරකය බිටු 8 ක් භාවිතයෙන් නිරූපණය වන ආකාරය ලියා දක්වන්න.\n(iii) ඉහත (i) හා (ii) හි නිරූපණ භාවිතයෙන් −68₁₀ + 12₁₀ ගණනය කරන්න.\n(iv) පරිගණකයක අභ්‍යන්තර මෙහෙයුම් සඳහා දත්ත, දෙකෙහි අනුපූරකය ලෙස නිරූපණය කිරීමෙන් ලැබෙන එක් වාසියක් සඳහන් කරන්න."
+ },
+ {
+  "d": "2024 ESSAY10[b]",
+  "q": "Show that the answer for 1100₂ − 1010₂ could be obtained by adding the 2's complement of 1010₂ to 1100₂ and ignoring the carry.",
+  "qs": "1100₂ − 1010₂ හි පිළිතුරද 1010₂ හි දෙකෙහි අනුපූරකය 1100₂ ට එකතු කර, ඉදිරියට ගෙන යන බිටුව (carry) නොසලකා හැරීමෙන් ලබාගත හැකි බව පෙන්වන්න."
+ }
+]

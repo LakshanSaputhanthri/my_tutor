@@ -1,0 +1,657 @@
+[
+ {
+  "n": 75,
+  "d": "2021 Q19",
+  "q": "Sender A wants to send the message HELLO to receiver B. Before sending the message, it is converted to IFMMP. Which of the following is correct with respect to this scenario?\nA - HELLO is the plaintext while IFMMP is the ciphertext.\nB - IFMMP is the result of applying the ASCII code to HELLO.\nC - +1 is the encryption key while -1 is the decryption key.",
+  "qs": "HELLO යන පණිවුඩය B වෙත යැවීමට A ට අවශ්‍ය ය. එම පණිවුඩය යැවීමට පෙර එය IFMMP බවට හරවනු ලැබේ. මෙම අවස්ථාවට අදාළව පහත කවරක් නිවැරදි ද?\nA - HELLO සරල පෙළ වන අතර IFMMP සංකේත පෙළ වේ.\nB - IFMMP යනු HELLO මත ASCII කේතය යෙදූ විට ලැබෙන ප්‍රතිඵලයයි.\nC - කේතන යතුර +1 වන අතර විකේතන යතුර -1 වේ.",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 76,
+  "d": "2021 Q20",
+  "q": "Consider the following paragraph with three blanks labelled A, B and C:\nWhen there are multiple computers in an office, each computer can be given a private IP address. The router in the office gets a ......A...... IP address, and each of the computers connected to that router through guided/unguided media gets a private IP address from the ......B...... via the ......C...... protocol.\nWhich of the following is the correct combination for the blanks A, B and C?",
+  "o": [
+   "A - private, B - file server, C - HTTP",
+   "A - private, B - Internet, C - DHCP",
+   "A - private, B - router, C - FTP",
+   "A - public, B - file server, C - FTP",
+   "A - public, B - router, C - DHCP"
+  ]
+ },
+ {
+  "n": 77,
+  "d": "2022 Q18",
+  "q": "An organization with the assigned IP address block 193.1.1.0/24 needs to define eight subnets. Each subnet should provide for more than 25 IP addresses. Which of the following correctly lists the number of bits needed to identify the given network, the total number of bits needed to identify the subnets, and the number of bits needed to assign unique IP addresses for this requirement, respectively?",
+  "o": [
+   "24, 3, 5",
+   "24, 5, 3",
+   "24, 27, 5",
+   "27, 3, 5",
+   "27, 30, 2"
+  ]
+ },
+ {
+  "n": 78,
+  "d": "2022 Q15",
+  "q": "Which of the following are Transport Layer protocols of the TCP/IP stack?\nA - Transmission Control Protocol (TCP)\nB - User Datagram Protocol (UDP)\nC - File Transfer Protocol (FTP)\nD - Internet Protocol (IP)",
+  "qs": "TCP/IP ආකෘතියේ ප්‍රවාහන ස්තරයේ නියමාවලි වන්නේ මොනවා ද?\nA - සම්ප්‍රේෂණ පාලන නියමාවලිය (TCP)\nB - පරිශීලක දත්ත පණිවිඩ නියමාවලිය (UDP)\nC - ගොනු හුවමාරු නියමාවලිය (FTP)\nD - අන්තර්ජාල නියමාවලිය (IP)",
+  "o": [
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "B and D only.",
+   "All of the above"
+  ],
+  "os": [
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "B හා D පමණි.",
+   "ඉහත සියල්ලම"
+  ]
+ },
+ {
+  "n": 79,
+  "d": "2022 Q16",
+  "q": "Which of the following statements is/are correct about MAC and IPv4 addresses?\nA - MAC addresses are 32 bits in length and are used in the network layer.\nB - MAC addresses are 48 bits in length and are used in the datalink layer.\nC - IPv4 addresses are 32 bits in length and are used in the network layer.",
+  "qs": "MAC සහ IPv4 ලිපියොමු සම්බන්ධයෙන් පහත සඳහන් කවරක් නිවැරදි ද?\nA - MAC ලිපියොමුවල දිග බිටු 32 ක් වන අතර ඒවා ජාල ස්තරයේ භාවිත වේ.\nB - MAC ලිපියොමුවල දිග බිටු 48 ක් වන අතර ඒවා දත්ත සබැඳි ස්තරයේ භාවිත වේ.\nC - IPv4 ලිපියොමුවල දිග බිටු 32 ක් වන අතර ඒවා ජාල ස්තරයේ භාවිත වේ.",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and C only",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි"
+  ]
+ },
+ {
+  "n": 80,
+  "d": "2022 Q17",
+  "q": "Which of the following is/are correct regarding a firewall?\nA - It can monitor and filter outgoing traffic from an internal network.\nB - It protects a network from unauthorized accesses.\nC - It can be a hardware, a software or a combination of both.",
+  "qs": "ගිනිපවුරක් සම්බන්ධයෙන් පහත සඳහන් කවරක් නිවැරදි ද?\nA - එයට අභ්‍යන්තර ජාලයකින් පිටතට යන දත්ත ප්‍රවාහයන් නිරීක්ෂණය සහ පෙරීම කළ හැකි ය.\nB - එය ජාලයක් අනවසර ප්‍රවේශවලින් ආරක්ෂා කිරීම කරයි.\nC - එය දෘඩාංගයක්, මෘදුකාංගයක් හෝ ඒ දෙකම හෝ විය හැකි ය.",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 81,
+  "d": "2022 Q19",
+  "q": "Which of the following statements is correct regarding network topologies?",
+  "qs": "ජාල ස්ථලක සම්බන්ධයෙන් පහත සඳහන් කුමන ප්‍රකාශය නිවැරදි ද?",
+  "o": [
+   "In bus topology, a central network hub is used to connect all nodes.",
+   "In star topology, a linear cable is used to connect all nodes.",
+   "In ring topology, messages are sent only clockwise.",
+   "In ring topology, each node is directly connected only to two of its neighbors.",
+   "In mesh topology, each node is always connected to one other node only."
+  ],
+  "os": [
+   "බස් ස්ථලකයේදී, සියලු ම නෝඩ් සම්බන්ධ කිරීමට මධ්‍යගත ජාල නාභියක් භාවිත වේ.",
+   "තාරකා ස්ථලකයේදී, සියලු ම නෝඩ් සම්බන්ධ කිරීමට රේඛීය කේබලයක් භාවිත වේ.",
+   "මුදු ස්ථලකයේදී, පණිවිඩ යවනු ලබන්නේ දක්ෂිණාවර්තව පමණි.",
+   "මුදු ස්ථලකයේදී, එක් එක් නෝඩුව සෘජුව සම්බන්ධ වන්නේ අසල්වැසි නෝඩ් දෙකකට පමණි.",
+   "බැඳි ස්ථලකයේදී, එක් එක් නෝඩුව සැමවිටම තවත් එක් නෝඩුවකට පමණක් සම්බන්ධ වේ."
+  ]
+ },
+ {
+  "n": 82,
+  "d": "2022 Q20",
+  "q": "Consider the seven layer OSI reference model and match each of the given layers labeled from P to S to the corresponding responsibility of it labeled from 1 to 4.\nLayer: P - Application layer; Q - Physical layer; R - Transport layer; S - Network Layer\nResponsibility: 1 - binary transmission over the communication medium; 2 - route determination; 3 - user services that include file transfer, remote access etc.; 4 - data delivery from process to process",
+  "o": [
+   "P - 1, Q - 3, R - 2, S - 4",
+   "P - 2, Q - 4, R - 3, S - 1",
+   "P - 3, Q - 1, R - 2, S - 4",
+   "P - 3, Q - 1, R - 4, S - 2",
+   "P - 4, Q - 2, R - 1, S - 3"
+  ]
+ },
+ {
+  "n": 83,
+  "d": "2022 Q21",
+  "q": "Which of the following statements is/are correct?\nA - A digital signature ensures the authenticity of a message.\nB - In asymmetric key encryption, different keys are used for encryption and decryption.\nC - The encryption process transforms plaintext to ciphertext.",
+  "qs": "පහත සඳහන් කුමන ප්‍රකාශ/ය නිවැරදි ද?\nA - අංකිත අත්සන පණිවිඩයක සත්‍යතාව සහතික කරයි.\nB - අසමමිතික යතුරු කේතනයේදී ගුප්තකේතනය සහ විකේතනය සඳහා විවිධ යතුරු භාවිත වේ.\nC - ගුප්තකේතන ක්‍රියාවලිය සරල අක්ෂර රාශිය සංකේත අක්ෂර රාශිය බවට පරිවර්තනය කරයි.",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and B only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා B පමණි",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 84,
+  "d": "2022 Q22",
+  "q": "Match each of the given data communication protocols labelled from P to T to the corresponding descriptions labelled from 1 to 5.\nProtocol: P - Hyper Text Transfer Protocol (HTTP); Q - Transmission Control Protocol (TCP); R - Domain Name System (DNS); S - Internet Protocol (IP); T - User Datagram Protocol (UDP)\nDescription: 1 - Provides directory lookup service for given web addresses and URLs; 2 - Provides a very reliable data transfer service; 3 - Used in the world wide web; 4 - Provides a connection-less transport service; 5 - Handles unique addressing of hosts in the Internet",
+  "o": [
+   "P - 2, Q - 4, R - 1, S - 5, T - 3",
+   "P - 2, Q - 5, R - 4, S - 1, T - 3",
+   "P - 3, Q - 2, R - 1, S - 5, T - 4",
+   "P - 3, Q - 4, R - 5, S - 1, T - 2",
+   "P - 4, Q - 2, R - 3, S - 1, T - 5"
+  ]
+ },
+ {
+  "n": 85,
+  "d": "2023 Q16",
+  "q": "Which of the following statements are true?\nA - A firewall acts as a packet filter inspecting all the packets entering a network.\nB - A malware that misleads the users by disguising itself as a standard program is termed a Trojan Horse.\nC - A strong password should have a combination of uppercase and lowercase letters, numbers and symbols of sufficient length.",
+  "qs": "පහත කවර ප්‍රකාශ සත්‍ය වේ ද?\nA - ජාලයකට ඇතුළුවන සියලු පැකට්ටු පරීක්ෂා කරන පැකට්ටු පෙරහනක් ලෙස ගිනිපවුර ක්‍රියා කරයි.\nB - සම්මත ක්‍රමලේඛයක් ලෙස පෙනී සිටීමෙන් පරිශීලකයන් රවටන අනිෂ්ට මෘදුකාංගයක් ට්‍රෝජන් අශ්වයකු ලෙස හැඳින්වේ.\nC - ශක්තිමත් මුරපදයක කැපිටල් අකුරු, කුඩා අකුරු, ඉලක්කම් සහ සංකේත සංයෝජනයක් ප්‍රමාණවත් දිගකින් තිබිය යුතු ය.",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and B only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා B පමණි",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 86,
+  "d": "2023 Q17",
+  "q": "Which of the following statements are true?\nA - One of the uses of encryption is to ensure confidentiality of transmitted data.\nB - Every user needs to have a pair of dissimilar keys when using Asymmetric Key Encryption.\nC - Users must share a common key when exchanging information using Symmetric Key Encryption.",
+  "qs": "පහත කවර ප්‍රකාශ සත්‍ය වේ ද?\nA - ගුප්ත කේතනයේ එක් භාවිතයක් වන්නේ දත්තවල රහස්‍යභාවය සහතික කර ගැනීමයි.\nB - අසමමිතික ගුප්ත කේතනය භාවිත කරන විට, සෑම පරිශීලකයෙක් සතුවම අසමාන යතුරු යුගලයක් තිබිය යුතු ය.\nC - සමමිතික ගුප්ත කේතනය භාවිත කොට තොරතුරු හුවමාරු කරගැනීමේදී පරිශීලකයන් විසින් පොදු යතුරක් හවුලේ පරිහරණය කළ යුතු ය.",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 87,
+  "d": "2023 Q18",
+  "q": "Which of the following is considered as an erroneously received byte in an even parity system?",
+  "qs": "ඉරට්ටේ සමතා පද්ධතියක දෝෂ සහිතව ලබා ගත් බයිටය ලෙස සැලකිය හැකි පහත ඒවායින් කවරක් ද?",
+  "o": [
+   "01010101",
+   "10010011",
+   "10110010",
+   "11011001",
+   "11010111"
+  ]
+ },
+ {
+  "n": 88,
+  "d": "2023 Q20",
+  "q": "Select the answer containing the correct replacements for (A) and (B) in the following paragraph.\nIn the Internet, a host is identified by its IP address. In IPv4, each IP address consists of ______(A)______ bits to identify a host. The newer version named IPv6 consists of ______(B)______ bits in an IP address.",
+  "o": [
+   "(A) = 32, (B) = 48",
+   "(A) = 32, (B) = 128",
+   "(A) = 48, (B) = 32",
+   "(A) = 48, (B) = 128",
+   "(A) = 128, (B) = 32"
+  ]
+ },
+ {
+  "n": 89,
+  "d": "2023 Q19",
+  "q": "Match the Devices labelled from A to E to the corresponding Descriptions labelled from 1 to 5.\nDevice: A. Client; B. Hub; C. Router; D. Server; E. Switch\nDescription: 1 - stores network programs and data files for the users to access; 2 - a connecting device between Local Area Networks (LAN) and Wide Area Networks (WAN); 3 - when a message is received, this transmits it only on the port to which the destination computer is attached; 4 - requests services and content from other computers; 5 - when a message is received, this broadcasts it on all ports to all attached hosts",
+  "o": [
+   "A - 1, B - 5, C - 4, D - 2, E - 3",
+   "A - 2, B - 4, C - 3, D - 5, E - 1",
+   "A - 3, B - 2, C - 1, D - 4, E - 5",
+   "A - 4, B - 5, C - 2, D - 1, E - 3",
+   "A - 4, B - 5, C - 2, D - 1, E - 3"
+  ]
+ },
+ {
+  "n": 90,
+  "d": "2023 Q21",
+  "q": "Which of the following statements regarding DNS (Domain Name System) are correct?\nA - It maps web addresses to IP addresses and vice versa.\nB - HTTP uses the services provided by the DNS.\nC - DNS maintains a hierarchy of domain names.",
+  "qs": "වසම් නාම පද්ධතිය සම්බන්ධයෙන් පහත කවර ප්‍රකාශ නිවැරදි ද?\nA - එය වෙබ් ලිපින IP යොමුවලට සහ IP යොමු වෙබ් ලිපිනවලට අනුපරිවර්තනය කරයි.\nB - HTTP, DNS මගින් සපයන සේවා භාවිත කරයි.\nC - DNS වසම් නාම ධූරාවලියක් පවත්වා ගනියි.",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 91,
+  "d": "2023 Q22",
+  "q": "Which of the following statements regarding IP addresses are correct?\nA - In class C networks, first octet value ranges from 192 through 223.\nB - IPv4 can assign addresses up to 4 million devices.\nC - 192.168.0.0 - 192.168.255.255 is a private IP address range.",
+  "qs": "IP යොමු සම්බන්ධයෙන් පහත කවර ප්‍රකාශ නිවැරදි වේ ද?\nA - C පන්තියේ ජාලවල පළමු අෂ්ටක අගය 192 සිට 223 තෙක් වේ.\nB - IPv4 මගින් උපාංග මිලියන 4 කට IP යොමු පැවරීම කළ හැකිය.\nC - 192.168.0.0 - 192.168.255.255 යනු පෞද්ගලික IP යොමු පරාසයකි.",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and B only",
+   "A and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි"
+  ]
+ },
+ {
+  "n": 92,
+  "d": "2023 Q23",
+  "q": "If Suresh wants to send an encrypted message to be read only by Amara using asymmetric key encryption, then",
+  "qs": "අසමමිතික යතුරු කේතනය යොදා ගුප්ත කේතනය කළ පණිවිඩයක් අමරට පමණක් කියවීම සඳහා යැවීමට සුරේෂ්ට අවශ්‍ය නම්,",
+  "o": [
+   "Suresh should encrypt his message using his public key.",
+   "Suresh should encrypt his message using his private key.",
+   "Suresh should encrypt his message using Amara's public key.",
+   "Suresh should encrypt his message using Amara's private key.",
+   "Suresh should encrypt his message using both private and public keys of Amara."
+  ],
+  "os": [
+   "සුරේෂ් තම පොදු යතුර යොදා පණිවිඩය ගුප්ත කේතනය කළ යුතුය.",
+   "සුරේෂ් තම පෞද්ගලික යතුර යොදා පණිවිඩය ගුප්ත කේතනය කළ යුතුය.",
+   "සුරේෂ්, අමරගේ පොදු යතුර යොදා පණිවිඩය ගුප්ත කේතනය කළ යුතුය.",
+   "සුරේෂ්, අමරගේ පෞද්ගලික යතුර යොදා පණිවිඩය ගුප්ත කේතනය කළ යුතුය.",
+   "සුරේෂ්, අමරගේ පොදු සහ පෞද්ගලික යන යතුරු දෙකම යොදා පණිවිඩය ගුප්ත කේතනය කළ යුතුය."
+  ]
+ },
+ {
+  "n": 93,
+  "d": "2024 Q19",
+  "q": "Which of the following is correct regarding parity bits?",
+  "qs": "සමත් බිටු සම්බන්ධයෙන් පහත කවරක් නිවැරදි ද?",
+  "o": [
+   "The parity bit in a set of bits is adjusted after that set of bits is communicated.",
+   "The parity bit for a set of bits is selected to ensure the total number of 1-bits in the set is either even or odd.",
+   "The transmission speed of a communication is increased by parity bits.",
+   "Parity bits are added after a communication to correct errors.",
+   "Encryption needed in a data transmission is provided by parity bits."
+  ],
+  "os": [
+   "බිටු සමූහයක සමත් බිටුව, එම බිටු සමූහය සන්නිවේදනයෙන් පසුව හරිගැස්සවෙයි.",
+   "බිටු සමූහයක සමත් බිටුව තෝරාගනු ලබන්නේ එම සමූහයේ මුළු 1-බිටු ගණන ඉරට්ටේ හෝ ඔත්තේ හෝ වන පරිදිය.",
+   "සන්නිවේදන සම්ප්‍රේෂණ වේගය සමත් බිටු මගින් වැඩි කරනු ලැබේ.",
+   "වැරදි නිවැරදි කිරීමට, සන්නිවේදනයෙන් පසුව සමත් බිටු එකතු කරනු ලැබේ.",
+   "දත්ත සම්ප්‍රේෂණයකට අවශ්‍ය ගුප්ත කේතනය සමත් බිටු මගින් සපයනු ලැබේ."
+  ]
+ },
+ {
+  "n": 94,
+  "d": "2024 Q18",
+  "q": "Which of the given statements (I, II, III) are true with respect to the following two diagrams? (Note: V - Voltage, t - time)\n[Figure: Top graph shows a continuous smooth varying wave labelled A (V against t). Bottom graph shows a stepped waveform of discrete levels labelled B (V against t), with dotted vertical lines sampling A at intervals to give the levels of B.]\nI - A depicts an analog signal.\nII - B depicts a digital signal.\nIII - B is a digitized version of A.",
+  "qs": "පහත රූප දෙක සම්බන්ධයෙන් දී ඇති කවර වගන්ති (I, II, III) නිවැරදි ද? (සංකේත: V - වෝල්ටීයතාව, t - කාලය)\nI - A ප්‍රතිසම සංඥාවක් නිරූපණය කරයි.\nII - B අංකිත සංඥාවක් නිරූපණය කරයි.\nIII - B යනු A හි සංඛ්‍යානය කළ ස්වරූපයයි.",
+  "o": [
+   "I only",
+   "II only",
+   "III only",
+   "II and III only",
+   "All of the above"
+  ],
+  "os": [
+   "I පමණි",
+   "II පමණි",
+   "III පමණි",
+   "II හා III පමණි",
+   "ඉහත සියල්ලම"
+  ]
+ },
+ {
+  "n": 95,
+  "d": "2024 Q20",
+  "q": "What is done by a modem when it receives an analog signal from a PSTN (Public Switched Telephone Network) line?",
+  "qs": "පොදු ස්විච් දුරකථන ජාල මඟින් ප්‍රතිසම සංඥාවක් ලද විට මොඩමයකින් කුමක් සිදු වේ ද?",
+  "o": [
+   "It amplifies the signal for better clarity.",
+   "It compresses the signal for storage.",
+   "It demodulates the signal back into digital form.",
+   "It encrypts the signal for security.",
+   "It modulates the signal further for transmission."
+  ],
+  "os": [
+   "වඩාත් පැහැදිලි ගුණයක් සඳහා එය සංඥාව විස්තාරණය කරයි.",
+   "ආචයනය සඳහා එය සංඥාව සම්පීඩනය කරයි.",
+   "එය සංඥාව යළි අංකිත ස්වරූපයට විමූර්ජනය කරයි.",
+   "එය ආරක්ෂාව සඳහා සංඥාව ගුප්ත කේතනය කරයි.",
+   "සම්ප්‍රේෂණය සඳහා එය සංඥාව තවදුරටත් මූර්ජනය කරයි."
+  ]
+ },
+ {
+  "n": 96,
+  "d": "2024 Q21",
+  "q": "Which of the following best describes a switch in a network?",
+  "qs": "ජාලයක ඇති ස්විචයක් වඩාත් හොඳින් විස්තර කරන්නේ පහත කුමන ප්‍රකාශයෙන් ද?",
+  "o": [
+   "It amplifies data signals for clearer transmission.",
+   "It always broadcasts all incoming data to every device in the network.",
+   "It compresses data for more efficient transmission.",
+   "It directs data only to the specific device for which the data is intended.",
+   "It stores data for future processing."
+  ],
+  "os": [
+   "වඩාත් පැහැදිලි සම්ප්‍රේෂණය සඳහා එය දත්ත සංඥා විස්තාරණය කරයි.",
+   "එය සැමවිටම පිටින් ලැබෙන සියලු දත්ත ජාලයේ ඇති සෑම උපාංගයකටම විකාශනය කරයි.",
+   "වඩාත් කාර්යක්ෂම සම්ප්‍රේෂණය සඳහා එය දත්ත සම්පීඩනය කරයි.",
+   "දත්ත අපේක්ෂිත උපාංගයට පමණක් එය දත්ත යොමු කරයි.",
+   "අනාගත සැකසුම් සඳහා එය දත්ත ආචයනය කරයි."
+  ]
+ },
+ {
+  "n": 97,
+  "d": "2024 Q22",
+  "q": "How many usable host addresses are available in the 192.168.100.0/27 IP address block?",
+  "o": [
+   "16",
+   "30",
+   "32",
+   "62",
+   "64"
+  ]
+ },
+ {
+  "n": 98,
+  "d": "2024 Q23",
+  "q": "Which of the following are properties of the Transmission Control Protocol (TCP)?\nA - detection and correction of any errors in a communication\nB - receiver acknowledging to the sender about the receipt of a data packet\nC - ensuring data packets are received in order",
+  "qs": "සම්ප්‍රේෂණ පාලන නියමාවලියේ (TCP) ගුණාංග වන්නේ පහත කවරක් ද?\nA - සන්නිවේදනයක දෝෂ ඇත්නම් ඒවා හඳුනාගැනීම හා නිවැරදි කිරීම\nB - දත්ත පැකට්ටුවක් ලැබුණු බව ලබන්නා විසින් යවන්නාට දැන්වීම\nC - දත්ත පැකට්ටු පිළිවෙළින් ලැබෙන බවට සහතික වීම",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 99,
+  "d": "2025 Q16",
+  "q": "What does the term attenuation refer to in signal transmission?",
+  "qs": "සංඥා සම්ප්‍රේෂණයේදී, වැහැරීම යන්නෙන් අදහස් වන්නේ කුමක් ද?",
+  "o": [
+   "alteration in the properties of the transmitted signal",
+   "increase in the signal strength",
+   "loss of signal energy as it travels over a distance",
+   "time delay in propagation",
+   "the received signal makes no meaning"
+  ]
+ },
+ {
+  "n": 100,
+  "d": "2025 Q15",
+  "q": "Consider the following two statements P and Q:\nP - Data is represented as a sequence of discrete values in a digital signal.\nQ - Even with some corruption, a digital signal is easier to correctly interpret than an analog signal.\nWhich of the following is correct regarding the above two statements?",
+  "qs": "පහත P හා Q වගන්ති සලකන්න.\nP - අංකිත සංඥාවක, දත්ත, විවික්ත අගයන් අනුක්‍රමයක් ලෙසින් නිරූපණය වේ.\nQ - යම් විකෘතියක් සමග වුව ද, අංකිත සංඥාවක, ප්‍රතිසමසංඥාවකට වඩා පහසුවෙන් නිවැරදිව තේරුම් කරගත හැකි ය.\nඉහත වගන්ති දෙක සම්බන්ධයෙන් පහත කවරක් නිවැරදි ද?",
+  "o": [
+   "Both statements P and Q are correct and the point presented in statement P gives the reason for the point presented in statement Q.",
+   "Both statements P and Q are correct but the points presented in those two statements are not connected.",
+   "Statement P is correct but statement Q is incorrect.",
+   "Statement P is incorrect but statement Q is correct.",
+   "Both statements P and Q are incorrect."
+  ],
+  "os": [
+   "P හා Q යන වගන්ති දෙකම නිවැරදි වන අතර, P වගන්තියෙන් ඉදිරිපත් කෙරෙන කරුණ, Q වගන්තියෙන් ඉදිරිපත් කෙරෙන කරුණට හේතුව දක්වයි.",
+   "P හා Q යන වගන්ති දෙකම නිවැරදි වන නමුත්, එම වගන්ති දෙකෙන් ඉදිරිපත් කෙරෙන කරුණු අතර සම්බන්ධයක් නැත.",
+   "P වගන්තිය නිවැරදි වන අතර, Q වගන්තිය වැරදි වේ.",
+   "P වගන්තිය වැරදි වන අතර, Q වගන්තිය නිවැරදි වේ.",
+   "P හා Q වගන්ති දෙකම වැරදි වේ."
+  ]
+ },
+ {
+  "n": 101,
+  "d": "2025 Q17",
+  "q": "Consider the following two statements P and Q:",
+  "o": [
+   "in amplitude modulation",
+   "in amplitude shift keying",
+   "in frequency modulation",
+   "in frequency shift keying",
+   "in pulse code modulation"
+  ],
+  "os": [
+   "විස්තාර මූර්ජනයේදී",
+   "විස්තාර සීරුමාරුවේදී",
+   "සංඛ්‍යාත මූර්ජනයේදී",
+   "සංඛ්‍යාත සීරුමාරුවේදී",
+   "ස්පන්ද කේත මූර්ජනයේදී"
+  ]
+ },
+ {
+  "n": 102,
+  "d": "2025 Q18",
+  "q": "Which of the following statements are correct regarding the bus topology?\nA - It consists of a main cable with terminators at each end.\nB - Devices in the topology are directly connected to each other.\nC - Problems occur when multiple nodes try to access the medium at the same time.",
+  "qs": "බස් ස්ථලකය සම්බන්ධයෙන් පහත කවර ප්‍රකාශ නිවැරදි වේ ද?\nA - එය එක් එක් කෙළවරෙහි අවසන් කරන්නෙකු සහිත මූලික කේබලයකින් සමන්විත වේ.\nB - මෙම ස්ථලකයේ උපාංග එකිනෙකට සෘජුව සම්බන්ධ වේ.\nC - නෝඩ් කිහිපයක් එකවර මාධ්‍යයට ප්‍රවේශ වීමට උත්සාහ දරන විට ගැටලු ඇති වේ.",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 103,
+  "d": "2025 Q19",
+  "q": "Which of the following statements best describes the primary function of a network switch?",
+  "qs": "ජාල ස්විචයක මූලික කාර්යය හොඳින් විස්තර කරන්නේ පහත කවර ප්‍රකාශයෙන් ද?",
+  "o": [
+   "It amplifies and regenerates signals to travel over long distances.",
+   "It connects devices within a LAN and forwards frames based on the MAC addresses.",
+   "It connects multiple networks together and routes data traffic between them.",
+   "It encrypts data before transmitting them through the network.",
+   "It maps domain names into IP addresses."
+  ],
+  "os": [
+   "දිගු දුරවල් ගමන් කිරීම සඳහා එය සංඥා වර්ධනය කර ප්‍රතිජනනය කරයි.",
+   "එය ස්ථානීය පෙදෙස් ජාලයක් තුළ ඇති උපාංග සම්බන්ධ කර MAC ලිපියොමු මත පදනම්ව රාමු ඉදිරියට යවයි.",
+   "එය ජාල කිහිපයක්ම සම්බන්ධ කර ඒවා අතර දත්ත ගමනාගමනය මෙහෙයවයි.",
+   "ජාලය හරහා සම්ප්‍රේෂණය කිරීමට පෙර එය දත්ත ගුප්ත කේතනය කරයි.",
+   "එය වසම්නාම, IP ලිපින මතට අනුරූපණය කරයි."
+  ]
+ },
+ {
+  "n": 104,
+  "d": "2025 Q20",
+  "q": "Which of the following statements describe the role of the Media Access Control (MAC) protocol?\nA - It ensures orderly access to a shared communication medium.\nB - It finds paths and routes data between network hosts.\nC - It provides unique addresses to identify network interfaces within a LAN.",
+  "qs": "මාධ්‍ය ප්‍රවේශ පාලන (MAC) නියමාවලියේ කාර්යභාරය විස්තර කරන්නේ පහත කවර ප්‍රකාශ මගින් ද?\nA - එය පොදු සන්නිවේදන මාධ්‍යයකට විධිමත් ප්‍රවේශයක් සහතික කරයි.\nB - එය මං සොයාගනිමින් ජාල සත්කාරක අතර දත්ත මාර්ගගත කරයි.\nC - ස්ථානීය පෙදෙස් ජාලයක් තුළ ජාල අනුරූපකයන් හඳුනාගැනීමට එය අනන්‍ය ලිපි යොමු සපයයි.",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 105,
+  "d": "2026 Q12",
+  "q": "Which of the following media is most likely to be affected by Electro-Magnetic Interference?",
+  "qs": "විද්‍යුත්-චුම්බක බාධකවලින් වඩාත් ම බලපෑම් ලබන්නට ඇත්තේ මින් කුමන මාධ්‍යය ද?",
+  "o": [
+   "UTP",
+   "Microwaves",
+   "STP",
+   "Co-axial cable",
+   "Fibre optic"
+  ],
+  "os": [
+   "UTP",
+   "ක්ෂුද්‍ර තරංග",
+   "STP",
+   "සමාක්ෂ රැහැන්",
+   "ප්‍රකාශ තන්තු"
+  ]
+ },
+ {
+  "n": 106,
+  "d": "2026 Q13",
+  "q": "What is the network mask that equally divides the entire IPv4 address space into 4 subnets?",
+  "qs": "සම්පූර්ණ IPv4 ලිපින අවකාශය, උපජාල 4 කට සමානව බෙදනු ලබන ජාල ආවරණය කුමක් ද?",
+  "o": [
+   "/2",
+   "/4",
+   "/8",
+   "/24",
+   "/26"
+  ]
+ },
+ {
+  "n": 107,
+  "d": "2026 Q14",
+  "q": "In the local area network in a school laboratory, in what form does a switch forward data between computers?",
+  "qs": "පාසල් විද්‍යාගාරයක ස්ථානීය පෙදෙස් ජාලයක දී ස්විචයක් මඟින් පරිගණක අතර දත්ත යොමු කරන්නේ කුමන ස්වරූපයෙන් ද?",
+  "o": [
+   "messages",
+   "segments",
+   "packets",
+   "frames",
+   "bits"
+  ],
+  "os": [
+   "පණිවුඩ",
+   "කොටස්",
+   "පැකට්ටු",
+   "රාමු",
+   "බිටු"
+  ]
+ },
+ {
+  "n": 108,
+  "d": "2026 Q15",
+  "q": "FTP uses TCP as its transport layer protocol instead of UDP, because TCP:\nA - Ensures reliable delivery of data.\nB - Delivers data in the correct order.\nC - Uses encryption to secure data.\nThe correct statement(s) from the above is/are,",
+  "qs": "FTP, ප්‍රවාහන ස්තරයේ නියමාවලියක් ලෙස UDP වෙනුවට TCP භාවිත කරන්නේ, TCP මගින්:\nA - විශ්වාසදායක දත්ත ගෙනයාමක් සහතික කිරීමට බැවිනි.\nB - නිවැරදි අනුපිළිවෙලින් දත්ත බෙදාහරින බැවිනි.\nC - දත්ත ආරක්ෂා කිරීම සඳහා ගුප්ත කේතනය භාවිත කරන බැවිනි.\nඉහත ප්‍රකාශ අතුරෙන් නිවැරදි වන්නේ,",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 109,
+  "d": "2026 Q16",
+  "q": "Consider the following events that occur when a user accesses a website by entering its URL in a web browser:\nA - The DNS client sends a query for the domain name to the DNS server.\nB - The browser sends its page request to the web server using the received IP address.\nC - The DNS client passes the IP address to the browser.\nD - The browser passes the domain name of the URL to the DNS client in the user's computer.\nE - The DNS server sends the matching IP address to the DNS client.\nThe correct statement(s) from the above is/are,",
+  "qs": "පරිශීලකයෙකු වෙබ් බ්‍රවුසරයක, URL එකක් ඇතුළු කර වෙබ් අඩවියකට ප්‍රවේශ වන විට සිදුවන පහත සිදුවීම් සලකන්න:\nA - DNS සේවාලාභියා වසම් නාමය සඳහා විමසුමක් සේවාදායකයාට යවයි.\nB - ලැබුණු IP ලිපිනය භාවිත කරමින් බ්‍රවුසරය සිය පිටු ඉල්ලීම වෙබ් සේවාදායකයට යවයි.\nC - DNS සේවාලාභියා IP ලිපිනය බ්‍රවුසරයට ලබා දෙයි.\nD - බ්‍රවුසරය URL එකෙහි වසම් නාමය පරිශීලකයාගේ පරිගණකයේ ඇති DNS සේවාලාභියාට ලබා දෙයි.\nE - DNS සේවාදායකයා ගැළපෙන IP ලිපිනය DNS සේවාලාභියාට යවයි.\nඉහත ප්‍රකාශ අතුරෙන් නිවැරදි වන්නේ,",
+  "o": [
+   "A-E-D-C-B",
+   "B-D-A-E-C",
+   "D-A-C-E-B",
+   "D-A-E-C-B",
+   "D-C-A-E-B"
+  ]
+ },
+ {
+  "n": 110,
+  "d": "2026 Q17",
+  "q": "Which of the following regarding Asymmetric Key Encryption is correct?",
+  "qs": "අසමමිතික යතුරු ගුප්ත කේතනය සම්බන්ධයෙන් නිවැරදි වන්නේ මින් කුමක් ද?",
+  "o": [
+   "Encryption of data with a public key verifies authentication of the sender.",
+   "The public key and private key are identical.",
+   "A message encrypted using a private key can only be decrypted using the same private key.",
+   "Public key cannot be used for decryption.",
+   "A message encrypted using a private key can only be decrypted using the corresponding public key."
+  ],
+  "os": [
+   "පොදු යතුරකින් දත්ත ගුප්ත කේතනය කිරීම මගින් යවන්නාගේ අනන්‍යතාව සහතික කෙරේ.",
+   "පොදු යතුර සහ පෞද්ගලික යතුර සර්වසම වේ.",
+   "පෞද්ගලික යතුරක් භාවිත කර ගුප්ත කේතනය කරන ලද පණිවිඩයක් විකේතනය කළ හැක්කේ එම පෞද්ගලික යතුර භාවිත කිරීමෙන් පමණි.",
+   "විකේතනය සඳහා පොදු යතුර භාවිත කළ නොහැක.",
+   "පෞද්ගලික යතුරක් භාවිත කර ගුප්ත කේතනය කරන ලද පණිවිඩයක් විකේතනය කළ හැක්කේ අදාළ පොදු යතුර භාවිත කිරීමෙන් පමණි."
+  ]
+ },
+ {
+  "n": 111,
+  "d": "2026 Q18",
+  "q": "Which of the following requires/require Network Address Translation (NAT)?\nA - When the LAN has servers in it.\nB - When the LAN is wireless.\nC - When the LAN uses private IP addresses.",
+  "qs": "ජාල ලිපින පරිවර්තනය (NAT) අවශ්‍ය වන්නේ පහත කවර අවස්ථාවලදී ද?\nA - ස්ථානීය පෙදෙස් ජාලය තුළ සේවාදායක පරිගණක පවතින විට\nB - ස්ථානීය පෙදෙස් ජාලය රැහැන් රහිත වූ විට\nC - ස්ථානීය පෙදෙස් ජාලය පෞද්ගලික IP ලිපින භාවිත කරන විට",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and B only",
+   "A and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි"
+  ]
+ }
+]

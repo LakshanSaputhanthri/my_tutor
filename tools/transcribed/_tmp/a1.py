@@ -1,0 +1,17 @@
+B1=[
+dict(n=1,d="2011 Q22",q="Which of the following statements best describes the result of hard disk \"fragmentation\"?",
+qs="දෘඪ‍ාංග තැටිය (Hard disk) \"ඛණ්ඩනීකරණය\" (Fragmentation) වීම නිසා ඇතිවන ප්‍රතිඵලය වඩාත් හොඳින් විස්තර කරන්නේ පහත සඳහන් කුමන ප්‍රකාශය ද?",
+o=["Hard disk data access speed is reduced.","Network access speed becomes slow.","Hard disk becomes totally inaccessible.","Some data will get erased from the hard disk.","Number of bad sectors get increased."],
+os=["දෘඪ තැටිය දත්ත ප්‍රවේශ වේගය අඩු වේ.","ජාල ප්‍රවේශ වේගය අඩු වේ.","දෘඪ තැටියට ප්‍රවේශය මුළුමනින්ම නැති වේ.","සමහර දත්ත දෘඪ තැටියෙන් මැකී යයි.","භාවිතයට ගත නොහැකි අංශ සංඛ්‍යාව වැඩි වෙයි."]),
+dict(n=2,d="2011 Q42",q="Consider the following statements about operating systems:\nA - Ubuntu is an open source operating system.\nB - Windows XP is a proprietary operating system.\nC - Linux is a proprietary operating system.\nWhich of the above statements is/are correct?",
+qs="මෙහෙයුම් පද්ධති පිළිබඳව පහත දැක්වෙන ප්‍රකාශ සලකන්න.\nA - උබුන්ටු (Ubuntu) යනු විවෘත මූලාශ්‍ර (Open Source) මෙහෙයුම් පද්ධතියකි.\nB - වින්ඩෝස් XP (Windows XP) යනු හිමිකම් සහිත (Proprietary) මෙහෙයුම් පද්ධතියකි.\nC - ලිනක්ස් (Linux) යනු හිමිකම් සහිත (Proprietary) මෙහෙයුම් පද්ධතියකි.\nඉහත ප්‍රකාශ අතුරෙන් සත්‍ය වන්නේ",
+o=["A only.","B only.","C only.","A and B only.","B and C only"],os=["A පමණි.","B පමණි.","C පමණි.","A හා B පමණි.","B හා C පමණි."]),
+dict(n=3,d="2012 Q18",q="The type of operating system that is most suitable for automated air traffic control system is",
+qs="ස්වයංක්‍රීය ගුවන් ගමන් පාලන පද්ධතියක් සඳහා වඩාත්ම සුදුසු මෙහෙයුම් පද්ධති වර්ගය",
+o=["multi-user multi-tasking.","single-user multi-tasking.","real time.","single-user single-tasking.","multi-threading."],
+os=["බහු-පරිශීලක බහු-කාර්ය වේ.","තනි-පරිශීලක බහු-කාර්ය වේ.","තත්ක්ෂණික (real time) වේ.","තනි-පරිශීලක තනි-කාර්ය වේ.","බහු-නූල්ගත (multi-threading) වේ."]),
+dict(n=4,d="2012 Q41",q="The main advantage of creating more than one partition in a hard disk is the",
+qs="දෘඪ තැටියක බෙදීම් (partitions) එකකට වඩා වැඩියෙන් නිර්මාණය කිරීමේ ප්‍රධාන වාසිය වන්නේ,",
+o=["separation of the operating system and program files.","ability to retrieve files efficiently.","easiness of making directories and subdirectories.","easiness of creating multiple users.","easiness of taking backups of selected files."],
+os=["මෙහෙයුම් පද්ධතිය සහ ක්‍රමලේඛ ගොනු වෙන් කරනු ලැබීමයි.","ගොනු (files) කාර්යක්ෂමව සමුද්ධරණ (retrieve) හැකියාවයි.","නාමාවලි (directory) හා උප නාමාවලි (sub directory) සැකසීමේ පහසුවයි.","බහු පරිශීලකයන් පහසුවෙන් නිර්මාණය කිරීමේ හැකියාවයි.","තෝරාගන්නා ලද ගොනුවල උපස්ථ (backups) ලබාගැනීමේ පහසුවයි."]),
+]

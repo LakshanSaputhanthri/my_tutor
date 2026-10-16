@@ -112,7 +112,8 @@ details summary{cursor:pointer;font-weight:600}
 .pat dt{font:600 .72rem var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding-top:.25rem}
 .pat dd{margin:0;min-width:0}
 /* quiz */
-.stem{font-size:1.08rem;line-height:1.7}
+.stem{font-size:1.08rem;line-height:1.7;white-space:pre-wrap}
+.opt span{white-space:pre-wrap}
 .trans{border-left:3px solid var(--accent);padding-left:12px;font-family:var(--f-si)}
 .hints{display:flex;flex-wrap:wrap;gap:6px}
 .hint{font-size:.86rem;background:var(--chip);border-radius:8px;padding:.25rem .6rem}
@@ -120,6 +121,8 @@ details summary{cursor:pointer;font-weight:600}
 .opt{text-align:left;font:500 1rem var(--f-body);background:var(--surface);color:var(--ink);border:1.5px solid var(--line);border-radius:10px;padding:.7rem .9rem;cursor:pointer;display:flex;gap:.6rem;align-items:baseline}
 .opt .l{font:600 .82rem var(--f-mono);color:var(--muted)}
 .opt.sel{border-color:var(--accent)}
+.opt.pick{border-color:var(--accent);background:var(--surface)}
+.qimgs{display:grid;gap:8px;margin:2px 0 10px}.qimgs a{display:block;border:1px solid var(--line);border-radius:8px;background:#fff;padding:6px;overflow-x:auto}.qimgs img{display:block;width:100%;min-width:560px;height:auto}
 .opt.right{border-color:var(--good);background:var(--good-bg)}
 .opt.wrong{border-color:var(--bad);background:var(--bad-bg)}
 .opt[disabled]{cursor:default}
@@ -128,6 +131,7 @@ details summary{cursor:pointer;font-weight:600}
 .dots button{width:26px;height:26px;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--muted);font:600 .7rem var(--f-mono);cursor:pointer;padding:0}
 .dots button.ok{background:var(--good-bg);border-color:var(--good);color:var(--good)}
 .dots button.no{background:var(--bad-bg);border-color:var(--bad);color:var(--bad)}
+.dots button.seen{border-color:var(--accent);color:var(--accent)}
 .dots button.cur{outline:2px solid var(--accent);outline-offset:1px}
 /* game */
 .gk{font:800 clamp(1.35rem,5vw,1.9rem)/1.25 var(--f-display);text-align:center;padding:10px 0}
@@ -140,8 +144,8 @@ details summary{cursor:pointer;font-weight:600}
 .exam .name{font:700 1.05rem var(--f-display)}
 .exam .go{font:600 .9rem var(--f-body);color:var(--accent);margin-top:4px}
 .linkbtn{border:0;background:transparent;color:var(--accent);font:600 .8rem var(--f-body);cursor:pointer;padding:0;text-decoration:underline}
-body[data-exam="saa"] .clf-only,body:not([data-exam]) .top,body:not([data-exam]) .tabbar{display:none}
-body[data-exam="saa"] .tabbar .in{grid-template-columns:repeat(2,1fr)}
+body[data-exam="saa"] .clf-only,body[data-exam="ict"] .clf-only,body:not([data-exam]) .top,body:not([data-exam]) .tabbar{display:none}
+body[data-exam="saa"] .tabbar .in,body[data-exam="ict"] .tabbar .in{grid-template-columns:repeat(2,1fr)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
@@ -287,7 +291,7 @@ body[data-exam="saa"] .tabbar .in{grid-template-columns:repeat(2,1fr)}
         <div class="trans" id="qz-trans"></div>
         <div class="hints" id="qz-hints"></div>
         <div class="opts" id="qz-opts"></div>
-        <div class="row"><button class="btn primary" id="qz-check" hidden>Check</button></div>
+        <div class="row"><button class="btn primary" id="qz-check" hidden>Check</button><button class="btn primary" id="qz-essay" hidden></button></div>
         <div class="explain" id="qz-exp" hidden></div>
       </div>
       <div class="row" style="justify-content:space-between">
@@ -355,20 +359,21 @@ const PAIRS = window.DATA.pairs;
 const D = window.DATA || {lessons:[],sets:[]};
 const EXAMS = [
   {id:'clf', code:'CLF-C02', name:'AWS Certified Cloud Practitioner', blurb:'Foundational · Sinhala bridge, lessons, words, keyword game and mock exams.'},
-  {id:'saa', code:'SAA-C03', name:'AWS Certified Solutions Architect – Associate', blurb:'Associate · scenario-based practice questions by exam domain.'}
+  {id:'saa', code:'SAA-C03', name:'AWS Certified Solutions Architect – Associate', blurb:'Associate · scenario-based practice questions by exam domain.'},
+  {id:'ict', code:'AL ICT', name:'G.C.E. Advanced Level ICT', blurb:'Lessons with past-paper questions · English and Sinhala.', top:'AL ICT'}
 ];
 let EXAM = null;
 const examOf = s => s.exam || 'clf';
-const ALL_SETS = [{id:'bridge',title:'Sinhala bridge (20)',sub:'සිංහල උදව් එක්ක — මෙතනින් පටන් ගන්න',qs:BRIDGE,bridge:true}].concat(D.sets.map(s=>({...s,sub:s.exam==='saa'?s.sub:(s.id==='ep6'?'Exam එක වගේ — විනාඩි 40':s.id==='mock2'?'සම්පූර්ණ exam එක — questions 65, විනාඩි 90':s.id==='mock3'?'කෙටි සරල questions — "මේ service එක මොකටද?"':'')})));
+const ALL_SETS = [{id:'bridge',title:'Sinhala bridge (20)',sub:'සිංහල උදව් එක්ක — මෙතනින් පටන් ගන්න',qs:BRIDGE,bridge:true}].concat(D.sets.map(s=>({...s,sub:s.exam!=='clf'?s.sub:(s.id==='ep6'?'Exam එක වගේ — විනාඩි 40':s.id==='mock2'?'සම්පූර්ණ exam එක — questions 65, විනාඩි 90':s.id==='mock3'?'කෙටි සරල questions — "මේ service එක මොකටද?"':'')})));
 let SETS = [];
 const LESSONS = D.lessons.filter(l=>l.id!=='cheat').concat([{id:'patterns',title:'Question Patterns',short:'12 patterns',patterns:true}], D.lessons.filter(l=>l.id==='cheat'));
 let TOTAL_Q = 0;
-const VIEWS = () => EXAM==='saa' ? ['home','practice'] : ['home','lessons','words','practice','game'];
+const VIEWS = () => EXAM!=='clf' ? ['home','practice'] : ['home','lessons','words','practice','game'];
 function applyExam(id){
   EXAM = id; SETS = ALL_SETS.filter(s=>examOf(s)===id); TOTAL_Q = SETS.reduce((n,s)=>n+s.qs.length,0);
   document.body.dataset.exam = id;
   const ex = EXAMS.find(e=>e.id===id);
-  $('top-exam').textContent = id==='clf' ? 'AWS English Bridge · CLF-C02' : 'AWS '+ex.code;
+  $('top-exam').textContent = id==='clf' ? 'AWS English Bridge · CLF-C02' : (ex.top||'AWS '+ex.code);
   $('home-title').textContent = id==='clf' ? 'AWS English Bridge' : ex.name;
 }
 
@@ -376,12 +381,15 @@ function applyExam(id){
 const known = () => new Set(S.get('known',[]));
 const done = () => new Set(S.get('lessonsDone',[]));
 const answersOf = id => (S.get('ans',{})[id]) || {};
-function correctOf(id){ return Object.values(answersOf(id)).filter(x=>x.ok).length; }
+const isEssay = s => s.kind==='essay';
+const pending = q => !q.a.length;           // answer key not added yet (essays have none either)
+function effOk(s,i,d){ if(!d) return false; const q=s.qs[i]; if(isEssay(s)) return !!d.ok; if(pending(q)) return false; return d.sel.length===q.a.length && q.a.every(k=>d.sel.includes(k)); }
+function correctOf(id){ const s=ALL_SETS.find(x=>x.id===id), a=answersOf(id); return s ? Object.keys(a).filter(i=>effOk(s,+i,a[i])).length : 0; }
 function totalCorrect(){ return SETS.reduce((n,s)=>n+correctOf(s.id),0); }
 function mockBest(){ return S.get('mockBest',0); }
 function overall(){
   const q = totalCorrect()/TOTAL_Q;
-  if(EXAM==='saa') return q;
+  if(EXAM!=='clf') return q;
   const l = done().size/LESSONS.length, w = known().size/WORDS.length;
   return l*.25 + w*.25 + q*.5;
 }
@@ -398,7 +406,7 @@ function renderProgress(){
   $('continue').textContent = next.label; $('continue-note').textContent = next.note;
 }
 function nextStep(){
-  if(EXAM==='saa'){
+  if(EXAM!=='clf'){
     const open = SETS.find(s=>Object.keys(answersOf(s.id)).length < s.qs.length);
     if(open) return {label:`Practice: ${open.title}`, note:'Next set to work through.', go:()=>{show('practice'); openSet(open.id);}};
     const weak = SETS.find(s=>correctOf(s.id) < s.qs.length*.85);
@@ -491,27 +499,31 @@ function renderQ(){
   const q = cur.qs[qi], a = answersOf(cur.id), d = a[qi], help = cur.bridge ? mode : 2;
   $('qz-num').textContent = `Question ${qi+1} / ${cur.qs.length}`;
   $('qz-dom').textContent = q.d||'';
-  $('qz-stem').innerHTML = help===2 ? plain(q.q) : hl(q.q);
+  const imgs = (q.im||[]).map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener"><img src="${esc(u)}" alt="Question ${qi+1}" loading="lazy"></a>`).join('');
+  $('qz-stem').innerHTML = (imgs?`<div class="qimgs">${imgs}</div>`:'') + (q.img||!q.q ? '' : (help===2 ? plain(q.q) : hl(q.q))) + (!q.img&&q.qs?`<div class="si" style="margin-top:8px;color:var(--muted)">${esc(q.qs)}</div>`:'');
   $('qz-trans').hidden = !(cur.bridge && help===0); $('qz-trans').textContent = q.t||'';
   $('qz-hints').hidden = !(cur.bridge && help<2);
   $('qz-hints').innerHTML = (q.h||[]).map(h=>`<span class="hint"><b>${esc(h[0])}</b> = <span class="si">${esc(h[1])}</span></span>`).join('');
   sel = d ? d.sel.slice() : sel.filter(()=>false);
-  const multi = q.a.length>1;
-  $('qz-opts').innerHTML = q.o.map((o,i)=>{
-    let c='opt'; if(d){ if(q.a.includes(i)) c+=' right'; else if(d.sel.includes(i)) c+=' wrong'; }
-    return `<button class="${c}" data-i="${i}" ${d?'disabled':''}><span class="l">${'ABCDE'[i]}</span><span>${esc(o)}</span></button>`;
+  const essay = isEssay(cur), pend = !essay && pending(q), multi = q.a.length>1;
+  $('qz-opts').innerHTML = essay ? '' : q.o.map((o,i)=>{
+    let c='opt'; if(d){ if(pend) { if(d.sel.includes(i)) c+=' pick'; } else if(q.a.includes(i)) c+=' right'; else if(d.sel.includes(i)) c+=' wrong'; }
+    const lab = 'ABCDE'[i];
+    return `<button class="${c}" data-i="${i}" ${d&&!pend?'disabled':''}><span class="l">${lab}</span><span>${esc(o)}${q.os?`<span class="si" style="display:block;color:var(--muted);font-size:.92em">${esc(q.os[i])}</span>`:''}</span></button>`;
   }).join('');
-  $('qz-check').hidden = !(multi && !d);
-  $('qz-exp').hidden = !d;
-  if(d) $('qz-exp').innerHTML = `<b>${EXAM==='saa'?(d.ok?'Correct!':'Incorrect.'):(d.ok?'හරි!':'වැරදියි.')}</b> Answer: <b>${q.a.map(i=>'ABCDE'[i]).join(', ')}</b>. ${inl(q.e||'')}${EXAM==='clf'?'<br><span class="muted">ඇයි කියලා සිංහලෙන් ශබ්ද නඟලා කියන්න.</span>':''}`;
+  $('qz-check').hidden = !(multi && !d && !pend);
+  $('qz-essay').hidden = !essay; if(essay) $('qz-essay').textContent = d ? 'Done ✓ (tap to undo)' : 'Mark as done';
+  $('qz-exp').hidden = !d || essay;
+  if(d && pend) $('qz-exp').innerHTML = `Your choice <b>${d.sel.map(i=>'ABCDE'[i]).join(', ')}</b> is saved. The answer key for this question has not been added yet.`;
+  else if(d) $('qz-exp').innerHTML = `<b>${EXAM!=='clf'?(effOk(cur,qi,d)?'Correct!':'Incorrect.'):(effOk(cur,qi,d)?'හරි!':'වැරදියි.')}</b> Answer: <b>${q.a.map(i=>'ABCDE'[i]).join(', ')}</b>. ${inl(q.e||'')}${q.es?`<br><span class="si">${esc(q.es)}</span>`:''}${EXAM==='clf'?'<br><span class="muted">ඇයි කියලා සිංහලෙන් ශබ්ද නඟලා කියන්න.</span>':''}`;
   const n = Object.keys(a).length, ok = correctOf(cur.id);
   $('qz-score').textContent = `${ok} / ${cur.qs.length} correct`;
-  $('qz-dots').innerHTML = cur.qs.map((x,i)=>`<button data-j="${i}" class="${a[i]?(a[i].ok?'ok':'no'):''} ${i===qi?'cur':''}" aria-label="Question ${i+1}">${i+1}</button>`).join('');
+  $('qz-dots').innerHTML = cur.qs.map((x,i)=>`<button data-j="${i}" class="${a[i]?(pending(x)&&!isEssay(cur)?'seen':effOk(cur,i,a[i])?'ok':'no'):''} ${i===qi?'cur':''}" aria-label="Question ${i+1}">${i+1}</button>`).join('');
   $('qz-prev').disabled = qi===0;
   $('qz-next').textContent = qi===cur.qs.length-1 ? 'Finish' : 'Next';
 }
 function grade(){
-  const q = cur.qs[qi], ok = sel.length===q.a.length && q.a.every(i=>sel.includes(i));
+  const q = cur.qs[qi], ok = pending(q) ? false : sel.length===q.a.length && q.a.every(i=>sel.includes(i));
   const all = S.get('ans',{}); all[cur.id] = {...(all[cur.id]||{}), [qi]:{sel:sel.slice(),ok}}; S.set('ans',all);
   if((cur.id==='ep6'||cur.id==='mock2'||cur.id==='mock3') &&Object.keys(all[cur.id]).length===cur.qs.length){ const pct=Math.round(correctOf(cur.id)/cur.qs.length*100); if(pct>mockBest()) S.set('mockBest',pct); }
   renderQ(); renderProgress();
@@ -523,12 +535,13 @@ $('qz-opts').addEventListener('click',e=>{
   else { sel=[i]; grade(); }
 });
 $('qz-check').addEventListener('click',()=>{ if(sel.length) grade(); });
+$('qz-essay').addEventListener('click',()=>{ const all=S.get('ans',{}), a=all[cur.id]=all[cur.id]||{}; if(a[qi]) delete a[qi]; else a[qi]={sel:[],ok:true}; S.set('ans',all); renderQ(); renderProgress(); });
 $('qz-dots').addEventListener('click',e=>{ const b=e.target.closest('[data-j]'); if(!b) return; qi=+b.dataset.j; sel=[]; renderQ(); });
 $('qz-prev').addEventListener('click',()=>{ if(qi>0){ qi--; sel=[]; renderQ(); } });
 $('qz-next').addEventListener('click',()=>{ if(qi<cur.qs.length-1){ qi++; sel=[]; renderQ(); window.scrollTo({top:0}); } else { $('qz-back').click(); } });
 $('qz-retry').addEventListener('click',()=>{
   const all = S.get('ans',{}), a = all[cur.id]||{};
-  Object.keys(a).forEach(k=>{ if(!a[k].ok) delete a[k]; }); all[cur.id]=a; S.set('ans',all);
+  Object.keys(a).forEach(k=>{ if(!effOk(cur,+k,a[k]) && !pending(cur.qs[+k])) delete a[k]; }); all[cur.id]=a; S.set('ans',all);
   qi = cur.qs.findIndex((q,i)=>!a[i]); if(qi<0) qi=0; sel=[]; renderQ(); renderProgress();
 });
 

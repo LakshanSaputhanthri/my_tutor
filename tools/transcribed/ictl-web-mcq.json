@@ -1,0 +1,1210 @@
+[
+ {
+  "n": 1,
+  "d": "2011 Q13",
+  "q": "Which of the following best describes the home page of a website?",
+  "qs": "වෙබ් අඩවියක මුල් පිටුව වඩාත් හොඳින් විස්තර කරන්නේ පහත දැක්වෙන කවරක් මගින් ද?",
+  "o": [
+   "The index of the website",
+   "The welcome page",
+   "A description of the website",
+   "The first page of the website",
+   "A web page that presents short journal entries"
+  ],
+  "os": [
+   "වෙබ් අඩවියේ සූචිය ලෙසය.",
+   "පිළිගැනීමේ පිටුව ලෙසය.",
+   "වෙබ් අඩවියේ විස්තරයක් ලෙසය.",
+   "වෙබ් අඩවියේ පළමුවන පිටුව ලෙසය.",
+   "කෙටි ජර්නල් සටහන් ඉදිරිපත් කරන වෙබ් පිටුවක් ලෙසය."
+  ]
+ },
+ {
+  "n": 2,
+  "d": "2011 Q38",
+  "q": "Select the correct layout corresponding to following code segment of an HTML document.\n<ul>\n<li>Fruits\n<ul><li>Mango\n<ul>\n<li>Gira amba</li>\n<li>Dampara</li></ul></li>\n<li>Pineapple</li></li></ul>\n<li>Vegetables</li>\n</ul>",
+  "qs": "HTML ලේඛනයක පහත දී ඇති කේත ඛණ්ඩයට අනුරූපවන නිවැරදි පිරිසැලසුම තෝරන්න.",
+  "o": [
+   "Nested bulleted list (hollow circle bullets): o Fruits; o Mango; (indented further) o Gira amba, o Dampara; (indented less) o Pineapple; o Vegetables",
+   "Bulleted list: filled disc Fruits; o Mango; (deeper) filled square Gira amba, filled square Dampara; o Pineapple; filled disc Vegetables",
+   "Hollow circle bullets: o Fruits; (indented) o Mango; o Gira amba; o Dampara; o Pineapple; filled disc Vegetables (Vegetables un-indented with filled disc)",
+   "All hollow circle bullets in a flat list, same level: o Fruits, o Mango, o Gira amba, o Dampara, o Pineapple, o Vegetables",
+   "Filled disc Fruits; o Mango; o Gira amba; o Dampara; o Pineapple (all hollow circle bullets at same indentation under Fruits); filled disc Vegetables"
+  ]
+ },
+ {
+  "n": 3,
+  "d": "2011 Q39",
+  "q": "Consider the following items:\nA - radio   B - textarea   C - select   D - checkbox   E - textbox\nWhich of the above can go as attributes of an input element in a form?",
+  "qs": "පහත දැක්වෙන අයිතම සලකන්න:\nඅාකෘතියක (Form) ඇදාන මූලිකාංගයක අනුලක්ෂණලෙස යෙදිය හැකිවන්නේ කවරක් ද?",
+  "o": [
+   "A, B and C only.",
+   "A, B and D only.",
+   "A, D and E only.",
+   "B, C and D only.",
+   "B, D and E only"
+  ],
+  "os": [
+   "A, B හා C පමණි.",
+   "A, B හා D පමණි.",
+   "A, D හා E පමණි.",
+   "B, C හා D පමණි.",
+   "B, D හා E පමණි."
+  ]
+ },
+ {
+  "n": 4,
+  "d": "2011 Q40",
+  "q": "What is the correct syntax to be used to insert a JavaScript into an HTML page?",
+  "qs": "HTML පිටුවකට Java script උපයෝජනයක් ඇතුළු කිරීම සඳහා නිවැරදි කාරක රීතිය කුමක් ද?",
+  "o": [
+   "<javascript>",
+   "<javascript language=\"text/javascript\">",
+   "<script type=\"text/javascript\">",
+   "<scripting language=\"javascript\">",
+   "<scripting type=\"javascript\">"
+  ]
+ },
+ {
+  "n": 5,
+  "d": "2012 Q13",
+  "q": "Which is the correct mark up for a comment in an HTML document?",
+  "qs": "HTML ලේඛනයක විවරණයක් ඇතුළත් කිරීම සඳහා නිවැරදි සලකුණු කිරීම (mark up) කුමක් ද?",
+  "o": [
+   "<! Districts of Sri Lanka",
+   "<!-- Districts of Sri Lanka -->",
+   "//Districts of Sri Lanka",
+   "<* Districts of Sri Lanka *>",
+   "<! Districts of Sri Lanka !>"
+  ]
+ },
+ {
+  "n": 6,
+  "d": "2012 Q36",
+  "q": "Consider the following URL:\nhttp://www.schools.org/2012/lessons/index.html\nWhich of the following indicates the protocol of the above URL?",
+  "qs": "පහත දැක්වෙන URL ය සලකන්න:\nඉහත දැක්වෙන URL හි නියමාවලිය (protocol) දක්වනු ලබන්නේ පහත සඳහන් කුමක් මගින් ද?",
+  "o": [
+   "http",
+   "html",
+   "www",
+   "org",
+   "www.schools.org"
+  ]
+ },
+ {
+  "n": 7,
+  "d": "2012 Q39",
+  "q": "The HTML tag\n<a href = \"sriLanka.html\" target = \"_blank\">Sri Lanka</a>\nrenders the document named \"sriLanka.html\" by a browser on,",
+  "qs": "යන HTML උපලක්ෂණය (tag) \"sriLanka.html\" නමැති ලේඛනය අතිරික්සුවක් (browser) මගින් සංදර්ශනය කරනු ලබන්නේ",
+  "o": [
+   "the same frame.",
+   "a new window.",
+   "the same window.",
+   "a frame named \"_blank\"",
+   "a window named \"blank\"."
+  ],
+  "os": [
+   "එම රාමුවෙහිම ය.",
+   "නව කවුළුවක ය.",
+   "එම කවුළුවෙහිම ය.",
+   "\"_blank\" නමැති රාමුවක ය.",
+   "\"blank\" නමැති කවුළුවක ය."
+  ]
+ },
+ {
+  "n": 8,
+  "d": "2012 Q40",
+  "q": "Consider the following statements about HTML:\nA. A well-formed HTML document should comprise two sections, a head and a body.\nB. An HTML document is a computer program.\nC. White spaces, tabs and blank lines can always be used to format display of document.\nD. The content of the body section is displayed by browsers.\nWhich of the above are correct?",
+  "qs": "HTML පිළිබඳව පහත දක්වෙන ප්‍රකාශ සලකන්න:\nA. හොඳින් සැකසුණු (well formed) HTML ලේඛනයක් ශීර්ෂයකින් (head) සහ කඳ කොටසකින් (body) සමන්විත විය යුතු ය.\nB. HTML ලේඛනයක් යනු පරිගණක ක්‍රමලේඛනයකි.\nC. ලේඛනයක පෙනුම හැඩගැසීම (formatting) සඳහා සුදු අවකාශ (white space), ටැබ් (tabs) සහ හිස් පේළි සැමවිටම යොදා ගත හැකිය.\nD. කඳ කොටසේ අන්තර්ගතය අතිරික්ෂු (browsers) මගින් සංදර්ශනය කෙරේ.\nඉහත ප්‍රකාශ අතුරෙන් සත්‍යවන්නේ කවර ඒවා ද?",
+  "o": [
+   "A and D only.",
+   "B and C only.",
+   "B and D only.",
+   "A, C and D only.",
+   "B, C and D only"
+  ],
+  "os": [
+   "A හා D පමණි.",
+   "B හා C පමණි.",
+   "B හා D පමණි.",
+   "A, C හා D පමණි.",
+   "B, C හා D පමණි."
+  ]
+ },
+ {
+  "n": 9,
+  "d": "2012 Q37",
+  "q": "Which of the following HTML codes generates the table shown below?\n[Figure: table with caption 'Time Table'; bordered table; header row: Time | Monday | Tuesday; second row: 8:00 - 9:00 | Mathematics | Science]",
+  "qs": "පහත දැක්වෙන වගුව ගොඩනගනු ලබන්නේ කවර html කේතය මගින් ද?",
+  "o": [
+   "<caption>Time Table</caption>\n<table border = \"1\">\n  <thead>\n    <tr>\n      <th>Time</th>\n      <th>Monday</th>\n      <th>Tuesday</th>\n    </tr>\n  </thead>\n  <tr>\n    <td>8:00 - 9:00</td>\n    <td>Mathematics</td>\n    <td>Science</td>\n  </tr>\n</table>",
+   "<table border = \"1\">\n<caption>Time Table</caption>\n<tr>\n  <td>Time</td>\n  <td>Monday</td>\n  <td>Tuesday</td>\n</tr>\n<tr>\n  <td>8:00 - 9:00</td>\n  <td>Mathematics</td>\n  <td>Science</td>\n</tr>\n</table>",
+   "<table border = \"1\">\n  Time Table\n  <tr>\n    <th>Time</th>\n    <th>Monday</th>\n    <th>Tuesday</th>\n  </tr>\n  <tr>\n    <td>8:00 - 9:00</td>\n    <td>Mathematics</td>\n    <td>Science</td>\n  </tr>\n</table>",
+   "<table border = \"1\">\n<caption>Time Table</caption>\n  <tr>\n    <th>Time</th>\n    <th>Monday</th>\n    <th>Tuesday</th>\n  </tr>\n  <tr>\n    <td>8:00 - 9:00</td>\n    <td>Mathematics</td>\n    <td>Science</td>\n  </tr>\n</table>",
+   "<caption>Time Table</caption>\n<table border = \"1\">\n  <tr>\n    <td>Time</td>\n    <td>Monday</td>\n    <td>Tuesday</td>\n  </tr>\n  <tr>\n    <td>8:00 - 9:00</td>\n    <td>Mathematics</td>\n    <td>Science</td>\n  </tr>\n</table>"
+  ]
+ },
+ {
+  "n": 10,
+  "d": "2013 Q35",
+  "q": "Consider the following components:\nA - Web authoring tool\nB - Domain name\nC - Web pages\nD - Web server\nWhich of the above components are essential for hosting a web site?",
+  "qs": "පහත දක්වා ඇති සංරචක සලකන්න:\nA - වෙබ් කතා මෙවලම්\nB - වසම් නාමය\nC - වෙබ් පිටු\nD - වෙබ් සේවාදායකය\nවෙබ් අඩවියක් සංග්‍රාහක කිරීමට (hosting) අත්‍යවශ්‍ය වන්නේ ඉහත සඳහන් කවර සංරචක ද?",
+  "o": [
+   "A and B only.",
+   "B and C only.",
+   "A, B and C only.",
+   "A, C and D only.",
+   "B, C and D only"
+  ],
+  "os": [
+   "A හා B පමණි.",
+   "B හා C පමණි.",
+   "A, B හා C පමණි.",
+   "A, C හා D පමණි.",
+   "B, C හා D පමණි."
+  ]
+ },
+ {
+  "n": 11,
+  "d": "2013 Q36",
+  "q": "Which of the following tag is used to render a heading on an HTML page?",
+  "qs": "HTML පිටුවක ශීර්ෂය විදැහූ (render) කිරීමට භාවිත කරන්නේ පහත සඳහන් කුමන උපලක්ෂණය ද?",
+  "o": [
+   "<h2>",
+   "<ol>",
+   "<ul>",
+   "<hr>",
+   "<td>"
+  ]
+ },
+ {
+  "n": 12,
+  "d": "2013 Q37",
+  "q": "Which of following could be used to define new markup language for sharing information?",
+  "qs": "තොරතුරු හවුලේ භාවිතය (sharing) සඳහා නව සලකුණු භාෂාවක් (markup language) නිර්වචනය කිරීම සඳහා පහත සඳහන් කවරක් භාවිත කළ හැකි ද?",
+  "o": [
+   "CSS",
+   "XML",
+   "HTML",
+   "XHTML",
+   "JavaScript"
+  ]
+ },
+ {
+  "n": 13,
+  "d": "2013 Q38",
+  "q": "Consider the following HTML code segment:\n<dl>\n<dt>Teacher</dt>\n<dd>A person who teaches in a school.</dd>\n<dt>Student</dt>\n<dd>A person who is studying at a school</dd>\n</dl>\nWhich of the following shows the correct rendering of the above HTML code segment?",
+  "qs": "පහත දක්වා ඇති HTML කේත ඛණ්ඩය සලකන්න:\nඉහත ඛණ්ඩයේ නිවැරදි විදැහුම (rendering) කවරක් ද?",
+  "o": [
+   "Teacher\n      A person who teaches in a school.\nStudent\n      A person who is studying at a school",
+   "Teacher\n- A person who teaches in a school.\nStudent\n- A person who is studying at a school",
+   "Teacher\n   : A person who teaches in a school.\nStudent\n   : A person who is studying at a school",
+   "Teacher\n: A person who teaches in a school.\nStudent\n: A person who is studying at a school",
+   "Teacher\n   - A person who teaches in a school.\nStudent\n   - A person who is studying at a school"
+  ]
+ },
+ {
+  "n": 14,
+  "d": "2013 Q39",
+  "q": "Which of the following statements is correct with regard to HTML tags?",
+  "qs": "HTML උපලක්ෂණ (tags) සම්බන්ධයෙන් පහත දක්වා ඇති වගන්තිවලින් නිවැරදි කුමක් ද?",
+  "o": [
+   "The <br> is used to render a blank line before and after the text.",
+   "The <p> is used to render a blank line before and after the text.",
+   "The <br> is used to render a blank line before the text.",
+   "The <p> is used to render a blank line only before the text.",
+   "The <p> is used to render a blank line only after the text."
+  ],
+  "os": [
+   "<br> යොදා ගනු ලබන්නේ පාඨවලට පෙර හා පසු හිස් පේළියක් (blank line) විදැහූ කිරීමට ය.",
+   "<p> යොදා ගනු ලබන්නේ පාඨවලට පෙර හා පසු හිස් පේළියක් විදැහූ කිරීමට ය.",
+   "<br> යොදා ගනු ලබන්නේ පාඨවලට පෙර හිස් පේළියක් විදැහූ කිරීමට ය.",
+   "<p> යොදා ගනු ලබන්නේ පාඨවලට පෙර හිස් පේළියක් විදැහූ කිරීමට පමණි.",
+   "<p> යොදා ගනු ලබන්නේ පාඨවලට පසු හිස් පේළියක් විදැහූ කිරීමට පමණි."
+  ]
+ },
+ {
+  "n": 15,
+  "d": "2013 Q39",
+  "q": "Consider the following HTML code segments:\nA - <embed height=\"50\" width=\"100\" src=\"song.mp3\"></embed>\nB - <a href=\"song.mp3\">Song</a>\nC - <embed height=\"50\" width=\"100\" href=\"song.mp3\"></embed>\nWhich of the above code fragment(s) can be used to embed the audio file named 'song.mp3' in a web page?",
+  "qs": "පහත සඳහන් HTML කේත ඛණ්ඩ සලකන්න:\nවෙබ් පිටුවක 'song.mp3' නමින් වූ ශ්‍රව්‍ය ගොනුව (audio file) ඇතුළත් කිරීමට ඉහත දක්වා ඇති කේත ඛණ්ඩවලින් භාවිත කළ හැකි වන්නේ ?",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "B හා C පමණි."
+  ]
+ },
+ {
+  "n": 16,
+  "d": "2014 Q18",
+  "q": "Consider the folder structure given below:\n[Figure: folder tree. Root 'shop' contains: file index.html; folder 'home' (containing folders 'company' [containing about.html] and 'history' [containing history.html]); folder 'images' (containing logo.jpg and greeting.jpg); folder 'greeting' (containing folder 'birthday' [containing greeting.html]).]\nWhich of the followings is the correct markup to include in the index.html to link greeting.html document?",
+  "qs": "පහත පෙන්වා ඇති ෆෝල්ඩර ව්‍යුහය සලකා බලන්න:\nපහත සඳහන් දෑ අතුරෙන් කවරක් greeting.html නම් වූ ලේඛනය index.html ලේඛනයට සන්ධානගත (link) කිරීම සඳහා අන්තර්ගත කළ යුතු නිවැරදි සලකුණු (markup) වන්නේ ද?",
+  "o": [
+   "<a href = \"/greeting/birthday/greeting.html\">Greeting</a>",
+   "<a href = \"greeting/birthday/greeting.html\">Greeting</a>",
+   "<a href = \"shop/greeting/birthday/greeting.html\">Greeting</a>",
+   "<a href = \"birthday/greeting.html\">Greeting</a>",
+   "<a href = \"greeting.html/birthday/greeting/shop/\">Greeting</a>"
+  ]
+ },
+ {
+  "n": 17,
+  "d": "2014 Q17",
+  "q": "The following element is a markup for including an image to an HTML document. The name of the source file of the image used is \"arrow.jpg\" which is in the same folder as the HTML document.\n<img ........ = \"arrow.jpg\"/>\nWhich of the following is the most suitable to fill the blank in the above element?",
+  "qs": "පහත දක්වා ඇති අවයවය (element), HTML ලේඛනයකට ප්‍රතිබිම්බයක් අඩංගු කිරීම සඳහා වූ සලකුණකි (markup). එහි යොදා ඇති ප්‍රතිබිම්බයේ ප්‍රභව ගොනුවේ නම \"arrow.jpg\" වන අතර මෙය HTML ලේඛනය පවතින ෆෝල්ඩරයේ ම පවතී.\nඉහත අවයවයේ ඇති හිස්තැන පිරවීම සඳහා වඩාත් ම යෝගය වන්නේ පහත සඳහන් දෑ අතුරෙන් කවරක් ද?",
+  "o": [
+   "alt",
+   "src",
+   "scr",
+   "href",
+   "link"
+  ]
+ },
+ {
+  "n": 18,
+  "d": "2014 Q19",
+  "q": "Which of the followings is a client-side scripting language that is commonly used to add interactivity to web pages?",
+  "qs": "වෙබ් පිටුවලට අන්තර්ක්‍රියාකාරිත්වය (interactivity) ඇතුළත් කිරීම සඳහා බහුලව භාවිත කරන අනුග්‍රාහක පාර්ශව සිද්ධිවල රාමු භාෂාව (client-side scripting language) වන්නේ පහත දක්වා ඇති දෑ අතුරෙන් කවරක් ද?",
+  "o": [
+   "CSS",
+   "PHP",
+   "XML",
+   "HTML 2",
+   "JavaScript"
+  ]
+ },
+ {
+  "n": 19,
+  "d": "2014 Q20",
+  "q": "Consider the following HTML element:\n<input type = text size = 10/>\nThe attribute 'size' on the above element refers to the,",
+  "qs": "පහත දක්වා ඇති HTML අවයවය සලකන්න:\nඉහත අවයවයේ 'size' නමැති උපලක්ෂණය සඳහන් කරන්නේ,",
+  "o": [
+   "length of the text box in pixels.",
+   "maximum number of characters displayed in the text box.",
+   "maximum number of characters that can be typed into the text box.",
+   "font size of the text box.",
+   "number of lines displayed in the text box."
+  ],
+  "os": [
+   "පික්සල්වලින් ඇති පාඨ කොටුවේ (text box) දිගට ය.",
+   "පාඨ කොටුවේ සංදර්ශනය වන උපරිම අනුලක්ෂණ (characters) සංඛ්‍යාවට ය.",
+   "පාඨ කොටුව තුළ යැවුරු ලියනාන කළ හැකි උපරිම අනුලක්ෂණ සංඛ්‍යාවට ය.",
+   "පාඨ කොටුවේ අක්ෂර වර්ගයේ ප්‍රමාණයට ය.",
+   "පාඨ කොටුව තුළ සංදර්ශනය වන පේළි සංඛ්‍යාවට ය."
+  ]
+ },
+ {
+  "n": 20,
+  "d": "2014 Q44",
+  "q": "Consider the following HTML style rules:\nA) body {color: red;}\nB) h1 {color: red;}\nC) p {color: red;}\n   h1 {color: red;}\nD) p, h1 {color: red;}\nWhich of the above rules will display h1 elements and all the paragraphs of the following document in red?\n<body>\n  <h1>Trees</h1>\n  <p>Coconut tree</p>\n  <p>Rubber tree</p>\n  <h1>Flowers</h1>\n  <h2>Rose</h2>\n</body>",
+  "qs": "පහත දක්වා ඇති HTML ස්ටයිල් රීති සලකා බලන්න:\nපහත දක්වා ඇති ලේඛනයේ h1 අවයව සහ සියලු පරිච්ඡේද රතු පැහැයෙන් සංදර්ශනය වන්නේ ඉහත දක්වා ඇති කුමන රීති මගින් ද?",
+  "o": [
+   "A only.",
+   "C only.",
+   "A and B only.",
+   "B and D only.",
+   "C and D only"
+  ],
+  "os": [
+   "A පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "B හා D පමණි.",
+   "C හා D පමණි."
+  ]
+ },
+ {
+  "n": 21,
+  "d": "2015 Q04",
+  "q": "Consider the following list rendered by a web browser:\n1. Pineapple\n2. Mango\n3. Banana\nWhich of the following HTML tags can be used to create the above list?",
+  "qs": "වෙබ් අතරික්සුවක් මගින් විදැහූ (render) කරන ලද පහත දක්වා ඇති ලැයිස්තුව සලකන්න:\nඉහත ලැයිස්තුව නිර්මාණය කිරීම සඳහා පහත සඳහන් කුමන HTML උපලක්ෂණ භාවිත කළ හැකිද?",
+  "o": [
+   "<dd>",
+   "<dl>",
+   "<li>",
+   "<ol>",
+   "<ul>"
+  ]
+ },
+ {
+  "n": 22,
+  "d": "2015 Q17",
+  "q": "What is the correct CSS rule to set the background colour of a web page to yellow?",
+  "qs": "වෙබ් පිටුවක පසුබිම් වර්ණය කහපාට (yellow) කිරීමට භාවිත කළ යුතු නිවැරදි CSS රීතිය කුමක්ද?",
+  "o": [
+   "body {body-color: \"yellow\";}",
+   "body {bgcolor: yellow;}",
+   "body {background-color: yellow;}",
+   "body {bgcolor = yellow}",
+   "body {background-color = yellow;}"
+  ]
+ },
+ {
+  "n": 23,
+  "d": "2015 Q15",
+  "q": "Consider the following HTML element:\n<input type = \"text\" name = \"firstname\" maxlength = \"15\" />\nWhat is the effect of the attribute 'maxlength' on the functionality of the element above?",
+  "qs": "පහත සඳහන් HTML මූලාංගය (element) සලකන්න:\nඉහත මූලාංගයේ ක්‍රියාකාරිත්වය මත 'maxlength' නමැති උපලක්ෂණයේ බලපෑම කුමක් ද?",
+  "o": [
+   "It sets the length of the textbox to 15 pixels.",
+   "It sets the length of the textbox to 15 characters.",
+   "It displays maximum of 15 characters in the textbox.",
+   "The display scrolls to the right after typing 15 characters.",
+   "It allows to type maximum of 15 characters into the textbox."
+  ],
+  "os": [
+   "මෙමගින් පාඨ කොටුවේ (textbox) දිග පික්සල 15 ට සකස් කර දෙයි.",
+   "මෙමගින් පාඨ කොටුවේ දිග අනුලක්ෂණ (characters) 15 ට සකස් කර දෙයි.",
+   "මෙමගින් පාඨ කොටුව තුළ උපරිම වශයෙන් අනුලක්ෂණ 15 ක් පෙන්නුම් ලබයි.",
+   "අනුලක්ෂණ 15 ක් යතුරු ලියූ පසු සංදර්ශකය දකුණට අනුවලනය වේ.",
+   "මෙමගින් පාඨ කොටුව තුළ උපරිම වශයෙන් අනුලක්ෂණ 15 ක් යතුරු ලිවීම සඳහා අවසර ලබා දේ."
+  ]
+ },
+ {
+  "n": 24,
+  "d": "2015 Q16",
+  "q": "Consider the following HTML element:\n<a href = \"attributes.html\" target = \"_blank\"> Attributes </a>\nThe value of the attribute 'target' in the above specifies that the linked document 'attributes.html' should be opened in,",
+  "qs": "පහත සඳහන් HTML මූලාංගය සලකා බලන්න:\nඉහත වගන්තියේ 'target' නම් උපලක්ෂණයේ අගය මගින් දැක්වෙන ආකාරයට 'attributes.html' නම් වූ සම්බන්ධිත ලේඛනය විවෘත විය යුතු ස්ථානය වන්නේ,",
+  "o": [
+   "a new tab or window.",
+   "the same frame.",
+   "the parent frame.",
+   "the frame named \"blank\".",
+   "the full body of the current window."
+  ],
+  "os": [
+   "නව පටිත්තක් හෝ කවුළුවක් තුළ ය.",
+   "එම රාමුව තුළ ම ය.",
+   "මුල් රාමුව තුළ ම ය.",
+   "\"blank\" ලෙස නම් කරන ලද රාමුව තුළ ය.",
+   "පවතින කවුළුවේ මුලු ප්‍රදේශය තුළ ය."
+  ]
+ },
+ {
+  "n": 25,
+  "d": "2015 Q23",
+  "q": "Consider the following statements regarding server with the domain name www.bogus.lk:\nA. The server www.bogus.lk can be located anywhere in the world.\nB. www.bogus.lk must be a web server.\nC. The domain names www.bogus.lk and www.bogus.com can be resolved to the same IP address.\nWhich of the above statement(s) is/are correct?",
+  "qs": "www.bogus.lk වසම්නාමය සහිත සේවාදායකයක් පරිගණකයක් සම්බන්ධ වගන්ති සලකන්න:\nA. www.bogus.lk සේවාදායකය ලෝකයේ ඕනෑම තැනක ස්ථානගත වී තිබිය හැකි වේ.\nB. www.bogus.lk වෙබ් සේවාදායකයක් ම විය යුතු ය.\nC. www.bogus.lk සහ www.bogus.com යන වසම්නාම එකම IP ලිපිනයකට හා බැඳී පැවතිය හැකි ය.\nඉහත වගන්ති අතුරෙන් නිවැරදි වන්නේ,",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "A and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි."
+  ]
+ },
+ {
+  "n": 26,
+  "d": "2015 Q25",
+  "q": "Consider the following statements about the World Wide Web (WWW):\nA. It is a collection of interlinked, hypertext documents accessed via the Internet.\nB. It is a protocol for distributing information via computers connected to the Internet.\nC. It was invented by the World Wide Web Consortium (W3C).\nWhich of the above statement(s) is/are correct?",
+  "qs": "විශ්ව විසිරි වියමන (World Wide Web) සම්බන්ධයෙන් පහත වගන්ති සලකා බලන්න:\nA. මෙය අන්තර්ජාලය හරහා ප්‍රවේශ විය හැකි එකිනෙකට සම්බන්ධ වූ අධිපාඨ (hypertext) ලේඛන එකතුවකි.\nB. මෙය අන්තර්ජාලය හා සම්බන්ධ වූ පරිගණක මගින් තොරතුරු බෙදාහැරීම සඳහා වූ නියමාවලියකි.\nC. මෙය විශ්ව විසිරි වියමන සංගමය (W3C) විසින් නිර්මාණය කරන ලද්දකි.\nඉහත වගන්ති අතුරෙන් නිවැරදි වන්නේ කවරක් ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "A and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි."
+  ]
+ },
+ {
+  "n": 27,
+  "d": "2016 Q04",
+  "q": "Consider the following description/definition list, rendered by a web browser:\nZigzag\n    Moving with sharp turns.\nBack and forth\n    Moving side to side.\nRound and round\n    Moving in a circle.\nWhich of the following answers contains all HTML tags required to create the above list?",
+  "qs": "වෙබ් අතරික්සුවක් (web browser) මගින් විදැහූ (render) කරන ලද පහත දක්වා ඇති විස්තර කිරීම්/අර්ථ දැක්වීම් (description/definition) ලැයිස්තුව සලකන්න:\nඉහත ලැයිස්තුව නිර්මාණය කිරීම සඳහා අවශ්‍ය සියලු ම HTML උපලක්ෂණ (tags) අඩංගු වන්නේ පහත සඳහන් කවර පිළිතුරක ද?",
+  "o": [
+   "<dl>, <dt> only",
+   "<ul>, <li> only",
+   "<ol>, <li> only",
+   "<dl>, <li> only",
+   "<dl>, <dt>, <dd> only"
+  ]
+ },
+ {
+  "n": 28,
+  "d": "2016 Q17",
+  "q": "Which of the following is a valid CSS rule?",
+  "qs": "පහත සඳහන් කවරක් වලංගු CSS රීතියක් වන්නේ ද?",
+  "o": [
+   "p {color: red;}",
+   "p {color = red;}",
+   "p {text-color: \"red\";}",
+   "p {text-color = red;}",
+   "p {text-color: red;}"
+  ]
+ },
+ {
+  "n": 29,
+  "d": "2016 Q15",
+  "q": "Consider the following statements:\nA. HTML forms can be used to submit data.\nB. HTML forms can be used to retrieve data.\nC. HTML forms can be placed inside another form.\nWhich of the above statements is/are correct?",
+  "qs": "පහත දී ඇති වගන්ති සලකන්න:\nA. දත්ත යොමු කිරීම (submit) සඳහා HTML පෝරම භාවිත කළ හැකි ය.\nB. දත්ත සම්පූර්ණය කිරීම (retrieve) සඳහා HTML පෝරම භාවිත කළ හැකි ය.\nC. HTML පෝරමයක් වෙනත් HTML පෝරමයක් තුළ ස්ථානගත කළ හැකි ය.\nඉහත වගන්ති අතුරෙන් නිවැරදි වන්නේ කවරක් ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "B හා C පමණි."
+  ]
+ },
+ {
+  "n": 30,
+  "d": "2016 Q16",
+  "q": "A/An ........................ is an image with clickable sub-areas. Which of the followings is the most appropriate to fill the blank in the above statement?",
+  "qs": "........................ යනු ක්ලික් කළ හැකි උප පෙදෙස් සහිත අනුරූපයකි (image). ඉහත වගන්තියේ හිස්තැන පිරවීම සඳහා වඩාත් සුදුසු වන්නේ පහත සඳහන් කවරක් ද?",
+  "o": [
+   "Image button",
+   "Image map",
+   "Anchor",
+   "Icon",
+   "Thumbnail"
+  ],
+  "os": [
+   "අනුරූප බොත්තම",
+   "අනුරූප සිතියම",
+   "ඇඳුම",
+   "නිරූපකය",
+   "සංක්ෂිප්තය"
+  ]
+ },
+ {
+  "n": 31,
+  "d": "2016 Q25",
+  "q": "A web browser running on a client computer A renders a web page in a web server running on a computer B. Which of the following is not a factor that affects the speed of rendering?",
+  "qs": "B නම් පරිගණකයෙහි ධාවනය වන වෙබ් සේවාදායකයෙහි පවතින වෙබ් පිටුවක්, A නම් සේවාග්‍රාහක පරිගණකයෙහි ක්‍රියාත්මක වන වෙබ් අතරික්සුව මගින් විදැහූ (rendering) කරයි. පහත සඳහන් කවරක් විදැහූ කිරීමේ වේගයට බලපාන සාධකයක් නොවන්නේ ද?",
+  "o": [
+   "Size of images in the web page",
+   "Number of colours in the web page",
+   "Speed of the client computer",
+   "Efficiency of the web browser software",
+   "Number of users in the network"
+  ],
+  "os": [
+   "වෙබ් පිටුවේ ඇති අනුරූපවල ප්‍රමාණය",
+   "වෙබ් පිටුවේ ඇති වර්ණ සංඛ්‍යාව",
+   "සේවාග්‍රාහක පරිගණකයේ වේගය",
+   "වෙබ් අතරික්සු මෘදුකාංගයේ කාර්යක්ෂමතාව",
+   "ජාලය තුළ සිටින පරිශීලකයන් සංඛ්‍යාව"
+  ]
+ },
+ {
+  "n": 32,
+  "d": "2017 Q04",
+  "q": "Which of the followings is another name for web publishing?",
+  "qs": "වෙබ් ප්‍රකාශනය සඳහා තවත් නමක් වන්නේ පහත දැක්වෙන දෑ අතුරෙන් කුමක් ද?",
+  "o": [
+   "Offline publishing",
+   "Desktop publishing",
+   "Media publishing",
+   "Online publishing",
+   "Self publishing"
+  ],
+  "os": [
+   "මාර්ග අපගත ප්‍රකාශනය",
+   "පරිගණක ප්‍රකාශනය",
+   "මාධ්‍ය ප්‍රකාශනය",
+   "මාර්ගගත ප්‍රකාශනය",
+   "ස්ව ප්‍රකාශනය"
+  ]
+ },
+ {
+  "n": 33,
+  "d": "2017 Q15",
+  "q": "Which of the following CSS rules renders the image in the file \"school.png\" as the background of a web page?",
+  "qs": "පහත දැක්වෙන CSS රීති අතුරෙන් කුමක් \"school.png\" නම් ගොනුවේ ඇති අනුරූපය වෙබ් පිටුවක පසුතලය ලෙස විදැහූ කරයි ද?",
+  "o": [
+   "body { background = \"school.png\"; }",
+   "body { background: url (\"school.png\"): }",
+   "body { background-image = \"school.png\"; }",
+   "body { background-image: \"school.png\"; }",
+   "body { background-image: url (\"school.png\"); }"
+  ]
+ },
+ {
+  "n": 34,
+  "d": "2017 Q13",
+  "q": "Consider the following HTML code:\n<html>\n  <head><title>Countries</title></head>\n  <body>\n    <p><!-- <h1> Sri Lanka </h1> --></p>\n  </body>\n</html>\nWhich of the followings correctly describes the display, when the above code is rendered?",
+  "qs": "පහත දැක්වෙන HTML කේතය සලකන්න:\nඉහත කේතය විදැහූ කිරීමෙන් ලැබෙන සංදර්ශනය නිවැරදිව විස්තර කෙරෙනුයේ පහත සඳහන් කවරකින්ද?",
+  "o": [
+   "The text \"Country\" appears on title bar and the text \"Sri Lanka\" appears as a header.",
+   "The text \"Sri Lanka\" appears on title bar and the text \"Country\" appears as a header.",
+   "The text \"Country\" appears on the title bar.",
+   "The text \"<!--<h1> Sri Lanka </h1>-->\" appears on the title bar.",
+   "The text \"<!--<h1> Sri Lanka </h1>-->\" appears in the body of the web page."
+  ],
+  "os": [
+   "\"Country\" පාඨය මාතෘකා තීරයේ (title bar) හා \"Sri Lanka\" පාඨය ශීර්ෂයක් ලෙස දිස් වේ.",
+   "\"Sri Lanka\" පාඨය මාතෘකා තීරයේ හා \"Country\" පාඨය ශීර්ෂයක් ලෙස දිස් වේ.",
+   "\"Country\" පාඨය මාතෘකා තීරයෙහි දිස් වේ.",
+   "\"<!--<h1> Sri Lanka </h1>-->\" පාඨය මාතෘකා තීරයෙහි දිස් වේ.",
+   "\"<!--<h1> Sri Lanka </h1>-->\" පාඨය වෙබ් පිටුවේ බඳෙහි (body) දිස් වේ."
+  ]
+ },
+ {
+  "n": 35,
+  "d": "2017 Q14",
+  "q": "Consider the \"Submit\" button of an HTML form given below:\n[Figure: a push button labelled \"Submit\"]\nWhich of the following tags/elements correctly implements the intended function of the above \"Submit\" button?",
+  "qs": "පහත දැක්වෙන HTML පෝරමයක ඇති \"Submit\" බොත්තම සලකා බලන්න:\nපහත දැක්වෙන කුමන උපලක්ෂණය/මූලාංගය ඉහත දැක්වෙන \"Submit\" බොත්තමෙන් බලාපොරොත්තු වන කාර්යය නිවැරදිව ක්‍රියාවට නංවයි ද?",
+  "o": [
+   "<input type = \"submit\" value = \"Submit\">",
+   "<input type = \"button\" value = \"Submit'>",
+   "<button type = \"button\" >Submit</ button>",
+   "<button type = \"submit\"></ button>",
+   "<button type = \"submit\" value = \"Submit\"></ button>"
+  ]
+ },
+ {
+  "n": 36,
+  "d": "2017 Q40",
+  "q": "Consider the following statements regarding CSS used in HTML:\nA. One style sheet can define the rendering of HTML elements in multiple documents.\nB. No additional download is needed to import style sheets.\nC. The HTML document must include a <link> tag.\nD. The style attribute is required in the relevant element.\nWhich of the above statements are correct when using External Style Sheets?",
+  "qs": "HTML හි භාවිත කරන CSS හා සම්බන්ධ පහත දැක්වෙන වගන්ති සලකා බලන්න:\nA. ගොනු කිහිපයක ඇති HTML මූලාංග විදැහූ කිරීම එක් රටා පත්‍රයකින් නිර්වචනය කළ හැකිය.\nB. රටා පත්‍ර ආයාත (import) කිරීම සඳහා කිසිදු අතිරේක බාගත කිරීමක් අවශ්‍ය නොවේ.\nC. HTML ලේඛනයේ <link> උපලක්ෂණය අනිවාර්යයෙන් ම ඇතුළත් කළ යුතු ය.\nD. අදාළ මූලාංගය තුළ රටා (style) උපලක්ෂණය අවශ්‍ය වේ.\nබාහිර රටා පත්‍ර භාවිතය සම්බන්ධයෙන් ඉහත කුමන වගන්ති නිවැරදි වේ ද?",
+  "o": [
+   "A and B only.",
+   "A and C only.",
+   "B and D only.",
+   "A, C and D only.",
+   "B, C and D only"
+  ],
+  "os": [
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා D පමණි.",
+   "A, C හා D පමණි.",
+   "B, C හා D පමණි."
+  ]
+ },
+ {
+  "n": 37,
+  "d": "2018 Q14",
+  "q": "Consider the following statements regarding HTML.\nA. HTML frames are used to divide a browser window into multiple sections.\nB. The rows attribute of <frameset> tag defines the number of vertical frames in an HTML page.\nC. <frameset cols = \"100, 500, 100\"> creates vertical frames with the specified number of millimetres.\nWhich of the above statement/s is/are correct?",
+  "qs": "HTML ආශ්‍රිත පහත දැක්වෙන ප්‍රකාශ සලකන්න.\nA. අතරික්සු කවුළුවක් බහුවිධ කොටස්වලට බෙදීමට HTML රාමු භාවිත කෙරේ.\nB. <frameset> උපලක්ෂණයෙහි rows උපලක්ෂණය HTML පිටුවක ඇති සිරස් රාමු ගණන අර්ථ දක්වයි.\nC. <frameset cols = \"100, 500, 100\"> මගින් නිශ්චිතව දක්වන ලද මිලිමීටර සංඛ්‍යාවක් සහිත සිරස් රාමු නිර්මාණය කෙරේ.\nඉහත කවර වගන්තියක්/වගන්ති නිවැරදි වේ ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "A and B only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "A හා B පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 38,
+  "d": "2018 Q15",
+  "q": "Consider the following HTML code with labels 1 - 3 and the expected output.\nHTML code:\n<html>\n<head> <title>Coffee Shop</title> </head>\n<body>\n<(1)>\n<(2)>Coffee</(2)>\n<(3)>black hot drink</(3)>\n<(2)>Milk</(2)>\n<(3)>white cold drink</(3)>\n</(1)>\n</body>\n</html>\nExpected output:\nCoffee\n      black hot drink\nMilk\n      white cold drink\nWhat is the correct order of tags for replacing the labels 1, 2 and 3?",
+  "qs": "දී ඇති 1 සිට 3 දක්වා ලේබල සහිත තිබෙන HTML කේතය සහ ලැබෙන්නා වූ ප්‍රතිදානය සලකන්න.\nලේබල 1, 2 සහ 3 සඳහා යෙදිය යුතු උපලක්ෂණවල (tags) නිවැරදි පිළිවෙළ කුමක් ද?",
+  "o": [
+   "dt, dl, dd",
+   "dl, dt, dd",
+   "dd, dt, dl",
+   "dt, dd, dl",
+   "dl, dd, dt"
+  ]
+ },
+ {
+  "n": 39,
+  "d": "2018 Q16",
+  "q": "Consider the following HTML code for creating a table.\n<html>\n<head><style> table,th,td{border:1px solid black} </style>\n</head><body>\n<table>\n<tr><th>Name:</th><td>Kamal</td></tr>\n<tr><th rowspan=\"2\">Telephone:</th><td>55577854</td></tr>\n<tr><td>55577855</td></tr>\n</table>\n</body>\n</html>\nWhich of the following is the output generated by the above code?",
+  "qs": "වගුවක් නිර්මාණය කිරීම සඳහා වන පහත HTML කේතය සලකන්න.\nඉහත කේතය මගින් නිර්මාණය වන ප්‍රතිදානය පහත කවරක් ද?",
+  "o": [
+   "[Table, bordered: row 1: Name: (bold) | Kamal; rows 2-3: Telephone: (bold, spanning both rows) | 55577854 / 55577855]",
+   "[Table, bordered: row 1: Name: | Telephone:; rows 2-3: Kamal (bold, spanning both rows) | 55577854 / 55577855]",
+   "[Table with faint/partial borders: row 1: Name: | Telephone:; rows 2-3: Kamal (spanning) | 55577854 / 55577855]",
+   "[Table with partial borders: row 1: Name: | Kamal; rows 2-3: Telephone: (spanning) | 55577854 / 55577855]",
+   "[Table, bordered: row 1: Name: | Kamal; row 2: Telephone: | 55577854; row 3: empty cell | 55577855]"
+  ]
+ },
+ {
+  "n": 40,
+  "d": "2018 Q17",
+  "q": "Which of the following is the correct HTML statement for inserting an image?",
+  "qs": "රූපයක් ඇතුළත් කිරීම සඳහා නිවැරදි HTML ප්‍රකාශය කුමක් ද?",
+  "o": [
+   "<img href=\"image.gif\" alt=\"MyImage\">",
+   "<img alt=\"MyImage\">image.gif</img>",
+   "<img src=\"image.gif\" alt=\"MyImage\">",
+   "<image src=\"image.gif\" href=\"MyImage\">",
+   "<img href=\"image.gif\" src=\"MyImage\">"
+  ]
+ },
+ {
+  "n": 41,
+  "d": "2019 Q09",
+  "q": "Which of the following is correct statement to connect to \"login.php\" from an HTML form?",
+  "qs": "HTML පෝරමයක් \"login.php\" වෙත සම්බන්ධ වීමට භාවිත කළ හැකි නිවැරදි කේත පේළිය කුමක්ද?",
+  "o": [
+   "<form action =\"GET\" method =\"/login.php\">",
+   "<form action =\"/login.php\" method =\"GET\">",
+   "<form submit =\"GET\" method=\"/login.php\">",
+   "<form submit=\"/login.php\" method=\"GET\">",
+   "<form target=\"/login.php\" method=\"GET\">"
+  ]
+ },
+ {
+  "n": 42,
+  "d": "2019 Q10",
+  "q": "Which of the following HTML code lines is correct to create a hyperlink to the words \"Department of Examinations\" using the URL: http://www.doe.index.html?",
+  "qs": "\"Department of Examinations\" යන පද සඳහා URL: http://www.doe.index.html යන ඒකාකාරී සම්පත් නිශ්චායකය (URL) භාවිතයෙන් අධිසන්ධානයක් (hyperlink) නිර්මාණය කිරීම සඳහා පහත දැක්වෙන කුමන HTML කේත පේළිය නිවැරදි වන්නේ ද?",
+  "o": [
+   "<a href=\"Department of Examinations\"> http://www.doe.index.html </a>",
+   "<a href=\"http://www.doe.index.html\">Department of Examinations </a>",
+   "<a href=\"http://www.doe.index.html\" alt=\"Department of Examinations\"> </a>",
+   "<a src=\"Department of Examinations\"> http://www.doe.index.html </a>",
+   "<a src=\"http://www.doe.index.html\">Department of Examinations </a>"
+  ]
+ },
+ {
+  "n": 43,
+  "d": "2019 Q23",
+  "q": "Which is the most suitable HTML form element input type in which the user can enter his credit card secret number?",
+  "qs": "පරිශීලකයා තම ණයපත් රහස්‍ය අංකය ඇතුළත් කිරීම සඳහා වඩාත් ම සුදුසු HTML පෝරම මූලාංග ආදාන ප්‍රවර්ගය (HTML form element input type) කුමක් ද?",
+  "o": [
+   "textarea",
+   "type = \"checkbox\"",
+   "type = \"hidden\"",
+   "type = \"password\"",
+   "type = \"text\""
+  ]
+ },
+ {
+  "n": 44,
+  "d": "2019 Q28",
+  "q": "Which of the following is a valid example for a PHP variable name?",
+  "qs": "පහත සඳහන් කුමන උදාහරණය PHP විචල්‍ය නාමයක් සඳහා වලංගු වේ ද?",
+  "o": [
+   "@class_name",
+   "&class_name",
+   "$class_name",
+   "$class name",
+   "_class_name"
+  ]
+ },
+ {
+  "n": 45,
+  "d": "2019 Q30",
+  "q": "Which of the following is a valid example for CSS class selectors?",
+  "qs": "විලාසිතා පත්‍රිකාවල (css) පංති ජෙදීම (selector) පිළිබඳ වලංගු උදාහරණය පහත දැක්වෙන කවරක්ද?",
+  "o": [
+   ".myclass{color:blue;font-family:serif;}",
+   "#myclass{color:blue;font-family:serif;}",
+   "myclass{color:blue;font-family:serif;}",
+   "myclass:{color:blue;font-family:serif;}",
+   "myclass;{color: blue;font-family:serif;}"
+  ]
+ },
+ {
+  "n": 46,
+  "d": "2019 Q31",
+  "q": "Which one of the following is false regarding the HTML form methods GET and POST?",
+  "qs": "HTML පෝරමවල GET සහ POST විධික්‍රම පිළිබඳ අසත්‍ය වන්නේ පහත කවරක් ද?",
+  "o": [
+   "Both methods are used to transfer data from client side to the server.",
+   "GET method is more efficient than the POST method.",
+   "GET method is more suitable to send sensitive data.",
+   "POST method does not have a limit on size of data.",
+   "POST requests cannot be bookmarked."
+  ],
+  "os": [
+   "විධික්‍රම දෙකම සේවායෝජක වෙතින් සේවාදායක වෙත දත්ත යැවීමට භාවිත කෙරේ.",
+   "GET විධික්‍රමය POST විධික්‍රමයට වඩා කාර්යක්ෂම වේ.",
+   "GET විධික්‍රමය සංවේදී දත්ත යැවීම සඳහා වඩා සුදුසු ය.",
+   "POST විධික්‍රමයේදී දත්තවල ප්‍රමාණය පිළිබඳ සීමාවක් නැත.",
+   "POST අයැදුම් පොත්යොමු (bookmark) කළ නොහැක."
+  ]
+ },
+ {
+  "n": 47,
+  "d": "2020 Q42",
+  "q": "Which of the following HTML tags are used to define a definition list?",
+  "qs": "පහත කවර HTML උපලක්ෂණ, නිර්වචන ලැයිස්තුවක් (definition list) අර්ථ දැක්වීමට භාවිත වේ ද?",
+  "o": [
+   "<dl>, <dd>, <li>",
+   "<dl>, <dt>, <dd>",
+   "<dl>, <td>, <dd>",
+   "<dl>, <th>, <dd>",
+   "<dl>, <th>, <td>"
+  ]
+ },
+ {
+  "n": 48,
+  "d": "2020 Q44",
+  "q": "What is the expected output of the following PHP code block?\n<?php\n    $one = \"Welcome\";\n    $two = \"2020\";\necho $one.$two ;\n?>",
+  "qs": "පහත PHP කේත කොටසෙන් බලාපොරොත්තු වන ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "Welcome.2020",
+   "Welcome2020",
+   "Welcome 2020",
+   "Welcome;2020;",
+   "Welcome.2020;"
+  ]
+ },
+ {
+  "n": 49,
+  "d": "2020 Q43",
+  "q": "Which HTML tag is used to include a caption for a fieldset grouping in a form?",
+  "qs": "පෝරමයක fieldset කාණ්ඩයක මාතෘකාව දැක්වීම සඳහා පහත කවර HTML උපලක්ෂණය භාවිත වේද?",
+  "o": [
+   "<caption>",
+   "<head>",
+   "<label>",
+   "<legend>",
+   "<title>"
+  ]
+ },
+ {
+  "n": 50,
+  "d": "2020 Q45",
+  "q": "Which of the following affects least to the downloading speed of a web page?",
+  "qs": "වෙබ් පිටුවක බාගත කිරීමේ වේගයට (downloading speed) පහත කවරක් අඩම ලෙස බලපායි ද?",
+  "o": [
+   "capability of the web browser",
+   "number of hyperlinks in the web page",
+   "number and size of images in the web page",
+   "processing power of the server computer that stores the web page",
+   "the bandwidth of the internet connection which is used to access the web page"
+  ],
+  "os": [
+   "වෙබ් අතරික්සුවේ (browser) හැකියාව (capability)",
+   "වෙබ් පිටුවේ ඇති අධිසන්ධානක (hyperlinks) ගණන",
+   "වෙබ් පිටුවේ ඇති අනුරූප (images) ගණන සහ ඒවායේ විශාලත්ව",
+   "වෙබ් පිටුව ගබඩා කර ඇති සේවාදායක පරිගණකයේ සැකසීම් බලය",
+   "වෙබ් පිටුව වෙත පිවිසීමට භාවිත කරන අන්තර්ජාල සම්බන්ධතාවයේ කලාප පළල"
+  ]
+ },
+ {
+  "n": 51,
+  "d": "2020 Q46",
+  "q": "Which of the following statements is true about the code given below?\n<style>\n    .title {\n    text-align: center;\n    color: blue;\n    }\n</style>",
+  "qs": "පහත කේතය සම්බන්ධයෙන්, දී ඇති කවර වගන්තියක් සත්‍ය වේ ද?",
+  "o": [
+   "This defines internal styles and uses the CSS 'class' concept.",
+   "This defines internal styles and uses the CSS 'group' concept.",
+   "This defines inline styles and uses the CSS 'group' concept.",
+   "The styles defined inside the code can be used only for one type of element.",
+   "This is an example of the CSS 'Id' concept and the name of the Id is 'title'."
+  ],
+  "os": [
+   "ඉන් අභ්‍යන්තර විලාසයක් අර්ථ දැක්වෙන අතර එය CSS 'class' සංකල්පය භාවිත කරයි.",
+   "ඉන් අභ්‍යන්තර විලාසයක් අර්ථ දැක්වෙන අතර එය CSS 'group' සංකල්පය භාවිත කරයි.",
+   "ඉන් පේලිගත විලාසයක් අර්ථ දැක්වෙන අතර එය CSS 'group' සංකල්පය භාවිත කරයි.",
+   "කේතය තුළ දැක්වෙන විලාස, එක් අවයව ප්‍රවර්ගයකට පමණක් භාවිත කළ හැකිය.",
+   "එය CSS 'Id' සංකල්පයට උදාහරණයක් වන අතර Id නාමය 'title' වේ."
+  ]
+ },
+ {
+  "n": 52,
+  "d": "2020 Q47",
+  "q": "Consider the following HTML code line:\n<a href=\"#PartA\"> Go to Part A </a>\nWhich of the rows in the following table describes the outcome of the above code line?\nDisplayed as a hyperlink | To which the hyperlink connects to",
+  "qs": "පහත HTML කේත පේළිය සලකන්න:\nඉහත කේත පේළියේ ප්‍රතිඵලය පහත වගුවේ කුමන පේළියෙන් විස්තර කෙරේ ද?\nඅධිසන්ධානයක් ලෙස දැක්වෙන්නේ | එම අධිසන්ධානයෙන් සම්බන්ධ විය හැකි දෙය",
+  "o": [
+   "#PartA | new web page named \"Go to Part A\"",
+   "#PartA | part of the same page named with Id \"Go to Part A\"",
+   "Go to Part A | new web page named \"#PartA\"",
+   "Go to Part A | part of the same web page named with Id \"#PartA\"",
+   "Go to Part A | part of the same web page named with Id \"PartA\""
+  ],
+  "os": [
+   "#PartA | \"Go to Part A\" ලෙස නම් කළ නව වෙබ් පිටුවකට",
+   "#PartA | \"Go to Part A\" Id ලෙස නම් කළ එම වෙබ් පිටුවේම වෙනත් කොටසකට",
+   "Go to Part A | \"#PartA\" ලෙස නම් කළ නව වෙබ් පිටුවකට",
+   "Go to Part A | \"#PartA\" Id ලෙස නම් කළ එම වෙබ් පිටුවේම තවත් කොටසකට",
+   "Go to Part A | \"PartA\" Id ලෙස නම් කළ එම වෙබ් පිටුවේම තවත් කොටසකට"
+  ]
+ },
+ {
+  "n": 53,
+  "d": "2021 Q45",
+  "q": "Read the following sentence about website development:\nTo make an effective website, it is important to identify its objectives and the target ........A........ and then design the most useful information layout for the website accordingly.\nWhich of the following is the correct choice for the blank A above?",
+  "qs": "වෙබ් අඩවි ගොඩනැගීමට අදාළ පහත වගන්තිය කියවන්න.\nඑලදායි වෙබ් අඩවියක් සෑදීම සඳහා එහි අරමුණු හා ඉලක්ක ........A........ හඳුනාගෙන, ඒ අනුව වෙබ් අඩවිය සඳහා වඩාත්ම ප්‍රයෝජනවත් තොරතුරු පිරි සැලසුම නිර්මාණය කිරීම වැදගත් වේ.\nඉහත A වලින් දක්වා ඇති හිස්තැන සඳහා වඩාත් නිවැරදි තේරීම කුමක් ද?",
+  "o": [
+   "audio",
+   "images",
+   "text",
+   "users",
+   "video"
+  ]
+ },
+ {
+  "n": 54,
+  "d": "2021 Q46",
+  "q": "Which of the following is the correct example for CSS group selector?",
+  "qs": "CSS කාණ්ඩ තෝරාගැනීමකට (group selector) නිවැරදි උදාහරණය පහත කවරක් ද?",
+  "o": [
+   "h1{text-align:left ; color:blue;}",
+   "h1,h2{text-align:left , color:blue;}",
+   "h1,h2{text-align:left; color:blue;}",
+   "h1:h2{text-align:left , color:blue;}",
+   "h1,h2{text-align:left; color:blue;}"
+  ]
+ },
+ {
+  "n": 55,
+  "d": "2021 Q47",
+  "q": "Consider the following HTML code:\n<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        body {background-image: url('srilanka.jpg');}\n    </style>\n</head>\n<body>\n<h2>Sri  Lanka</h2>\n<p>Sri Lanka, the island of serendipity, is really a <i>pearl in the orient</i>.</p>\n</body>\n</html>\nWhich of the following statements is/are correct about the observations when the above code is viewed through a web browser?\nA. The srilanka.jpg image (if existing) will be displayed as background to the web page.\nB. The Sri Lanka word which is enclosed within <h2> and </h2> tags will appear in italics.\nC. The pearl in the orient phrase enclosed within <i> and </i> tags will appear in italics.",
+  "qs": "පහත HTML කේතය සලකන්න.\nඉහත කේතය වෙබ් අතරික්සුවක් හරහා නරඹන විට දැකිය හැකි දෑ සම්බන්ධයෙන් පහත කවර වගන්ති නිවැරදි වේද?\nA. srilanka.jpg රූපය (තිබේනම්) එය වෙබ් පිටුවේ පසුතලය (background) ලෙස දිස්වේ.\nB. <h2> සහ </h2> උපලක්ෂණ අතර ඇති Sri Lanka වචනය ඇල අකුරින් (italics) දිස්වේ.\nC. <i> සහ </i> උපලක්ෂණ අතර ඇති pearl in the orient වාක්‍ය ඛණ්ඩය ඇල අකුරින් දිස්වේ.",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "A and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි."
+  ]
+ },
+ {
+  "n": 56,
+  "d": "2021 Q48",
+  "q": "Which of the following statements is correct about the following code line when it is rendered through a web browser?\n<input type=\"radio\" name=\"vaccinate\" value=\"Yes\">",
+  "qs": "පහත කේත පේළිය වෙබ් අතරික්සුවක් හරහා විදැහුම්කරණය (rendering) සම්බන්ධයෙන් පහත කවර වගන්තියක් නිවැරදි වේ ද?",
+  "o": [
+   "It shows a radio button with a label named vaccinate at left side.",
+   "It shows a radio button with a label named vaccinate at right side.",
+   "It shows a radio button with a label named Yes at left side.",
+   "It shows a radio button with a label named Yes at right side.",
+   "The word Yes is not shown to user."
+  ],
+  "os": [
+   "වම්පසින් vaccinate නම්වූ ලේබලයක් සහිතව විකල්ප තේරීම් බොත්තමක් (radio button) දිස්වේ.",
+   "දකුණුපසින් vaccinate නම්වූ ලේබලයක් සහිතව විකල්ප තේරීම් බොත්තමක් දිස්වේ.",
+   "වම්පසින් Yes නම්වූ ලේබලයක් සහිතව විකල්ප තේරීම් බොත්තමක් දිස්වේ.",
+   "දකුණුපසින් Yes නම්වූ ලේබලයක් සහිතව විකල්ප තේරීම් බොත්තමක් දිස්වේ.",
+   "පරිශීලකයාට Yes යන වචනය දිස් නොවේ."
+  ]
+ },
+ {
+  "n": 57,
+  "d": "2021 Q49",
+  "q": "Consider the following PHP code line which is used to create MySQL database connectivity:\n$conn = new mysqli($var1, $var2, $var3, $var4);\nWhich of the following is the correct representation for the above variables?",
+  "qs": "MySQL දත්ත සමුදා සම්බන්ධන හැකියාවක් ඇතිකරගැනීමට භාවිත කරන පහත PHP කේත පේළිය සලකන්න.\nඉහත විචල්‍යයන්හි නිවැරදි නියෝජනය පහත කවරක් ද?",
+  "o": [
+   "$var1 = database, $var2 = server name, $var3 = user name, $var4 = password",
+   "$var1 = database, $var2 = user name, $var3 = password, $var4 = server name",
+   "$var1 = server name, $var2 = database, $var3 = user name, $var4 = password",
+   "$var1 = server name, $var2 = user name, $var3 = password, $var4 = database",
+   "$var1 = user name, $var2 = password, $var3 = server name, $var4 = database"
+  ]
+ },
+ {
+  "n": 58,
+  "d": "2021 Q50",
+  "q": "What would be the output when the following PHP code is executed?\n<html>\n<body>\n<?php\n    $class = array (\"12-A\", \"12-B\", \"13-A\");\n    echo \"IT classes are \" . $class[1]. \"and\". $class[2] ;\n?>\n</body>\n</html>",
+  "qs": "පහත දැක්වෙන PHP කේතය ක්‍රියාත්මක කළ විට ප්‍රතිදානය කුමක් වේ ද?",
+  "o": [
+   "IT classes are 12-A and 12-B",
+   "IT classes are \"12-A\" and \"12-B\"",
+   "IT classes are 12-B and 13-A",
+   "IT classes are .12-A. and .12-B",
+   "IT classes are .12-B. and .13-B"
+  ]
+ },
+ {
+  "n": 59,
+  "d": "2022 Q43",
+  "q": "Which of the following HTML tags can be used to change the appearance of word in text?",
+  "qs": "පාඨයක වචනයක් දිස්වෙන ආකාරය වෙනස් කිරීමට පහත කුමන HTML උපලක්ෂණ භාවිත කළ හැකිද?",
+  "o": [
+   "<i>,<em>,<li>,<br>",
+   "<b>,<i>,<em>,<h1>",
+   "<b>,<sup>,<li>",
+   "<i>,<u>,<br>,<sup>",
+   "<u>,<i>,<ol>,<b>"
+  ]
+ },
+ {
+  "n": 60,
+  "d": "2022 Q46",
+  "q": "Which of the following HTML code line can be used to create a hyperlink to the website of the National Institute of Education? (The URL of the website is http://nie.lk)",
+  "qs": "ජාතික අධ්‍යාපන ආයතනයේ වෙබ් අඩවියට අධිසම්බන්ධයක් නිර්මාණය කිරීමට යොදාගත හැකි HTML කේත පේළිය පහත කවරක් ද? (වෙබ් අඩවියේ ඒකාකාරී සම්පත් නිශ්චායකය http://nie.lk වේ.)",
+  "o": [
+   "<a src = http://nie.lk>National Institute of Education</a>",
+   "<a href = \"http://nie.lk\">National Institute of Education</a>",
+   "<a img = http://nie.lk>National Institute of Education</a>",
+   "<a href = \"http://nie.lk\"></a>National Institute of Education>",
+   "<a src = http://nie.lk></a>National Institute of Education>"
+  ]
+ },
+ {
+  "n": 61,
+  "d": "2022 Q47",
+  "q": "Which of the following could be used to create an array in PHP?\nA - $city[ ] = array(\"Colombo\");\nB - city[ ] = \"Colombo\";\nC - $city = array(\"Colombo\");",
+  "qs": "PHP හි අරාවක් (array) ගොඩනැගීමට පහත කවරක් භාවිත කළ හැකි ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and C only.",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි."
+  ]
+ },
+ {
+  "n": 62,
+  "d": "2022 Q44",
+  "q": "What would be the output of the following HTML code segment?\n<dl>\n  <dt> Vegetable </dt>\n      <dd> Potato </dd>\n  <dt> Fruit </dt>\n      <dd> Orange </dd>\n</dl>",
+  "qs": "පහත දැක්වෙන HTML කේත ඛණ්ඩයේ ප්‍රතිදානය කුමක් වේ ද?",
+  "o": [
+   "• Vegetable\n   • Potato\n• Fruit\n   • Orange",
+   "Vegetable\n    Potato\nFruit\n    Orange (plain text, dd lines indented, no bullets)",
+   "• Vegetable\n       Potato\n• Fruit\n       Orange (bullets on Vegetable and Fruit only; Potato and Orange indented, no bullets)",
+   "1. Vegetable\n    Potato\n2. Fruit\n    Orange",
+   "• Vegetable\n   - Potato\n• Fruit\n   - Orange"
+  ]
+ },
+ {
+  "n": 63,
+  "d": "2022 Q45",
+  "q": "Which of the following statements is/are correct regarding HTML and CSS?\nA - CSS can be used to describe how HTML elements are to be displayed on screen.\nB - External CSS can be used to define the style for many HTML pages.\nC - Inline CSS can be used to apply a style to a single HTML element.",
+  "qs": "HTML සහ CSS සම්බන්ධයෙන් පහත කවර ප්‍රකාශ/ය නිවැරදි ද?\nA - HTML අංග (elements) තිරයක දිස් කළ යුතු ආකාරය CSS භාවිතයෙන් විස්තර කළ හැකියි.\nB - HTML පිටු කිහිපයක විලාස (style) අර්ථදැක්වීමට බාහිර (external) CSS භාවිත කළ හැකියි.\nC - එක් HTML අංගයකට (element) විලාසයක් යෙදීමට පේළිගත (inline) CSS භාවිත කළ හැකියි.",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 64,
+  "d": "2022 Q48",
+  "q": "Given below is a partially completed PHP script used to connect to a database named Employees using MySQLi (procedural method). Which option is most suitable to fill in the blank spaces A, B and C respectively?\n<?php\n  $servername = \"127.0.0.1\";\n  $username = \"username\";\n  $password = \"password\";\n  $conn = mysqli_connect($servername, $username, $password);\n  if (!$conn) {\n     die(\"Connection failed: \" . mysqli_connect_error());\n  }\n  $sql = \"CREATE DATABASE ........A........ \";\n  if (mysqli_query(........B........,........C........) {\n     echo \"Database created successfully\";\n  } else {\n     echo \"Error creating database: \" . mysqli_error($conn);\n  mysqli_close($conn)\n?>",
+  "qs": "MySQLi ක්‍රියාපිළිවෙළ ක්‍රමය (procedural method) භාවිත කරමින් Employees (සේවකයින්) නම් දත්ත සමුදායට සම්බන්ධවීමට යොදාගන්නා අර්ධ වශයෙන් සම්පූර්ණ කරන ලද PHP උපදේශවලියක් පහත දැක්වේ. එහි A, B සහ C හිස්තැන් පිරවීම සඳහා වඩාත් සුදුසු යෙදුම් පිළිවෙළින් දැක්වෙන වරණය කුමක් ද?",
+  "o": [
+   "$sql, $conn, $Employees",
+   "$conn, $sql, Employees",
+   "$Employees, $conn, $sql",
+   "Employees, $conn, $sql",
+   "Employees, $sql, $conn"
+  ]
+ },
+ {
+  "n": 65,
+  "d": "2023 Q48",
+  "q": "Consider the following HTML code line related to a form:\n<form method=\"post\" action=\"process.php\">\nThe \"action\" attribute in it",
+  "qs": "පෝරමයකට (form) අදාළ පහත HTML කේත පේළිය සලකන්න:\nඑහි \"action\" ගුණාංගය,",
+  "o": [
+   "specifies the data type of the form.",
+   "specifies the server file that handles the data in the form.",
+   "controls the form's alignment on the web page.",
+   "declares the form as a PHP script.",
+   "shows the process.php file on the screen."
+  ],
+  "os": [
+   "පෝරමයේ දත්ත වර්ගය පැහැදිලිව දක්වයි.",
+   "පෝරමයේ දත්ත හසුරුවන සේවාදායක ගොනුව පැහැදිලිව දක්වයි.",
+   "වෙබ් පිටුව මත පෝරමයේ එකෙල්ල (alignment) කිරීම පාලනය කරයි.",
+   "පෝරමය PHP උපදේශාවලියක් (script) ලෙස ප්‍රකාශ කරයි.",
+   "process.php ගොනුව තිරයේ පෙන්වයි."
+  ]
+ },
+ {
+  "n": 66,
+  "d": "2023 Q46",
+  "q": "Consider the following code fragment in an HTML file:\n<style>\n    body {\n         color: yellow;\n         font-family: Arial, Cambria;\n         }\n    .highlight {\n         color: red;\n         }\n</style>\nWhat happens if one applies the class 'highlight' to a <div> element within <html> and </html> tags in the above file?",
+  "qs": "HTML ගොනුවක ඇති පහත කේත ඛණ්ඩය සලකන්න.\n'highlight' පන්තිය (class) ඉහත ගොනුවේ <html> සහ </html> උපලක්ෂණ අතර ඇති <div> මූලාංගයකට යෙදූ විට කුමක් සිදු වේ ද?",
+  "o": [
+   "The <div> element's text will turn red.",
+   "The <div> element's text will turn yellow.",
+   "The <div> element's font size will increase.",
+   "The <div> element's font type will change to Cambria.",
+   "The <div> element's border colour will change to red."
+  ],
+  "os": [
+   "<div> මූලාංගයේ පාඨ (text) රතු පාටට හැරේ.",
+   "<div> මූලාංගයේ පාඨ කහ පාටට හැරේ.",
+   "<div> මූලාංගයේ අකුරුවල ප්‍රමාණය විශාල වේ.",
+   "<div> මූලාංගයේ අකුරු Cambria වර්ගයට හැරේ.",
+   "<div> මූලාංගයේ දාර (border) වර්ණය රතු පාටට හැරේ."
+  ]
+ },
+ {
+  "n": 67,
+  "d": "2023 Q47",
+  "q": "Which of the following statements regarding Search Engine Optimization (SEO) are correct?\nA - Meta tags on web pages help SEO.\nB - It increases the visibility of a web page in search engines.\nC - Powerful computers should be used to create SEO friendly web pages.",
+  "qs": "සෙවුම් යන්ත්‍ර ප්‍රශස්තකරණය (SEO) සම්බන්ධයෙන් පහත කවර ප්‍රකාශ නිවැරදි වේ ද?\nA - වෙබ් පිටුවල ඇති අභිලේඛල (meta tags) SEO සඳහා උදව් වේ.\nB - එය වෙබ් පිටුවක් සෙවුම් යන්ත්‍ර හරහා දැක්මාන වීම ඉහළ නංවයි.\nC - SEO සඳහා හිතකර වෙබ් පිටු සෑදීමට ප්‍රබල පරිගණක භාවිත කළ යුතු ය.",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 68,
+  "d": "2023 Q49",
+  "q": "Saman's father is a carpenter. He wants to showcase his father's work on a website. Which of the following hosting options should Saman use in order to do it with a price that he can afford?",
+  "qs": "සමන්ගේ පියා වඩු කාර්මිකයෙකි. වෙබ් අඩවියක්, තම පියාගේ නිර්මාණ ප්‍රදර්ශනය කිරීමට සමන් අදහස් කරයි. තමන්ට දැරිය හැකි අඩු වියදමකින් එය කර ගැනීමට සමන් තම වෙබ් අඩවිය සඳහා පහත කවර ආකාරයට ප්‍රසිද්ධ (host) කළ යුතුද?",
+  "o": [
+   "Hosting it on a server that presents other websites also (shared hosting)",
+   "Hosting it on a Virtual Private Server (VPS)",
+   "Hosting it on a server dedicated to Saman (dedicated hosting)",
+   "Using an e-Commerce website",
+   "Using the services of a well known cloud service provider"
+  ],
+  "os": [
+   "වෙනත් වෙබ් අඩවිද ඉදිරිපත් කෙරෙන සේවාදායකයක (server) හවුලේ ප්‍රසිද්ධ කිරීම",
+   "අථත්‍ය පෞද්ගලික සේවාදායකයක (virtual private server) ප්‍රසිද්ධ කිරීම",
+   "සමන්ටම වෙන් වූ සේවාදායකයක ප්‍රසිද්ධ කිරීම (dedicated hosting)",
+   "ඉ-වාණිජය වෙබ් අඩවියක් භාවිත කිරීම",
+   "ප්‍රචලිත වලාකුළු සේවාදායක (cloud service) සැපයුම්කරුවකුගේ සේවා භාවිත කිරීම"
+  ]
+ },
+ {
+  "n": 69,
+  "d": "2024 Q43",
+  "q": "Which of the following statements are true about the web pages created using web authoring tools?\nA - The HTML Code for such a page is automatically generated.\nB - Such a page can be enhanced by manually adding HTML tags later.\nC - Multimedia content cannot be added to them.",
+  "qs": "වෙබ් සම්පාදක මෙවලම් (web authoring tools) භාවිතයෙන් සෑදුනු වෙබ් පිටු සම්බන්ධයෙන් පහත කවර වගන්ති නිවැරදි වේද?\nA - එවැනි පිටුවක HTML කේතය ස්වයංක්‍රීයව සෑදේ.\nB - පසුව HTML උපලක්ෂණ අත්යුරුව එකතු කිරීමෙන් එවැනි පිටුවක් වැඩිදියුණු කළ හැකිය.\nC - බහුමාධ්‍ය (multimedia) අන්තර්ගත ඒවාට එකතු කළ නොහැක.",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 70,
+  "d": "2024 Q44",
+  "q": "What is the primary purpose of an HTML style sheet?",
+  "qs": "HTML විලාස පත්‍රක මූලික අරමුණ කුමක්ද?",
+  "o": [
+   "to apply formatting and styles to html elements.",
+   "to create databases for a website.",
+   "to define the structure of a webpage.",
+   "to send form data to databases.",
+   "to update the content of a webpage."
+  ],
+  "os": [
+   "HTML මූලාංගවලට ආකෘතිකරණ හා විලාස යෙදවීමට",
+   "වෙබ් අඩවියක් සඳහා දත්ත සමුදා සෑදීමට",
+   "වෙබ් පිටුවක ව්‍යුහය නියම කිරීමට",
+   "දත්ත සමුදා වෙත පෝරම දත්ත යැවීමට",
+   "වෙබ් පිටුවක අන්තර්ගතය යාවත්කාලීන කිරීමට"
+  ]
+ },
+ {
+  "n": 71,
+  "d": "2024 Q45",
+  "q": "Which of the following can be used to change the look of an entire website by changing just one file?\nA - external CSS\nB - inline CSS\nC - internal CSS",
+  "qs": "එක් ගොනුවක් පමණක් වෙනස් කර, සම්පූර්ණ වෙබ් අඩවියකම පෙනුම වෙනස් කිරීමට පහත කවරක් භාවිත කළ හැකිද?\nA – බාහිර CSS\nB – පේළිගත CSS\nC – අභ්‍යන්තරික CSS",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 72,
+  "d": "2024 Q46",
+  "q": "For what purpose is POST used in an HTML form?",
+  "qs": "HTML පෝරමයක POST භාවිත කිරීමේ අරමුණ කුමක් ද?",
+  "o": [
+   "to display a confirmation message after form submission.",
+   "to display form data on screen",
+   "to refresh the web page",
+   "to retrieve data from the server",
+   "to send form data to the server"
+  ],
+  "os": [
+   "පෝරමය ඉදිරිපත් (submit) කළ පසු තහවුරු කිරීමේ (confirmation) පණිවිඩයක් සංදර්ශනය කිරීමට",
+   "පෝරමයේ දත්ත තිරයේ සංදර්ශනය කිරීමට",
+   "වෙබ් පිටුව පුබුදු කිරීමට (refresh)",
+   "සේවාදායකයෙන් (server) දත්ත ලබාගැනීමට",
+   "පෝරමයේ දත්ත සේවාදායකයට යැවීමට"
+  ]
+ },
+ {
+  "n": 73,
+  "d": "2024 Q47",
+  "q": "Which of the following statements are correct regarding website publishing?\nA - One has to obtain a domain name to publish a website.\nB - Before deciding to host a website one's own computer, one has to do a good cost-benefit analysis one the same.\nC - Shared hosting will provide faster access to the site's users all the time compared to either virtual private server (VPN) hosting or dedicated server hosting.",
+  "qs": "වෙබ් අඩවියක් ප්‍රසිද්ධ කිරීම (publishing) සම්බන්ධයෙන් නිවැරදි පහත කවර ඒවාද?\nA - වෙබ් අඩවියක් ප්‍රසිද්ධ කිරීමට යමෙකු වසම් නාමයක් (domain name) ලබාගත යුතුය.\nB - තමාගේම පරිගණකය වෙබ් අඩවි සත්කාරක (host) ලෙස භාවිතා කිරීමට තීරණය කිරීමට පෙර, යමෙකු ඒ පිළිබඳව හොඳ පිරිවැය-ප්‍රතිලාභ (cost-benefit) විශ්ලේෂණයක් කළ යුතුය.\nC - අථත්‍ය පෞද්ගලික සේවාදායකයක (private server) හෝ ප්‍රසිද්ධ කිරීමකට වඩා හවුලේ ප්‍රසිද්ධ කිරීම (shared hosting) සෑම විටම වෙබ් අඩවියේ පරිශීලකයින්ට ඊට වේගවත් ප්‍රවේශයක් ලබාදෙනු ඇත.",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ }
+]

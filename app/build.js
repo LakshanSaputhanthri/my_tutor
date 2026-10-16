@@ -231,6 +231,23 @@ if (fs.existsSync(saaFile)) {
   }
 }
 
+// AL ICT bank (bilingual): content/ict-al.json. Sets carry exam:'ict'; a question may add qs/os/es (Sinhala question, options, explanation).
+// Lesson-wise bank (content/ict-lessons.json): MCQs with pending answers (a:[]) shown as page images (im:[...] under static/ictq),
+// plus essay/structured sets (kind:'essay') that are read-only images.
+for (const file of ['ict-lessons.json', 'ict-al.json']) {
+  const ictFile = path.join(__dirname, 'content', file);
+  if (!fs.existsSync(ictFile)) continue;
+  for (const s of JSON.parse(fs.readFileSync(ictFile, 'utf8')).sets) {
+    s.exam = 'ict';
+    s.qs.forEach((x, i) => {
+      if (x.a.some(k => k >= x.o.length)) problems.push(`${s.id} Q${i + 1}: answer index has no option`);
+      if (x.os && x.os.length !== x.o.length) problems.push(`${s.id} Q${i + 1}: Sinhala options count differs`);
+      for (const im of x.im || []) if (!fs.existsSync(path.join(__dirname, 'static', im))) problems.push(`${s.id} Q${i + 1}: missing image ${im}`);
+    });
+    sets.push(s);
+  }
+}
+
 const cheat = fs.readFileSync(path.join(__dirname, 'content', 'cheatsheet.md'), 'utf8').replace(/\r/g, '');
 lessons.push({ id: 'cheat', title: cheat.match(/^#\s+(.*)$/m)[1], short: 'Exam night', html: md(cheat.replace(/^#\s+.*\n/, '')) });
 lessonSrc.cheat = cheat.replace(/^#\s+.*\n/, '');
@@ -246,9 +263,13 @@ const appHead = '<!doctype html>\n<html lang="si">\n<head>\n<meta charset="utf-8
 fs.mkdirSync(path.join(__dirname, 'dist'), { recursive: true });
 fs.writeFileSync(path.join(__dirname, 'dist', 'index.html'), appHead + page + '\n</body>\n</html>\n');
 fs.writeFileSync(path.join(__dirname, 'artifact.html'), page);
-for (const f of fs.readdirSync(path.join(__dirname, 'static'))) {
-  fs.copyFileSync(path.join(__dirname, 'static', f), path.join(__dirname, 'dist', f));
-}
+const copyDir = (from, to) => {
+  fs.mkdirSync(to, { recursive: true });
+  for (const f of fs.readdirSync(from, { withFileTypes: true })) {
+    f.isDirectory() ? copyDir(path.join(from, f.name), path.join(to, f.name)) : fs.copyFileSync(path.join(from, f.name), path.join(to, f.name));
+  }
+};
+copyDir(path.join(__dirname, 'static'), path.join(__dirname, 'dist'));
 
 const flutterAssets = path.join(ROOT, 'flutter_app', 'assets');
 if (fs.existsSync(path.dirname(flutterAssets))) {

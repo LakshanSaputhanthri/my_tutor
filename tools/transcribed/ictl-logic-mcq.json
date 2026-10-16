@@ -1,0 +1,454 @@
+[
+ {
+  "n": 1,
+  "d": "2011 Q27",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nWhich of the following would be the result if the Boolean expression F(x,y) = (x+y)' . (x'+y')' is simplified by using De Morgan's Law?  [as printed: overbar over (x+y) and overbar over (x' + y')]",
+  "o": [
+   "x",
+   "y",
+   "0",
+   "1",
+   "x, y"
+  ]
+ },
+ {
+  "n": 2,
+  "d": "2011 Q28",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nWhich of the following Boolean expressions represents the given logic circuit?\n[Figure: inputs A, B, C. A and B feed a gate with an output bubble in the first stage (OR with bubble); B and C feed an AND gate; the outputs of these gates feed a final OR gate. Wiring partly unclear in the image.]",
+  "o": [
+   "(A+B)' + (B+C)",
+   "(A + B) + (B.C)",
+   "(A+B)' + (B+C)' [overbar over (B+C)]",
+   "(A.B) + (B.C)",
+   "(A+B)' + (B.C)"
+  ]
+ },
+ {
+  "n": 3,
+  "d": "2012 Q26",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nWhat would be the result if the following Boolean expression is simplified?\nF(x,y) = x'y'(x'+y)(y+y')",
+  "o": [
+   "x'",
+   "y'",
+   "x",
+   "y",
+   "xy"
+  ]
+ },
+ {
+  "n": 4,
+  "d": "2012 Q27",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nWhich of the following Boolean expressions represents the output of the given logic circuit?\n[Figure: inputs A, B feed an OR gate; inputs B, C feed an AND gate; the two outputs feed a final gate with an output bubble (NOR)]",
+  "o": [
+   "(A+B)' + (B.C)'",
+   "(A+B)' . (B.C)'",
+   "((A+B) + (B.C))' [overbar over the whole expression]",
+   "(A.B)' + (B.C)'",
+   "((A.B) + (B+C))' [overbar over the whole expression]"
+  ]
+ },
+ {
+  "n": 5,
+  "d": "2013 Q01",
+  "q": "The Boolean expression (x + y) . (x + z) simplifies to ........",
+  "o": [
+   "x",
+   "x . (y + z)",
+   "x . y . z",
+   "x + y . z",
+   "x + y + z"
+  ]
+ },
+ {
+  "n": 6,
+  "d": "2013 Q02",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nWhich of the following Boolean expressions represents the output (Q) of the circuit shown below? A and B are inputs.\n[Figure: A passes through a NOT gate into an AND gate (the other AND input is from B); B also feeds an OR gate together with the AND output; the OR output passes through a NOT gate to Q]",
+  "o": [
+   "A'.B' + A.B'",
+   "A'.B' + A.B",
+   "A.B + A'.B'",
+   "A'.B + A.B'",
+   "A'.B + A.B'"
+  ]
+ },
+ {
+  "n": 7,
+  "d": "2013 Q09",
+  "q": "Which of the following is an incorrect Karnaugh Map layout to represent a Boolean function of four (4) Boolean variables a, b, c and d?",
+  "o": [
+   "ab\\cd | 01 | 00 | 10 | 11  (rows: 01, 00, 10, 11)",
+   "ac\\bd | 01 | 00 | 10 | 11  (rows: 01, 00, 10, 11)",
+   "ab\\cd | 01 | 00 | 11 | 10  (rows: 01, 00, 11, 10)",
+   "ad\\bc | 11 | 10 | 00 | 01  (rows: 11, 10, 00, 01)",
+   "ac\\bd | 00 | 10 | 11 | 01  (rows: 00, 10, 11, 01)"
+  ]
+ },
+ {
+  "n": 8,
+  "d": "2014 Q12",
+  "q": "Consider the following logic circuit.\n[Figure: inputs X, Y, Z; two OR gates whose outputs feed an AND gate giving Q]\nWhich of the following circuit diagrams represents a simplified version of the above circuit?",
+  "o": [
+   "[Figure 1: an AND gate and then an OR gate -> Q]",
+   "[Figure 2: an OR gate whose output goes to an AND gate -> Q]",
+   "[Figure 3: a single AND gate with inputs from X, Y, Z -> Q]",
+   "[Figure 4: an AND gate whose output goes to an OR gate -> Q]",
+   "[Figure 5: a single OR gate with inputs from X, Y, Z -> Q]"
+  ]
+ },
+ {
+  "n": 9,
+  "d": "2014 Q13",
+  "q": "Consider the following circuit with four push button switches namely: S1, S2, S3, and S4. These four switches can either be in pushed or released states which are represented by 1 and 0 respectively. (Note: In the circuit given below, all the switches are in released state having value 0.)\n[Figure: a battery, switch S1 in series, then a parallel pair of branches (S2 on top, S3 on bottom), then S4 in series, then a bulb]\nWhich of the following Boolean expressions represents the function of the bulb, if the on state of the bulb is represented by the value 1?",
+  "o": [
+   "S1 + (S2 . S3) + S4",
+   "(S1 + S2) . (S3 + S4)",
+   "(S1 . S2) + (S3 . S4)",
+   "S1 . S4 . (S2 + S3)",
+   "S2 + (S1 . S4) + S3"
+  ]
+ },
+ {
+  "n": 10,
+  "d": "2015 Q11",
+  "q": "Consider the following combinatory circuit implemented using universal gates:\n[Figure: two NAND gates, each with its inputs tied to the same input; their outputs feed a third NAND gate producing the Output]\nThe above circuit is equivalent to a/an,",
+  "o": [
+   "AND Gate",
+   "OR Gate",
+   "NAND Gate",
+   "NOR Gate",
+   "NOT Gate"
+  ]
+ },
+ {
+  "n": 11,
+  "d": "2016 Q11",
+  "q": "Consider the following logic circuit implemented using universal gates:\n[Figure: two NOR gates, each with its inputs tied to the same input; their outputs feed a third NOR gate]\nThe above circuit is equivalent to a/an,",
+  "o": [
+   "NOT Gate",
+   "AND Gate",
+   "OR Gate",
+   "NAND Gate",
+   "NOR Gate"
+  ]
+ },
+ {
+  "n": 12,
+  "d": "2017 Q47",
+  "q": "Consider the following statements on using NAND, NOR gates over NOT, AND, OR gates when constructing logic circuits:\nA - They make logic circuit design simpler.\nB - They help to construct logic circuits that consume less electricity.\nC - They make logic circuit construction more economical.\nWhich of the above statements is/are correct?",
+  "o": [
+   "A only",
+   "B only",
+   "A and B only",
+   "A and C only",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි"
+  ]
+ },
+ {
+  "n": 13,
+  "d": "2018 Q21",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nConsider the following Boolean expression.\n(A' + B.C')'  [as printed: overbar over the whole of A' + B . C' ]\nWhich of the following is/are equivalent to the above expression?\nI - A' + B' . C   [as printed: Ā + B̄ · C]\nII - A' . (B . C')'   [as printed: Ā · overline(B·C̄)]\nIII - A' . B' + A' . C   [as printed: Ā·B̄ + Ā·C]",
+  "o": [
+   "I only",
+   "II only",
+   "III only",
+   "I and II only",
+   "II and III only"
+  ],
+  "os": [
+   "I පමණි",
+   "II පමණි",
+   "III පමණි",
+   "I හා II පමණි",
+   "II හා III පමණි"
+  ]
+ },
+ {
+  "n": 14,
+  "d": "2018 Q22",
+  "q": "Consider the following logic circuit.\n[Figure: A and B each pass through a NOT gate; the two NOT outputs feed an OR gate; the OR output and A feed a NAND-type gate (output bubble) giving X]\nWhich of the following circuit/s is/are equivalent to the above circuit?\n[Figures I, II, III: three alternative circuits of AND, OR, NOT gates with inputs A and B and output X]",
+  "o": [
+   "I only",
+   "II only",
+   "III only",
+   "I and II only",
+   "All I, II and III"
+  ],
+  "os": [
+   "I පමණි",
+   "II පමණි",
+   "III පමණි",
+   "I හා II පමණි",
+   "I, II සහ III සියල්ලම"
+  ]
+ },
+ {
+  "n": 15,
+  "d": "2019 Q39",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nConsider the Karnaugh map shown below.\nAB:  00 | 01 | 11 | 10\nC=0:  0 | 0 | 0 | 1\nC=1:  1 | 1 | 0 | 1\n[Two marked groups of 0s: the pair at AB=00 and 01 in row C=0 (horizontal), and the pair at AB=11 in rows C=0 and C=1 (vertical)]\nWhich of the following is the correct logic expression that corresponds to the two marked segments on the Karnaugh map?",
+  "o": [
+   "AB' + BC'",
+   "A'C' + AB",
+   "(A' + C')(A + B)",
+   "(A + C)(A' + B')",
+   "AC + A'B'"
+  ]
+ },
+ {
+  "n": 16,
+  "d": "2019 Q37",
+  "q": "Consider the following logic circuit diagram to answer the questions 37 and 38.\n[Figure: Inputs A and B go into the first dotted box: an XOR gate and an AND gate. The second dotted box has input Cin and the XOR output: an XOR gate (output S) and an AND gate. The two AND gate outputs go to an OR gate giving Cout.]\nWhich of the following statements is/are correct about the above circuit?\nI - It implements a full adder.\nII - The logic function of S can be stated as S = A ⊕ B ⊕ Cin.\nIII - The logic function of Cout can be stated as Cout = AB + BCin + ACin.",
+  "o": [
+   "I only",
+   "II only",
+   "I and II only",
+   "I and III only",
+   "All I, II and III"
+  ],
+  "os": [
+   "I පමණි",
+   "II පමණි",
+   "I හා II පමණි",
+   "II හා III පමණි",
+   "I, II සහ III සියල්ලම"
+  ]
+ },
+ {
+  "n": 17,
+  "d": "2019 Q38",
+  "q": "Which of the following statements is/are correct about the part of the circuit within the area surrounded by the dotted line?\nI - It implements a half adder.\nII - It can be implemented using only AND and OR gates.\nIII - It can be implemented using only NAND gates.",
+  "o": [
+   "I only",
+   "II only",
+   "III only",
+   "I and III only",
+   "All I, II and III"
+  ],
+  "os": [
+   "I පමණි",
+   "II පමණි",
+   "III පමණි",
+   "I හා III පමණි",
+   "I, II සහ III සියල්ලම"
+  ]
+ },
+ {
+  "n": 18,
+  "d": "2020 Q11",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nConsider the following logic circuit consisting of NAND gates.\n[Figure: NAND gate 1 takes inputs A and B; NAND gate 2 takes inputs A' and X; their outputs and the input Y feed a three-input NAND gate producing F]\nIf the required output of the above circuit is AB + A'B' + C', then what should the inputs X and Y be?",
+  "o": [
+   "X = B and Y = C",
+   "X = B and Y = C'",
+   "X = B' and Y = C",
+   "X = B' and Y = C'",
+   "X = C' and Y = B"
+  ]
+ },
+ {
+  "n": 19,
+  "d": "2020 Q09",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nWhich of the following is the most simplified expression equivalent to ABC' + BC' + A'BC + BC ?",
+  "o": [
+   "ABC' + A'BC + B",
+   "B(AC' + A'C) + B",
+   "C'(AB + B) + B(A'C + B)",
+   "AC' + A'C + B",
+   "A'C + B"
+  ]
+ },
+ {
+  "n": 20,
+  "d": "2020 Q10",
+  "q": "A block diagram of a sequential logic circuit is shown below, with one block labelled as \"A\" and the other labelled as \"B\".\n[Figure: a large block A whose output returns (feedback) through the smaller block B back to an input of A]\nWhich of the following statements about the above block diagram are correct?\nI - The block A is a combinational logic circuit.\nII - The block B is a memory element.\nIII - Only the block A can be implemented using logic gates.",
+  "o": [
+   "I only",
+   "II only",
+   "I and II only",
+   "I and III only",
+   "All I, II and III"
+  ],
+  "os": [
+   "I පමණි",
+   "II පමණි",
+   "I හා II පමණි",
+   "I හා III පමණි",
+   "I, II සහ III සියල්ලම"
+  ]
+ },
+ {
+  "n": 21,
+  "d": "2021 Q09",
+  "q": "Consider the following Karnaugh map and the logic circuit implemented based on it where A, B and C are the inputs and Z is the output:\n(a) Karnaugh map\nAB:  00 | 01 | 11 | 10\nC=0:  0 | e | f | 0\nC=1:  1 | g | h | 1\n(b) Logic circuit based on Karnaugh map: [Figure: A and B go to an AND gate; its output and C go to an OR gate giving Z]\nFor the logic circuit to correctly implement the logic function represented in the Karnaugh map, what should be the values of e, f, g, h ?",
+  "o": [
+   "e=0, f=0, g=1, h=1",
+   "e=0, f=1, g=1, h=1",
+   "e=1, f=0, g=1, h=1",
+   "e=1, f=1, g=0, h=0",
+   "e=1, f=1, g=0, h=1"
+  ]
+ },
+ {
+  "n": 22,
+  "d": "2022 Q09",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nConsider the following logic circuit:\n[Figure: A and B go to an AND gate; B goes through a NOT gate; the AND output and the NOT output feed a NOR gate (OR with output bubble) giving Q]\nWhen B=1, what would definitely be the output at Q?",
+  "o": [
+   "A",
+   "A'",
+   "B",
+   "B'",
+   "0"
+  ]
+ },
+ {
+  "n": 23,
+  "d": "2022 Q10",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nSimplified Boolean expressions help to obtain simpler circuits.\nWhich of the following is a simplified form of X + X'Y ?",
+  "o": [
+   "X",
+   "Y",
+   "XY",
+   "X'Y",
+   "X + Y"
+  ]
+ },
+ {
+  "n": 24,
+  "d": "2022 Q11",
+  "q": "Consider the following truth table:\nA | B | C | Z\n0 | 0 | 0 | 0\n0 | 0 | 1 | 0\n0 | 1 | 0 | 1\n0 | 1 | 1 | 1\n1 | 0 | 0 | 1\n1 | 0 | 1 | 1\n1 | 1 | 0 | 0\n1 | 1 | 1 | 0\nWhat is the correct Karnaugh map for the above truth table?",
+  "o": [
+   "BC: 00 | 01 | 10 | 11\nA=0: 0 | 0 | 1 | 1\nA=1: 1 | 1 | 0 | 0",
+   "BC: 00 | 01 | 11 | 10\nA=0: 0 | 0 | 1 | 1\nA=1: 1 | 1 | 0 | 0",
+   "BC: 00 | 10 | 01 | 11\nA=0: 0 | 1 | 0 | 1\nA=1: 1 | 0 | 1 | 0",
+   "BC: 00 | 10 | 11 | 01\nA=0: 0 | 1 | 1 | 0\nA=1: 1 | 0 | 0 | 1",
+   "BC: 00 | 11 | 10 | 01\nA=0: 0 | 1 | 1 | 0\nA=1: 1 | 0 | 0 | 1"
+  ]
+ },
+ {
+  "n": 25,
+  "d": "2023 Q12",
+  "q": "Consider the following logic circuit in which X indicates a two-input logic gate.\n[Figure: inputs A and B go to a NAND gate; its output goes into the two-input gate X (both X inputs from the same line); output of X is C]\nWhich of the following should X be so that when A = 0 and B = 1, the output C would be 0 ?\nI - a NAND gate\nII - a NOR gate\nIII - an XOR gate",
+  "o": [
+   "I only",
+   "I and II only",
+   "I and III only",
+   "II and III only",
+   "All I, II and III"
+  ],
+  "os": [
+   "I පමණි",
+   "I හා II පමණි",
+   "I හා III පමණි",
+   "II හා III පමණි",
+   "I, II සහ III සියල්ලම"
+  ]
+ },
+ {
+  "n": 26,
+  "d": "2023 Q13",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nWhich of the following is the simplified form of the Boolean expression X(X' + Y) ?",
+  "o": [
+   "X",
+   "Y",
+   "XY",
+   "X'Y",
+   "X + Y"
+  ]
+ },
+ {
+  "n": 27,
+  "d": "2024 Q12",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nWhich of the following expresses the output (F) of the given circuit?\n[Figure: X and Y (Y through a NOT gate) go to a NAND gate; its output and Z go to an OR gate giving F]",
+  "o": [
+   "(X + Y')Z",
+   "(X + Y')' + Z  [overbar over (X + Y') only]",
+   "((X + Y')Z)'  [overbar over (X + Y')]·Z as printed",
+   "XY' + Z",
+   "(XY)' + Z  [overbar over XY]"
+  ]
+ },
+ {
+  "n": 28,
+  "d": "2024 Q13",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nApplying Double complement and De Morgan's laws to x' + yz results in,",
+  "o": [
+   "xy + z'",
+   "xy' + z",
+   "x'yz",
+   "(x(yz)')'  [overbar over the whole expression x(yz)']",
+   "x'y' + yz"
+  ]
+ },
+ {
+  "n": 29,
+  "d": "2024 Q14",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nWhat is the most simple Boolean expression that can be obtained through the given Karnaugh map?\nxy:  00 | 01 | 11 | 10\nz=0:  0 | 1 | 1 | 1\nz=1:  0 | 1 | 1 | 0",
+  "o": [
+   "y",
+   "xz",
+   "xz'",
+   "x'z",
+   "y + xz'"
+  ]
+ },
+ {
+  "n": 30,
+  "d": "2025 Q14",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nWhat is the most simple Boolean expression that can be obtained through the given Karnaugh map?\nxy:  00 | 01 | 11 | 10\nz=0:  1 | 0 | 0 | 1\nz=1:  1 | 0 | 1 | 1",
+  "o": [
+   "y'",
+   "y + x'z'",
+   "y' + xz",
+   "y' + xyz",
+   "yz + x'y"
+  ]
+ },
+ {
+  "n": 31,
+  "d": "2025 Q13",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nConsider the following flip-flop:\n[Figure: two cross-coupled NOR gates. Input i1 goes to the upper NOR gate whose output is Q = 0; input i2 goes to the lower NOR gate whose output is Q' = 1; each output is fed back to an input of the other gate]\nWhich of the following statements will be true when i1 = 0 and i2 = 1?",
+  "o": [
+   "Q output will remain at 0 and Q' output will remain at 1.",
+   "Q output will change to 1 and Q' output will change to 0.",
+   "Q output will change to 1 and then to 0.",
+   "Q' output will change to 0 and then to 1.",
+   "Q output will remain at 0 while Q' output will also change to 0."
+  ],
+  "os": [
+   "Q ප්‍රතිදානය 0 ලෙසම පවතින අතර Q' ප්‍රතිදානය 1 ලෙසම පවතී.",
+   "Q ප්‍රතිදානය 1 ලෙස වෙනස්වන අතර Q' ප්‍රතිදානය 0 ලෙස වෙනස් වේ.",
+   "Q ප්‍රතිදානය 1 ලෙස වෙනස් වී ඉන්පසු 0 ලෙස වෙනස් වේ.",
+   "Q' ප්‍රතිදානය 0 ලෙස වෙනස් වී ඉන්පසු 1 ලෙස වෙනස් වේ.",
+   "Q ප්‍රතිදානය 0 ලෙසම පවතින අතර, Q' ප්‍රතිදානය ද 0 ලෙස වෙනස් වේ."
+  ]
+ },
+ {
+  "n": 32,
+  "d": "2026 Q10",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nThe diagram shows a two-input X-OR gate.\n[Figure: XOR gate with inputs A and B and output F]\nIf A=1, the output F is,",
+  "o": [
+   "1",
+   "0",
+   "A",
+   "B",
+   "B'"
+  ]
+ },
+ {
+  "n": 33,
+  "d": "2026 Q11",
+  "q": "(NOT/complement is written with a prime ', e.g. A' means A-bar.)\nThe boolean expression AB + AB' + AC is equal to,",
+  "o": [
+   "A",
+   "B",
+   "C",
+   "A'",
+   "A + C"
+  ]
+ }
+]

@@ -1,0 +1,673 @@
+[
+ {
+  "n": 1,
+  "d": "2011 Q22",
+  "q": "Which of the following statements best describes the result of hard disk \"fragmentation\"?",
+  "qs": "දෘඪ‍ාංග තැටිය (Hard disk) \"ඛණ්ඩනීකරණය\" (Fragmentation) වීම නිසා ඇතිවන ප්‍රතිඵලය වඩාත් හොඳින් විස්තර කරන්නේ පහත සඳහන් කුමන ප්‍රකාශය ද?",
+  "o": [
+   "Hard disk data access speed is reduced.",
+   "Network access speed becomes slow.",
+   "Hard disk becomes totally inaccessible.",
+   "Some data will get erased from the hard disk.",
+   "Number of bad sectors get increased."
+  ],
+  "os": [
+   "දෘඪ තැටිය දත්ත ප්‍රවේශ වේගය අඩු වේ.",
+   "ජාල ප්‍රවේශ වේගය අඩු වේ.",
+   "දෘඪ තැටියට ප්‍රවේශය මුළුමනින්ම නැති වේ.",
+   "සමහර දත්ත දෘඪ තැටියෙන් මැකී යයි.",
+   "භාවිතයට ගත නොහැකි අංශ සංඛ්‍යාව වැඩි වෙයි."
+  ]
+ },
+ {
+  "n": 2,
+  "d": "2011 Q42",
+  "q": "Consider the following statements about operating systems:\nA - Ubuntu is an open source operating system.\nB - Windows XP is a proprietary operating system.\nC - Linux is a proprietary operating system.\nWhich of the above statements is/are correct?",
+  "qs": "මෙහෙයුම් පද්ධති පිළිබඳව පහත දැක්වෙන ප්‍රකාශ සලකන්න.\nA - උබුන්ටු (Ubuntu) යනු විවෘත මූලාශ්‍ර (Open Source) මෙහෙයුම් පද්ධතියකි.\nB - වින්ඩෝස් XP (Windows XP) යනු හිමිකම් සහිත (Proprietary) මෙහෙයුම් පද්ධතියකි.\nC - ලිනක්ස් (Linux) යනු හිමිකම් සහිත (Proprietary) මෙහෙයුම් පද්ධතියකි.\nඉහත ප්‍රකාශ අතුරෙන් සත්‍ය වන්නේ",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "B හා C පමණි."
+  ]
+ },
+ {
+  "n": 3,
+  "d": "2012 Q18",
+  "q": "The type of operating system that is most suitable for automated air traffic control system is",
+  "qs": "ස්වයංක්‍රීය ගුවන් ගමන් පාලන පද්ධතියක් සඳහා වඩාත්ම සුදුසු මෙහෙයුම් පද්ධති වර්ගය",
+  "o": [
+   "multi-user multi-tasking.",
+   "single-user multi-tasking.",
+   "real time.",
+   "single-user single-tasking.",
+   "multi-threading."
+  ],
+  "os": [
+   "බහු-පරිශීලක බහු-කාර්ය වේ.",
+   "තනි-පරිශීලක බහු-කාර්ය වේ.",
+   "තත්ක්ෂණික (real time) වේ.",
+   "තනි-පරිශීලක තනි-කාර්ය වේ.",
+   "බහු-නූල්ගත (multi-threading) වේ."
+  ]
+ },
+ {
+  "n": 4,
+  "d": "2012 Q41",
+  "q": "The main advantage of creating more than one partition in a hard disk is the",
+  "qs": "දෘඪ තැටියක බෙදීම් (partitions) එකකට වඩා වැඩියෙන් නිර්මාණය කිරීමේ ප්‍රධාන වාසිය වන්නේ,",
+  "o": [
+   "separation of the operating system and program files.",
+   "ability to retrieve files efficiently.",
+   "easiness of making directories and subdirectories.",
+   "easiness of creating multiple users.",
+   "easiness of taking backups of selected files."
+  ],
+  "os": [
+   "මෙහෙයුම් පද්ධතිය සහ ක්‍රමලේඛ ගොනු වෙන් කරනු ලැබීමයි.",
+   "ගොනු (files) කාර්යක්ෂමව සමුද්ධරණ (retrieve) හැකියාවයි.",
+   "නාමාවලි (directory) හා උප නාමාවලි (sub directory) සැකසීමේ පහසුවයි.",
+   "බහු පරිශීලකයන් පහසුවෙන් නිර්මාණය කිරීමේ හැකියාවයි.",
+   "තෝරාගන්නා ලද ගොනුවල උපස්ථ (backups) ලබාගැනීමේ පහසුවයි."
+  ]
+ },
+ {
+  "n": 5,
+  "d": "2013 Q06",
+  "q": "Sharing a single microprocessor among number of application programs using context switching is known as ..................................",
+  "qs": "සන්දර්භ ස්විචිය (context switching) භාවිතා කරමින් ව්‍යවහාරික ක්‍රමලේඛ (application programs) ගණනාවක් අතර එක ම ක්ෂුද්‍ර සැකසුම බෙදාහදා ගැනීම (sharing) ................................ ලෙස හැඳින්වේ.\nඉහත හිස්තැන පිරවීම සඳහා වඩාත් ම යෝග්‍ය පිළිතුර කුමක් ද?",
+  "o": [
+   "Multi-user processing",
+   "Multitasking",
+   "Multiprocessing",
+   "Batch processing",
+   "Online processing"
+  ],
+  "os": [
+   "බහු පරිශීලක සැකසුම",
+   "බහු කාර්ය කිරීම",
+   "බහුසැකසුම",
+   "කාණ්ඩ සැකසුම",
+   "මාර්ගගත සැකසුම"
+  ]
+ },
+ {
+  "n": 6,
+  "d": "2014 Q15",
+  "q": "Which of the following is not a main function of an operating system?",
+  "qs": "මෙහෙයුම් පද්ධතියක ප්‍රධාන කාර්යයක් නොවන්නේ කුමක්ද?",
+  "o": [
+   "Memory Management",
+   "Process Scheduling",
+   "File Handling",
+   "Virus Detection",
+   "User Interfacing"
+  ],
+  "os": [
+   "මතක කළමනාකරණය",
+   "ක්‍රියායන නියමකරණය",
+   "ගොනු හැසිරවීම",
+   "වයිරස අනාවරණය",
+   "පරිශීලක අතුරු මුහුණත්කරණය"
+  ]
+ },
+ {
+  "n": 7,
+  "d": "2014 Q16",
+  "q": "In an operating system, moving a process from the main memory to the secondary storage in order to bring in another process to the main memory is called .......................",
+  "qs": "මෙහෙයුම් පද්ධතියක දී තවත් ක්‍රියාවලියක් ප්‍රධාන මතකයට ගෙන ඒම සඳහා ප්‍රධාන මතකයෙහි ඇති ක්‍රියාවලියක් ද්වීතීයික ආචයනයට ගෙනයෑම ......................... ලෙස හඳුන්වනු ලබයි.",
+  "o": [
+   "Demand Paging",
+   "Context Switching",
+   "Swapping",
+   "Interrupting",
+   "Scheduling"
+  ],
+  "os": [
+   "ඉල්ලුම් පිටු සැකසීම",
+   "සන්දර්භ ස්විචනය",
+   "ප්‍රතිහරණය",
+   "අතුරු බිඳුම",
+   "නියමකරණය"
+  ]
+ },
+ {
+  "n": 8,
+  "d": "2015 Q08",
+  "q": "The feature in modern operating systems which allows the automatic installation of new hardware devices connected to a computer is commonly known as",
+  "qs": "පරිගණකයකට නව දෘඪාංග උපකරණ සම්බන්ධ කළ විට ඒවා ස්වයංක්‍රීයව ස්ථාපිත කිරීමට ඉඩ ලබා දෙන නවීන මෙහෙයුම් පද්ධතිවල ඇති ගුණාංගය සාමාන්‍යයෙන් හඳුන්වනු ලබන්නේ,",
+  "o": [
+   "Add/Remove Hardware",
+   "Easy Installer",
+   "Plug and Play",
+   "Add Hardware Utility",
+   "Fetch and Store"
+  ],
+  "os": [
+   "Add/Remove Hardware ලෙස ය.",
+   "Easy Installer ලෙස ය.",
+   "Plug and Play ලෙස ය.",
+   "Add Hardware Utility ලෙස ය.",
+   "Fetch and Store ලෙස ය."
+  ]
+ },
+ {
+  "n": 9,
+  "d": "2016 Q08",
+  "q": "In an operating system, suspending the currently executing process and then resuming or starting another process is termed as",
+  "qs": "මෙහෙයුම් පද්ධතියක් තුළ දැනට ක්‍රියාත්මක වෙමින් පවතින ක්‍රියාවලියක් (process) අත්හිටුවා (suspend) ඉන් පසු, එය යළි පටන් ගැනීම (resuming) හෝ වෙනත් ක්‍රියාවලියක් පටන් ගැනීම (starting) හඳුන්වනු ලබන්නේ,",
+  "o": [
+   "paging",
+   "context switching",
+   "swapping",
+   "interrupting",
+   "blocking"
+  ],
+  "os": [
+   "පිටු කිරීම ලෙස ය.",
+   "සන්දර්භ ස්විචනය ලෙස ය.",
+   "ප්‍රතිහරණය ලෙස ය.",
+   "අතුරු බිඳීම ලෙස ය.",
+   "අවහිර කිරීම ලෙස ය."
+  ]
+ },
+ {
+  "n": 10,
+  "d": "2016 Q09",
+  "q": "In modern operating systems, the .................... scheduler determines the transition of processes from the new state to the ready state.\nWhich of the followings is the correct term to fill the blank in the above statement?",
+  "qs": "නවීන මෙහෙයුම් පද්ධතිවල ක්‍රියාවලි නව අවස්ථාවේ සිට සූදානම් අවස්ථාවට වන සංක්‍රාන්තිය ................ නියමකරණය මගින් තීරණය කරනු ලබයි.\nඉහත වගන්තියෙහි හිස්තැන පිරවීම සඳහා පහත දක්වා ඇති යෙදුම් අතුරෙන් නිවැරදි වන්නේ කවරක් ද?",
+  "o": [
+   "mid-term",
+   "long-term",
+   "very long-term",
+   "very short-term",
+   "short-term"
+  ],
+  "os": [
+   "මධ්‍ය කාලීන",
+   "දිගු කාලීන",
+   "ඉතා දිගු කාලීන",
+   "ඉතා කෙටි කාලීන",
+   "කෙටි කාලීන"
+  ]
+ },
+ {
+  "n": 11,
+  "d": "2017 Q08",
+  "q": "The execution of a series of non-interactive jobs on a personal computer with relative to the user is known as,",
+  "qs": "පුද්ගල පරිගණකයක් තුළ අන්තර් ක්‍රියාකාරී නොවන කාර්ය (non-interactive jobs) අනුක්‍රමයක් පරිශීලකයාට සාපේක්ෂව ක්‍රියාත්මක කිරීම හඳුන්වනු ලබනුයේ,",
+  "o": [
+   "multitasking",
+   "multiuser processing",
+   "multiprocessing",
+   "batch processing",
+   "online processing"
+  ],
+  "os": [
+   "බහුකාර්ය ලෙස ය.",
+   "බහු පරිශීලක සැකසීම ලෙස ය.",
+   "බහු සැකසුම ලෙස ය.",
+   "කාණ්ඩ සැකසීම ලෙස ය.",
+   "මාර්ගගත සැකසීම ලෙස ය."
+  ]
+ },
+ {
+  "n": 12,
+  "d": "2017 Q38",
+  "q": "Which of the following statements is correct?",
+  "qs": "පහත දැක්වෙන කුමන වගන්තිය නිවැරදි වේ ද?",
+  "o": [
+   "Application software load applications into the main memory.",
+   "The programs stored in ROM are known as system software.",
+   "System software support data communication between peripheral devices.",
+   "Utility software is generally stored in ROM.",
+   "Utility software are incorporated in washing machines."
+  ],
+  "os": [
+   "යෙදුම් මෘදුකාංග ප්‍රධාන මතකයට යෙදුම් ප්‍රවේශනය (load) කරයි.",
+   "ROM හි ගබඩා කර ඇති ක්‍රමලේඛ, පද්ධති මෘදුකාංග ලෙස හැඳින්වේ.",
+   "පර්යන්ත උපාංග අතර දත්ත සන්නිවේදනය සඳහා පද්ධති මෘදුකාංග සහය දක්වයි.",
+   "උපයෝගිතා මෘදුකාංග සාමාන්‍යයෙන් ROM හි ගබඩා කරයි.",
+   "රෙදි සෝදන යන්ත්‍ර තුළ උපයෝගිතා මෘදුකාංග සංස්ථාපනය කර ඇත."
+  ]
+ },
+ {
+  "n": 13,
+  "d": "2018 Q36",
+  "q": "Consider the following statements.\nA - Disk defragmentation makes files that are fragmented in a disk, contiguous.\nB - Swapping is a memory management technique where the main memory contents which were not recently used are copied to disk to make the memory available for other processes.\nC - A File Allocation Table (FAT) is a table that an operating system maintains which provides a map of the clusters that a file has been stored in.\nWhich of the above is/are correct?",
+  "qs": "පහත වගන්ති සලකන්න.\nA - තැටි ප්‍රතිඛණ්ඩනය මගින් තැටියක ඛණ්ඩනය වී ඇති ගොනු සන්නිධිමය කෙරේ.\nB - ප්‍රතිහරණය (swapping) යනු ප්‍රධාන මතකයෙහි මෑතකදී භාවිත නොවූ අන්තර්ගතයන් දෘඪ තැටියට පිටපත් කර එම මතකය වෙනත් ක්‍රියාවලියකට ලබා දීමේ මතක කළමනාකරණ ක්‍රමවේදයකි.\nC - ගොනු විභාජන වගුව (FAT) යනු මෙහෙයුම් පද්ධතිය විසින් නඩත්තු කෙරෙන ගොනුවක ගබඩා වී ඇති පොකුරු (clusters) දැක්වෙන අනුරූපණයකි (map).\nඉහත කුමක් සත්‍ය වේ ද?",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 14,
+  "d": "2018 Q37",
+  "q": "Through which of the following, will a device controller that controls a device deal with the Operating system?",
+  "qs": "උපකරණයක් පාලනය කරන පාලකයක් (device controller) මෙහෙයුම් පද්ධතිය සමග ගනුදෙනු කරන්නේ පහත කුමක් හරහා ද?",
+  "o": [
+   "application software",
+   "assembler",
+   "compiler",
+   "device driver",
+   "utility software"
+  ],
+  "os": [
+   "යෙදුම් මෘදුකාංග",
+   "එසෙම්බලරය",
+   "සම්පාදකය",
+   "උපක්‍රම ධාවකය",
+   "උපයෝගිතා මෘදුකාංග"
+  ]
+ },
+ {
+  "n": 15,
+  "d": "2019 Q01",
+  "q": "Which of the following is a hardware device that maps virtual addresses to physical addresses?",
+  "qs": "පහත දැක්වෙන දෑ අතුරෙන් කවරක් අතථ්‍ය ලිපින (virtual addresses) භෞතික ලිපින (physical addresses) වලට අනුරූපණය කරන්නා වූ දෘඪාංග උපක්‍රමයක් වේ ද?",
+  "o": [
+   "bus",
+   "cache memory",
+   "control unit",
+   "memory management unit",
+   "register"
+  ],
+  "os": [
+   "බසය",
+   "නිහිත මතකය",
+   "පාලන ඒකකය",
+   "මතක කළමනාකරණ ඒකකය",
+   "රෙජිස්තරය"
+  ]
+ },
+ {
+  "n": 16,
+  "d": "2019 Q11",
+  "q": "On his single processor computer, a user starts a spreadsheet application and creates a new spreadsheet. To get some information required for the spreadsheet he opens a large database using his Database Management System(DBMS). After completing his spreadsheet he saves it.\nWhich of the following operating system features has/have being used by the above user?\nA - context switching\nB - file management\nC - virtual memory",
+  "qs": "පරිශීලකයකු තමන්ගේ තනි-සකසනය සහිත පරිගණකයෙහි (single processor computer) පැතුරුම්පත් යෙදුමක් ආරම්භ කර, නව පැතුරුම්පතක් නිර්මාණය කරයි. පැතුරුම්පත සඳහා අවශ්‍ය ඇතැම් තොරතුරු ලබා ගැනීම සඳහා ඔහු තමන්ගේ දත්ත සමුදා කළමනාකරණ (DBMS) භාවිත කර, විශාල දත්ත සමුදායක් විවෘත කරයි. පැතුරුම්පත සම්පූර්ණ කිරීමෙන් අනතුරුව ඔහු එය සුරකියි (save).\nඉහත පරිශීලක විසින් මෙහෙයුම් පද්ධතියෙහි පහත දී ඇති කවර අංග භාවිතා කර තිබේ ද?\nA - සන්දර්භ ස්විචනය\nB - ගොනු කළමනාකරණය\nC - අතථ්‍ය මතකය",
+  "o": [
+   "A only.",
+   "B only.",
+   "A and B only.",
+   "A and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 17,
+  "d": "2019 Q14",
+  "q": "Consider the process transition diagram in the figure: If the transitions shown are as follows:\n1 - Process blocks for input/output.\n2 - Scheduler picks another process.\n3 - Scheduler picks this process.\n4 - Input/output is completed.\n[Figure: process transition diagram with three states A (top), B (bottom left), C (bottom right). Arrows: A to B labelled 1; A to C labelled 2; C to A labelled 3; B to C labelled 4.]\nthen what are the states indicated by the labels A, B and C respectively?",
+  "qs": "රූපයේ දැක්වෙන ක්‍රියායන-සංක්‍රාන්ති (process transition) සටහන සලකන්න. පෙන්වා ඇති සංක්‍රාන්ති පහත දැක්වෙන පරිදි නම්,\n1 - ආදාන/ප්‍රතිදාන සඳහා ක්‍රියායනය අවහිර කරයි.\n2 - Scheduler වෙනත් ක්‍රියායනයක් තෝරා ගනියි.\n3 - Scheduler මෙම ක්‍රියායනය තෝරා ගනියි.\n4 - ආදාන/ප්‍රතිදාන අවසන් වේ.\n[රූපය: A (ඉහළ), B (පහළ වම), C (පහළ දකුණ); A සිට B වෙත 1, A සිට C වෙත 2, C සිට A වෙත 3, B සිට C වෙත 4]\nA, B සහ C යන ලේබල වලින් දක්වා ඇති අවස්ථා පිළිවෙලින් මොනවා ද?",
+  "o": [
+   "A: Blocked, B: New, C: Ready",
+   "A: New, B: Ready, C: Running",
+   "A: Ready, B: Running, C: Blocked",
+   "A: Running, B: Blocked, C: Ready",
+   "A: Running, B: New, C: Blocked"
+  ],
+  "os": [
+   "A: අවහිර කරනු ලැබූ, B: නව, C: සූදානම්",
+   "A: නව, B: සූදානම්, C: ධාවන",
+   "A: සූදානම්, B: ධාවන, C: අවහිර කරනු ලැබූ",
+   "A: ධාවන, B: අවහිර කරනු ලැබූ, C: සූදානම්",
+   "A: ධාවන, B: නව, C: අවහිර කරනු ලැබූ"
+  ]
+ },
+ {
+  "n": 18,
+  "d": "2019 Q49",
+  "q": "Which of the following is not an information stored in a Process Control Block (PCB) of the operating system?",
+  "qs": "පහත කවරක් පද්ධතියෙහි ක්‍රියායන පාලන කාණ්ඩයෙහි (Process Control Block - PCB) ගබඩා වී ඇති තොරතුරක් නොවන්නේ ද?",
+  "o": [
+   "free disk slots (free disk blocks that could be utilized by the process)",
+   "memory management information for the process",
+   "program counter (address of the next instruction to be executed for the process)",
+   "process identification number (unique identifier for the process)",
+   "process state (e.g., Blocked, Ready, etc.)"
+  ],
+  "os": [
+   "නිදහස් තැටි කට්ටි (free disk slots) (ක්‍රියායනයට භාවිත කළ හැකි නිදහස් තැටි ඛණ්ඩ)",
+   "ක්‍රියායනය සඳහා වන මතක කළමනාකරණ තොරතුරු",
+   "ක්‍රමලේඛ ගණකය (සකසනය මගින් ක්‍රියාත්මක කරන්නා වූ ඊළඟ උපදේශයෙහි ලිපිනය)",
+   "ක්‍රියායනය හඳුනුම් අංකය (ක්‍රියායනය සඳහා ඇති අනන්‍ය හඳුනුම් අංකය)",
+   "ක්‍රියායනයෙහි අවස්ථා (Process state) (උදා: අවහිර කරනු ලැබූ (Blocked), සූදානම් (ready) ආදිය)"
+  ]
+ },
+ {
+  "n": 19,
+  "d": "2020 Q12",
+  "q": "The operating system (OS) is another program that runs on the computer that has some special responsibilities. Memory management, file management and input/output management are some of these responsibilities. What is another important responsibility of the OS?",
+  "qs": "මෙහෙයුම් පද්ධතිය (operating system) යනු විශේෂ වූ වගකීම් සහිතව, පරිගණකයක ධාවනය වන තවත් ක්‍රමලේඛයකි. මතක කළමනාකරණය, ගොනු කළමනාකරණය සහ ආදාන/ප්‍රතිදාන කළමනාකරණය එම වගකීම්වලින් සමහරකි. මෙහෙයුම් පද්ධතියේ තවත් වැදගත් වගකීමක් වන්නේ කුමක් ද?",
+  "o": [
+   "backup management",
+   "cache memory management",
+   "compiler management",
+   "process management",
+   "system clock management"
+  ],
+  "os": [
+   "උපස්ථ කළමනාකරණය",
+   "නිහිත මතක කළමනාකරණය",
+   "සම්පාදක කළමනාකරණය",
+   "ක්‍රියායන කළමනාකරණය",
+   "පද්ධති ස්පන්දකය කළමනාකරණය"
+  ]
+ },
+ {
+  "n": 20,
+  "d": "2020 Q15",
+  "q": "In a computer, the size of a user program could exceed the size of physical memory. Also, only the demanded areas of programs are kept in physical memory. The above are due to which of the following?",
+  "qs": "පරිගණකයක, පරිශීලක ක්‍රමලේඛවල ප්‍රමාණය (size) භෞතික මතකයෙහි ප්‍රමාණය ඉක්මවා යා හැක. තවද, ක්‍රමලේඛවල අවශ්‍ය කොටස් පමණක් භෞතික මතකයෙහි රඳවා ගැනීම සිදු වේ. ඉහත දෑ පහත කවරක ප්‍රතිඵල ද?",
+  "o": [
+   "the use of cache memory",
+   "the use of contiguous file allocation",
+   "the use of a file allocation table (FAT)",
+   "the use of memory management unit (MMU)",
+   "the use of pages, frames and page tables"
+  ],
+  "os": [
+   "නිහිත මතකය භාවිතය",
+   "යාබද ගොනු විභජනය භාවිතය",
+   "ගොනු විභජන වගුව (FAT) භාවිතය",
+   "මතක කළමනාකරණ ඒකකය භාවිතය (MMU)",
+   "පිටු, රාමු හා පිටු වගු භාවිතය"
+  ]
+ },
+ {
+  "n": 21,
+  "d": "2020 Q13",
+  "q": "When the number of processes started by a user on a single-processor computer increases, what happens to the response time of each process as perceived by the user and the memory management related work of the operating system respectively?",
+  "qs": "පරිශීලකයකු විසින් තනි සකසනයක් සහිත පරිගණකයක ආරම්භ කර ඇති ක්‍රියායන (processes) සංඛ්‍යාව වැඩි වන විට, ඒ එක් ක්‍රියායනයක් පරිශීලක වෙත ප්‍රතිචාර දැක්වීමේ කාලයට (response time) සහ මෙහෙයුම් පද්ධතියේ මතක කළමනාකරණ ආශ්‍රිත කාර්යවලට පිළිවෙලින් කුමක් සිදු වේ ද?",
+  "o": [
+   "Both the response time and the memory management related work increase.",
+   "Response time decreases while the memory management related work increases.",
+   "Response time increases while the memory management related work decreases.",
+   "Both the response time and the memory management related work decrease.",
+   "There is no change in either of them."
+  ],
+  "os": [
+   "ප්‍රතිචාර දැක්වීමේ කාලය සහ මතක කළමනාකරණ ආශ්‍රිත කාර්යයන් යන දෙකම වැඩිවේ.",
+   "ප්‍රතිචාර දැක්වීමේ කාලය අඩු වන අතර මතක කළමනාකරණ ආශ්‍රිත කාර්යයන් වැඩිවේ.",
+   "ප්‍රතිචාර දැක්වීමේ කාලය වැඩි වන අතර මතක කළමනාකරණ ආශ්‍රිත කාර්යයන් අඩුවේ.",
+   "ප්‍රතිචාර දැක්වීමේ කාලය හා මතක කළමනාකරණ ආශ්‍රිත කාර්යයන් යන දෙකම අඩුවේ.",
+   "ඒ දෙකෙහිම වෙනසක් සිදු නොවේ."
+  ]
+ },
+ {
+  "n": 22,
+  "d": "2020 Q14",
+  "q": "Which of the following is not a responsibility of the operating system?",
+  "qs": "පහත කවරක් මෙහෙයුම් පද්ධතියේ වගකීමක් නොවන්නේ ද?",
+  "o": [
+   "allocating physical memory to processes",
+   "deciding which process to run",
+   "keeping track of the usage of compiled program files on a hard disk",
+   "keeping track of which parts of physical memory are in use, which are free",
+   "swapping processes between physical memory and disk"
+  ],
+  "os": [
+   "ක්‍රියායන සඳහා භෞතික මතකයේ ඉඩ ලබාදීම",
+   "කුමන ක්‍රියායනය ධාවනය කළ යුතු දැයි තීරණය කිරීම",
+   "දෘඪ තැටියක ඇති සම්පාදනය වූ (compiled) ක්‍රමලේඛ ගොනුවල භාවිතය ගැන සටහන් තබා ගැනීම",
+   "භෞතික මතකයේ කුමන කොටස් භාවිත වෙමින් පවතී ද, කුමන කොටස් නිදහස්ව පවතීද යන්න සම්බන්ධව සටහන් තබා ගැනීම",
+   "භෞතික මතකය හා දෘඪ තැටිය අතර ක්‍රියායන හුවමාරු කිරීම"
+  ]
+ },
+ {
+  "n": 23,
+  "d": "2021 Q02",
+  "q": "Which of the following is a good example for batch processing?",
+  "qs": "පහත කවරක් කාණ්ඩ සැකසුම (batch processing) සඳහා හොඳ උදාහරණයක් වේ ද?",
+  "o": [
+   "an air traffic control system",
+   "driving system in a driver-less(autonomous) car",
+   "Intensive Care Unit (ICU) patient monitoring and care system",
+   "payroll system",
+   "nuclear plant control system"
+  ],
+  "os": [
+   "ගුවන් යානා පාලක පද්ධතියක්",
+   "රියැදුරු රහිත මෝටර් කාරයක පවතින ධාවන පද්ධතිය",
+   "දැඩි සත්කාර ඒකක රෝගීන් නිරීක්ෂණ හා සත්කාර පද්ධතිය",
+   "වේතන සැකසීමේ පද්ධතිය",
+   "න්‍යෂ්ටික බලාගාර පාලන පද්ධතිය"
+  ]
+ },
+ {
+  "n": 24,
+  "d": "2021 Q11",
+  "q": "A page table is",
+  "qs": "පිටු වගුවක් (page table) යනු",
+  "o": [
+   "a computer hardware unit through which all memory references pass.",
+   "a data structure that keeps information about the pages that are in processor caches.",
+   "a hardware component in memory that facilitates page movement.",
+   "an operating system data structure that keeps virtual to physical address mapping of a process' pages.",
+   "a piece of processor hardware that keeps a count of the number of pages of a process that are in virtual memory."
+  ],
+  "os": [
+   "සියලු මතක කියවීම් (memory references) ගමන් කරනු ලබන පරිගණක දෘඪාංග ඒකකයකි.",
+   "සකසන නිහිත මතකවල ඇති පිටු සම්බන්ධ තොරතුරු තබාගන්නා දත්ත ව්‍යුහයකි.",
+   "පිටු චලනයන් සඳහා පහසුකම් සපයන, මතකයේ ඇති දෘඪාංග කොටසකි.",
+   "ක්‍රියායනයක පිටුවල අතථ්‍ය ලිපින හා භෞතික ලිපින අතර අනුරූපණයන් (mapping) තබාගන්නා වූ මෙහෙයුම් පද්ධති දත්ත ව්‍යුහයකි.",
+   "ක්‍රියායනයක අතථ්‍ය මතකයේ ඇති පිටු ගණන් තබාගන්නා වූ සකසනයේ ඇති දෘඪාංග කොටසකි."
+  ]
+ },
+ {
+  "n": 25,
+  "d": "2021 Q10",
+  "q": "Amara logs into a single-processor computer and starts a program to work on his presentation. He opens up a web browser too to get some information as well. Consider the following process state transition diagram with respect to the process corresponding to Amara's presentation program.\n[Figure: process state diagram with states New, Ready, Running, Blocked, Terminated. Arrows: New to Ready labelled \"Admitted\"; Ready to Running labelled A; Running to Ready labelled B; Blocked to Ready labelled C; Running to Blocked labelled D; Running to Terminated labelled \"Exit\".]\nConsider some reasons for above state transitions:\nReason | Description\n1 | Amara saving his presentation on the hard disk\n2 | Operating system scheduling the presentation process to run on the processor\n3 | Operating system suspending the presentation process to let the web browser process to run on the processor.\n4 | The finishing of saving the presentation on the hard disk\nWhich of the following gives a correct combination of reasons for transitions A to D?",
+  "qs": "අමර, තනි සකසනයක් (single-processor) සහිත පරිගණකයකට පුරන වී (login), ඔහුගේ සමර්පණයේ (presentation) වැඩ කටයුතු කිරීම සඳහා ක්‍රමලේඛයක් අරඹයි. ඊට අමතරව, තොරතුරු ලබාගැනීම සඳහා ඔහු වෙබ් අතිරික්සුවක් ද විවෘත කරයි. අමරගේ සමර්පණ ක්‍රමලේඛයට අදාළ ක්‍රියායනයේ (process) අවස්ථා සංක්‍රාන්ති රූපසටහන පහත දැක්වේ.\n[රූපය: New, Ready, Running, Blocked, Terminated අවස්ථා; New සිට Ready වෙත Admitted; Ready සිට Running වෙත A; Running සිට Ready වෙත B; Blocked සිට Ready වෙත C; Running සිට Blocked වෙත D; Running සිට Terminated වෙත Exit]\nඉහත අවස්ථා සංක්‍රාන්ති සඳහා හේතු කිහිපයක් පහත දැක්වේ.\nහේතුව | විස්තරය\n1 | අමර තම සමර්පණය දෘඪ ඩිස්කයේ සුරැකීම\n2 | මෙහෙයුම් පද්ධතිය මගින් සමර්පණ ක්‍රියායනය මධ්‍ය සැකසුම් ඒකකයේ ධාවනය කිරීමට නියමකරණය කිරීම\n3 | මෙහෙයුම් පද්ධතිය මගින් වෙබ් අතිරික්සු ක්‍රියායනය මධ්‍ය සැකසුම් ඒකකයේ ධාවනය වීමට ඉඩ ලබාදීමට සමර්පණ ක්‍රියායනය අත් හිටුවීම\n4 | සමර්පණය දෘඪ ඩිස්කයේ සුරැකීම නිමවීම\nඉහත A සිට D දක්වා සංක්‍රාන්ති සඳහා පහත කුමන හේතු එකතුව ගැලපේ ද?",
+  "o": [
+   "A - 1, B - 2, C - 3, D - 4",
+   "A - 2, B - 3, C - 4, D - 1",
+   "A - 3, B - 4, C - 1, D - 2",
+   "A - 4, B - 1, C - 2, D - 3",
+   "A - 4, B - 1, C - 3, D - 2"
+  ]
+ },
+ {
+  "n": 26,
+  "d": "2021 Q12",
+  "q": "The block size of a disk is 4KB. A portion of its File Allocation Table (FAT) at a particular time is shown below. The portion shown gives the blocks of the myprog.py file as well.\nFAT\n100 | 101\n101 | -1\n102 | (empty)\n103 | 100\n104 | (empty)\nNotes: 1. The last block of a file is indicated by -1.\n2. The directory entry of a file contains the block number of the first block of the file.\nWhich of the following gives the directory entry for the myprog.py file and the disk space allocated for the myprog.py file respectively?",
+  "qs": "ඩිස්කයක එක් කාණ්ඩයක විශාලත්වය 4KB වේ. එම ඩිස්කයේ ගොනු විභජන වගුවේ (FAT) කොටසක් එක්තරා අවස්ථාවේදී පහත ආකාරයට වේ. එම කොටස මගින් myprog.py ගොනුවේ කාණ්ඩද දැක්වේ.\nFAT\n100 | 101\n101 | -1\n102 | (හිස්)\n103 | 100\n104 | (හිස්)\nසටහන්: 1. ගොනුවක අවසන් කාණ්ඩය -1 මගින් දැක්වේ.\n2. ගොනුවකට අදාළ නාමාවලි තොරතුරු ගොනුවේ පළමු කාණ්ඩයේ කාණ්ඩ අංකය දක්වයි.\nmyprog.py ගොනුවේ නාමාවලි තොරතුර හා myprog.py ගොනුව සඳහා ඩිස්කයෙහි වෙන් කර ඇති ඉඩ ප්‍රමාණය පිළිවෙලින් දක්වන්නේ පහත කවරක් ද?",
+  "o": [
+   "100, 12KB",
+   "101, 12KB",
+   "101, 16KB",
+   "103, 12KB",
+   "103, 16KB"
+  ]
+ },
+ {
+  "n": 27,
+  "d": "2022 Q02",
+  "q": "Which of the following require(s) real-time processing?\nA - generating monthly electricity bills of customers\nB - updating the bank account balance of a customer when she/he withdraws money from an ATM\nC - updating the stock balance in a store upon successful completion of each transaction",
+  "qs": "පහත කවරක්(ක්) තත්ක්ෂණික සැකසුම් (real-time processing) අවශ්‍ය වේ ද?\nA - ගනුදෙනුකරුවන්ගේ මාසික විදුලි බිල් ජනනය කිරීම\nB - ගනුදෙනුකරු ස්වයංක්‍රීය ටෙලර් යන්ත්‍රයකින් (ATM) මුදල් ලබාගන්නා විට ඇයගේ/ඔහුගේ බැංකු ගිණුමේ ශේෂය යාවත්කාලීන කිරීම\nC - සාර්ථකව අවසන් වූ සෑම ගනුදෙනුවකටම පසුව ගබඩාවක ඉතිරි තොගය යාවත්කාලීන කිරීම",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "B හා C පමණි."
+  ]
+ },
+ {
+  "n": 28,
+  "d": "2022 Q12",
+  "q": "A program in execution in a computer is called a process. Such a process transits between several states during its lifetime. Which of the following correctly represents a possible state transition sequence of a process?",
+  "qs": "පරිගණකයක ක්‍රියාත්මක වන ක්‍රමලේඛයක් ක්‍රියායනයක් (process) ලෙස හැඳින්වේ. එවැනි ක්‍රියායනයක් තම ජීවිත කාලයේදී තත්ත්ව (states) කිහිපයක් අතර සංක්‍රමණය වේ. ක්‍රියායනයකට අදාළ තත්ත්ව සංක්‍රාන්ති පිළිවෙළක් (state transition sequence) පහත කවරක නිවැරදිව නිරූපණය කරයි ද?",
+  "o": [
+   "New → Ready → Running → Waiting → Ready → Running → Terminated",
+   "New → Ready → Waiting → Running → Waiting → Running → Terminated",
+   "New → Running → Ready → Waiting → Ready → Running → Terminated",
+   "New → Running → Waiting → Ready → Waiting → Running → Terminated",
+   "New → Waiting → Running → Ready → Running → Ready → Terminated"
+  ]
+ },
+ {
+  "n": 29,
+  "d": "2022 Q13",
+  "q": "Which of the following is not a task of a computer operating system?",
+  "qs": "පරිගණක මෙහෙයුම් පද්ධතියක කාර්යයක් නොවන්නේ පහත කවරක් ද?",
+  "o": [
+   "selecting a memory frame for a page of a process",
+   "maintaining a list of free memory frames",
+   "maintaining a page table for each process",
+   "monitoring the usage of binary files on a hard disk",
+   "swapping processes between main memory and hard disk"
+  ],
+  "os": [
+   "ක්‍රියායනයක පිටුවක් (page) සඳහා මතක රාමුවක් (memory frame) තෝරාගැනීම",
+   "නිදහස් (දැනට භාවිතයේ නොමැති) මතක රාමු ලැයිස්තුවක් පවත්වා ගැනීම",
+   "එක් එක් ක්‍රියායනය සඳහා පිටු වගුවක් (page table) පවත්වා ගැනීම",
+   "දෘඪ ඩිස්කයක ඇති ද්විමය ගොනුවල (binary files) භාවිතය අධීක්ෂණය කිරීම",
+   "ප්‍රධාන මතකය හා දෘඪ ඩිස්කය අතර ක්‍රියායන ප්‍රතිහරණය (swapping)"
+  ]
+ },
+ {
+  "n": 30,
+  "d": "2022 Q14",
+  "q": "The block size of a disk is 4KB. A portion of its File Allocation Table (FAT) at a particular time is shown below. The portion shown indicates the blocks of the average.py file as well.\nFAT\n200 | 202\n201 | 200\n202 | -1\n203 | 201\n204 | 205\nNotes: I. The last block of a file is indicated by -1.\nII. The directory entry of a file contains the block number of the first block of the file.\nWhich of the following gives the directory entry for the average.py file and the disk space allocated for the average.py file respectively?",
+  "qs": "ඩිස්කයක එක් කාණ්ඩයක විශාලත්වය 4KB වේ. එම ඩිස්කයේ ගොනු විභජන වගුවේ (FAT) කොටසක් එක්තරා අවස්ථාවකදී පහත ආකාරයට වේ. එම කොටස මගින් average.py ගොනුවේ කාණ්ඩද දැක්වේ.\nFAT\n200 | 202\n201 | 200\n202 | -1\n203 | 201\n204 | 205\nසටහන්: I. ගොනුවක අවසන් කාණ්ඩය -1 මගින් දැක්වේ.\nII. ගොනුවකට අදාළ නාමාවලි තොරතුරු (directory entry) ගොනුවේ පළමු කාණ්ඩයේ කාණ්ඩ අංකය දක්වයි.\naverage.py ගොනුවේ නාමාවලි තොරතුර සහ average.py ගොනුව සඳහා ඩිස්කයේ වෙන් කර ඇති ඉඩ ප්‍රමාණය පිළිවෙලින් දැක්වෙන්නේ පහත කවරක ද?",
+  "o": [
+   "200, 12KB",
+   "200, 16KB",
+   "200, 20KB",
+   "203, 16KB",
+   "203, 20KB"
+  ]
+ },
+ {
+  "n": 31,
+  "d": "2023 Q05",
+  "q": "Which of the following will cause the CPU to execute a different set of instructions?\nA - context switch\nB - an interrupt\nC - user selecting the shutdown option in the computer",
+  "qs": "මධ්‍ය සැකසුම් ඒකකයට (CPU) වෙනත් උපදෙස් (instructions) සමූහයක් ක්‍රියාත්මක කිරීම සඳහා පහත කවරක හේතු වේ ද?\nA - සන්දර්භ ස්විචයක්\nB - අතුරුබිඳුමක්\nC - පරිශීලකයා පරිගණකයේ ක්‍රියාවිරහිත කිරීමේ විකල්පය ක්‍රියාත්මක කිරීම",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 32,
+  "d": "2023 Q14",
+  "q": "A program in execution in a computer is called a process. Which of the following is a possible state transition sequence of such a process?",
+  "qs": "පරිගණකයක ක්‍රියාත්මක වන ක්‍රමලේඛයක්, ක්‍රියායනයක් (process) ලෙස හැඳින්වේ. ක්‍රියායනයකට අදාළ තත්ත්ව සංක්‍රාන්ති පිළිවෙළක් (state transition sequence) විය හැක්කේ පහත කවරක් ද?",
+  "o": [
+   "New → Ready → Running → Terminated",
+   "New → Blocked → Terminated",
+   "New → Ready → Blocked → Running → Terminated",
+   "New → Running → Ready → Running → Terminated",
+   "New → Blocked → Ready → Running → Terminated"
+  ],
+  "os": [
+   "නව → සූදානම් → ක්‍රියාත්මක → අවසන්",
+   "නව → අවහිර කළ → අවසන්",
+   "නව → සූදානම් → අවහිර කළ → ක්‍රියාත්මක → අවසන්",
+   "නව → ක්‍රියාත්මක → සූදානම් → ක්‍රියාත්මක → අවසන්",
+   "නව → අවහිර කළ → සූදානම් → ක්‍රියාත්මක → අවසන්"
+  ]
+ },
+ {
+  "n": 33,
+  "d": "2023 Q15",
+  "q": "Amara powers on the computer and starts a spreadsheet application. Then he also opens a web browser. Which of the following are possible execution sequences on the processor of his computer?",
+  "qs": "අමර පරිගණකය පණගන්වා පැතුරුම්පත් යෙදුමක් ආරම්භ කරයි. ඉන්පසු ඔහු වෙබ් අතරික්සුවක්ද විවෘත කරයි. ඔහුගේ පරිගණකයේ සකසනය මත ධාවනය වන්නන්ගේ නිවැරදි අනුපිළිවෙලක් විය හැක්කේ පහත කවරක් ද?",
+  "o": [
+   "BIOS → OS → spreadsheet process → OS → web browser process → OS → ...",
+   "BIOS → spreadsheet process → OS → web browser process → OS → spreadsheet process → ...",
+   "BIOS → spreadsheet process → web browser process → OS → ...",
+   "BIOS → OS → spreadsheet process → web browser process → OS → ...",
+   "BIOS → OS → spreadsheet process → web browser process → spreadsheet process → web browser process → ..."
+  ]
+ },
+ {
+  "n": 34,
+  "d": "2024 Q15",
+  "q": "Which of the following are correct regarding the Process Control Block (PCB)?\nA- It is a data structure used by the operating system to manage information about a process.\nB- It is created during the compilation of a program.\nC- The Program Counter values of two PCBs can be the same.",
+  "qs": "ක්‍රියායන පාලන බ්ලොක්කය (PCB) සම්බන්ධයෙන් පහත කවරක් නිවැරදි වේ ද?\nA- එය ක්‍රියායනය (process) තොරතුරු කළමනාකරණය කිරීම සඳහා මෙහෙයුම් පද්ධතිය විසින් භාවිතා කරනු ලබන දත්ත ව්‍යුහයකි.\nB- එය ක්‍රමලේඛයක් සම්පාදනයේ (compilation) දී සෑදේ.\nC- PCB දෙකක Program Counter අගයන් එක සමාන විය හැක.",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 35,
+  "d": "2024 Q16",
+  "q": "Amara switches on a multi-user computer system. After it has booted, Sama logs on to the computer from a terminal and starts a web browser. After sometime, Sama starts a text editor also to work on her Python program. Then Rani also logs on to the computer from another terminal and starts a web browser.\nWhich of the following are possible execution sequences on the processor of this computer?",
+  "qs": "අමර බහු-පරිශීලක පරිගණක පද්ධතියක් පණගන්වයි. එය ආරම්භ වූ විට සාමා එම පරිගණකයට ටර්මිනලයකින් පුරන (login) වී වෙබ් අතරික්සුවක් අරඹයි. මද වේලාවකට පසුව සාමා තම පයිතන් ක්‍රමලේඛයේ වැඩකටයුතු කිරීම සඳහා පාඨ සංස්කාරකයක් ද (text editor) අරඹයි. ඉන්පසුව රාණි ද එම පරිගණකයට වෙනත් ටර්මිනලයකින් පුරන වී වෙබ් අතරික්සුවක් අරඹයි.\nඑම පරිගණකයේ සකසනය මත ධාවනය වන්නන්ගේ නිවැරදි අනුපිළිවෙලක් විය හැක්කේ පහත කවරක් ද?",
+  "o": [
+   "BIOS → OS → Sama's web browser process → OS → Sama's text editor process → OS → Rani's web browser process → OS → Sama's text editor process → ...",
+   "BIOS → OS → Sama's web browser process → Sama's text editor process → OS → Rani's web browser process → OS → Sama's text editor process → ...",
+   "BIOS → Sama's web browser process → Sama's text editor process → OS → Rani's web browser process → OS → Sama's text editor process → ...",
+   "OS → BIOS → Sama's web browser process → OS → Sama's text editor process → OS → Rani's web browser process → OS → Sama's web browser process → ...",
+   "OS → BIOS → Sama's web browser process → Sama's text editor process → OS → Rani's web browser process → OS → Sama's web browser process → ..."
+  ]
+ },
+ {
+  "n": 36,
+  "d": "2024 Q17",
+  "q": "Each block of a disk is 512 bytes. When a file of size 1959 bytes is stored on that disk, how many bytes allocated to the file would be wasted?",
+  "qs": "ඩිස්කයක කට්ටියක් (block) බයිට 512 ක් වේ. බයිට 1959 ක විශාලත්වයකින් යුත් ගොනුවක් එම ඩිස්කයේ ආචයනය කළ විට, එම ගොනුවට වෙන් කරන ලද බයිට කොපමණක් සංඛ්‍යාවක් අපතේ යනු ඇති ද?",
+  "o": [
+   "89",
+   "423",
+   "512",
+   "601",
+   "1447"
+  ]
+ }
+]

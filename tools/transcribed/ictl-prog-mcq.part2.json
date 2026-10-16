@@ -1,0 +1,903 @@
+[
+ {
+  "n": 60,
+  "d": "2017 Q25",
+  "q": "Consider the following flow chart. What is the error with the above flow chart?\n[Figure: flowchart — Start → Input/read a value for x → decision 'x = 0 ?'; Yes → Print \"Good\" → end; No → Print \"Bad\" → end]",
+  "qs": "පහත ගැලීම් සටහන සලකන්න. ඉහත ගැලීම් සටහනේ ඇති දෝෂය කුමක් ද?",
+  "o": [
+   "It has two end symbols.",
+   "Print is not a valid keyword.",
+   "It has no process box.",
+   "It has two print symbols.",
+   "A flow direction is not correct."
+  ],
+  "os": [
+   "එහි 'end' සංකේත දෙකක් තිබීම",
+   "'Print' යනු වලංගු ඉති පදයක් නොවීම",
+   "එහි 'process' කොටුවක් නොමැති වීම",
+   "එහි 'Print' සංකේත දෙකක් තිබීම",
+   "ගැලීම් දිශාවක් නිවැරදි නොවීම"
+  ]
+ },
+ {
+  "n": 61,
+  "d": "2017 Q29",
+  "q": "Which of the following statements is true about algorithms?",
+  "qs": "ඇල්ගොරිතම සම්බන්ධයෙන් පහත දැක්වෙන කුමන වගන්තිය සත්‍ය වේ ද?",
+  "o": [
+   "A set of steps used to solve a problem is called an algorithm.",
+   "A sequence of activities used to solve a problem is called an algorithm.",
+   "To solve any problem, there can be at most one algorithm.",
+   "An algorithm can contain an infinite number of steps.",
+   "An algorithm does not need to terminate within a finite time."
+  ],
+  "os": [
+   "ගැටලුවක් විසඳීමට යොදා ගන්නා පියවරවල සමූහයක් ඇල්ගොරිතමයක් ලෙස හැඳින්වේ.",
+   "ගැටලුවක් විසඳීමට යොදා ගන්නා කාර්යයන් අනුක්‍රමයක් ඇල්ගොරිතමයක් ලෙස හැඳින්වේ.",
+   "ඕනෑම ගැටලුවක් විසඳීම සඳහා වැඩිම ගණනේ ම තිබිය හැක්කේ එක් ඇල්ගොරිතමයක් පමණි.",
+   "ඇල්ගොරිතමයකට අපරිමිත පියවර සංඛ්‍යාවක් තිබිය හැක ය.",
+   "ඇල්ගොරිතමයක් පරිමිත කාලයක් තුළ දී අවසන් විමට අවශ්‍ය නොවේ."
+  ]
+ },
+ {
+  "n": 62,
+  "d": "2017 Q41",
+  "q": "Which of the following statements about Python data types/expressions is correct?",
+  "qs": "පහත දැක්වෙන කුමන වගන්තිය නිවැරදි වේ ද?",
+  "o": [
+   "String is a mutable data type.",
+   "List is an immutable data type.",
+   "[1, 2, 3] is a tuple.",
+   "The expression [1, 2, 3] [1] will produce [2] when executed.",
+   "The type of {'a':1, 1:(1, 2)} is a Dictionary."
+  ],
+  "os": [
+   "'String' යනු mutable දත්ත ප්‍රරූපයකි.",
+   "'List' යනු immutable දත්ත ප්‍රරූපයකි.",
+   "[1, 2, 3] යනු tuple යකි.",
+   "[1, 2, 3] [1] ප්‍රකාශනය ක්‍රියාත්මක කළ විට [2] ලබා දේ.",
+   "{'a':1, 1:(1, 2)} ප්‍රරූපය Dictionary යකි."
+  ]
+ },
+ {
+  "n": 63,
+  "d": "2017 Q42",
+  "q": "Consider the following values:\nA - 2.3e2\nB - TRUE\nC - \"This isn't a string\"\nD - \"\nWhich of the above values are valid in Python?",
+  "qs": "පහත දැක්වෙන Python වගන්තිය සලකන්න: ඉහත අගයන් අතුරෙන් කුමක් Python හි වලංගු වේ ද?",
+  "o": [
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "A, B and C only.",
+   "A, C and D only."
+  ],
+  "os": [
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "A, B හා C පමණි.",
+   "A, C හා D පමණි."
+  ]
+ },
+ {
+  "n": 64,
+  "d": "2017 Q43",
+  "q": "Consider the following Python statement:\ntemp = [1, 2, 3, 4, 5, 6] [2::2]\nWhich of the followings is the value of the variable temp after executing the above statement?",
+  "qs": "පහත දැක්වෙන Python වගන්තිය සලකන්න: ඉහත ප්‍රකාශය ක්‍රියාත්මක කිරීමෙන් පසු temp විචල්‍යයේ අගය පහත දැක්වෙන ඒවායින් කුමක් ද?",
+  "o": [
+   "2, 4, 6",
+   "3, 5",
+   "[2, 3]",
+   "[3, 5]",
+   "[2, 4, 6]"
+  ]
+ },
+ {
+  "n": 65,
+  "d": "2017 Q44",
+  "q": "Consider the following statements:\nA - a = b = 2 + 3\nB - a, b = 2, 3\nC - a, b = (2, 3)\nD - a = (2, 3)\nWhich of the above are valid assignment statements in Python?",
+  "qs": "පහත දැක්වෙන වගන්ති සලකන්න: ඉහත ඒවායින් කුමක් Python හි වලංගු පැවරුම් ප්‍රකාශ වන්නේ ද?",
+  "o": [
+   "A and B only.",
+   "B and C only.",
+   "C and D only.",
+   "A, B and C only.",
+   "All of the above."
+  ],
+  "os": [
+   "A හා B පමණි.",
+   "B හා C පමණි.",
+   "C හා D පමණි.",
+   "A, B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 66,
+  "d": "2017 Q45",
+  "q": "Consider the following Python expressions:\nA - True or False and True\nB - 3 > 2 and False\nC - {2, 3} == {3, 2}\nD - (2, 3) == (3, 2)\nWhich of the above expressions would result in the Boolean value True?",
+  "qs": "පහත දැක්වෙන Python ප්‍රකාශ සලකන්න: ඉහත කවර ප්‍රකාශ බූලියානු True අගය ප්‍රතිඵලය ලෙස ලබා දේ ද?",
+  "o": [
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "B and D only.",
+   "C and D only."
+  ],
+  "os": [
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "B හා D පමණි.",
+   "C හා D පමණි."
+  ]
+ },
+ {
+  "n": 67,
+  "d": "2017 Q46",
+  "q": "The content of two files with names \"in.csv\" and \"out.csv\" are shown in the figures \"Fig. 1\" and \"Fig. 2\" respectively.\n\nFig. 1: in.csv\nRuvan, 20, 50\nRamesh, 0, 5\nRaj, 10, 10\n\nFig. 2: out.csv\nRuvan 20 50 70\nRamesh 0 5 5\nRaj 10 10 20\n\nWhich of the following Python programs can be used to transform the data in \"in.csv\" to the content of the file \"out.csv\"?",
+  "qs": "\"in.csv\" සහ \"out.csv\" යනුවෙන් නම් කරන ලද ගොනුවල අන්තර්ගතයන් \"Fig.1\" හා \"Fig.2\" රූප සටහන් මගින් පිළිවෙළින් දැක්වේ. පහත දැක්වෙන කුමන Python ක්‍රමලේඛය \"in.csv\" තුළ ඇති දත්ත \"out.csv\" හි අන්තර්ගතය බවට පරිණාමනය කිරීමට භාවිත කළ හැකි ද?",
+  "o": [
+   "f1=open(\"in.csv\",\"r\")\nf2=open(\"out.csv\",\"r\")\nfor line in f1:\n  items=line.strip().split(\",\")\n  tot=int(items[1])+int(items[2])\n  print(items[0],items[1],items[2],tot,file = f2)\nf1.close()\nf2.close()",
+   "f1=open(\"in.csv\",\"r\")\nf2=open(\"out.csv\",\"w\")\nfor line in f1:\n  items=line.strip()\n  tot=int(items[1])+int(items[2])\n  print(items[0],items[1],items[2],tot)\nf1.close()\nf2.close()",
+   "f1=open(\"in.csv\",\"r\")\nf2=open(\"out.csv\",\"w\")\nfor line in f1:\n  items=line.strip().split(\",\")\n  tot=int(items[1])+int(items[2])\n  print(items[0],items[1],items[2],tot,file = f2)\nf1.close()\nf2.close()",
+   "f1=open(\"in.csv\",\"r\")\nf2=open(\"out.csv\",\"w\")\nfor line in f1:\n  items=line.strip().split(\",\")\n  tot=items[1]+items[2]\n  print(items[0],items[1],items[2],tot,file = f2)\nf1.close()\nf2.close()",
+   "f1=open(\"in.csv\",\"r\")\nf2=open(\"out.csv\",\"w\")\nfor line in f1:\n  items=line.strip().split(\",\")\n  tot=int(items[1])+int(items([2])\n  print(items[0],items[1],items[2],tot,file = f1)\nf1.close()\nf2.close()"
+  ]
+ },
+ {
+  "n": 68,
+  "d": "2017 Q48",
+  "q": "Which of the following functions gives the sum of all elements in any list of integers?",
+  "qs": "ඕනෑම නිබිල ලැයිස්තුවක ඇති සියලු ම අවයවවල එකතුව ලබා දෙන්නේ පහත සඳහන් කුමන ශ්‍රිතය ද?",
+  "o": [
+   "def f(x):\n    s=x[0]\n    for i in range (0,len(x)):\n        s=s+i\n    return s",
+   "def f(x):\n    s=x[0]\n    for i in range (1,len(x)):\n        s=s+i\n    return s",
+   "def f(x):\n    s=0\n    for i in x:\n        s=s+i\n    return s",
+   "def f(x):\n    s=0\n        for i in x:\n            s=s+x[i]\n        return s",
+   "def f(x):\n    s=0\n    i=0\n        while i < len(x):\n        s=s+x[i]\nreturn s"
+  ]
+ },
+ {
+  "n": 69,
+  "d": "2018 Q23",
+  "q": "Questions 23 - 25 are based on the flowchart below. (Note that n%2 represents n mod 2.)\n[Figure: flowchart — Start → i ← 1, result ← 0 → input n → decision 'is n %2 = 0 ?'; Yes → i ← i + 1 (skipping the addition); No → result ← result + n → i ← i + 1 → decision 'is i ≤ 10 ?'; Yes → back to 'input n'; No → output result → Stop]\nWhich of the following is/are correct regarding the algorithm expressed by the above flowchart?\nA - It takes 10 inputs.\nB - It computes the sum of the even numbers in the input.\nC - To take 100 inputs, only modifying \"is i ≤ 10?\" will be sufficient.",
+  "qs": "අංක 69 සිට 71 තෙක් ප්‍රශ්න පහත ගැලීම් සටහන ආශ්‍රයෙනි. (n%2 යන්නෙන් n mod 2 දැක්වෙන බව සලකන්න.) ඉහත ගැලීම් සටහන මගින් දැක්වෙන ඇල්ගොරිතමය සම්බන්ධයෙන් පහත කවරක් නිවැරදි වේ ද? A - එය ආදාන 10 ක් ගනියි. B - එය ආදානයේ ඇති ඉරටුවේ සංඛ්‍යාවල එකතුව ගණනය කරයි. C - ආදාන 100 ක් ලබා ගැනීමට \"i ≤ 10 ?\" යන්න වෙනස් කිරීම පමණක් සෑහේ.",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "A and C only."
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A සහ B පමණි",
+   "A සහ B පමණි"
+  ]
+ },
+ {
+  "n": 70,
+  "d": "2018 Q24",
+  "q": "[Refers to the flowchart in the previous question: input n; if n%2=0 skip, else result ← result + n; i ← i+1; repeat while i ≤ 10; output result.]\nIf the following were fed as inputs to the above algorithm, what will be the output?\n2, 8, 9, 3, 4, 10, 6, 5, 13, 19, 12, 7",
+  "qs": "ඉහත ඇල්ගෝරිතමයට පහත සංඛ්‍යා ආදාන ලෙස දුන්නේ නම් ප්‍රතිදානය කුමක් වේ ද?",
+  "o": [
+   "10",
+   "30",
+   "42",
+   "49",
+   "56"
+  ]
+ },
+ {
+  "n": 71,
+  "d": "2018 Q25",
+  "q": "[Refers to the flowchart in the previous questions: input n; if n%2=0 skip, else result ← result + n; i ← i+1; repeat while i ≤ 10; output result.]\nFor any given input, outputs of which of the following Python programs will be the same as the output produced by the algorithm in the above flowchart?\nA.\ni=1\nresult = 0\nwhile (i<=10):\n  n= int(input())\n  if (n%2 != 0):\n    result+=n\n  i=i+1\nprint result\nB.\nresult = 0\nfor i in range(10):\n  n= int(input())\n  if (not(n%2==0)):\n    result=result+n\nprint result\nC.\nresult = 0\ni=1\nwhile True:\n  n= int(input())\n  if (not(n%2==0)):\n    result=result+n\n  i=i+1\n  if (i>10):\n    break\nprint result",
+  "qs": "දෙන ලද ඕනෑම ආදානයක් සඳහා පහත සඳහන් කුමන පයිතන් ක්‍රමලේඛයේ/වල ප්‍රතිදාන ඉහත ගැලීම් සටහන මගින් දක්වන ඇල්ගොරිතමයේ ප්‍රතිදානයට සමාන වේ ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "All of the above."
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 72,
+  "d": "2018 Q34",
+  "q": "Consider the following statements regarding programming languages and program translation.\nA - A compiler translates a program one statement at a time.\nB - An assembler converts a program in an assembly language into machine code.\nC - An interpreter scans the entire program and translates it as a whole into machine code.\nWhich of the above statements is/are correct?",
+  "qs": "ක්‍රමලේඛ භාෂා සහ ක්‍රමලේඛ පරිවර්තනය පිළිබඳ පහත ප්‍රකාශ සලකන්න. A - සම්පාදකයක් (compiler) වරකට එක් ප්‍රකාශය බැගින්, ක්‍රමලේඛයක් පරිවර්තනය කරයි. B - එසම්බ්ලරයක් එසෙම්බ්ලි භාෂාවෙන් ඇති ක්‍රමලේඛයක් යන්ත්‍ර කේතයට හරවයි. C - අර්ථ විනයාසකයක් (interpreter) මුළු ක්‍රමලේඛයම පර්ලෝකනය (scan) කර එය සමස්තයක් ලෙස යන්ත්‍ර කේතයට පරිවර්තනය කරයි. ඉහත කවර ප්‍රකාශයක් නිවැරදි වේ ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and C only.",
+   "B and C only."
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි."
+  ]
+ },
+ {
+  "n": 73,
+  "d": "2018 Q35",
+  "q": "What is the value of the following Python expression?\n(5**2) // 3 ^ 4",
+  "qs": "පහත වෙන පයිතන් ප්‍රකාශයෙහි අගය කුමක් ද?",
+  "o": [
+   "3",
+   "5",
+   "7",
+   "12",
+   "4096"
+  ]
+ },
+ {
+  "n": 74,
+  "d": "2018 Q46",
+  "q": "What is the output of the following Python code segment if executed with 30 as input?\nn = int(raw_input())\nif (n < 40):\n    result = 1\n    if (n < 10):\n        result = 2\n    elif (n < 20):\n        result = 3\n    else:\n        result = 4\nelse:\n    result = 5\nprint result",
+  "qs": "ආදානය 30 ලෙස දී පහත දැක්වෙන පයිතන් කේත ඛණ්ඩය ක්‍රියාත්මක කළ හොත් ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "n": 75,
+  "d": "2018 Q47",
+  "q": "What is the output of the following Python code segment?\ns = 0\nfor i in range(10):\n  s = s + i\nprint s",
+  "qs": "පහත දැක්වෙන පයිතන් කේත ඛණ්ඩයෙහි ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "0",
+   "10",
+   "45",
+   "55",
+   "100"
+  ]
+ },
+ {
+  "n": 76,
+  "d": "2018 Q48",
+  "q": "What is the output of the following Python code segment?\naList = [2,3,11,13,5,7]\ns = 0\nfor i in range(len(aList)):\n  if (aList[i] > 10):\n      continue\n  s = s + aList[i]\nprint s",
+  "qs": "පහත දැක්වෙන පයිතන් කේත ඛණ්ඩයෙහි ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "0",
+   "5",
+   "16",
+   "17",
+   "41"
+  ]
+ },
+ {
+  "n": 77,
+  "d": "2018 Q49",
+  "q": "Consider the following Python code segment with a blank line. (The line numbers on the left are shown for guidance only. They are not part of the code).\n1  # Function definition starts\n2  ................................\n3        s = arg1 + arg2\n4        return s\n5  # Function definition ends\n6  total = sum(10,20)\n7  print total\nThe above code should consist of a programmer defined function named 'sum'. Which of the following should be entered in the blank on line 2. so that the function 'sum' is correctly defined?",
+  "qs": "හිස් පේළියක් සහිත පහත දැක්වෙන පයිතන් කේත ඛණ්ඩය සලකන්න. (වම් පසින් දැක්වෙන පේළි අංක මග පෙන්වීම සඳහා පමණි. එය කේතයෙහි කොටසක් නොවේ.) ඉහත කේතයෙහි ක්‍රමලේඛක විසින් අර්ථදක්වන ලද 'sum' නමැති ශ්‍රිතය අඩංගු විය යුතු ය. 'sum' නමැති ශ්‍රිතය නිවැරදිව අර්ථ දැක්වීම සඳහා 2 වන පේළියෙහි හිස්තැනට පහත දැක්වෙන කුමක් ඇතුළත් කළ යුතු ද?",
+  "o": [
+   "sum(arg1, arg2):",
+   "def sum(arg1, arg2):",
+   "function sum(arg1, arg2):",
+   "def sum(arg1, arg2, s):",
+   "def sum( ):"
+  ]
+ },
+ {
+  "n": 78,
+  "d": "2019 Q43",
+  "q": "Which of the following statements is correct?",
+  "qs": "පහත කවර වගන්තියක් සත්‍ය වේ ද?",
+  "o": [
+   "A high-level language program that is translated into machine code and executed on computer X will not execute on another computer having the same processor as X.",
+   "A program in a high-level language must be first converted into assembly language code before converting into machine code.",
+   "Interpreted programs run faster than compiled ones.",
+   "Programs in some high-level languages are translated into a form called byte-code because such byte-codes execute faster than machine codes obtained by usual compilations.",
+   "Some modern processors execute programs in high-level languages without translating them into machine code."
+  ],
+  "os": [
+   "යන්ත්‍ර කේතයට පරිවර්තනය කරනු ලැබ, X නම් පරිගණකයෙහි ක්‍රියාත්මක කරනු ලබන ඉහළ මට්ටමෙහි පරිගණක භාෂාවෙන් ක්‍රමලේඛයක්, X හි ඇති සකසනයට සමාන සකසනයක් සහිත වෙනත් පරිගණකයක ක්‍රියාත්මක නොවේ.",
+   "ඉහළ මට්ටමේ ක්‍රමලේඛයක් යන්ත්‍ර කේතයට පරිවර්තනය කිරීමට පෙර එසෙම්බ්ලි (assembly) භාෂා කේතයට හැරවිය යුතු ය.",
+   "පරිවර්තනය (interpreted) කරන ලද ක්‍රමලේඛයක් සම්පාදනය කරන ලද (compiled) ක්‍රමලේඛයකට වඩා වැඩි වේගයෙන් ක්‍රියාත්මක වේ.",
+   "ඇතැම් ඉහළ මට්ටමේ භාෂාවලින් ඇති ක්‍රමලේඛ බයිට් කේත (byte-code) නමින් හැඳින්වෙන ආකාරයට පරිවර්තනය කරනු ලබන්නේ, එවැනි බයිට් කේත සාමාන්‍ය සම්පාදනයෙන් ලබා ගන්න යන්ත්‍ර භාෂාවට වඩා වැඩි වේගයකින් ක්‍රියාත්මක වන නිසා ය.",
+   "ඇතැම් නූතන සකසන (processors) ඉහළ මට්ටමේ භාෂාවන්ගෙන් ඇති ක්‍රමලේඛ, යන්ත්‍ර කේතයට පරිවර්තනය නොකර ක්‍රියාත්මක කරයි."
+  ]
+ },
+ {
+  "n": 79,
+  "d": "2019 Q40",
+  "q": "Consider the following flowchart to answer the questions 79 to 81:\n[Figure: flowchart — Start → i = 8, result = 1 → input n → decision 'Is n ≤ 0 ?'; Yes → i = i - 1 (skipping the multiplication); No → result = result x n → i = i - 1 → decision 'Is i ≤ 0 ?'; Yes → output result → Stop; No → back to 'input n']\nWhich of the following statements is/are correct about the algorithm expressed by the flowchart?\nA - It takes 8 inputs.\nB - It outputs the product of the positive numbers in the input.\nC - If every input is zero, then the output will be zero.",
+  "qs": "අංක 79 සිට 81 තෙක් ප්‍රශ්නවලට පිළිතුරු සැපයීම සඳහා පහත දැක්වෙන ගැලීම් සටහන සලකන්න. A - එය ආදාන 8ක් ලබා ගනියි. B - එය ආදානයෙහි ඇති ධන සංඛ්‍යාවල ගුණිතය ප්‍රතිදානය කරයි. C - සියලු ම ආදාන ශුන්‍ය වුවහොත් ප්‍රතිදානය ශුන්‍ය වේ.",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "B and C only."
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A සහ B පමණි",
+   "B සහ C පමණි"
+  ]
+ },
+ {
+  "n": 80,
+  "d": "2019 Q41",
+  "q": "[Refers to the flowchart: Start → i = 8, result = 1 → input n → decision 'Is n ≤ 0 ?'; Yes → i = i - 1; No → result = result x n → i = i - 1 → decision 'Is i ≤ 0 ?'; Yes → output result → Stop; No → back to 'input n']\nIf the following is fed as the input to the algorithm, what will be the output?\n3  2  -4  4  1  -9  5  -6  -1",
+  "qs": "ආදානය ලෙස ඇල්ගොරිතමයට පහත දී ඇති දෑ ලබා දුන් විට ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "-25920",
+   "-216",
+   "120",
+   "216",
+   "25920"
+  ]
+ },
+ {
+  "n": 81,
+  "d": "2019 Q42",
+  "q": "[Refers to the flowchart: Start → i = 8, result = 1 → input n → decision 'Is n ≤ 0 ?'; Yes → i = i - 1; No → result = result x n → i = i - 1 → decision 'Is i ≤ 0 ?'; Yes → output result → Stop; No → back to 'input n']\nWhich of the following Python programs has/have the same functionality (i.e., the same output for a given input) as the algorithm in the flowchart above?\nA.\ni=8\nresult = 1\nwhile (i > 0):\n  n = int(input())\n  if (n > 0):\n    result=result*n\n  i=i-1\nprint (result)\nB.\nresult = 1\nfor i in range(8):\n  n = int(input())\n  if (n > 0):\n    result=result*n\nprint (result)\nC.\nresult = 1\ni=8\nwhile 1:\n  n = int(input())\n  if (not(n <= 0)):\n    result=result*n\n  i=i-1\n  if (i <= 0):\n    break\nprint (result)",
+  "qs": "පහත දැක්වෙන කවර පයිතන් ක්‍රමලේඛයට/ක්‍රමලේඛවලට ඉහත ගැලීම් සටහනෙහි ඇති ඇල්ගොරිතමයට සමාන ක්‍රියාකාරිත්වයක් (එනම්, දෙන ලද ආදානයකට එකම ප්‍රතිදානය) තිබේ ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "All of the above."
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 82,
+  "d": "2019 Q44",
+  "q": "What is the value of the following Python expression?\n(100 // 3) % 4 | 8",
+  "qs": "පහත දැක්වෙන පයිතන් ප්‍රකාශයෙහි අගය කුමක් ද?",
+  "o": [
+   "0",
+   "0.125",
+   "3",
+   "8",
+   "9"
+  ]
+ },
+ {
+  "n": 83,
+  "d": "2019 Q45",
+  "q": "What will be output if the following Python code is executed with \"abcabc\" as the input?\nresult = 1\ns = input()\nif (len(s) > 3):\n    result = 2\nif (len(s) < 6):\n    result = 3\nelif (len(s) > 6):\n    result = 4\nelse:\n    result = 5\nprint(result)",
+  "qs": "පහත දැක්වෙන පයිතන් කේතය, \"abcabc\" ආදානය ලෙස ක්‍රියාත්මක කළ විට ලැබෙන ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ]
+ },
+ {
+  "n": 84,
+  "d": "2019 Q46",
+  "q": "What will be the output of the following Python code?\nx= 100\nfor i in range(1,5):\n    x=x-i\nprint(x)",
+  "qs": "පහත දැක්වෙන පයිතන් කේතයෙහි ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "0",
+   "5",
+   "85",
+   "90",
+   "100"
+  ]
+ },
+ {
+  "n": 85,
+  "d": "2019 Q47",
+  "q": "What will be the output of the following Python code segment?\nL = [1,-2,4,3,2,-7,11,2,8,-1]\nx = 0\nfor i in range(len(L)):\n    if (L[i] < 0):\n        continue\n    if (L[i] > 10):\n        break\n    x = x + L[i]\nprint(x)",
+  "qs": "පහත දැක්වෙන පයිතන් කේත ඛණ්ඩයෙහි ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "0",
+   "1",
+   "10",
+   "21",
+   "31"
+  ]
+ },
+ {
+  "n": 86,
+  "d": "2019 Q48",
+  "q": "What will be the result when the following Python code is executed?\nx = 50\ndef func(y):\n    x = 2\n    y = 4\nfunc(x)\nprint(x)",
+  "qs": "පහත දැක්වෙන පයිතන් කේතය ක්‍රියාත්මක කළ විට ප්‍රතිඵලය කුමක් ද?",
+  "o": [
+   "50",
+   "2",
+   "4",
+   "syntax error",
+   "name error"
+  ]
+ },
+ {
+  "n": 87,
+  "d": "2020 Q16",
+  "q": "Which of the following statements regarding compilers and interpreters are correct?\nA - A compiler transforms an entire high-level language program into its machine code.\nB - An interpreter converts each high-level program statement into the relevant machine code during the program run.\nC - Compiled codes usually run faster than interpreted codes.",
+  "qs": "සම්පාදක (compiler) සහ පරිවර්තක (interpreter) පිළිබඳව පහත කවර ප්‍රකාශ සත්‍ය වේ ද? A - සම්පාදකයක්, ඉහළ මට්ටමේ (high level) භාෂාවකින් ලියවුණු මුළු ක්‍රමලේඛයම යන්ත්‍ර කේතයට හරවයි. B - පරිවර්තකයක්, ක්‍රමලේඛයක් ක්‍රියාත්මක කිරීමේ දී (execute/run) ඉහළ මට්ටමේ ක්‍රමලේඛයේ එක් එක් වගන්තිය (statement) බැගින් ගෙන, එය අදාළ යන්ත්‍ර කේතයට හරවයි. C - සාමාන්‍යයෙන් සම්පාදනය වූ කේත, පරිවර්තනය වූ කේතවලට වඩා වැඩි වේගයකින් ධාවනය වේ.",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above."
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 88,
+  "d": "2020 Q32",
+  "q": "The questions 88 - 90 are based on the algorithm expressed by the flowchart below. The algorithm takes a list L of items and an item K as inputs and is expected to output the number of items in L that are equal to K. List indices start at 0. Note that two entries, labelled as (P) and (Q) flowchart are blank (unspecified).\n[Figure: flowchart — Start → input list L → input K → process box 'count = 0, i=0, n = length of list' → decision 'Is L[i] = K ?'; Yes → process box (P) blank '..............' → i = i+1; No → i = i+1 (directly) → decision (Q) blank '..............'; Yes → back to the decision 'Is L[i] = K ?'; No → output count → Stop]\nFor the algorithm to function correctly, what should be inserted at the blank (P)?",
+  "qs": "අංක 88 සිට 90 තෙක් ප්‍රශ්නවලට පිළිතුරු සැපයීම සඳහා පහත දැක්වෙන ගැලීම් සටහන සලකන්න. ඇල්ගොරිතමය නිවැරදිව ක්‍රියාත්මක වීම සඳහා නම් හිස්තැනට කුමක් ඇතුළත් කළ යුතු ද?",
+  "o": [
+   "n = n-1",
+   "n = n+1",
+   "count = count + 1",
+   "count = count + i",
+   "count = count + n"
+  ]
+ },
+ {
+  "n": 89,
+  "d": "2020 Q33",
+  "q": "[Refers to the flowchart: Start → input list L → input K → count = 0, i=0, n = length of list → decision 'Is L[i] = K ?'; Yes → (P) blank → i = i+1; No → i = i+1 → decision (Q) blank; Yes → back to 'Is L[i] = K ?'; No → output count → Stop]\nFor the algorithm to function correctly, what should be inserted at the blank (Q)?",
+  "qs": "ඇල්ගොරිතමය නිවැරදිව ක්‍රියාත්මක වීම සඳහා නම් හිස්තැනට කුමක් ඇතුළත් කළ යුතු ද?",
+  "o": [
+   "Is i <n?",
+   "Is i = n?",
+   "Is count < n?",
+   "Is count < K?",
+   "Is n > 0?"
+  ]
+ },
+ {
+  "n": 90,
+  "d": "2020 Q34",
+  "q": "[Refers to the flowchart: Start → input list L → input K → count = 0, i=0, n = length of list → decision 'Is L[i] = K ?'; Yes → (P) blank → i = i+1; No → i = i+1 → decision (Q) blank; Yes → back to 'Is L[i] = K ?'; No → output count → Stop]\nConsider the following python programs A, B and C.\nA.\nL = [int(x) for x in input().split()]\nK = int(input())\ncount = 0\nfor i in range(len(L)):\n    if (L[i]== K):\n        count = count + 1\nprint (count)\nB.\nL = input().split()\nK = input()\ncount = 0\nn = len(L)\nfor i in range(n):\n    if (L[i]== K):\n        count = count + i\nprint(count)\nC.\nL = [int(x) for x in input().split()]\nK = int(input())\ncount = i = 0\nwhile (i < len(L)):\n    if (L[i]== K):\n        count = count + 1\nprint(count)\nWhich of the above python programs implement the given algorithm?",
+  "qs": "පහත A, B සහ C මගින් දී ඇති පයිතන් ක්‍රමලේඛ සලකන්න. ඉහත කුමන ක්‍රමලේඛය/ක්‍රමලේඛ මගින් දී ඇති ඇල්ගොරිතමය ක්‍රියාත්මක වන්නේ ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "A and B only.",
+   "A and C only.",
+   "All of the above."
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 91,
+  "d": "2020 Q35",
+  "q": "What would be the output of the following Python code, if the input was 17?\nn = float(input())\nm = (n // (n % 5)) ** 3\nprint(m)",
+  "qs": "පහත දැක්වෙන පයිතන් කේතයෙහි ආදානය 17 වූ විට ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "24.0",
+   "25.5",
+   "512.0",
+   "614.125",
+   "an error message"
+  ]
+ },
+ {
+  "n": 92,
+  "d": "2020 Q36",
+  "q": "Suppose that S is a string, L is a list and T is a tuple in a Python program. The length of each is 10. Consider the following Python statements:\nA - S[2] = '2'\nB - L[2] = '2'\nC - T[2] = '2'\nWhich of the above three statements will generate an error?",
+  "qs": "යම් පයිතන් ක්‍රමලේඛයක් යනු තන්තුවක් (string) ද, L යනු ලැයිස්තුවක් (list) ද, T යනු උපලක්ෂියාවක් (tuple) ද වේ. ඒ ඒ එකෙහි දිග (length) 10 කි. පහත පයිතන් ප්‍රකාශ සලකන්න. ඉහත ප්‍රකාශ තුනෙන් කවරක් දෝෂයක් ජනනය (generate) කරනු ලබයි ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "A and B only.",
+   "A and C only.",
+   "All of the above."
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 93,
+  "d": "2020 Q37",
+  "q": "What would be the output of the following Python code segment?\nS = \"corona virus pandemic\"\nV = \"aeiou\"\ncount = 0\nfor i in range(len(S)):\n    if (S[i] in V):\n        count = count + 1\nprint(count)",
+  "qs": "පහත දැක්වෙන පයිතන් කේත ඛණ්ඩයෙහි ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "0",
+   "5",
+   "8",
+   "19",
+   "21"
+  ]
+ },
+ {
+  "n": 94,
+  "d": "2020 Q38",
+  "q": "What would be the output when the following Python code is executed?\nx = 1\ndef myfunc(p, q):\n    global x\n    p, q = q, p\n    x = x + p\nmyfunc(x,3)\nprint(x)",
+  "qs": "පහත දැක්වෙන පයිතන් කේතය ක්‍රියාත්මක කළ විට ප්‍රතිදානය කුමක් වේ ද?",
+  "o": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "an error message"
+  ]
+ },
+ {
+  "n": 95,
+  "d": "2020 Q39",
+  "q": "What would be the output of the following Python code, if the input was 100?\nn = int(input())\nif (n > 0):\n    m = \"Z\"\n    if (n > 10):\n        if (n > 100):\n            m = \"A\"\n        elif (n < 50):\n            m = \"B\"\n        else:\n            m = \"C\"\nelse:\n    m = \"D\"\nprint(m)",
+  "qs": "පහත දැක්වෙන පයිතන් කේතයේ ආදානය 100 විට, ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "Z"
+  ]
+ },
+ {
+  "n": 96,
+  "d": "2020 Q41",
+  "q": "Consider the following Python program:\nf1 = open(\"inFile.txt\", \"r\")\nf2 = open(\"outFile.txt\", \"w\")\ncheckString = \"No\"\nfor line in f1:\n    if (checkString not in line):\n        f2.write(line)\nf1.close()\nf2.close()\nWhich of the following statements are correct about the above program?\nA - The content of the input file (inFile.txt) is checked in a loop, one line at a time.\nB - The total content of one file is written onto another file.\nC - If either of the two files does not exist, the program will stop and exit while executing the first two lines of the code.",
+  "qs": "පහත දැක්වෙන පයිතන් ක්‍රමලේඛය සලකන්න. ඉහත ක්‍රමලේඛය සම්බන්ධයෙන් පහත කවර ප්‍රකාශ සත්‍ය වේ ද? A - ආදාන ගොනුවේ (inFile.txt) අන්තර්ගතය, වරකට එක් පේළිය බැගින්, ලූපයක් තුළ පරීක්ෂාවකට බඳුන් (processed) වේ. B - එක ගොනුවක මුළු අන්තර්ගතය, තවත් ගොනුවක ලියැවේ. C - ගොනු දෙකෙන් එක ගොනුවක් හෝ නොමැති විට, ක්‍රමලේඛය එහි මුල් පේළි දෙක ක්‍රියාත්මක කිරීමේදී නතර වී ඉවත්වීම (stop and exit) සිදු වේ.",
+  "o": [
+   "A only.",
+   "B only.",
+   "A and B only.",
+   "A and C only.",
+   "All of the above."
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 97,
+  "d": "2020 Q40",
+  "q": "What would be the output of the following Python code?\nx = 1\ny = 100\nwhile (x < 100):\n    y = y - x\n    x = x + 1\n    if (x + y) < 90:\n        break\nprint(y)",
+  "qs": "පහත දැක්වෙන පයිතන් කේතයේ ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "100",
+   "85",
+   "72",
+   "72",
+   "7"
+  ]
+ },
+ {
+  "n": 98,
+  "d": "2021 Q38",
+  "q": "A teacher of a programming class draws the following diagram and asks the students to identify the components indicated by A, B, C, D and E:\n[Figure: A → box B → C → box D → E; 'Other object codes' also feeds into box D. A is the input arrow into box B, C is the arrow from B to D, E is the output arrow from D.]\nWhich of the following gives the correct choices for A, B, C, D and E?",
+  "qs": "ක්‍රමලේඛකරණය (programming) උගන්වන ගුරුවරයෙක් තම පන්තියේ පහත රූ සටහන ඇඳ එහි ඇති A, B, C, D සහ E සංරචක නම් කරන ලෙස සිසුන්ට කියයි. ඉහත A, B, C, D සහ E සඳහා නිවැරදි තෝරාගැනීම් දක්වන්නේ පහත කවරක් ද?",
+  "o": [
+   "A - compiler, B - executable code, C - source code, D - linker, E - object code",
+   "A - compiler, B - source code, C - executable code, D - object code, E – linker",
+   "A - linker, B - source code, C - object code, D - executable code, E – compiler",
+   "A - source code, B - object code, C - linker, D - compiler, E - executable code",
+   "A - source code, B - compiler, C - object code, D - linker, E - executable code"
+  ],
+  "os": [
+   "A - සම්පාදකය, B - ක්‍රියාත්මක කළ හැකි කේතය, C - ප්‍රභව කේතය, D - සන්ධාරකය, E - වස්තු කේතය",
+   "A - සම්පාදකය, B - ප්‍රභව කේතය, C - ක්‍රියාත්මක කළ හැකි කේතය, D - වස්තු කේතය, E – සන්ධාරකය",
+   "A - සන්ධාරකය, B - ප්‍රභව කේතය, C - වස්තු කේතය, D - ක්‍රියාත්මක කළ හැකි කේතය, E – සම්පාදකය",
+   "A - ප්‍රභව කේතය, B - වස්තු කේතය, C - සන්ධාරකය, D - සම්පාදකය, E - ක්‍රියාත්මක කළ හැකි කේතය",
+   "A - ප්‍රභව කේතය, B - සම්පාදකය, C - වස්තු කේතය, D - සන්ධාරකය, E - ක්‍රියාත්මක කළ හැකි කේතය"
+  ]
+ },
+ {
+  "n": 99,
+  "d": "2021 Q23",
+  "q": "Which of the following statements is/are correct with respect to Object Oriented Programming?\nA - System output is determined by the object behaviour and their interactions.\nB - System is modelled as a collection of objects.\nC - Writing a program in this method is different from writing one according to the structured programming method.",
+  "qs": "වස්තු නැඹුරු ක්‍රමලේඛනය (Object Oriented Programming) සම්බන්ධයෙන් පහත කවරක් නිවැරදි ද? A - වස්තු හැසිරීම හා ඒවායේ අන්තර්ක්‍රියා මගින් පද්ධති ප්‍රතිදානය තීරණය වේ. B - පද්ධතිය වස්තූන්ගේ එකතුවක් ලෙස ආකෘතිගත කෙරෙයි. C - මෙලෙස ක්‍රමලේඛයක් ලිවීම, ව්‍යුහගත ක්‍රමයට ක්‍රමලේඛයක් ලිවීමට වඩා වෙනස් වේ.",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and C only.",
+   "All of the above."
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 100,
+  "d": "2021 Q39",
+  "q": "Consider the algorithm expressed by the flowchart and answer questions 96 and 97 (as printed): This algorithm takes as input first an integer n (≥1) followed by a sequence of n integers one by one. The algorithm is expected to output the count of integers that are less than 100 among the sequence of n inputs.\n[Figure: flowchart — Start → input n → count = 0, i=0 → input x → decision 'Is x < 100 ?'; Yes → process box (P) blank '..............' → i=i+1; No → i=i+1 (directly) → decision 'Is i = n ?'; Yes → Output count → Stop; No → back to 'input x']\nFor the algorithm to function correctly as expected, what should be inserted at the blank (P)?",
+  "qs": "ගැලීම් සටහන මගින් ප්‍රකාශ කෙරෙන ඇල්ගොරිතමය සලකා 96 සහ 97 ප්‍රශ්නවලට පිළිතුරු සපයන්න. මෙම ඇල්ගොරිතමය මුලින්ම නිඛිලයක් n (≥1) ආදානය කර, ඉන්පසු පිළිවෙළින් n නිඛිල සංඛ්‍යාවක් එකින් එක ආදානය කරයි. ඉහත n නිඛිල සංඛ්‍යාවල 100ට අඩු නිඛිල ගණන ප්‍රතිදානය කිරීම ඇල්ගොරිතමය මගින් අපේක්ෂා කෙරේ. ඇල්ගොරිතමයෙන් බලාපොරොත්තුවන නිවැරදි ක්‍රියාකාරිත්වයට හිස්තැන සඳහා පහත කුමක් ඇතුළත් කළ යුතු ද?",
+  "o": [
+   "count = count + 1",
+   "count = count + i",
+   "count = count + x",
+   "n = n - 1",
+   "n = n + 1"
+  ]
+ },
+ {
+  "n": 101,
+  "d": "2021 Q40",
+  "q": "[Refers to the flowchart: Start → input n → count = 0, i=0 → input x → decision 'Is x < 100 ?'; Yes → process (P) → i=i+1; No → i=i+1 → decision 'Is i = n ?'; Yes → Output count → Stop; No → back to 'input x'. The algorithm counts the integers less than 100 among n inputs.]\nWhich of the following Python programs implement the algorithm in the flowchart?\nA.\nn = int(input())\ncount = 0\nfor i in range(n):\n    x=int(input())\n    if (x < 100):\n        count=count+i\nprint (count)\nB.\nn = int(input())\ncount = 0\nfor i in range(n):\n    x=int(input())\n    if (x < 100):\n        count+=1\nprint(count)\nC.\nn = int(input())\ncount = i = 0\nwhile (i < n):\n    x=int(input())\n    if (x < 100):\n        count=count+1\nprint(count)",
+  "qs": "පහත කුමන පයිතන් ක්‍රමලේඛ මගින් දී ඇති ගැලීම් සටහනේ ඇල්ගොරිතමය ක්‍රියාත්මක වන්නේ ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "A and B only.",
+   "B and C only.",
+   "All of the above."
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "A හා B පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 102,
+  "d": "2021 Q41",
+  "q": "What would be the output after executing the following Python code?\nn = 117\nm = (n & 127) // (2 ** 3)\nprint(m)",
+  "qs": "පහත දැක්වෙන පයිතන් කේතය ක්‍රියාත්මක කළ විට ප්‍රතිදානය කුමක් වේ ද?",
+  "o": [
+   "1",
+   "14",
+   "14.625",
+   "15",
+   "19"
+  ]
+ },
+ {
+  "n": 105,
+  "d": "2021 Q44",
+  "q": "What will be the output when the following Python code is executed?\ns = 1\nfor i in range(1,10):\n    if (i < 5):\n        s = s * i\n    elif (i < 8):\n        s = s - i\n    else:\n        s = s + i\n        break\nprint(s)",
+  "qs": "පහත දැක්වෙන පයිතන් කේතය ක්‍රියාත්මක කළ විට ප්‍රතිදානය කුමක් වේ ද?",
+  "o": [
+   "6",
+   "14",
+   "23",
+   "33",
+   "121"
+  ]
+ },
+ {
+  "n": 106,
+  "d": "2022 Q36",
+  "q": "Which of the following statements is/are correct about the algorithm expressed by the given flowchart?\n[Figure: flowchart — Start → a = 10, r = 1 → Input n → decision 'Is n < 0 ?'; Yes → r = r + n → a = a - 1; No → a = a - 1 (directly) → decision 'Is a >= 0 ?'; Yes → Output r → Stop; No → back to 'Input n']\nA - An input is taken from the user only once.\nB - The output of the algorithm is always 9.\nC - The algorithm outputs the summation of all the numbers entered.",
+  "qs": "දී ඇති ගැලීම් සටහනින් ප්‍රකාශිත ඇල්ගොරිතමය (algorithm) සම්බන්ධයෙන් පහත සඳහන් කුමන ප්‍රකාශ/ය නිවැරදි ද? A - පරිශීලකයාගෙන් එක්වරක් පමණක් ආදානයක් ගනු ලැබේ. B - ඇල්ගොරිතමයේ ප්‍රතිදානය සෑමවිටම 9 වේ. C - ඇතුළත් කර ඇති සියලුම සංඛ්‍යාවල එකතුව මෙම ඇල්ගොරිතමය ප්‍රතිදානය කරයි.",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "B and C only."
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A සහ B පමණි",
+   "B සහ C පමණි"
+  ]
+ },
+ {
+  "n": 107,
+  "d": "2022 Q37",
+  "q": "What would be the output of the following Python code if the input was 25?\nx = int(input())\nx = (x % (x - 21)) **3\nprint (x)",
+  "qs": "පහත දැක්වෙන පයිතන් කේතයේ ආදානය 25 වූ විට, ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "0",
+   "1",
+   "3",
+   "12",
+   "25"
+  ]
+ },
+ {
+  "n": 108,
+  "d": "2022 Q38",
+  "q": "What would be the output of the following Python code?\ndef fun(para1, para2):\n    x=foo(para2, para1)\n    return x\n\ndef foo(para3, para4):\n    return para3 – para4\n\nresult=fun(2, 4)\nprint(\"Result is \" + str(result))",
+  "qs": "පහත දැක්වෙන පයිතන් කේතයේ ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "Result is 0",
+   "Result is 2",
+   "Result is -2",
+   "Result is (2, 4)",
+   "Result is +2"
+  ]
+ },
+ {
+  "n": 109,
+  "d": "2022 Q39",
+  "q": "What would be the output of the following Python code?\ndef foo(name, age=18, address=\"Kandy\"):\n        print (name, address, age)\nfoo(\"Nimal\", 25, \"Colombo\")",
+  "qs": "පහත දැක්වෙන පයිතන් කේතයේ ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "Nimal Colombo 25",
+   "Nimal, Colombo, 25",
+   "Nimal, Kandy, 18",
+   "Nimal Kandy 18",
+   "Nimal 18 Kandy"
+  ]
+ },
+ {
+  "n": 110,
+  "d": "2022 Q40",
+  "q": "What would be the output of the following Python code?\nnumbers=[10, 20, 30, 40, 50]\nnumbers.pop(1)\nnumbers.append(60)\nnumbers.pop(2)\nprint(numbers)",
+  "qs": "පහත දැක්වෙන පයිතන් කේතයේ ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "[10, 50, 60]",
+   "[10, 20, 40, 60]",
+   "[10, 30, 50, 60]",
+   "[20, 30, 40, 50]",
+   "[20, 30, 50, 60]"
+  ]
+ },
+ {
+  "n": 111,
+  "d": "2022 Q41",
+  "q": "What would be the output of the following Python code?\nval = 9\nfor i in range(5):\n     for j in range(2, 3, 1):\n          val += 1\n          if (val % 2) == 0:\n               continue\n               val += 2\n          else:\n               val += 2\nprint(val)",
+  "qs": "පහත දැක්වෙන පයිතන් කේතයේ ප්‍රතිදානය කුමක් ද?",
+  "o": [
+   "18",
+   "24",
+   "29",
+   "38",
+   "39"
+  ]
+ },
+ {
+  "n": 112,
+  "d": "2022 Q42",
+  "q": "Which of the following is/are correct regarding Python functions?\nA - A Python function can return a data structure that contains multiple values.\nB - A Python function can be used without passing any parameters to it.\nC - Parameters can be passed to a python function by value or by reference.",
+  "qs": "පයිතන් ශ්‍රිත සම්බන්ධයෙන් පහත සඳහන් කුමක් නිවැරදි වන්නේ ද? A - පයිතන් ශ්‍රිතයකට අගයන් සමූහයක් ඇති දත්ත ව්‍යුහයක් (data structure) ප්‍රතිදානය (return) කළ හැකි ය. B - පයිතන් ශ්‍රිතයක්, එයට කිසිදු පරාමිති යැවීමකින් තොරව භාවිත කළ හැකි ය. C - පයිතන් ශ්‍රිතයකට පරාමිතීන්,අගයක් (value) හෝ යොමුවක් (reference) හෝ ලෙස යැවිය හැකි ය.",
+  "o": [
+   "B only.",
+   "C only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above."
+  ],
+  "os": [
+   "B පමණි.",
+   "C පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 113,
+  "d": "2023 Q39",
+  "q": "What would be the output of the following Python code, if a = 10, b = 4, and c = 7?\nans = a % b + c // (a-b)\nprint(ans)",
+  "qs": "a = 10, b = 4 සහ c = 7 වන විට පහත පයිතන් කේතයේ ප්‍රතිදානය කුමක් වේද?",
+  "o": [
+   "3",
+   "5",
+   "7",
+   "9",
+   "11"
+  ]
+ },
+ {
+  "n": 114,
+  "d": "2023 Q40",
+  "q": "What would be the value of the 'result' variable after executing the following Python code?\ndef func1(a,b):\n    return a+b\ndef func2(a,b):\n    return a*b\nresult = func1(3,func2(2,4))",
+  "qs": "පහත පයිතන් කේතය ක්‍රියාත්මක කළ පසු 'result' විචල්‍යයේ අගය කුමක් වේද?",
+  "o": [
+   "11",
+   "12",
+   "14",
+   "15",
+   "20"
+  ]
+ },
+ {
+  "n": 115,
+  "d": "2023 Q41",
+  "q": "What would be the output of the following Python code, when it gets executed?\ndef modify_string(input_string):\n        input_string += \" World\"\ntext = \"Hello\"\nmodify_string(text)\nprint(text)",
+  "qs": "පහත පයිතන් කේතය ක්‍රියාත්මක කළ විට ප්‍රතිදානය කුමක් වේද?",
+  "o": [
+   "Hello",
+   "Hello Hello",
+   "Hello World",
+   "World",
+   "World Hello"
+  ]
+ },
+ {
+  "n": 116,
+  "d": "2023 Q42",
+  "q": "What would be the output of the following Python code?\noriginal_list = [1, 2, 3, 4, 5]\nnew_list = original_list.copy()\nnew_list.clear()\noriginal_list.append(6)\nprint(original_list)\nprint(new_list)",
+  "qs": "පහත පයිතන් කේතය ක්‍රියාත්මක කළ විට ප්‍රතිදානය කුමක් වේද?",
+  "o": [
+   "[ ]\n[ ]",
+   "[6]\n[ ]",
+   "[6]\n[6]",
+   "[1,2,3,4,5,6]\n[ ]",
+   "[ ]\n[1,2,3,4,5,6]"
+  ]
+ },
+ {
+  "n": 117,
+  "d": "2023 Q43",
+  "q": "How many '*' s does this program output?\ni = 7\nwhile i>0:\n    i -= 3\n    print('*')\n    if i<=2:\n        break\n    else:\n        print('*')",
+  "qs": "පහත ක්‍රමලේඛය, '*' කොපමණ ප්‍රමාණයක් ප්‍රතිදානය කරයි ද?",
+  "o": [
+   "1",
+   "3",
+   "5",
+   "7",
+   "9"
+  ]
+ },
+ {
+  "n": 118,
+  "d": "2023 Q44",
+  "q": "Which of the data structures among Dictionary, List and Tuple in Python could be used to store a collection of key-value pairs where the keys must be unique?",
+  "qs": "අනන්‍ය යතුරු සහිත යතුරු-අගය (key-value) යුගල එකතුවක් ගබඩා කිරීමට පයිතන්හි Dictionary, List සහ Tuple දත්ත ව්‍යුහ අතුරින් කුමක් භාවිත කළ හැකි ද?",
+  "o": [
+   "Dictionary only",
+   "List only",
+   "Tuple only",
+   "Dictionary and List only",
+   "List and Tuple only"
+  ]
+ },
+ {
+  "n": 119,
+  "d": "2023 Q45",
+  "q": "What would be the output of the following python code?\nfor i in range(1, 4):\n        for j in range (1, i + 1):\n                print(j * i, end=' ')\n        print()",
+  "qs": "පහත පයිතන් කේතයේ ප්‍රතිදානය කුමක් වේද?",
+  "o": [
+   "1\n2 2\n3 3 3",
+   "1\n2 4\n3 6",
+   "1\n2 4\n3 6 9",
+   "1 2 3\n2 4 6\n3 6 9",
+   "1 2\n2 4 6\n3 6 9 12"
+  ]
+ }
+]

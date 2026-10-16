@@ -1,0 +1,135 @@
+[
+ {
+  "n": 1,
+  "d": "2019 Q12",
+  "q": "A smart environment can be created by having an interconnected network of hardware devices, sensors, connectivity and required software, which is often referred to as the Internet of Things (IoT). Which of the following statements is correct about IoT?",
+  "qs": "හාර්ඩ්වෙයාර් උපාංග, සංවේදක, සම්බන්ධතාවය සහ අවශ්‍ය මෘදුකාංග අන්තර්සම්බන්ධිත ජාලයක් මගින් ස්මාර්ට් පරිසරයක් නිර්මාණය කළ හැක. එය බොහෝවිට සර්ව ද්‍රව්‍ය අන්තර්ජාලය (IoT) ලෙස හඳුන්වනු ලැබේ. IoT පිළිබඳ පහත කවර වගන්තියක් සත්‍ය වේ ද?",
+  "o": [
+   "Every IoT device or item must be connected using UTP cables.",
+   "If any item of the IoT setup fails to operate the entire IoT setup will be shutdown.",
+   "IoT environments cannot be monitored and controlled remotely.",
+   "Modern smart mobile phones cannot be connected to an IoT setup.",
+   "The Internet connectivity is not essential for an IoT setup to function."
+  ],
+  "os": [
+   "සෑම IoT උපාංගයක් ම හෝ අයිතමයක් ම UTP රැහැන් මගින් සම්බන්ධ කළ යුතු ය.",
+   "IoT පිහිටුවීමක ඇති කිසියම් අයිතමයක් මෙහෙයුම් අසමත් වූ විට සමස්ත IoT පිහිටුවීම ම වසා දැමෙනු ඇත.",
+   "IoT පරිසරයක් දුරස්ථව අධීක්ෂණය කිරීම සහ පාලනය කිරීම සිදු කළ නොහැක.",
+   "නවීන ස්මාර්ට් ජංගම දුරකථන IoT පිහිටුවීමකට සම්බන්ධ කළ නොහැක.",
+   "IoT පිහිටුවීමක ක්‍රියාකාරීත්වය සඳහා අන්තර්ජාල සම්බන්ධතාවයක් අත්‍යවශ්‍ය නොවේ."
+  ]
+ },
+ {
+  "n": 2,
+  "d": "2023 Q50",
+  "q": "What is the primary role of a sensor in an IoT device?",
+  "qs": "IoT උපාංගයක සංවේදකයක මූලික කාර්ය කුමක් ද?",
+  "o": [
+   "To provide outputs and change a state of the environment.",
+   "To ensure interoperability of devices.",
+   "To detect a state change in the environment.",
+   "To make decisions based on predetermined rules.",
+   "To generate graphics for the user interface."
+  ],
+  "os": [
+   "ප්‍රතිදාන ලබා දී පරිසරයේ තත්වයක් වෙනස් කිරීම.",
+   "උපාංගවල අනෝන්‍ය ක්‍රියාකාරීත්වය සහතික කිරීම.",
+   "පරිසරයේ තත්ව වෙනසක් දැනගැනීම.",
+   "කලින් නියම කළ නීති මත තීරණ ගැනීම.",
+   "පරිශීලක අතුරු මුහුණත සඳහා චිත්‍රක ගොඩනැගීම."
+  ]
+ },
+ {
+  "n": 3,
+  "d": "2024 Q48",
+  "q": "Which of the following is correct?",
+  "qs": "පහත කවරක් නිවැරදි වේ ද?",
+  "o": [
+   "Arduino Uno is the protocol used for setting up simple IoT applications.",
+   "LDR and LED are sensors used in Arduino Uno based IoT applications.",
+   "Serial.begin(9600) provides a valid baud rate to initiate the serial communication between the Arduino Uno board and the computer.",
+   "Since Arduino Uno does not have a hard disk it is not subjected to unauthorized data access.",
+   "An ethernet shield must be connected to the four pins between A0 – A5 of the ATMega328P microcontroller."
+  ],
+  "os": [
+   "ආඩුයිනෝ උනෝ යනු සරල ද්‍රව්‍ය අන්තර්ජාල යෙදුම් ඇටවීමට භාවිත කරන නියමාවලියයි.",
+   "LDR හා LED යනු, ආඩුයිනෝ උනෝ මත පදනම් වූ IoT යෙදුම් සඳහා භාවිත වන සංවේදක වේ.",
+   "ආඩුයිනෝ උනෝ පුවරුව හා පරිගණකයක් අතර ශ්‍රේණිගත සන්නිවේදනයක් මුල පිරීමට Serial.begin(9600) වලංගු බීඩ් ශීඝ්‍රතාවක් සපයයි.",
+   "ආඩුයිනෝ උනෝට දෘඪ තැටියක් නැති නිසා එයට අනවසර දත්ත ප්‍රවේශයන් සිදුවීමට ඉඩ නොමැත.",
+   "ATMega328P ක්ෂුද්‍ර පාලකයෙහි A0 – A5 අතර තුඩු හතරට ඊතරනෙට් පළිහක් සම්බන්ධ කළ යුතුම ය."
+  ]
+ },
+ {
+  "n": 4,
+  "d": "2025 Q44",
+  "q": "Which of the following statements are true?\nA - Even when analog inputs are given to the digital pins of an Arduino board, they are read as analog values.\nB - The USB port of an Arduino board can also be used to supply DC (direct current) electric power to it.\nC - To input the room temperature to an Arduino board, the Vout pin of the LM35 temperature sensor could be used.",
+  "qs": "පහත කවර වගන්ති නිවැරදි වේ ද?\nA - ප්‍රතිසම ආදාන, ආඩුයිනෝ පුවරුවක ඩිජිටල් අංකිත තුඩු වෙත ලබාදෙනු ලැබුව ද, ඒවා කියවෙන්නේ ප්‍රතිසම අගයන් ලෙසය.\nB - ආඩුයිනෝ පුවරුවක USB කෙවෙනිය, එම පුවරුවට සරල ධාරා විද්‍යුත් බලය සැපයීමට ද භාවිත කළ හැකි ය.\nC - කාමර උෂ්ණත්වය ආඩුයිනෝ පුවරුවකට ආදානය කිරීමට LM35 උෂ්ණත්ව සංවේදකයේ Vout තුඩුව භාවිත කළ හැකි ය.",
+  "o": [
+   "A only",
+   "A and B only",
+   "A and C only",
+   "B and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි",
+   "ඉහත සියල්ලම"
+  ]
+ },
+ {
+  "n": 5,
+  "d": "2025 Q45",
+  "q": "Consider the following code with labels P-S to answer questions 45 and 46. The code has been designed for an Arduino board to switch on/off a motor based on room temperature.\nconst int sensorPin = A0;\nconst int motorPin = 8;\n\nvoid setup() {\n    pinmode(motorPin, P );\n}\n\nvoid loop() {\n    int sensorValue = Q (sensorPin);\n    float voltage = sensorValue * 5.0 / 1024;\n    float temp = voltage * 100;\n    if (temp > 40)\n        R (S , HIGH);\n    else\n        R (S , Low);\n}\n\nWhich of the following contains the correct replacements for the labels?",
+  "qs": "ප්‍රශ්න අංක 45 සහ 46 සඳහා පිළිතුරු සැපයීමට P-S ලේබල සහිත පහත කේත කොටස සලකන්න. ආඩුයිනෝ පුවරුවක් සඳහා එම කේතය සැලසුම් කර ඇත්තේ කාමර උෂ්ණත්වයට අනුව මෝටරයක් පණගැන්වීමට සහ ක්‍රියාවිරහිත කිරීමටය.\nලේබල සඳහා නිවැරදි ආදේශක අඩංගු වන්නේ පහත කවරක ද?",
+  "o": [
+   "P – INPUT, Q – analogRead, R – digitalWrite, S – motorPin",
+   "P – INPUT, Q – digitalWrite, R – analogRead, S – motorPin",
+   "P – OUTPUT, Q – analogRead, R – digitalWrite, S – motorPin",
+   "P – OUTPUT, Q – analogRead, R – digitalWrite, S – sensorPin",
+   "P – OUTPUT, Q – digitalWrite, R – analogRead, S – sensorPin"
+  ]
+ },
+ {
+  "n": 6,
+  "d": "2025 Q46",
+  "q": "(Refer to the code in question 45:\nconst int sensorPin = A0;\nconst int motorPin = 8;\n\nvoid setup() {\n    pinmode(motorPin, P );\n}\n\nvoid loop() {\n    int sensorValue = Q (sensorPin);\n    float voltage = sensorValue * 5.0 / 1024;\n    float temp = voltage * 100;\n    if (temp > 40)\n        R (S , HIGH);\n    else\n        R (S , Low);\n})\nWhich of the following statements are true?\nA - The input from the temperature sensor could have been connected to any of the pins A1-A5 as well but then the 'const int sensorPin = A0;' line in the code should be changed to reflect that change.\nB - The motor should be connected to a GND pin of the Arduino board.\nC - The above code when correctly completed can be compiled and uploaded through the USB port to the Arduino microcontroller by using the 'Upload' button in the Arduino IDE.",
+  "qs": "පහත කවර වගන්ති සත්‍ය වේ ද?\nA - උෂ්ණත්ව සංවේදකයේ ආදානය A1-A5 තුඩුවලින් ඕනෑම එකකට සම්බන්ධ කිරීමට හැකියාව තිබුණ ද, එවිට එම කේතයේ 'const int sensorPin = A0;' පේළිය ඒ අනුව වෙනස් කළ යුතු ය.\nB - මෝටරය ආඩුයිනෝ පුවරුවේ GND තුඩුවකට සම්බන්ධ කළ යුතු ය.\nC - ඉහත කේතය නිවැරදිව සම්පූර්ණ කිරීමෙන් පසු, එය සම්පාදනය කර Arduino IDE හි 'Upload' බොත්තම භාවිත කර, USB කෙවෙනිය හරහා ආඩුයිනෝ ක්ෂුද්‍ර පාලකයට උඩුගත කළ හැකි ය.",
+  "o": [
+   "A only",
+   "A and B only",
+   "A and C only",
+   "B and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි",
+   "ඉහත සියල්ලම"
+  ]
+ },
+ {
+  "n": 7,
+  "d": "2025 Q47",
+  "q": "Which of the following statements are true?\nA - IPv6 is highly suitable for scalability and efficient operation of Internet of Things (IOT).\nB - Once added to the Arduino board, an Ethernet Shield facilitates the board to connect to the Internet.\nC - Static IP addresses cannot be used for IOT devices.",
+  "qs": "පහත කවර වගන්ති සත්‍ය වේ ද?\nA - සර්ව ද්‍රව්‍ය අන්තර්ජාලයේ පරිමාණය ඉහළ නැංවීමට සහ වඩාත් කාර්යක්ෂමව ක්‍රියාකාරීත්වයට IPv6 වඩාත් යෝග්‍යවේ.\nB - ආඩුයිනෝ පුවරුවකට ඊතරනෙට් ශීල්ඩ් එකක් එක් කළ පසු එය පුවරුවට අන්තර්ජාලයට සම්බන්ධ වීමට පහසුකම සපයයි.\nC - සර්ව ද්‍රව්‍ය අන්තර්ජාල උපාංග සඳහා ස්ථිතික IP ලිපින භාවිත කළ නොහැක.",
+  "o": [
+   "A only",
+   "A and B only",
+   "A and C only",
+   "B and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි",
+   "ඉහත සියල්ලම"
+  ]
+ }
+]

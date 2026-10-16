@@ -1,0 +1,255 @@
+[
+ {
+  "n": 1,
+  "d": "2011 Q31",
+  "q": "Consider the following statements:\nA - Customer can obtain the services while he/she is at his/her home or office.\nB - Payments can be made without using currency notes.\nC - Customer is open to a large international service provider base.\nD - Service provider is open to a larger international customer base.\nE - Security of payments are always guaranteed.\nWhich of the above are advantages in e-commerce compared to traditional commerce?",
+  "qs": "පහත දැක්වෙන ප්‍රකාශ සලකා බලන්න.\nA - පාරිභෝගිකයා තමන්ගේ නිවසේ හෝ කාර්යාලයේ සිටිමින් සේවා ලබාගත හැකිය.\nB - මුදල් නෝට්ටු භාවිතයෙන් තොරව ගෙවීම් කළ හැකිය.\nC - පාරිභෝගිකයාට විශාල ජාත්‍යන්තර සේවා සපයන්නන් පදනමකට ප්‍රවේශය ඇත.\nD - සේවා සපයන්නාට විශාල ජාත්‍යන්තර පාරිභෝගික පදනමකට ප්‍රවේශය ඇත.\nE - ගෙවීම්වල ආරක්ෂාව සැමවිටම සහතික කෙරේ.\nසාම්ප්‍රදායික වාණිජ්‍යයට සාපේක්ෂව ඊ-වාණිජ්‍යයේ ඇති වාසි වන්නේ ඉහත දැක්වෙන කවර ඒවා ද?",
+  "o": [
+   "A, B and C only.",
+   "A, B and D only.",
+   "A, C and D only.",
+   "A, B, C and D only.",
+   "B, C, D and E only."
+  ],
+  "os": [
+   "A, B හා C පමණි.",
+   "A, B හා D පමණි.",
+   "A, C හා D පමණි.",
+   "A, B, C හා D පමණි.",
+   "B, C, D හා E පමණි."
+  ]
+ },
+ {
+  "n": 2,
+  "d": "2011 Q32",
+  "q": "Consider the following statements with respect to on-line services:\nA - Customer should have access to on-line services.\nB - Customer should possess an electronic mechanism to make payments.\nC - At the time of placing the order for an item, the identity of the customer should be established.\nD - Service provider should provide on-line services.\nE - Both the customer and the service provider should be in the same geographical region.\nWhich of the above items are essential in on-line ordering?",
+  "qs": "මාර්ගගත සේවා පිළිබඳව පහත දැක්වෙන ප්‍රකාශ සලකා බලන්න.\nA - පාරිභෝගිකයාට මාර්ගගත සේවා ප්‍රවේශ හැකියාව තිබිය යුතු වීම.\nB - පාරිභෝගිකයාට ගෙවීම් කිරීම සඳහා ඉලෙක්ට්‍රොනික යාන්ත්‍රණයක් තිබිය යුතු වීම.\nC - කිසියම් භාණ්ඩයක් සඳහා ඇණවුම් කරන විටදී පාරිභෝගිකයාගේ අනන්‍යතාව තහවුරු කළ යුතු වීම.\nD - සේවාදායකයා මාර්ගගත සේවා සපයිය යුතු වීම.\nE - පාරිභෝගිකයා සහ සේවාදායකයා යන දෙදෙනාම එකම භූගෝලීය ප්‍රදේශයක සිටිය යුතු වීම.\nමාර්ගගත ඇණවුමකදී අත්‍යවශ්‍ය වන්නේ කවරක් ද?",
+  "o": [
+   "A and B only.",
+   "A, B and C only.",
+   "A, B and D only.",
+   "A, C, D and E only.",
+   "B, D and E only."
+  ],
+  "os": [
+   "A හා B පමණි.",
+   "A, B හා C පමණි.",
+   "A, B හා D පමණි.",
+   "A, C, D හා E පමණි.",
+   "B, D හා E පමණි."
+  ]
+ },
+ {
+  "n": 3,
+  "d": "2012 Q30",
+  "q": "A person employed in an overseas country placed an on-line order to deliver a birthday present to his mother who is living in Sri Lanka, using the web-based services of a company. This transaction of ordering the birthday present could be best classified as,",
+  "qs": "විදේශ රටක සේවය කරන පුද්ගලයෙක් ශ්‍රී ලංකාවේ වෙසෙන සිය මවට යම් සමාගමක වෙබ් පාදක සේවා උපයෝගී කරගනිමින් උපන්දින තෑගැයක් ලැබෙන්නට සැලැස්වීම සඳහා මාර්ගගත ඇණවුමක් කරයි. උපන්දින තෑගැයක් ඇණවුම් කිරීමේ මෙම ගනුදෙනුව වඩාත්ම හොඳින් වර්ගීකරණය කළ හැක්කේ,",
+  "o": [
+   "Consumer to Retailer",
+   "Consumer to Business",
+   "Business to Consumer",
+   "Business to Business",
+   "Employee to Business."
+  ],
+  "os": [
+   "පාරිභෝගිකයාගෙන් සිල්ලර වෙළෙන්දාට ලෙස ය.",
+   "පාරිභෝගිකයාගෙන් ව්‍යාපාරයට ලෙස ය.",
+   "ව්‍යාපාරයෙන් පාරිභෝගිකයාට ලෙස ය.",
+   "ව්‍යාපාරයෙන් ව්‍යාපාරයට ලෙස ය.",
+   "සේවකයාගෙන් ව්‍යාපාරයට ලෙස ය."
+  ]
+ },
+ {
+  "n": 4,
+  "d": "2013 Q22",
+  "q": "Consider the following attributes related to business:\nA - Speed of services\nB - Purchase and distribution\nC - Security of goods sent\nD - Confidence in quality of items ordered\nWhich of the above is/are disadvantage(s) of e-business?",
+  "qs": "ව්‍යාපාරයකට සම්බන්ධ පහත දැක්වෙන උපලක්ෂණ සලකන්න:\nA - සේවා සැපයීමේ වේගය\nB - මිල දී ගැනීම සහ බෙදා හැරීම\nC - යැවූණු භාණ්ඩවල ආරක්ෂාව\nD - ඉල්ලුම් කරන ලද අයිතමවල ගුණාත්මකභාවය පිළිබඳ විශ්වසනීයභාවය\nව්‍යාපාරවල දී අවාසි/අවාසියක් වන්නේ ඉහත සඳහන් දෑ අතුරින්",
+  "o": [
+   "A only.",
+   "C only.",
+   "A and B only.",
+   "C and D only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "C හා D පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 5,
+  "d": "2014 Q24",
+  "q": "Which of the following statements is true?",
+  "qs": "පහත සඳහන් කුමන වගන්තිය සත්‍ය වන්නේ ද?",
+  "o": [
+   "www.ebay.com is an example for C2C.",
+   "When the government renders its services to the public through www then it is called B2C.",
+   "www.wikipedia.com is an example for C2B.",
+   "www.amazon.com is an example for B2E.",
+   "Facebook groups are examples for E2C."
+  ],
+  "os": [
+   "www.ebay.com යනු C2C සඳහා උදාහරණයකි.",
+   "රජය ඔවුන්ගේ සේවා, ලෝක විසිරී වියමන හරහා ජනතාව වෙත ලබාදීම B2C ලෙස හැඳින්වේ.",
+   "www.wikipedia.com යනු C2B සඳහා උදාහරණයකි.",
+   "www.amazon.com යනු B2E සඳහා උදාහරණයකි.",
+   "ෆේස්බුක් හි කණ්ඩායම් E2C සඳහා උදාහරණ වේ."
+  ]
+ },
+ {
+  "n": 6,
+  "d": "2015 Q14",
+  "q": "Some provinces in Sri Lanka currently issue revenue licenses for motor vehicles online. Which of the following is the correct business type for this service?",
+  "qs": "ශ්‍රී ලංකාවේ සමහර පළාත්වල රථවාහන සඳහා ආදායම් බලපත්‍ර මාර්ගගතව ලබා දෙයි. මෙම සේවාව සඳහා නිවැරදි ව්‍යාපාර වර්ගය පහත සඳහන් දෑ අතුරෙන් කුමක් ද?",
+  "o": [
+   "B2C",
+   "B2B",
+   "C2B",
+   "B2E",
+   "G2C"
+  ]
+ },
+ {
+  "n": 7,
+  "d": "2016 Q14",
+  "q": "Which of the followings is true about e-commerce?",
+  "qs": "විද්‍යුත් වාණිජ්‍යය සම්බන්ධයෙන් සත්‍ය වන්නේ පහත සඳහන් කවරක් ද?",
+  "o": [
+   "It could be a part of e-business.",
+   "It helps to combine multiple business processes into a single information system.",
+   "It is a collection of platforms created for business and their customers to interact.",
+   "www.google.com is a popular e-commerce web site.",
+   "There are no Sri Lankan companies doing e-commerce yet."
+  ],
+  "os": [
+   "එය විද්‍යුත් ව්‍යාපාරවල කොටසක් විය හැකි ය.",
+   "එය බහුවිධ ව්‍යාපාර ක්‍රියාවලි තනි තොරතුරු පද්ධතියකට ඒකාබද්ධ කිරීමට උපකාරී කරයි.",
+   "එය ව්‍යාපාර සහ ඒවායේ පාරිභෝගිකයන්ට අන්තර්ක්‍රියා කිරීම සඳහා සැකසූ වේදිකා සමූහයකි.",
+   "www.google.com යනු ජනප්‍රිය විද්‍යුත් වාණිජ්‍ය වෙබ් අඩවියකි.",
+   "විද්‍යුත් වාණිජ්‍ය සිදු කරනු ලබන ශ්‍රී ලාංකික සමාගම් දැනට නොමැත."
+  ]
+ },
+ {
+  "n": 8,
+  "d": "2017 Q26",
+  "q": "Which of the following statements is true about e-business?",
+  "qs": "විද්‍යුත් ව්‍යාපාර සම්බන්ධයෙන් පහත දැක්වෙන කුමන වගන්තිය සත්‍ය වේ ද?",
+  "o": [
+   "It is a business process which conducts partially on online.",
+   "It consists of front-end and back-end online processes.",
+   "All 'brick vendors' conduct their business on online.",
+   "Any e-commerce application is an e-business application.",
+   "Any e-business application is an e-commerce application."
+  ],
+  "os": [
+   "එය අර්ධ වශයෙන් මාර්ගගතව පවත්වාගෙන යන ව්‍යාපාර ක්‍රියාවලියකි.",
+   "එය පෙර අන්ත සහ පසු අන්ත මාර්ගගත ක්‍රියාවලිවලින් සමන්විත වේ.",
+   "සියලු 'brick' ව්‍යාපාරිකයින් ඔවුන්ගේ ව්‍යාපාර මාර්ගගතව පවත්වයි.",
+   "ඕනෑම විද්‍යුත් වාණිජ්‍ය යෙදුමක් විද්‍යුත් ව්‍යාපාර යෙදුමකි.",
+   "ඕනෑම විද්‍යුත් ව්‍යාපාර යෙදුමක් විද්‍යුත් වාණිජ්‍ය යෙදුමකි."
+  ]
+ },
+ {
+  "n": 9,
+  "d": "2018 Q31",
+  "q": "Consider the following statements related to e-business.\nA - Brick-and-click is a business model by which a company integrates both offline and online presence of the business.\nB - Pure-brick is a business model in which a company has only a physical presence.\nC - Pure-click business has the presence only on the Internet.\nWhich of the above statements is/are correct regarding e-business models?",
+  "qs": "ඊ-ව්‍යාපාර සම්බන්ධ පහත ප්‍රකාශ සලකන්න.\nA - බ්‍රික් හා ක්ලික් යනු යම් සමාගමකට මාර්ගගත නොවන හා මාර්ගගතව යන දෙක එකට එකතු කර ඉදිරිපත් කළ හැකි ව්‍යාපාර ආකෘතියකි.\nB - පියෝ බ්‍රික් යනු යම් සමාගමකට භෞතික පැවැත්මක් පමණක් ඇති ව්‍යාපාර ආකෘතියකි.\nC - පියෝ ක්ලික් ව්‍යාපාරවලට අන්තර්ජාලය මත පමණක් පැවැත්ම ඇත.\nව්‍යාපාර ආකෘති සම්බන්ධයෙන් ඉහත කවර වගන්ති/යක් නිවැරදි වේ ද?",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා C පමණි",
+   "ඉහත සියල්ලම"
+  ]
+ },
+ {
+  "n": 10,
+  "d": "2019 Q05",
+  "q": "Consider the following activities related to e-commerce.\nA - online purchase of a pair of shoes.\nB - online purchase of an e-book of your favourite novel.\nC - online booking of a taxi to the airport from your home.\nWhich of the above activities represent/s the pure-click type business model?",
+  "qs": "ඊ-වාණිජ්‍යයට සම්බන්ධ පහත දැක්වෙන ක්‍රියාවලි සලකන්න.\nA - සපත්තු ජෝඩුවක් මාර්ගගතව මිලදී ගැනීම.\nB - ඔබගේ ප්‍රියතම නවකතාවෙහි ඉලෙක්ට්‍රොනික පිටපතක් මාර්ගගතව මිලදී ගැනීම.\nC - ඔබේ නිවසේ සිට ගුවන්තොටුපොළ වෙත යෑමට කුලී රථයක් මාර්ගගතව වෙන් කරගැනීම.\nඉහත ක්‍රියාවලි අතුරෙන් කවරක් පියෝ-ක්ලික් ව්‍යාපාර ආකෘතිය නිරූපණය කරයි ද?",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and C only",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි"
+  ]
+ },
+ {
+  "n": 11,
+  "d": "2020 Q48",
+  "q": "Which of the following statements related to e-commerce are true?\nA - A particular product may be available at different prices at different e-commerce sites.\nB - Payment option at the receipt of goods allows customers to verify the quality of their purchases made through the e-commerce site.\nC - Additional charges can be included as delivery and service fees over and above the stated price.",
+  "qs": "ඊ-වාණිජ්‍යය සම්බන්ධයෙන් පහත කවර වගන්තියක් සත්‍ය වේ ද?\nA - කිසියම් භාණ්ඩයක් විවිධ ඊ-වාණිජ්‍ය අඩවිවල විවිධ මිල ගණන්වලට තිබිය හැකි ය.\nB - භාණ්ඩ භාරගැනීමේ අවස්ථාවෙහි මුදල් ගෙවීමට ඉඩ දීමෙන්, පාරිභෝගිකයන්ට ඊ-වාණිජ්‍ය අඩවිය හරහා තමන් මිලදීගත් භාණ්ඩයේ තත්ත්වය පරීක්ෂා කළ හැකි ය.\nC - සඳහන් කළ මිලට අමතරව ප්‍රවාහන හා සේවා ගාස්තු ලෙස අමතර මිලක් ඇතුළත් කළ හැකි ය.",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා C පමණි",
+   "ඉහත සියල්ලම"
+  ]
+ },
+ {
+  "n": 12,
+  "d": "2021 Q30",
+  "q": "Which of the following statements is/are correct?\nA - Business Process Re-engineering helps to modify the existing business practices to fit with Commercial-Off-The-Shelf (COTS) software.\nB - Users may have to pay for certain features of COTS even if those are not needed.\nC - A well developed custom software can bring a competitive advantage to an organization.",
+  "qs": "පහත කවර වගන්ති නිවැරදි වේ ද?\nA - ව්‍යාපාර ක්‍රියාවලි ප්‍රති-ඉංජිනේරුකරණය දැනට පවතින ව්‍යාපාර ක්‍රියාමාර්ග, වාණිජ පෙර නිමි පැකේජ වලට ගැළපෙන පරිදි වෙනස් කිරීමට උදව් වේ.\nB - පෙර නිමි පැකේජවල ඇති ඇතැම් අනවශ්‍ය විශේෂාංග වෙනුවෙන් මුදල් ගෙවීමට පරිශීලකයන්ට සිදුවීමට ඉඩ ඇත.\nC - ආයතනයක අවශ්‍යතා අනුව එම ආයතනය සඳහා විශේෂයෙන් සහ හොඳින් සකසා ඇති මෘදුකාංගයකින් එම ආයතනයට තරඟකාරී වාසියක් ලබාදීමට ඉඩ ඇත.",
+  "o": [
+   "A only",
+   "B only",
+   "A and B only",
+   "B and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "A හා B පමණි",
+   "B හා C පමණි",
+   "ඉහත සියල්ලම"
+  ]
+ },
+ {
+  "n": 13,
+  "d": "2022 Q50",
+  "q": "Which of the following statements is/are correct?\nA - E-Commerce encourages to minimize physical interactions between buyers and sellers.\nB - The main purpose of sending a One Time Password (OTP) to a credit card holder's mobile phone during an online payment is to identify the current location of the card owner.\nC - Bitcoin is a leading virtual currency.",
+  "qs": "පහත සඳහන් කුමන ප්‍රකාශ/ය නිවැරදි වේ ද?\nA - ඊ-වාණිජ්‍යය ගැනුම්කරුවන් සහ විකුණුම්කරුවන් අතර භෞතික අන්තර්ක්‍රියා අවම කිරීම දිරිමත් කරයි.\nB - මාර්ගගත ගෙවීමක් අතරතුර ණය පත් හිමිකරුගේ ජංගම දුරකථනයට එක්වරක් පමණක් භාවිත කළ හැකි මුරපදයක් යැවීමේ ප්‍රධාන අරමුණ වන්නේ කාඩ්පත් හිමිකරු දැන් සිටින ස්ථානය හඳුනාගැනීමයි.\nC - Bitcoin යනු ප්‍රමුඛ අතථ්‍ය මුදල් ඒකකයකි.",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and C only",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි"
+  ]
+ }
+]

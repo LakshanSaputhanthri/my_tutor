@@ -1,0 +1,739 @@
+[
+ {
+  "n": 1,
+  "d": "2011 Q10",
+  "q": "Which of the following best describes the order of the testing conducted in the software development process?",
+  "qs": "මෘදුකාංග සංවර්ධන ක්‍රියාවලියක (Software development process) පිරික්සුම් (Testing) පැවැත්වීමේ පටිපාටිය වඩාත් හොඳින් විස්තර කෙරෙන්නේ පහත දැක්වෙන කවරක් මගින් ද?",
+  "o": [
+   "Acceptance testing, integrated testing, unit testing.",
+   "Integrated testing, acceptance testing, unit testing.",
+   "Integrated testing, unit testing, acceptance testing.",
+   "Unit testing, acceptance testing, integrated testing.",
+   "Unit testing, integrated testing, acceptance testing."
+  ],
+  "os": [
+   "ප්‍රතිග්‍රහණ පිරික්සුම්, අනුකලිත පිරික්සුම්, ඒකක පිරික්සුම",
+   "අනුකලිත පිරික්සුම්, ප්‍රතිග්‍රහණ පිරික්සුම්, ඒකක පිරික්සුම",
+   "අනුකලිත පිරික්සුම්, ඒකක පිරික්සුම්, පිළිගැනුම් පිරික්සුම",
+   "ඒකක පිරික්සුම්, ප්‍රතිග්‍රහණ පිරික්සුම්, අනුකලිත පිරික්සුම",
+   "ඒකක පිරික්සුම්, අනුකලිත පිරික්සුම්, ප්‍රතිග්‍රහණ පිරික්සුම"
+  ]
+ },
+ {
+  "n": 2,
+  "d": "2011 Q11",
+  "q": "Which of the following is a classification of systems?",
+  "qs": "පහත දැක්වෙන ඒවා අතුරෙන් පද්ධති වර්ගීකරණයක් වන්නේ කුමක් ද?",
+  "o": [
+   "Close and hybrid",
+   "Natural and structured",
+   "Open and close",
+   "Open and structured",
+   "Structured and hybrid"
+  ],
+  "os": [
+   "සංවෘත හා දෙමුහුම්",
+   "ස්වභාවික හා ව්‍යුහගත",
+   "විවෘත හා සංවෘත",
+   "විවෘත හා ව්‍යුහගත",
+   "ව්‍යුහගත හා දෙමුහුම්"
+  ]
+ },
+ {
+  "n": 3,
+  "d": "2011 Q12",
+  "q": "A banking system could be best considered as a/an,",
+  "qs": "බැංකු පද්ධතියක් වඩාත්ම හොඳින් සලකාලිය හැක්කේ,",
+  "o": [
+   "embedded system.",
+   "enterprise resource planning system.",
+   "expert system.",
+   "knowledge management system.",
+   "transaction processing system."
+  ],
+  "os": [
+   "කාවැද්දු පද්ධතියක් ලෙස ය.",
+   "ව්‍යවසායක සම්පත් සැලසුම් පද්ධතියක් ලෙස ය.",
+   "විශේෂඥ පද්ධතියක් ලෙස ය.",
+   "දැනුම් කළමනාකරණ පද්ධතියක් ලෙස ය.",
+   "ගනුදෙනු සැකසුම් පද්ධතියක් ලෙස ය."
+  ]
+ },
+ {
+  "n": 4,
+  "d": "2011 Q35",
+  "q": "Consider the following items:\nA - Object oriented\nB - Rapid Application Development\nC - Spiral\nD - Structured\nE - Waterfall\n\"..................., ................... and ................... are system development methodologies.\"\nWhich of the above are most appropriate respectively to fill the blanks in the above statement?",
+  "qs": "පහත සඳහන් අයිතම සලකන්න:\nA - වස්තු නැඹුරු\nB - ශීඝ්‍ර යෙදුම් සංවර්ධන\nC - සර්පිලාකාර\nD - ව්‍යුහගත\nE - දියඇලි\n\"..................., ................... සහ ................... යනු පද්ධති සංවර්ධන ක්‍රමවේද වේ\".\nමෙම ප්‍රකාශයේ හිස්තැන් පිරවීම සඳහා වඩාත්ම සුදුසු වන්නේ ඉහත දැක්වෙන කවර ඒවා ද?",
+  "o": [
+   "A, B and C only.",
+   "A, C and D only.",
+   "B, C and D only.",
+   "B, C and E only.",
+   "B, D and E only"
+  ],
+  "os": [
+   "A, B හා C පමණි.",
+   "A, C හා D පමණි.",
+   "B, C හා D පමණි.",
+   "B, C හා E පමණි.",
+   "B, D හා E පමණි."
+  ]
+ },
+ {
+  "n": 5,
+  "d": "2012 Q10",
+  "q": "Human blood circulatory system can be classified as a,",
+  "qs": "මනුෂ්‍ය රුධිර සංසරණ පද්ධතිය වර්ගීකරණ කළ හැක්කේ,",
+  "o": [
+   "natural and closed system",
+   "artificial and closed system",
+   "artificial and open system",
+   "natural and open system",
+   "natural and artificial system"
+  ],
+  "os": [
+   "ස්වාභාවික සහ සංවෘත පද්ධතියක් ලෙස ය.",
+   "කෘත්‍රිම සහ සංවෘත පද්ධතියක් ලෙස ය.",
+   "කෘත්‍රිම සහ විවෘත පද්ධතියක් ලෙස ය.",
+   "ස්වාභාවික සහ විවෘත පද්ධතියක් ලෙස ය.",
+   "ස්වාභාවික සහ කෘත්‍රිම පද්ධතියක් ලෙස ය."
+  ]
+ },
+ {
+  "n": 6,
+  "d": "2012 Q11",
+  "q": "Which of the following best describes a non-functional requirement of a mobile phone?",
+  "qs": "ජංගම දුරකථනයක කාර්ය බද්ධ නොවන (non-functional) අවශ්‍යතාවක් හොඳින්ම විස්තර කෙරෙන්නේ පහත සඳහන් කවරක් මගින් ද?",
+  "o": [
+   "Sending a short message",
+   "Receiving a telephone call",
+   "Selecting a number from the contact list",
+   "Making a telephone call",
+   "Having one year warranty for the battery"
+  ],
+  "os": [
+   "කෙටි පණිවුඩයක් යැවීම",
+   "දුරකථන ඇමතුමක් ලබාගැනීම",
+   "සම්බන්ධ අයගේ ලැයිස්තුවෙන් අංකයක් තෝරාගැනීම",
+   "දුරකථන ඇමතුමක් ලබාදීම",
+   "බැටරිය සඳහා අවුරුද්දක වගකීමේ කාලයක් තිබීම"
+  ]
+ },
+ {
+  "n": 7,
+  "d": "2012 Q12",
+  "q": "An electronic washing machine can be considered as a/an,",
+  "qs": "ඉලෙක්ට්‍රොනික සේදුම් යන්ත්‍රයක් වඩාත්ම හොඳින් සලකිය හැක්කේ,",
+  "o": [
+   "Information system",
+   "Automated system",
+   "Expert system",
+   "Management support system",
+   "Transaction processing system"
+  ],
+  "os": [
+   "තොරතුරු පද්ධතියක් ලෙස ය.",
+   "ස්වයංක්‍රීය පද්ධතියක් ලෙස ය.",
+   "විශේෂඥ පද්ධතියක් ලෙස ය.",
+   "කළමනාකරණ උපකාරක පද්ධතියක් ලෙස ය.",
+   "ගනුදෙනු සැකසුම් පද්ධතියක් ලෙස ය."
+  ]
+ },
+ {
+  "n": 8,
+  "d": "2012 Q21",
+  "q": "Consider the following models:\nA - Network\nB - Waterfall\nC - Relational\nWhich of the above is a/are database model/s?",
+  "qs": "පහත සඳහන් ආදර්ශ (models) සලකන්න:\nA - ජාල\nB - දිය ඇලි\nC - සම්බන්ධක\nඉහත ඒවා අතුරෙන් කුමක්/කුමන ඒවා දත්ත සමුද්‍ර ආදර්ශයක්/ආදර්ශ වේ ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "A and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි."
+  ]
+ },
+ {
+  "n": 9,
+  "d": "2013 Q25",
+  "q": "Which of the following is a testing Strategy which considers the internal implementation of a program into account?",
+  "qs": "ක්‍රමලේඛයක අභ්‍යන්තරික ක්‍රියාකාරීත්වය සලකා බලන පරීක්ෂණ උපක්‍රමය (testing strategy) වන්නේ කවරක් ද?",
+  "o": [
+   "Black box testing",
+   "White box testing",
+   "Integration testing",
+   "Acceptance testing",
+   "Unit testing"
+  ],
+  "os": [
+   "කළු මංජුසා පරීක්ෂණය",
+   "ශ්වේත මංජුසා පරීක්ෂණය",
+   "අනුකලන පරීක්ෂණය",
+   "පිළිගැනුම් පරීක්ෂණය",
+   "ඒකක පරීක්ෂණය"
+  ]
+ },
+ {
+  "n": 10,
+  "d": "2013 Q26",
+  "q": "Which of the following information System development models has an extremely short and linear development process?",
+  "qs": "පහත සඳහන් තොරතුරු පද්ධති සංවර්ධන ආකෘතිවලින් ඉතා ම කෙටි සහ රේඛීය සංවර්ධන ක්‍රියාවලියක් ඇත්තේ කුමකට ද?",
+  "o": [
+   "Waterfall model",
+   "Object-Oriented model",
+   "Spiral model",
+   "Incremental Development model",
+   "Rapid Application Development model"
+  ],
+  "os": [
+   "දිය ඇලි ආකෘතිය",
+   "වස්තු නැඹුරු ආකෘතිය",
+   "සර්පිලාකාර ආකෘතිය",
+   "වර්ධනාත්මක සංවර්ධන ආකෘතිය",
+   "ශීඝ්‍ර යෙදුම් සංවර්ධන ආකෘතිය"
+  ]
+ },
+ {
+  "n": 11,
+  "d": "2013 Q28",
+  "q": "Consider the following data flow diagram:\n[Figure: DFD. An ellipse labelled A has an arrow pointing to a process box (B1 | B2 header row, B3 in the body). The process box B3 and a data store box (C1 | C2) are connected by a double-headed arrow.]\nIn the above data flow diagram A, B3 and C2 represent ................................ respectively. Which of the following terms is the most appropriate to fill the blank?",
+  "qs": "පහත දක්වා ඇති දත්ත ගැලීම් සටහන (DFD) සලකන්න:\n[රූපය: A ඉලිප්සයෙන් B1|B2 / B3 ක්‍රියාවලි පෙට්ටියට ඊතලයක්; B3 සහ C1|C2 දත්ත ගබඩාව අතර ද්විත්ව ඊතලයක්]\nඉහත දත්ත ගැලීම් සටහනේ A, B3 සහ C2 මගින් නිරූපණය වන්නේ පිළිවෙලින්,",
+  "o": [
+   "a process, an external entity and a data store",
+   "an external entity, a process and a data store",
+   "an external entity, a data store and a process",
+   "a data store, a process and an external entity",
+   "a data store, an external entity and a process"
+  ],
+  "os": [
+   "ක්‍රියාවලියක්, බාහිර භූතාර්ථයක්, සහ දත්ත ගබඩාවකි.",
+   "බාහිර භූතාර්ථයක්, ක්‍රියාවලියක් සහ දත්ත ගබඩාවකි.",
+   "බාහිර භූතාර්ථයක්, දත්ත ගබඩාවක් සහ ක්‍රියාවලියකි.",
+   "දත්ත ගබඩාවක්, ක්‍රියාවලියක් සහ බාහිර භූතාර්ථයකි.",
+   "දත්ත ගබඩාවක්, බාහිර භූතාර්ථයක් සහ ක්‍රියාවලියකි."
+  ]
+ },
+ {
+  "n": 12,
+  "d": "2013 Q29",
+  "q": "Consider the following systems in a human body:\nA - respiratory system\nB - digestive system\nC - nervous system\nD - blood circulatory system\nWhich of the above are closed systems?",
+  "qs": "මිනිස් සිරුරක අඩංගු පහත සඳහන් පද්ධති සලකන්න:\nA - ශ්වසන පද්ධතිය\nB - ආහාර ජීර්ණ පද්ධතිය\nC - ස්නායු පද්ධතිය\nD - රුධිර සංසරණ පද්ධතිය\nඉහත පද්ධති අතුරෙන් සංවෘත පද්ධති වන්නේ කුමන ඒවා ද?",
+  "o": [
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "B and D only.",
+   "C and D only"
+  ],
+  "os": [
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "B හා D පමණි.",
+   "C හා D පමණි."
+  ]
+ },
+ {
+  "n": 13,
+  "d": "2013 Q30",
+  "q": "Which of the following statements best describes a non functional requirement of a system?",
+  "qs": "පද්ධතියක කාර්යබද්ධ නොවන අවශ්‍යතාවක් වඩා හොඳින් විස්තර කරනු ලබන්නේ පහත සඳහන් කුමන වගන්තිය ද?",
+  "o": [
+   "A user shall be able to measure the blood pressure using an electronic blood pressure meter.",
+   "A microwave oven should not exceed its temperature above 400°C.",
+   "An electronic calculator should be able to compute square root of a given positive integer.",
+   "An Automatic Teller Machine of a bank shall be able to check the validity of an ATM card.",
+   "An internet banking system shall provide balance inquiry facility to its customers"
+  ],
+  "os": [
+   "පරිශීලකයකුට ඉලෙක්ට්‍රොනික රුධිර පීඩන මාපක යන්ත්‍රයක් භාවිතයෙන් රුධිර පීඩනය මැන ගත හැකි විය යුතු වීම",
+   "ක්ෂුද්‍ර තරංග උදුනක උෂ්ණත්වය 400° C ට වඩා වැඩි නොවිය යුතු වීම",
+   "ඉලෙක්ට්‍රොනික ගණක යන්ත්‍රයකට දෙන ලද ධන නිඛිලයක වර්ගමූලය ගණනය කළ හැකි විය යුතු වීම",
+   "බැංකුවක ස්වයංක්‍රීය ටෙලර් යන්ත්‍රයකට, ATM කාඩ්පතක වලංගුභාව පරීක්ෂා කිරීමට හැකි විය යුතු වීම",
+   "අන්තර්ජාල බැංකු පද්ධතියක් එහි ගණුදෙනුකරුවන්ට ශේෂ පිරික්සුම් පහසුකම ලබා දිය යුතු වීම"
+  ]
+ },
+ {
+  "n": 14,
+  "d": "2014 Q35",
+  "q": "The Pilot, Phase, Direct, and Parallel are four different kind of system ................ strategies.\nWhich of the following is most appropriate to fill the blank in the above statement?",
+  "qs": "නියමු, අදියර, සෘජු හා සමාන්තර යනු පද්ධති ................ එකිනෙකට වෙනස් වූ උපක්‍රම (strategies) හතරකි.\nඉහත හිස්තැන පිරවීමට වඩාත් ම යෝග්‍ය පිළිතුර කුමක් ද?",
+  "o": [
+   "analysis",
+   "design",
+   "testing",
+   "implementation",
+   "maintenance"
+  ],
+  "os": [
+   "විශ්ලේෂණය කිරීමේ",
+   "සැලසුම් කිරීමේ",
+   "පරික්ෂා කිරීමේ",
+   "ක්‍රියාත්මක කිරීමේ",
+   "නඩත්තු කිරීමේ"
+  ]
+ },
+ {
+  "n": 15,
+  "d": "2014 Q36",
+  "q": "Which of the following segment of a Data Flow Diagram best represents the process of getting the contact list of a mobile phone?\n[Figure: In every option there is an external entity 'User', a process box 'Generate contact list', and a data store 'Contacts'. Flows labelled 'Request for contact list' and 'Contact list' connect User and the process.]",
+  "qs": "ජංගම දුරකථනයක ඇති නාමාවලිය ලබාගැනීමේ ක්‍රියාවලිය හොඳින් ම නිරූපණය කරනු ලබන්නේ පහත දක්වා ඇති කුමන දත්ත ගැලීම් සටහන් ඛණ්ඩයෙන් ද?",
+  "o": [
+   "[Figure: 'Request for contact list' arrow from the process to User; 'Contact list' arrow from User to the process; double-headed arrow between the process and Contacts.]",
+   "[Figure: 'Request for contact list' arrow from User to the process; 'Contact list' arrow from the process to User; single arrow from the process to Contacts.]",
+   "[Figure: 'Request for contact list' arrow from User to the process; 'Contact list' arrow from the process to User; single arrow from Contacts to the process.]",
+   "[Figure: 'Request for contact list' arrow from the process to User; 'Contact list' arrow from the process to User; single arrow from Contacts to the process.]",
+   "[Figure: 'Request for contact list' arrow from User to the process; 'Contact list' arrow from User to the process; single arrow from Contacts to the process.]"
+  ]
+ },
+ {
+  "n": 16,
+  "d": "2014 Q46",
+  "q": "Consider the following statements about an automated system:\nA - Human intervention is not required or minimally required.\nB - All the operations of the machine are controlled by the micro chip installed in the machine.\nC - A system that processes daily banking transactions can be considered as an automated system.\nWhich of the above statement(s) is/are correct?",
+  "qs": "ස්වයංක්‍රීය පද්ධතියක් සම්බන්ධයෙන් පහත වගන්ති සලකා බලන්න:\nA - මානව මැදිහත් වීම අවශ්‍ය නොවේ හෝ අවම වශයෙන් අවශ්‍ය වේ.\nB - යන්ත්‍රය තුළ ස්ථාපිත ක්ෂුද්‍ර චිපය මගින් යන්ත්‍රයේ සියලු ක්‍රියාකාරකම් පාලනය කරනු ලැබේ.\nC - දෛනික බැංකු ගනුදෙනු සැකසෙන ක්‍රියාවලියක් ස්වයංක්‍රීය පද්ධතියක් සේ සැලකිය හැකි ය.\nඉහත වගන්ති අතුරෙන් සත්‍ය වන්නේ කුමක් ද?",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 17,
+  "d": "2014 Q48",
+  "q": "Consider the following systems:\nA - Human blood circulatory system\nB - Human digestive system\nC - Human nervous system\nThe system(s) that can be considered as open system(s) is/are,",
+  "qs": "පහත සඳහන් පද්ධති සලකා බලන්න:\nA - මානව රුධිර සංසරණ පද්ධතිය\nB - මානව ආහාර ජීර්ණ පද්ධතිය\nC - මානව ස්නායු පද්ධතිය\nවිවෘත පද්ධතියක්/පද්ධති ලෙස සලකා බැලිය හැකි වන්නේ,",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "A and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි."
+  ]
+ },
+ {
+  "n": 18,
+  "d": "2014 Q47",
+  "q": "Consider the following statements regarding the requirements of a Bank ATM:\nA - A customer shall be able to inquire his/her bank balance.\nB - A customer should be able to deposit money through ATM.\nC - Maximum withdrawal amount per day is Rs. 20,000.\nWhich of the above requirements is/are functional requirement(s) of the ATM?",
+  "qs": "බැංකු ස්වයංක්‍රීය ටෙලර් යන්ත්‍රයක අවශ්‍යතා සම්බන්ධයෙන් පහත පෙන්වා ඇති වගන්ති සලකා බලන්න:\nA - ගනුදෙනුකරුවෙකුට ඔහුගේ/ඇයගේ බැංකු ශේෂය විමසා බැලිය හැකි විය යුතුය.\nB - ATM මගින් ගනුදෙනුකරුවකු මුදල් තැන්පත් කිරීමට හැකි විය යුතුය.\nC - දිනකට ආපසු ගත හැකි උපරිම මුදල රු. 20,000 කි.\nඉහත අවශ්‍යතා අතුරෙන් ATM හි කාර්යබද්ධ අවශ්‍යතාව/අවශ්‍යතා වන්නේ,",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "A and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි."
+  ]
+ },
+ {
+  "n": 19,
+  "d": "2015 Q32",
+  "q": "Consider the following statement regarding an Automatic Teller Machine (ATM) of a bank:\n\"System shall dispense cash in less than 10 seconds.\"\nWhich of the following is correct with respect to the above statement?",
+  "qs": "බැංකුවක ස්වයංක්‍රීය ටෙලර් යන්ත්‍රයක් (ATM) සම්බන්ධයෙන් පහත පෙන්වා ඇති වගන්තිය සලකන්න:\n\"පද්ධතියක් මගින් මුදල් ලබා දීම තත්පර 10 කට වඩා අඩු කාලයක දී කළ යුතුම ය.\"\nඉහත වගන්තිය සම්බන්ධයෙන් නිවැරදි වන්නේ පහත සඳහන් කවරක් ද?",
+  "o": [
+   "This is an essential non-functional requirement.",
+   "This is a nice to have non-functional requirement.",
+   "This is an essential functional requirement.",
+   "This is a nice to have functional requirement.",
+   "This is not a requirement of the system."
+  ],
+  "os": [
+   "මෙය අත්‍යවශ්‍ය කාර්යබද්ධ නොවන අවශ්‍යතාවකි.",
+   "මෙය ඇත්නම් කදිම කාර්යබද්ධ නොවන අවශ්‍යතාවකි.",
+   "මෙය අත්‍යවශ්‍ය කාර්යබද්ධ අවශ්‍යතාවකි.",
+   "මෙය ඇත්නම් කදිම කාර්යබද්ධ අවශ්‍යතාවකි.",
+   "මෙය පද්ධතිය සඳහා අවශ්‍යතාවක් නොවේ."
+  ]
+ },
+ {
+  "n": 20,
+  "d": "2015 Q33",
+  "q": "Consider the following Data Flow Diagram:\n[Figure: DFD. An ellipse labelled A; a process box B (with number box '1' in its header); a data store box with 'M1' and 'C'. Flows: A -> B and B -> A (two arrows between A and B); B -> C and C -> B (two arrows between B and C).]\nAccording to the Structured System Analysis and Design Methodology (SSADM), the components A, B and C in the above diagram represent ........................... respectively.",
+  "qs": "පහත දැක්වෙන දත්ත ගැලීම් සටහන සලකන්න:\n[රූපය: A ඉලිප්සය, B ක්‍රියාවලි පෙට්ටිය (1), M1 C දත්ත ගබඩාව; A සහ B අතර ඊතල දෙකක්, B සහ C අතර ඊතල දෙකක්]\nව්‍යුහගත පද්ධති විශ්ලේෂණ හා සැලසුම් ක්‍රමවේදය (SSADM) අනුව ඉහත රූපයේ දක්වා ඇති A, B හා C සංරචක නිරූපණය කරන්නේ අනුපිළිවෙලින්,",
+  "o": [
+   "an external entity, a process and a data flow",
+   "a process, an entity and a data store",
+   "a user, a process and a table in an electronic database",
+   "a user, a function and a table in an electronic database",
+   "an external entity, a process and a data store"
+  ],
+  "os": [
+   "බාහිර භූතාර්ථයක්, ක්‍රියාවලියක් සහ දත්ත ගැලීමක් වේ.",
+   "ක්‍රියාවලියක්, භූතාර්ථයක් සහ දත්ත ගබඩාවක් වේ.",
+   "පරිශීලකයෙක්, ක්‍රියාවලියක් සහ විද්‍යුත් දත්ත සමුදායක වගුවක් වේ.",
+   "පරිශීලකයෙක්, ශ්‍රිතයක් සහ විද්‍යුත් දත්ත සමුදායක වගුවක් වේ.",
+   "බාහිර භූතාර්ථයක්, ක්‍රියාවලියක් සහ දත්ත ගබඩාවක් වේ"
+  ]
+ },
+ {
+  "n": 21,
+  "d": "2015 Q34",
+  "q": "Which of the following statements is correct with respect to openness and closeness of a system?",
+  "qs": "පද්ධතියක විවෘතභාවය හා සංවෘතභාවය සම්බන්ධයෙන් පහත සඳහන් කුමන වගන්තිය නිවැරදි වන්නේ ද?",
+  "o": [
+   "An Automatic Teller Machine of a bank should be a close system.",
+   "A general purpose computer can be considered as an open system.",
+   "Human blood circulatory system is an open system.",
+   "A mobile phone is a close system.",
+   "A solar power generation system is a close system."
+  ],
+  "os": [
+   "බැංකුවක ස්වයංක්‍රීය ටෙලර් යන්ත්‍රයක් සංවෘත පද්ධතියක් විය යුතු ය.",
+   "පොදු භාවිත පරිගණකයක් (general purpose computer) විවෘත පද්ධතියක් සේ සැලකිය හැකි ය.",
+   "මිනිස් රුධිර සංසරණ පද්ධතිය විවෘත පද්ධතියකි.",
+   "ජංගම දුරකථනය සංවෘත පද්ධතියකි.",
+   "සූර්ය බල ජනන පද්ධතියක් (Solar power generation system) සංවෘත පද්ධතියකි."
+  ]
+ },
+ {
+  "n": 22,
+  "d": "2016 Q21",
+  "q": "Consider the following system implementation methods:\nA - Direct\nB - Phase\nC - Parallel\nWhich of the above methods can be recommended to implement an emergency call handling system?",
+  "qs": "පහත දක්වා ඇති පද්ධති ක්‍රියාවට නැංවීමේ ක්‍රම සලකන්න:\nA - සෘජු\nB - කලා\nC - සමාන්තර\nහදිසි ඇමතුම් මෙහෙයුම් පද්ධතියක් ක්‍රියාවට නැංවීම සඳහා ඉහත සඳහන් ක්‍රම අතුරෙන් නිර්දේශ කළ හැක්කේ කවරක්ද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "A and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි."
+  ]
+ },
+ {
+  "n": 23,
+  "d": "2016 Q34",
+  "q": "Which of the following high-level data flow diagrams is correct with respect to the rules on data flow modelling?",
+  "qs": "පහත දැක්වෙන ඉහළ මට්ටමේ දත්ත ගැලීම් සටහන් අතුරෙන් දත්ත ගැලීම් ආකෘතිකරණ නීතිවලට අනුකූල ව නිවැරදි වන්නේ කුමක් ද?",
+  "o": [
+   "[Figure: External entity A -> process B (1) -> data store M1 C. Arrows: A to B, B to C.]",
+   "[Figure: External entity A <- process B (1) <- data store M1 C. Arrows: B to A, C to B.]",
+   "[Figure: External entity A -> process B (1) <- data store M1 C. Arrows: A to B, C to B.]",
+   "[Figure: External entity A <- process B (1) -> data store M1 C. Arrows: B to A, B to C.]",
+   "[Figure: External entity A <-> process B (1) <-> data store M1 C. Double-headed arrows A-B and B-C.]"
+  ]
+ },
+ {
+  "n": 24,
+  "d": "2016 Q33",
+  "q": "Which of the following is the most appropriate example for a manual temporary data store?",
+  "qs": "පහත ඒවා අතුරෙන් අත්ගුරු තාවකාලික දත්ත ගබඩාවක් සඳහා වඩාත් යෝග්‍ය උදාහරණය කුමක් ද?",
+  "o": [
+   "A file tray",
+   "A cardboard file",
+   "A file cabinet",
+   "A data file in a hard disk",
+   "A temporary data file in a hard disk"
+  ],
+  "os": [
+   "ගොනු බන්දේසියක්",
+   "කාඩ්බෝඩ් ගොනුවක්",
+   "ගොනු කැබිනට්ටුවක්",
+   "දෘඪ තැටියක තිබෙන දත්ත ගොනුවක්",
+   "දෘඪ තැටියක තිබෙන තාවකාලික දත්ත ගොනුවක්"
+  ]
+ },
+ {
+  "n": 25,
+  "d": "2016 Q32",
+  "q": "Which of the following statements is an example for an essential non-functional requirement of an Internet banking system?",
+  "qs": "පහත සඳහන් කුමන වගන්තියක් අන්තර්ජාල බැංකුකරණ පද්ධතියක අත්‍යවශ්‍ය කාර්යබද්ධ නොවන අවශ්‍යතාවක් සඳහා උදාහරණයක් වන්නේ ද?",
+  "o": [
+   "System shall facilitate its users to open accounts.",
+   "System shall facilitate its users to check account balance.",
+   "System shall use a 256-bit encryption for all communications.",
+   "System should facilitate its users to order cheque books.",
+   "System should be able to render information on all popular web browsers."
+  ],
+  "os": [
+   "පද්ධතිය එහි පරිශීලකයන්ට ගිණුම් විවෘත කර ගැනීමට පහසුකම් සැලසිය යුතුම ය.",
+   "පද්ධතිය එහි පරිශීලකයන්ට ඔවුන්ගේ ගිණුමේ ශේෂය පරීක්ෂා කර බැලීමට පහසුකම් සැලසිය යුතුම ය.",
+   "පද්ධතිය සියලු සන්නිවේදන සඳහා බිටු 256 ක ගුප්ත කේතකයක් භාවිත කළ යුතුම ය.",
+   "පද්ධතිය එහි පරිශීලකයන්ට චෙක්පොත් ඇණවුම් කිරීමේ පහසුකම් සැලසිය යුතු ය.",
+   "පද්ධතියට සියලු ජනප්‍රිය වෙබ් අතිරික්ෂක මත තොරතුරු විදහා දැක්වීමට හැකි විය යුතු ය."
+  ]
+ },
+ {
+  "n": 26,
+  "d": "2016 Q44",
+  "q": "Which of the followings is correct about open systems?",
+  "qs": "පහත සඳහන් කවරක් විවෘත පද්ධති හා සම්බන්ධ ව නිවැරදි වන්නේ ද?",
+  "o": [
+   "All inputs required for an open system is available within the system itself.",
+   "Open systems cannot interact with other systems.",
+   "Open systems do not need other systems for its operations.",
+   "Humans can make open systems.",
+   "All the natural systems are open systems."
+  ],
+  "os": [
+   "විවෘත පද්ධතියකට අවශ්‍ය සියලු ආදාන එම පද්ධතිය තුළ ම පවතී.",
+   "විවෘත පද්ධතිවලට අනෙකුත් පද්ධති සමඟ අන්තර් ක්‍රියා කළ නොහැකි ය.",
+   "විවෘත පද්ධතිවලට එහි ක්‍රියාකාරීත්වය සඳහා අන් පද්ධති අවශ්‍ය නොවේ.",
+   "මිනිසුන්ට විවෘත පද්ධති නිර්මාණය කළ හැකි ය.",
+   "සියලු ස්වාභාවික පද්ධති විවෘත පද්ධති වේ."
+  ]
+ },
+ {
+  "n": 27,
+  "d": "2017 Q22",
+  "q": "Which of the following statements best describes a nice to have non-functional requirement of an Automated Teller Machine (ATM)?",
+  "qs": "ස්වයංක්‍රීය ටෙලර් යන්ත්‍රයක ඇත්නම් කදිම (nice to have) කාර්යබද්ධ නොවන අවශ්‍යතාවක් වඩාත් ම හොඳින් විස්තර කරනුයේ පහත දැක්වෙන කුමන වගන්තියෙන් ද?",
+  "o": [
+   "System shall facilitate users to withdraw money.",
+   "System should let users to deposit money.",
+   "System shall use 256-bit encryption for all communications.",
+   "System should provide users a touch screen interface.",
+   "System shall dispense money within 5 seconds."
+  ],
+  "os": [
+   "පද්ධතිය පරිශීලකයින්ට මුදල් ආපසු ගැනීමේ පහසුකම ලබා දිය යුතුම ය.",
+   "පද්ධතිය පරිශීලකයින්ට මුදල් තැන්පත් කිරීමට ඉඩ දිය යුතු ය.",
+   "පද්ධතිය සියලු ම සන්නිවේදන සඳහා බිටු 256ක ගුප්ත කේතනයක් භාවිත කළ යුතුම ය.",
+   "පද්ධතිය ස්පර්ශ තිර (touch screen) අතුරුමුහුණතක් පරිශීලකයින්ට ලබා දිය යුතු ය.",
+   "පද්ධතිය තත්පර 5ක් තුළ දී මුදල් මුදාහැරිය යුතුම ය."
+  ]
+ },
+ {
+  "n": 28,
+  "d": "2017 Q23",
+  "q": "The following symbol, appeared in a Data Flow Diagram (DFD) of a Sales Information System, represents a ..................... containing payment details.\n[Figure: data store symbol with two cells: 'T1(M)' | 'Payment']\nWhich of the followings is most appropriate to fill in the blank in the above statement?",
+  "qs": "අලෙවි තොරතුරු පද්ධතියක දත්ත ගැලීම් සටහනක දක්වා ඇති පහත සංකේතය ..................... අඩංගු වූ ගෙවීම් තොරතුරු නිරූපණය කරයි.\n[රූපය: T1(M) | Payment දත්ත ගබඩා සංකේතය]",
+  "o": [
+   "file tray",
+   "cardboard file",
+   "file cabinet",
+   "data file in a hard disk",
+   "temporary data file in a hard disk"
+  ],
+  "os": [
+   "ගොනු බන්දේසියක්",
+   "කාඩ්බෝඩ් ගොනුවක්",
+   "ගොනු කැබිනෙට්ටුවක්",
+   "දෘඪ තැටියක තිබෙන දත්ත ගොනුවක්",
+   "දෘඪ තැටියක තිබෙන තාවකාලික දත්ත ගොනුවක්"
+  ]
+ },
+ {
+  "n": 29,
+  "d": "2017 Q24",
+  "q": "Which of the following dataflow diagrams is correct with respect to the rules of dataflow modelling?",
+  "qs": "පහත දැක්වෙන දත්ත ගැලීම් සටහන් අතුරින් දත්ත ගැලීම් ආකෘතිකරණයෙහි නීතිවලට අනුකූලව නිවැරදි වන්නේ කුමක් ද?",
+  "o": [
+   "[Figure: External entity A with an arrow to process B (1).]",
+   "[Figure: Process B (1) with an arrow to external entity A.]",
+   "[Figure: External entity A and process B (1) connected by two arrows: A to B and B to A.]",
+   "[Figure: External entity A and process B (1) connected by two arrows (A to B and B to A); an arrow from B to data store M1 C.]",
+   "[Figure: External entity A, process B (1), data store M1 C. Arrow from data store C to B; a line from A runs down and across to the data store C with the arrowhead at C (A to C directly).]"
+  ]
+ },
+ {
+  "n": 30,
+  "d": "2017 Q30",
+  "q": "Requirements of a system can be classified as Mandatory (Essential), Desirable (Optional), Functional and Non-functional.\n\"ATM of a bank shall not allow more than three attempts to enter a user's secret number incorrectly\"\nWhich of the followings correctly classifies the above requirement?",
+  "o": [
+   "Mandatory, Functional",
+   "Mandatory, Non-functional",
+   "Desirable, Functional",
+   "Desirable, Non-functional",
+   "Mandatory or Desirable, Functional"
+  ],
+  "os": [
+   "අත්‍යවශ්‍ය, කාර්යබද්ධ",
+   "අත්‍යවශ්‍ය, කාර්යබද්ධ නොවන",
+   "අත්‍යවශ්‍ය නොවන, කාර්යබද්ධ",
+   "අත්‍යවශ්‍ය නොවන, කාර්යබද්ධ නොවන",
+   "අත්‍යවශ්‍ය හෝ අත්‍යවශ්‍ය නොවන, කාර්යබද්ධ"
+  ]
+ },
+ {
+  "n": 31,
+  "d": "2017 Q37",
+  "q": "Which of the following organs is a part of a closed system of the human body?",
+  "qs": "පහත සඳහන් කුමන ඉන්ද්‍රිය මිනිස් ශරීරයේ සංවෘත පද්ධතියක කොටසක් වේ ද?",
+  "o": [
+   "Eye",
+   "Ear",
+   "Heart",
+   "Kidney",
+   "Lung"
+  ],
+  "os": [
+   "ඇස",
+   "කන",
+   "හෘදය",
+   "වකුගඩුව",
+   "පෙනහැල්ල"
+  ]
+ },
+ {
+  "n": 32,
+  "d": "2017 Q49",
+  "q": "Consider the following system implementation methods:\nA - Direct\nB - Pilot\nC - Parallel\nWhich of the above method(s) is/are generally used to implement a home security system?",
+  "qs": "පහත සඳහන් පද්ධති ක්‍රියාත්මක කිරීමේ ක්‍රම සලකන්න:\nA - සෘජු\nB - නියාමක\nC - සමාන්තර\nඉහත සඳහන් කුමන ක්‍රමය/ක්‍රම සාමාන්‍යයෙන් ගෘහස්ථ ආරක්ෂක පද්ධති ක්‍රියාත්මක කිරීමට භාවිත කරනු ලබන්නේද?",
+  "o": [
+   "A only.",
+   "B only.",
+   "C only.",
+   "A and B only.",
+   "A and C only"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "C පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි."
+  ]
+ },
+ {
+  "n": 33,
+  "d": "2018 Q27",
+  "q": "Consider the following statements relevant to external entities of Data Flow Diagrams.\nA - An external entity can be a person, system or organization that has predefined behaviour.\nB - An external entity can be a source of input data for a process or/and a destination of the output of a process.\nC - External entities are always data stores.\nWhich of the above statement(s) is/are correct?",
+  "qs": "දත්ත ගැලීම් සටහන්වල බාහිර භූතාර්ථවලට (external entities) අදාළ පහත ප්‍රකාශ සලකන්න.\nA - බාහිර භූතාර්ථ, පූර්ව අර්ථදක්වන ලද හැසිරීම් රටාවක් ඇති පුද්ගලයකු, පද්ධතියක් හෝ සංවිධානයක් විය හැක.\nB - බාහිර භූතාර්ථ, ක්‍රියාවලියක් (process) සඳහා ආදාන දත්ත ප්‍රභවයක් හෝ/සහ ක්‍රියාවලියක ප්‍රතිදාන අන්තයක් විය හැක.\nC - බාහිර භූතාර්ථ සැම විටම දත්ත ගබඩාවන් වේ.",
+  "o": [
+   "A only.",
+   "B only.",
+   "A and B only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "A හා B පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 34,
+  "d": "2018 Q29",
+  "q": "Consider the following tasks.\nA - identifying the problems in the existing system\nB - suggesting alternative solutions\nC - prioritizing of the information system's requirements\nWhich of the above tasks is/are carried out during the preliminary investigations of systems development life cycle?",
+  "qs": "පහත දැක්වෙන කාර්ය සලකා බලන්න.\nA - දැනට පවතින පද්ධතියේ ගැටළු හඳුනා ගැනීම\nB - විකල්ප විසඳුම් යෝජනා කිරීම\nC - තොරතුරු පද්ධතියේ අවශ්‍යතාවලට අනුව පෙළ ගැස්වීම\nඉහත කාර්යවලින් කවරක් පද්ධති සංවර්ධන ජීව චක්‍රයේ මූලික විමර්ශනයේදී (preliminary investigations) ඉටු කරනු ලැබේ ද?",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ },
+ {
+  "n": 35,
+  "d": "2018 Q30",
+  "q": "Which of the following feasibility types is generally not carried out during the development of a system to be used only in-house?",
+  "o": [
+   "economic feasibility",
+   "market feasibility",
+   "operational feasibility",
+   "organizational feasibility",
+   "technical feasibility"
+  ],
+  "os": [
+   "ආර්ථික ශක්‍යතාව",
+   "වෙළෙඳපොල ශක්‍යතාව",
+   "මෙහෙයුම් ශක්‍යතාව",
+   "සංවිධානමය ශක්‍යතාව",
+   "තාක්ෂණික ශක්‍යතාව"
+  ]
+ },
+ {
+  "n": 36,
+  "d": "2018 Q44",
+  "q": "Consider the following software development lifecycle models.\nA - spiral\nB - waterfall\nC - Rapid Application Development (RAD)\nWhich of the above requires defining and finalizing requirements in the early phases of the lifecycle?",
+  "qs": "පහත දැක්වෙන මෘදුකාංග සංවර්ධන ජීව චක්‍ර ආකෘති සලකන්න.\nA - සර්පිලාකාර\nB - දිය ඇලි\nC - ශීඝ්‍ර යෙදුම් සංවර්ධනය (RAD)",
+  "o": [
+   "A only.",
+   "B only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only."
+  ],
+  "os": [
+   "A පමණි.",
+   "B පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි."
+  ]
+ },
+ {
+  "n": 37,
+  "d": "2018 Q43",
+  "q": "Consider the following statements regarding functional and non-functional requirements of a sales system.\nI - Reads barcodes of items purchased and produces the invoice\nII - Accepts user's request and responds in less than 1 second\nIII - Processes a minimum of 1,000 transactions per second\nWhich of the following is the correct classification of requirements?",
+  "qs": "අලෙවි පද්ධතියක (sales system) කාර්යබද්ධ (functional) සහ කාර්යබද්ධ නොවන (non-functional) අවශ්‍යතා සම්බන්ධ පහත ප්‍රකාශ සලකන්න.\nI - මිල දී ගත් භාණ්ඩවල තීරු කේත කියවා ඉන්වොයිසිය සෑදීම\nII - පරිශීලක ඉල්ලීම භාරගෙන තත්පරයක් තුළ ප්‍රතිචාර දැක්වීම\nIII - අවම වශයෙන් තත්පරයකට ගනුදෙනු 1000 ක් සැකසීම",
+  "o": [
+   "I, II and III all functional",
+   "I - functional, II and III - non-functional",
+   "II - functional, I and III - non-functional",
+   "I and III - functional, II - non-functional",
+   "I, II and III all non-functional"
+  ],
+  "os": [
+   "I, II සහ III සියල්ල කාර්යබද්ධ",
+   "I – කාර්යබද්ධ II සහ III – කාර්යබද්ධ නොවන",
+   "II – කාර්යබද්ධ I සහ III – කාර්යබද්ධ නොවන",
+   "I සහ III – කාර්යබද්ධ II – කාර්යබද්ධ නොවන",
+   "I, II සහ III සියල්ල කාර්යබද්ධ නොවන"
+  ]
+ },
+ {
+  "n": 38,
+  "d": "2018 Q45",
+  "q": "Consider the following statements regarding Structured and Object Oriented software development methodologies.\nA - Structured analysis and design represents systems as a hierarchy of functions.\nB - Structured design is a system of interacting objects.\nC - Object oriented methodology combines data and processes into individual entities.\nWhich of the above statements is/are correct?",
+  "qs": "ව්‍යුහගත (structured) සහ වස්තු නැඹුරු (object oriented) මෘදුකාංග සංවර්ධන ක්‍රමවේද පිළිබඳ පහත දැක්වෙන ප්‍රකාශ සලකන්න.\nA - ව්‍යුහගත විශ්ලේෂණය හා නිර්මාණය (structured analysis and design) පද්ධති ශ්‍රිත ධූරාවලියක් (function hierarchy) ලෙස දක්වයි.\nB - ව්‍යුහගත නිර්මාණය (structured design) යනු අන්තර් ක්‍රියාකාරී වස්තු අඩංගු පද්ධතියකි.\nC - වස්තු නැඹුරු ක්‍රමවේදය (object oriented methodology) දත්ත සහ ක්‍රියාවලි (processes) තනි භූතාර්ථවලට (entities) සංයුක්ත කරයි.\nඉහත ප්‍රකාශ අතුරෙන් කවරක් සත්‍ය වේ ද?",
+  "o": [
+   "A only.",
+   "A and B only.",
+   "A and C only.",
+   "B and C only.",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි.",
+   "A හා B පමණි.",
+   "A හා C පමණි.",
+   "B හා C පමණි.",
+   "ඉහත සියල්ලම."
+  ]
+ }
+]

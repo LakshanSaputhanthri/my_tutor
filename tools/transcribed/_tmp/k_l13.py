@@ -1,0 +1,158 @@
+Q = []
+def add(d, q, qs=None):
+    Q.append((d, q, qs))
+
+add("2014 ESSAY02[c]", r"""1. (c) The ABC company wants to introduce a new software agent service to monitor and display frequently browsed items by its consumers via eABC.com web site. The following diagram depicts the interactions among the consumer, company web site and the software agent.
+[Figure: three ovals in a row connected by double-headed arrows: A <-> B <-> C]
+Draw lines and connect the rows in the following two tables to represent the above scenario.
+A | Software Agent
+B | Company Web site
+C | Consumer
+(2014 S.ESSAY - 02[c])""",
+r"""1. (c) ABC සමාගමට ඔවුන්ගේ පාරිභෝගිකයන් eABC.com නම් වූ වෙබ් අඩවිය හරහා නිරන්තරයෙන් අතරික්සන අයිතම නිරීක්ෂණය කර සංදර්ශනය කිරීමට නව මෘදුකාංග නියෝජිත සේවාවක් හඳුන්වා දීමට අවශ්‍ය ව ඇත. පහත පෙන්වා ඇති රූපසටහන මගින් පාරිභෝගිකයා, සමාගමේ වෙබ් අඩවිය හා මෘදුකාංග නියෝජිත අතර අන්තර්ක්‍රියාව පෙන්වනු ලැබේ.
+ඉහත සංසිද්ධිය නිරූපණය කිරීමට පහත දක්වා ඇති වගු දෙකෙහි පේළි යා කිරීමට ඉර අඳින්න.
+A | මෘදුකාංග නියෝජිත
+B | සමාගමෙහි වෙබ් අඩවිය
+C | පාරිභෝගියා""")
+
+add("2023 ESSAY02[b]", r"""2. (b) (ii) Write down whether each of the following statements regarding software agents is either True or False.
+(1) A software agent can perform tasks in achieving a goal with minimum or no direct supervision. ........
+(2) Software applications can interact with agent without direct supervision of a user. ........
+(3) A user may obtain answers to a problem directly from an agent. ........
+(4) A multi-agent system is a network of problem-solving entities called agents that work together to find answers to problems that are beyond the individual abilities of each agent. ........
+(5) In a multi-agent system, individual agents may compete or co-operate to achieve the system goals. ........
+(2018 S.ESSAY - 03[b][ii])
+
+3. (b) (i) Modern Artificial Intelligence relies on large amounts of data, which are often managed with cloud based storage solutions. What is the cloud computing service model used here?
+(ii) Quantum computers, although seen as a promising type of computing machines for the future, are still expensive to own, operate and maintain. Suggest a technical approach to make the computing power of the quantum computers accessible to the public users as per their needs, at an affordable price.
+(2023 S.ESSAY - 02[b])""",
+r"""2. (b) (ii) මෘදුකාංග ඒජන්තවරුන්ට සම්බන්ධ පහත දැක්වෙන එක් එක් ප්‍රකාශය සත්‍ය ද අසත්‍ය ද යන වග ලියා දක්වන්න.
+(1) මෘදුකාංග ඒජන්තවරයකුට තම අරමුණු කරා යාමේ දී අවම අධීක්ෂණයකට යටතේ හෝ සෘජු අධීක්ෂණයකින් තොරව හෝ කාර්ය කළ හැක. ........
+(2) පරිශීලකයාගේ සෘජු අධීක්ෂණයකින් තොරව මෘදුකාංග යෙදුම්වලට ඒජන්තවරයකු සමග අන්තර්ක්‍රියා කළ හැක. ........
+(3) පරිශීලකයකුට ඒජන්තවරුන්ගෙන් සෘජුවම යම් ගැටලුවකට පිළිතුරු ලබා ගත හැක. ........
+(4) බහු ඒජන්ත පද්ධතියක් යනු එක් එක් භූතාර්ථයෙහි තනි හැකියාව ඉක්මවා යන ගැටලුවලට පිළිතුරු ලබා ගැනීම සඳහා එක්ව කටයුතු කරන ලබන ඒජන්තවරුන් ලෙස හැඳින්වෙන ගැටලු විසඳීමේ භූතාර්ථ ජාලයකි. ........
+(5) බහු ඒජන්ත පද්ධතියක, පද්ධතියේ අරමුණු ඉටු කර ගැනීම සඳහා තනි ඒජන්තවරුන් එකිනෙකා තරග කිරීම හෝ සහයෝගීව කටයුතු කිරීම හෝ සිදු වේ. ........
+
+3. (b) (i) නවීන කෘත්‍රිම බුද්ධිය, වලාකුළු පාදක ආචයන විසඳුම් හරහා බොහෝ විට කළමනාකරණය කෙරෙන විශාල දත්ත ප්‍රමාණයක් මත යැපේ. මෙහිදී භාවිත වන වලාකුළු පරිගණන සේවා ආකෘතිය කුමක් ද?
+(ii) ක්වන්ටම් පරිගණක, අනාගත පරිගණන යන්ත්‍ර සඳහා අපේක්ෂා කළ හැකි ලෙසට පෙනී ගිය ද ඒවා සතු කරගැනීම, ක්‍රියාකරවීම සහ නඩත්තු කිරීම තවමත් වියදම් සහිත වේ. දැරිය හැකි මිලකට සහ තම අවශ්‍යතාවන්ට ගැලපෙන ලෙසින් ක්වන්ටම් පරිගණකවල පරිගණන බලය ජනතාවට ලබාදීම සඳහා තාක්ෂණික යෝජනාවක් කරන්න.""")
+
+add("2011 ESSAY06[b]", r"""3. 1.(b) (i) In the domain of Agent technology, explain the term 'Agent'.
+(iii) Give two main characteristics of an Agent.
+(iv) Briefly explain an example where Agent technology could be used effectively.
+(2011 ESSAY - 06[b])""",
+r"""3. 1.(b) (i) කාරක තාක්ෂණවේද වසම තුළ 'කාරකය' යන පදය පැහැදිලි කරන්න.
+(iii) කාරකයක ප්‍රධාන ලක්ෂණ දෙකක් දෙන්න.
+(iv) කාරක තාක්ෂණවේදය එලදායි ලෙස යොදාගත හැකි අවස්ථාවක් නිදසුනක් කෙටියෙන් පැහැදිලි කරන්න.""")
+
+add("2015 ESSAY03", r"""4. 2. The National University of Information Technology is a well-recognized university. They offer both bachelors and post-graduate degree programmes, diplomas as well as short courses in information technology and business management. All teaching of the above courses is being conducted at their sophisticated classrooms and state-of-the-art computer laboratories specifically designed to provide a student-centred interactive learning experience. The management of the university has realized that their brand name has become well known in the country as the number of inquiries they receive from far away provinces has increased. Furthermore, a recent study has revealed that their short courses and diplomas are also very popular among working professionals despite the burdens of their busy work schedules as well as the limited time available to devote for education. Hence, the management has proposed to start a distance education programme with the objectives of providing new value added services and capturing new markets.
+(a) Propose an ICT based system to implement the above distance education programme. Describe its main components by using a simple diagram.
+(b) Explain three advantages of the proposed system.
+(c) Discuss three challenges of the proposed system.
+(d) The management thinks that agent technology based techniques could be used to overcome some of the above challenges. Do you agree with this statement? Justify your answer.
+(2015 ESSAY - 03)""",
+None)
+
+add("2018 ESSAY03[b]", r"""5. 3. (b) Consider the following figure which shows a simplified view of a multi-agent system.
+[Figure: "User" (stick figure) interacts with "Application" ("interacts with") and "Communicates" with Agent A; "Application" "interacts with" Agent A; Agent A "Communicates" with Agent B.]
+Answer the following, question by studying the above figure.
+"A software agent may or may not have a user interface".
+Do you agree with the above statement? State a reason referring to the above figure.
+(2018 ESSAY - 03[b])""",
+r"""5. 3. (b) බහු ඒජන්ත පද්ධතියක සරල කරන ලද දසුනක් දැක්වෙන පහත රූපසටහන සලකන්න.
+ඉහත රූපසටහන අධ්‍යයනය කර, පහත දැක්වෙන ප්‍රශ්නයට පිළිතුරු සපයන්න.
+"මෘදුකාංග ඒජන්තවරයකුට පරිශීලක අතුරු මුහුණතක් තිබීමට හෝ නොතිබීමට හෝ පිළිවන."
+ඉහත ප්‍රකාශය හා ඔබ එකඟ වන්නේ ද? රූපසටහන ආශ්‍රයෙන් හේතුවක් දක්වන්න.""")
+
+add("2019 ESSAY03[b]", r"""6. 4. (b) Multi-agent systems can be useful when complex system interactions are implemented. The following diagram shows a simplified version of a multi-agent system that manages the secure access to the server room of a data-center.
+[Figure: A "Systems Engineer" stands outside a "Server Room Door" with a "Keypad". Interaction arrow A connects the Keypad and Agent 1; arrow B connects Agent 1 and the Server Room Door; arrow C connects Agent 1 and a Database; arrow Q connects the Database and Agent 2; arrow P connects Agent 1 and Agent 2; arrow R connects Agent 2 and a CCTV camera.]
+A brief scenario of the usage is as follows:
+All authorized system engineers must use their access code, which is a 6-digit number to enter the restricted server room.
+When the access is granted to the server room, a set of movable CCTV cameras starts recording the server area.
+The processed data of CCTV input are saved in the database. Interactions are shown using A, B, C, P, Q, and R arrows.
+(i) Identify the agent with no user interactions (self-autonomous) in this setup.
+(ii) Sense-Compute-Control is a widely used 3-step design style of agent-based system implementations.
+From A, B and C interactions, separately identify and write down the most suitable interaction arrow to represent each step, i.e., Sense, Compute, and Control.
+(iii) C and R interaction links are shown for two directions. Explain the reasons for the duplex links for both C and R interactions separately.
+(iv) Interaction A can be seen as a user-to-agent interaction. Identify an agent-to-agent interaction and explain the operational use of that interaction.
+(v) Give one reason as to why the CCTV inputs are sent to the database through the Agent 2 instead of sending directly.
+(2019 ESSAY - 03[b])""",
+None)
+
+add("2020 ESSAY07[b]", r"""7. 5. (b) Multi agent systems can be used to replace some of the work that require humans. The following scenario explains about myTours multi-agent system used to build customized travel packages including flight booking, hotel room reservation and taxi booking for local travel during the tour.
+A prospective traveler (user) can access myTours website over the Internet and a chat-bot agent starts interacting with the user. User can use voice or text as the input medium. During this interaction chat-bot passes the extracted information to a search-agent who will take over from the chat-bot agent and proceed to search for travel packages for the user. The search- agent has a group of agents each specializing for particular type of travel service such as flight search, hotel search etc. Once the search results are obtained the search-agent prepares the list of travel packages with details and displays to the user for confirmation.
+(i) Draw a simplified agent diagram of the above explained multi-agent system. Name the important entities in your diagram.
+(ii) Which agent cannot be considered as self-autonomous?
+(iii) Write a disadvantage of using a multi-agent system for the given example user requirement.
+(2020 ESSAY - 07[b])""",
+None)
+
+add("2021 ESSAY07[b]", r"""8. 7. (b) The following description is about myShopper, a multi-agent system which enables a buyer to search the entire online marketplace for the best products. In addition to the price, reviews by other buyers, special offers, reputations of the merchants and the lengths and types of warranties are also considered.
+When a user (buyer) accesses the myShopper website, a chat-bot agent starts interacting with the user. User can use voice or text as the input medium to give his/her requirements for a product. During the interaction, the chat-bot passes the extracted information to a search-agent who will takeover the search for the best product for the user. For this, the search-agent will start several domain-agents specifying each of them the requirements of the user and specific domains (web sites) to search in. To speedup the search, each domain-agent will start several sub-agents to search sub-domains under its main domain. After the search, each sub-agent will pass the appropriate results back to its parent domain-agent. Once all such results from the sub- agents are received, each domain-agent compares them and submits the best results to the search-agent. The search-agent will then compare all such results and gives the details of the best product back to the chat-bot. The chat-bot will then display it to the user as text.
+(i) Draw a simplified agent diagram for the above multi-agent system. Name all the entities in your diagram and clearly indicate the interactions between them.
+(ii) Write one major advantage of this multi-agent system.
+(iii) Write down one ICT related challenge which has to be faced when developing a sub-agent.
+(2021 ESSAY - 07[b])""",
+None)
+
+add("2022 ESSAY07[d]", r"""9. 7. (d) A multi-agent system is proposed for this greenhouse. In this system the images that are captured using a mobile phone are stored in the plant database. The multi-agent system works as follows:
+[Figure: User Interaction (user with a mobile phone) with a Plant / leaf <-> Agent 1; Agent 1 <-> Plant Database (arrow P); Agent 1 <-> Agent 2 (arrow Q); Agent 2 <-> Plant Database (arrow R); Agent 2 <-> Search Agent (arrow S); Search Agent <-> Internet (arrow T).]
+- Agent 1 handles the user interactions, user access to data, and triggers Agent 2.
+- Agent 2 processes the images, identifies anomalies if any, and triggers Search Agent if needed.
+- Search Agent searches relevant information from the Internet, feeds the search results to Agent 2 who updates the database after processing, and notifies Agent 1 if an alert is to be raised.
+(i) In the given scenario, who is/are the self-autonomous agent(s)?
+(ii) The interaction P involves saving plant details in the database and retrieving those for Agent 1. The interaction R involves reading the database and writing search results to the database. Explain the interactions Q and S.
+(iii) After long-term use of the system, it was decided to remove Search Agent assuming that the database contains all the information needed. Write down the main disadvantage of this removal.
+(2022 ESSAY - 07[d])""",
+r"""9. 7. (d) හරිතාගාරය සඳහා බහුඒජන්ත පද්ධතියක් යෝජිත ය. එම පද්ධතියේදී ජංගම දුරකථනයකින් ගනු ලබන පැළවල ඡායාරූප පැළ දත්ත සමුදායේ ගබඩා කෙරේ. බහු ඒජන්ත පද්ධතිය පහත පරිදි ක්‍රියා කරයි.
+- ඒජන්ත 1 පරිශීලක අන්තර්ක්‍රියා හැසිරවීම සහ දත්ත සමුදායට පරිශීලක ප්‍රවේශය හැසිරවීම සිදු කර ඒජන්ත 2 අරඹීම ද සිදු කරයි.
+- ඒජන්ත 2 ඡායාරූප පිරික්සා විසමතා තිබේ නම් ඒවා හඳුනාගනියි, අවශ්‍ය නම් සෙවුම් ඒජන්තවරයා මුදා හරියි.
+- සෙවුම් ඒජන්ත අන්තර්ජාලයෙන් අදාළ තොරතුරු සොයා, ප්‍රතිඵල ඒජන්ත 2 වෙත ලබා දෙන අතර, ඒජන්ත 2 දත්ත සමුදාය සකස් කර යාවත්කාලීන කර, අනතුරු ඇඟවීමක් අවශ්‍ය නම් ඒජන්ත 1 වෙත දැනුම් දෙයි.
+(i) දෙන ලද සංදර්භයේ ස්වීය-ස්වයංක්‍රීය ඒජන්ත(රයා)ට කවුද?
+(ii) P අන්තර්ක්‍රියාවට පැළවල විස්තර දත්ත සමුදායේ සුරැකීම ද, ඒජන්ත 1 සඳහා ඒවා ලබාදීම ද අඩංගු වේ. R අන්තර්ක්‍රියාවට දත්ත සමුදාය කියවීම ද, සෙවුම් ප්‍රතිඵල දත්ත සමුදායේ ලිවීම ද ඇතුළත් වේ. Q සහ S අන්තර්ක්‍රියා පහදන්න.
+(iii) පද්ධතියේ දිගුකාලීන භාවිතයකින් පසු, දත්ත සමුදායේ අවශ්‍ය සියලු ම තොරතුරු ඇතැයි සිතා, සෙවුම් ඒජන්ත ඉවත් කිරීමට තීරණය කෙරේ. මෙම ඉවත් කිරීමෙන් සිදුවන ප්‍රධාන අවාසිය ලියා දක්වන්න.""")
+
+add("2023 ESSAY07[b]", r"""10. 8. (b) An e-commerce warehouse automation system includes a set of agent based robots which move ordered goods to their respective dispatch areas to start relevant shipments.
+This shows the latter part of this system. A Quality Control (QC) Officer inspects the goods of each order as it passes on a conveyor belt and confirms to a software system (Delivery Handler Agent) that the order has passed QC. The Delivery Handler Agent directs the package to a mobile robot at the loading area. The robot agent reads the package barcode to determine the appropriate dispatch area. It then navigates the robot to the relevant dispatch area, scanning the path and avoiding obstacles while on the move. The Dispatch Handler Agent, another software, validates each package at the dispatch areas and informs the Dispatch Officer to confirm its decision. The Dispatch Officer can override Dispatch Handler decisions if needed and directs the confirmed packages to the postal division.
+[Figure 7.3: Left: Quality Control Officer and a Conveyor Belt next to a "Delivery Handler Agent" box; a Loading Area leads into a "Package Moving Floor Area with Multi Agent Robots". On the right of the floor area are Dispatch Area 1, Dispatch Area 2, ... Dispatch Area N, connected to a "Dispatch Handler Agent" box, which is connected to the Dispatch Officer.]
+(i) Software Agents demonstrate certain characteristics which make their behaviour unique. Briefly explain the following two characteristics of a software agent:
+(a) autonomous
+(b) cooperative
+(ii) Name a self autonomous agent and a user agent in the given example.
+(iii) If the set of multi agent robots behave satisfying only the autonomous characteristics but fails to cooperate, write down one of the most likely observations that will be seen during their operation.
+(iv) If this system is redesigned by replacing the multi agent behaviour with centralized control and a broker agent for communication, identify one main change that will be seen with respect to each of the following.
+(a) Control of the robot mobility
+(b) Decision making process (relevant to moving packages from loading area to dispatch areas)
+(v) Draw a box and arrow diagram for the new solution with centralized control, mentioned in (iv), above.
+(Note: A box and arrow diagram uses boxes to show system components and arrows to show connections between those components)
+(2023 ESSAY - 07[b])""",
+None)
+
+add("2024 ESSAY07[c]", r"""11. 9. (c) Consider a multi-agent system where agents (mobile robots) are designed to collaborate in a warehouse package moving task.
+Each package is to be moved from its storage point (A) to its assigned delivery point (B) across the warehouse floor area. Each agent is tasked with moving the assigned goods from point A to point B in an optimum manner. Each agent has its own utility function that helps the agent to make optimum decisions based on the given set of parameters.
+(i) Highlighting the key characteristics, write down how the concept of 'agents' in this multi-agent system differs from a standard software program.
+(ii) Write down one positive (reward) and one negative (punishment) factor that could be considered in the utility function definitions of the agents (robots).
+(2024 ESSAY - 07[c])""",
+r"""11. 9. (c) බඩු ගබඩාවක පැකේජ් ගෙන යන කාර්යය සහයෝගයෙන් කටයුතු කිරීමට නිර්මාණය කර ඇති ඒජන්තවරුන් (ජංගම රොබෝවරුන්) සහිත බහු ඒජන්ත පද්ධතියක් සලකන්න.
+එක් එක් පැකේජ් එහි ගබඩා ස්ථානයේ (A) සිට එයට නියම කළ බෙදාහැරීමේ ස්ථානය (B) දක්වා, ගබඩා බිම් ප්‍රදේශය හරහා ගෙනයාමට අවශ්‍ය ය. තමන්ට නියම කළ A ස්ථානයේ සිට B ස්ථානයට වඩාත් ප්‍රශස්ත ආකාරයට ගෙන යෑම එක් එක් ඒජන්තවරයාට පැවරී ඇති කාර්යයකි. දී ඇති පරාමිතීන්ට අනුව ප්‍රශස්තම තීරණ ගැනීමට එක් එක් ඒජන්තවරයා තමන්ගේම උපයෝගිතා ශ්‍රිතයක් ඇත.
+(i) මෙම බහු-ඒජන්ත පද්ධතියේ 'ඒජන්ත' සංකල්පය, සම්මත මෘදුකාංග ක්‍රමලේඛයකින් වෙනස් වන අයුරු මූලික ලක්ෂණ උද්දීපනය කරමින් ලියා දක්වන්න.
+(ii) ඒජන්තවරුන්ගේ (රොබෝවරුන්ගේ) උපයෝගිතා ශ්‍රිතවල අර්ථදැක්වීම්වලදී සැලකිල්ලට ගත හැකි එක් ධනාත්මක (තෑගි ලැබෙන) සහ එක් ඍණාත්මක (දඬුවම් ලැබෙන) කරුණ බැගින් ලියන්න.""")
+
+add("2025 ESSAY07[b]", r"""12. 10. (b) Saman has a future plan to include three software agents in this online shop as follows:
+Help Agent: interacts with the customer and answers questions about products and delivery times
+Price Agent: checks for available discounts and seasonal offers before showing the final price
+Delivery Agent: communicates with different delivery services to select the fastest and cheapest option
+(i) From these three agents, which one is mainly an interface agent and why?
+(ii) Draw a simplified agent diagram for the above multi-agent system. Properly label the diagram and show all the interactions clearly.
+(iii) Give one advantage of using several software agents in Saman's online shop instead of building one single large program to do all the work.
+(iv) These agents are expected to work autonomously. Describe one situation where the Delivery Agent should take an action without being directly instructed by the user.
+(v) Describe one situation where the Delivery Agent may give the customer incorrect information.
+(2025 ESSAY - 07[b])""",
+r"""12. 10. (b) සමන්ට මෙම මාර්ගගත සාප්පුවට පහත පරිදි මෘදුකාංග ඒජන්තවරු තිදෙනෙක් ඇතුළත් කිරීමට අනාගත සැලසුමක් ඇත.
+උදව් ඒජන්ත: ගැනුම්කරුවන් සමග අන්තර්ක්‍රියා කරමින් නිෂ්පාදන පිළිබඳ ප්‍රශ්නවලට සහ සැපයුම් කාල පිළිබඳ ප්‍රශ්නවලට පිළිතුරු සපයයි
+මිල ඒජන්ත: අවසාන මිල දැක්වීමට ප්‍රථම, ලබාගත හැකි වට්ටම් සහ උත්සව දීමනා පරීක්ෂා කරයි
+බෙදීම් ඒජන්ත: වේගවත්ම සහ ලාභදායී සේවාව තෝරාගැනීමට විවිධ බෙදාහැරීම් සේවා සමග සන්නිවේදනය කරයි
+(i) මෙම ඒජන්තවරුන් තිදෙනාගෙන් මූලිකවම අතුරුමුහුණත් ඒජන්තවරයකු වන්නේ කුමක් ද? ඒයට හේතුව කුමක් ද?
+(ii) ඉහත බහු ඒජන්ත පද්ධතිය සඳහා සරල ඒජන්ත රූපසටහනක් අඳින්න. මෙම රූපසටහන නියමිත පරිදි ලේබල කර සියලු ම අන්තර් ක්‍රියාවන් පැහැදිලිව දක්වන්න.
+(iii) සමන්ගේ සාප්පුවේ, සියලු ම කාර්ය සිදු කිරීම සඳහා එක විශාල ක්‍රමලේඛයක් භාවිත නොකොට බහු මෘදුකාංග ඒජන්තවරු භාවිත කිරීමෙන් ඇතිවන එක් වාසියක් සඳහන් කරන්න.
+(iv) මෙම සියලු ම ඒජන්තවරුන් එකිනෙකට ස්වායත්තව ක්‍රියාකරනු ඇතැයි අපේක්ෂා කෙරේ. පරිශීලකයාගේ සෘජු උපදෙස් ලීමකින් තොරව බෙදීම් ඒජන්ත ක්‍රියා කළ යුතු එක් අවස්ථාවක් විස්තර කරන්න.
+(v) බෙදීම් ඒජන්ත විසින් ගනුදෙනුකරුවන්ට වැරදි තොරතුරු ලබාදිය හැකි එක් අවස්ථාවක් විස්තර කරන්න.""")

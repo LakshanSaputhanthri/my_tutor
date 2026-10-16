@@ -1,0 +1,475 @@
+[
+ {
+  "n": 1,
+  "q": "Consider the following statements:\nA - Reading time from memory (latency) was assumed to be negligible.\nB - Utilization of a hierarchical memory structure.\nC - Inability to foresee the limitation of the processor clock frequency.\nWhich of the above prevented the technological advancement beyond the Von Neumann architecture?",
+  "qs": "පහත දැක්වෙන ප්‍රකාශ සලකා බලන්න.\nA - මතකයෙන් කියවීමේ කාල පමාව නොගිනිය හැකි යැයි උපකල්පනය කිරීම.\nB - ධුරාවලි ස්මරණ ව්‍යුහය භාවිත කිරීම.\nC - සහසු ස්පන්ද සංඛ්‍යාතයේ සීමාව පූර්වයෙන් දැකීමට නොහැකි වීම.\nවොන් නියුමාන් නිර්මාණකරණය ඉක්මවන සේ තාක්ෂණික වර්ධනය වළක්වන ලද්දේ ඉහත දැක්වෙන කවරක් විසින් ද?",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and B only",
+   "A and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි"
+  ],
+  "d": "2011 Q33"
+ },
+ {
+  "n": 2,
+  "q": "Consider the following computer applications:\nA - Guiding Tourists based on their current location.\nB - Customization of automobiles\nC - Advertising via Internet\nD - Customization of domestic environments\nWhich of the above applications are most favourably benefited from ubiquitous computing?",
+  "qs": "පහත දැක්වෙන පරිගණක යෙදුම් සලකන්න\nA - සංචාරකයින්ට ඔවුන් දැනට සිටින ස්ථානය පදනම් කර ගනිමින් මඟ පෙන්වීම\nB - රථවාහන අභිරුචිකරණය\nC - අන්තර්ජාලය හරහා ප්‍රචාරණය\nD - දේශීය පරිසර අභිරුචිකරණය\nසර්වත්‍රවිහිත ආගණනය මගින් වඩාත්ම ප්‍රතිලාභ ලබා ඇත්තේ ඉහත දැක්වෙන කවරක් ද?",
+  "o": [
+   "A and B only",
+   "B and C only",
+   "A, B and C only",
+   "A, B and D only",
+   "B, C and D only"
+  ],
+  "os": [
+   "A හා B පමණි",
+   "B හා C පමණි",
+   "A, B හා C පමණි",
+   "A, B හා D පමණි",
+   "B, C හා D පමණි"
+  ],
+  "d": "2011 Q34"
+ },
+ {
+  "n": 3,
+  "q": "Consider the following characteristics:\nA - Autonomous\nB - Performs in dynamic environments\nC - Functions restricted to a time period\nD - Interacts with highly increasing information\nWhich of the above are characteristics of a Software Agent?",
+  "qs": "පහත සඳහන් ලාක්ෂණික සලකා බලන්න:\nA - ස්වතන්ත්‍ර\nB - ගතික පරිසරවලදී ක්‍රියාකාරීත්වය\nC - කාර්යන් කාල වකවානුවකට සීමා වීම\nD - බහුලව වර්ධනය වන තොරතුරු සමඟ අන්තර් ක්‍රියාකාරීත්වය\nමෘදුකාංග කාරකයක ලක්ෂණික වන්නේ ඉහත සඳහන් කවර ඒවා ද?",
+  "o": [
+   "A and B only",
+   "A and C only",
+   "A, B and C only",
+   "A, B and D only",
+   "B, C and D only"
+  ],
+  "os": [
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "A, B හා C පමණි",
+   "A, B හා D පමණි",
+   "B, C හා D පමණි"
+  ],
+  "d": "2012 Q32"
+ },
+ {
+  "n": 4,
+  "q": "Ubiquitous computing will be useful in applications such as,",
+  "qs": "සර්වත්‍රවිහිත ආගණනය ප්‍රයෝජනවත් වන්නේ පහත සඳහන් කවර යෙදුම්වල ද?",
+  "o": [
+   "Customisation of a domestic environment",
+   "Processing of large scale examination results",
+   "Auto Teller Machine (ATM)",
+   "Point of Sales (POS) Machine",
+   "Controlling a wall clock"
+  ],
+  "os": [
+   "දේශීය පරිසර අභිරුචිකරණය වැනි යෙදුම්වලදී ය.",
+   "මහා පරිමාණයේ විභාග ප්‍රතිඵල සැකසුම වැනි යෙදුම්වලදී ය.",
+   "ස්වයංක්‍රීය ටෙලර් යන්ත්‍ර (ATM) වැනි යෙදුම්වලදී ය.",
+   "විකුණුම්පොල යන්ත්‍ර (POS) වැනි යෙදුම්වලදී ය.",
+   "බිත්ති ඔරලෝසුවක් පාලනය වැනි යෙදුම්වලදී ය."
+  ],
+  "d": "2012 Q33"
+ },
+ {
+  "n": 5,
+  "q": "Ubiquitous Computing is a/an ................. computing environment. The user will be able to use both ................. and .................... services,\nWhich of the following is most appropriate to fill the blanks in the above statement?",
+  "qs": "සර්වවිහිත ආගණන යනු ................... ආගණන පරිසරයකි. මෙහි දී පරිශීලකයාට ................... සහ ................... සේවා දෙක ම ලබා ගත හැකිය.\nඉහත වගන්තියේ හිස්තැන් පිරවීම සඳහා වඩාත් ම යෝග්‍ය වචන අනුපිළිවෙළ කවරක් ද?",
+  "o": [
+   "everywhere, mobile, local",
+   "everywhere, local, remote",
+   "everywhere, local, paid",
+   "virtual, local, remote",
+   "virtual, mobile, global"
+  ],
+  "os": [
+   "සැමතැනකම පවතින, ජංගම, ස්ථානීය",
+   "සැමතැනකම පවතින, ස්ථානීය, දුරස්ථ",
+   "සැමතැනකම පවතින, ස්ථානීය, ගෙවීම් කළ",
+   "අතථ්‍ය, ස්ථානීය, දුරස්ථ",
+   "අතථ්‍ය, ජංගම, ගෝලීය"
+  ],
+  "d": "2013 Q48"
+ },
+ {
+  "n": 6,
+  "q": "Which of the following systems should always be based on Artificial Intelligence?\nA - Expert Systems\nB - Enterprise Resource Planning (ERP) Systems\nC - Multi-Agent Systems\nD - Geographical Information Systems",
+  "qs": "පහත පද්ධති අතුරෙන් සැමවිටම කෘත්‍රිම බුද්ධිය මත පදනම් වන්නේ කවරක් ද?\nA - විශේෂඥ පද්ධති\nB - ව්‍යවසාය සම්පත් සැලසුම් පද්ධති\nC - බහු ඒජන්ත පද්ධති\nD - භූගෝලීය තොරතුරු පද්ධති",
+  "o": [
+   "A and B only",
+   "A and C only",
+   "A and D only",
+   "B and D only",
+   "C and D only"
+  ],
+  "os": [
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "A, හා D පමණි",
+   "B හා D පමණි",
+   "C හා D පමණි"
+  ],
+  "d": "2014 Q45"
+ },
+ {
+  "n": 7,
+  "q": "Consider the following statements about Software Agents:\nA - A software agent is capable of autonomous actions in order to meet its design objectives.\nB - A software agent is capable of user-directed actions in order to meet users objectives.\nC - A multi-agent system is composed of set of interacting agents.\nWhich of the above statements is/are true?",
+  "qs": "මෘදුකාංග නියෝජිතවරු සම්බන්ධයෙන් පහත සඳහන් වගන්ති සලකා බලන්න:\nA - මෘදුකාංග නියෝජිතයෙකුට ඔහුගේ සැලසුම් අරමුණු සපුරා ගැනීම සඳහා ස්වායත්තව ක්‍රියා කිරීමට හැකියාවක් ඇත.\nB - මෘදුකාංග නියෝජිතයෙකුට පරිශීලකයන්ගේ අරමුණු සපුරාලීම සඳහා පරිශීලක යොමුවෙන් ක්‍රියා කිරීමට හැකියාවක් ඇත.\nC - බහු-නියෝජිත පද්ධතියක් සමන්විත වන්නේ අන්තර්ක්‍රියාකාරීත්වයෙන් යුත් නියෝජිතවරු සමූහයකිනි.\nඉහත ප්‍රකාශ අතුරෙන් නිවැරදි වන්නේ කුමන ප්‍රකාශය/ප්‍රකාශ ද?",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and B only",
+   "A and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි"
+  ],
+  "d": "2014 Q49"
+ },
+ {
+  "n": 8,
+  "q": "Which of the following is incorrect about software agents?",
+  "qs": "මෘදුකාංග නියෝජිතයන් සම්බන්ධයෙන් වැරදි වන්නේ පහත සඳහන් කුමක් ද?",
+  "o": [
+   "They exhibit some degree of autonomy.",
+   "They are a subset of reactive systems.",
+   "They are proactive in terms of their ability to exhibit goal-directed behaviour.",
+   "Electronic commerce is one of the key application areas of them.",
+   "They are always cooperative in a multi-agent environment."
+  ],
+  "os": [
+   "ඔවුන් ප්‍රමාණයකට ස්වාධීකාරය පෙන්නුම් කරයි.",
+   "ඔවුන් ප්‍රතික්‍රියක පද්ධතිවල උපලකයක් වේ.",
+   "ඉලක්කගත වර්යාව පෙන්නුම් කිරීමේ හැකියාව සම්බන්ධයෙන් ඔවුන් ප්‍රකීය වේ.",
+   "විද්‍යුත් වාණිජ්‍ය ඔවුන්ගේ ප්‍රධාන යෙදුම් ක්ෂේත්‍රයකි.",
+   "බහු නියෝජිත පරිසරයක දී ඔවුන් සැමවිටම එකමුතු වේ."
+  ],
+  "d": "2015 Q49"
+ },
+ {
+  "n": 9,
+  "q": "Which of the following is/are examples for artificial intelligence techniques?\nA - Neural Networks\nB - Genetic Algorithms\nC - Ubiquitous Computing",
+  "qs": "කෘත්‍රිම බුද්ධි ක්‍රමෝපා සඳහා පහත කවරක් උදාහරණ වන්නේ ද?\nA - ස්නායුක ජාල\nB - ජාන ප්‍රවේණි ඇල්ගොරිතම\nC - සාර්වත්‍රික පරිගණනය",
+  "o": [
+   "A only",
+   "B only",
+   "A and B only",
+   "A and C only",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි"
+  ],
+  "d": "2015 Q50"
+ },
+ {
+  "n": 10,
+  "q": "Consider the following statements:\nA - Software Agents are computer programs.\nB - Some computer viruses could be considered as software agents.\nC - All software agents have user interfaces.\nWhich of the above statements is/are correct?",
+  "qs": "පහත සඳහන් ප්‍රකාශ සලකන්න:\nA - මෘදුකාංග ඒජන්තවරු පරිගණක ක්‍රමලේඛ වේ.\nB - ඇතැම් පරිගණක වෛරස මෘදුකාංග ඒජන්තවරුන් ලෙස සලකිය හැකි ය.\nC - සියලු මෘදුකාංග ඒජන්තවරුන්ට පරිශීලක අතුරු මුහුණත් පවතී.\nඉහත සඳහන් කුමන වගන්ති/වගන්තිය නිවැරදි වන්නේ ද?",
+  "o": [
+   "A only",
+   "A and B only",
+   "A and C only",
+   "B and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි",
+   "ඉහත සියල්ලම"
+  ],
+  "d": "2016 Q49"
+ },
+ {
+  "n": 11,
+  "q": "Which of the following statements is true about Artificial Intelligence?",
+  "qs": "කෘත්‍රිම බුද්ධිය සම්බන්ධයෙන් පහත දැක්වෙන කුමන වගන්තිය සත්‍ය වේ ද?",
+  "o": [
+   "Inference Engine in an Expert System completely mimics human decision making process.",
+   "Knowledge Base in an Expert System consists only the primary knowledge of an expert.",
+   "Expert systems are always implemented by using Genetic Algorithms.",
+   "Genetic Algorithms provide only one solution to a given problem.",
+   "Genetic Algorithm evolves a solution for a given problem over a number of iterations."
+  ],
+  "os": [
+   "විශේෂඥ පද්ධතියක අනුමාන යන්ත්‍රය මානව තීරණ ගැනීමේ ක්‍රියාවලිය මුළුමනින් ම අනුකරණය කරයි.",
+   "විශේෂඥ පද්ධතියක දැනුම් සමූදායක් තුළ විශේෂඥයෙකුගේ ප්‍රාථමික දැනුම පමණක් අඩංගු වේ.",
+   "විශේෂඥ පද්ධති සැමවිට ම ජානමය ඇල්ගොරිතම මගින් ක්‍රියාත්මක කෙරේ.",
+   "ජානමය ඇල්ගොරිතම මගින් දී ඇති ගැටලුවක් සඳහා එක් පිළිතුරක් පමණක් ලබා දේ.",
+   "ජානමය ඇල්ගොරිතම මගින් දී ඇති ප්‍රශ්නයක විසඳුම පුනරාවර්තන කිහිපයක දී පරිණාමනය කරයි."
+  ],
+  "d": "2017 Q28"
+ },
+ {
+  "n": 12,
+  "q": "Consider the following clauses:\nA - can response to relevant environment changes.\nB - always acts according to well-defined user instructions.\nC - performs only pre-defined set of tasks.\nD - can make decisions under incomplete information.\nWhich of the above can be considered as properties of software agent system?",
+  "qs": "පහත දැක්වෙන වගන්ති සලකන්න:\nA - අදාළ පාරිසරික වෙනස්කම්වලට ප්‍රතිචාර දැක්විය හැකි ය.\nB - හොඳින් අර්ථ දක්වා ඇති පරිශීලක උපදෙස් අනුව සෑම විට ම ක්‍රියා කරයි.\nC - පූර්ව අර්ථ දැක්වූ කාර්ය සමූහයක් පමණක් ඉටු කරයි.\nD - අසම්පූර්ණ තොරතුරු මත තීරණ ගැනීමට හැකියාවක් ඇත.\nඉහත සඳහන් ඒවායින් මෘදුකාංග ඒජන්ත පද්ධතියක ගුණාංග ලෙස සලකිය හැක්කේ මොනවා ද?",
+  "o": [
+   "A and B only",
+   "A and C only",
+   "A and D only",
+   "B and C only",
+   "C and D only"
+  ],
+  "os": [
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "A, හා D පමණි",
+   "B හා C පමණි",
+   "C හා D පමණි"
+  ],
+  "d": "2017 Q50"
+ },
+ {
+  "n": 13,
+  "q": "A smart home application that automates the controlling of lighting, temperature, entertainment systems, and appliances is an example for,",
+  "qs": "ආලෝකකරණය, උෂ්ණත්වය, විනෝදාස්වාද පද්ධති හා උපකරණ පාලනය කරන සුහුරු නිවස යෙදුමක් පහත කවරකට උදාහරණයක් වේ ද?",
+  "o": [
+   "evolutionary computing",
+   "multi-agent systems",
+   "nature inspired computing",
+   "software agents",
+   "ubiquitous computing"
+  ],
+  "os": [
+   "පරිණාමික පරිගණනය",
+   "බහු ඒජන්ත පද්ධති",
+   "ස්වභාව ධර්මයෙන් අනුප්‍රාණිත පරිගණනය",
+   "මෘදුකාංග ඒජන්ත",
+   "සාර්වත්‍රික පරිගණනය"
+  ],
+  "d": "2018 Q32"
+ },
+ {
+  "n": 14,
+  "q": "Consider the following statements regarding artificial intelligence.\nA - Artificial intelligence systems can be used in email spam filters.\nB - Artificial intelligence systems are capable of analyzing uncertain information.\nC - An artificial intelligence system is a system for capturing, storing, processing, and displaying data related to positions on earth's surface.\nWhich of the above is/are correct?",
+  "qs": "කෘත්‍රිම බුද්ධිය සම්බන්ධ පහත ප්‍රකාශ සලකන්න.\nA - අයාචිත තැපැල් පෙරහන් තුළ කෘත්‍රිම බුද්ධි පද්ධති භාවිත කළ හැක.\nB - කෘත්‍රිම බුද්ධි පද්ධතිවලට අවිනිශ්චිත තොරතුරු විශ්ලේෂණය කිරීමේ හැකියාව ඇත.\nC - කෘත්‍රිම බුද්ධි පද්ධතියක් යනු පෘථිවි පෘෂ්ඨයේ යම් ස්ථානවලට සම්බන්ධ දත්ත අත්පත් කර ගැනීම, ගබඩා කිරීම, සැකසීම හා ප්‍රදර්ශනය කිරීම සඳහා වන පද්ධතියකි.\nඉහත කවරක් නිවැරදි ද?",
+  "o": [
+   "A only",
+   "A and B only",
+   "A and C only",
+   "B and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි",
+   "ඉහත සියල්ලම"
+  ],
+  "d": "2018 Q33"
+ },
+ {
+  "n": 15,
+  "q": "Consider the following statements relevant to the trends in modern information technology.\nA - In traditional computing, data is encoded into binary digits while in quantum computing data is represented in quantum bits or qubits.\nB - A wearable device capable of activity tracking that measures data such as the number of steps walked and heart rate is an example for a sensor network.\nC - A collection of nodes capable of environmental sensing, local computation, and communication with its peers or with other higher performance nodes is called a Geographic Information System.\nWhich of the above statements is/are correct?",
+  "qs": "නූතන තොරතුරු තාක්ෂණ නැඹුරුතාවලට අදාළ පහත ප්‍රකාශ සලකන්න.\nA - සාම්ප්‍රදායික පරිගණනයේ දත්ත ද්විමය සංඛ්‍යාංකවලට ආකේතනය කරන ලබන අතර ක්වොන්ටම් පරිගණනයේදී දත්ත ක්වොන්ටම් බිටු හෙවත් කියුබිටුවලින් නිරූපණය කෙරේ.\nB - ඇවිද ගිය පියවර ගණන සහ හෘද ස්පන්ද වේගය වැනි ක්‍රියාකාරකම් අනුමැතුම ලබා ගත හැකි ඇඳගත හැකි උපාංගයක්, සංවේදක ජාලයකට උදාහරණයකි.\nC - පරිසර සංවේදනය, ස්ථානීය සැකසුම සහ සමාන හෝ වඩා ඉහළ ක්‍රියාකාරීත්වයක් ඇති නෝඩු සමඟ සන්නිවේදනය කිරීමේ හැකියාව ඇති නෝඩු එකතුවක් භූගෝලීය තොරතුරු පද්ධතියක් ලෙස හැඳින්වේ.\nඉහත කවර ප්‍රකාශ/ය නිවැරදි වේ ද?",
+  "o": [
+   "A only",
+   "A and B only",
+   "A and C only",
+   "B and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි",
+   "ඉහත සියල්ලම"
+  ],
+  "d": "2018 Q38"
+ },
+ {
+  "n": 16,
+  "q": "Consider the following statements related to nature inspired computing:\nA - In nature inspired computing natural phenomena/scenario are observed and used to design and develop computing models to solve complex problems.\nB - Artificial Intelligence can use nature inspired computing for improving its ability to understand and solve computationally challenging problems.\nC - Computing models and algorithms developed under nature inspired computing can only be used in natural environments such as rain forests, oceans and wild-life sanctuaries.\nWhich of the above statements is/are incorrect?",
+  "qs": "සොබාදහමින් පෙළඹවෙන පරිගණකරණය පිළිබඳ පහත දැක්වෙන වගන්ති සලකන්න:\nA - සොබාදහමින් පෙළඹවෙන පරිගණකරණයේදී සංකීර්ණ ගැටලු විසඳීම උදෙසා පරිගණක ආකෘතියක් සැලසුම් කර සංවර්ධනය කිරීමට, ස්වාභාවික ප්‍රපංච/සිද්ධීන් නිරීක්ෂණය කර යොදා ගනු ලැබේ.\nB - පරිගණකමය අභියෝගාත්මක ගැටලු අවබෝධ කර ගැනීමේ සහ විසඳීමේ හැකියාව වැඩි දියුණු කිරීම සඳහා කෘත්‍රිම බුද්ධිය මගින් සොබාදහමින් පෙළඹවෙන පරිගණකරණය භාවිත කළ හැක.\nC - සොබාදහමින් පෙළඹවෙන පරිගණකරණය යටතේ සංවර්ධනය කරන ලද පරිගණක ආකෘති සහ ඇල්ගොරිතම, වැසි වනාන්තර, සාගර සහ වන සත්ව අභයභූමි වැනි ස්වාභාවික පරිසර සඳහා පමණක් භාවිතා කළ හැක.\nඉහත සඳහන් කවර වගන්තියක්/වගන්ති සාවද්‍ය වේ ද?",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා C පමණි",
+   "ඉහත සියල්ලම"
+  ],
+  "d": "2019 Q33"
+ },
+ {
+  "n": 17,
+  "q": "Consider the following:\nA - Cloud formation in the sky\nB - The evolution of living species\nC - How neurons function in the human brain\nWhich of the above could be used in bio-inspired computing?",
+  "qs": "පහත දෑ සලකන්න:\nA - අහසෙහි වලාකුළු ඇතිවීම\nB - ජීවීන්ගේ පරිණාමය\nC - මිනිස් මොළයේ නියුරෝන ක්‍රියාකාරීත්වය\nජෛව ප්‍රේරිත පරිගණනයේ භාවිත කළ හැක්කේ ඉහත කවරක් ද?",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and C only",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි"
+  ],
+  "d": "2020 Q49"
+ },
+ {
+  "n": 18,
+  "q": "Which of the following statements about quantum computing are correct?\nA - In quantum computing, principles of quantum physics are applied.\nB - Quantum bits (qubits) are used in quantum computing as the information unit.\nC - Quantum computers emit radiation fatal to human users.",
+  "qs": "ක්වොන්ටම් පරිගණනය සම්බන්ධයෙන් පහත කවරක් නිවැරදි වේ ද?\nA - ක්වොන්ටම් පරිගණනයේ දී, ක්වොන්ටම් භෞතික විද්‍යාවේ මූලධර්ම යොදයි.\nB - ක්වොන්ටම් පරිගණනයේ තොරතුරු ඒකකය ලෙස ක්වොන්ටම් බිටු භාවිත වේ.\nC - ක්වොන්ටම් පරිගණක මනුෂ්‍ය පරිශීලකයන්ට අහිතකර විකිරණ පිට කරයි.",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and B only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා B පමණි",
+   "ඉහත සියල්ලම"
+  ],
+  "d": "2020 Q50"
+ },
+ {
+  "n": 19,
+  "q": "Which of the following statements is/are correct?\nA - Quantum computing could be an alternative to overcome the limitations of the existing microprocessors.\nB - Natural phenomena such as the behaviour of ant colonies could be used to develop new computing models to solve complex problems.\nC - An inference engine of an expert system utilizes the facts in a knowledge base to support decision making.",
+  "qs": "පහත කවර ප්‍රකාශ/ය නිවැරදි වේ ද?\nA - දැනට පවතින ක්ෂුද්‍ර සකසනවල සීමා හැකියාවන් මඟහරවා ගැනීමට ක්වොන්ටම් පරිගණනය විකල්පයක් වියහැකිය.\nB - සංකීර්ණ ගැටලු විසඳීම සඳහා නව පරිගණක ආකෘති ගොඩනැගීමට කුහුඹු ජනපදවල වර්යා වැනි ස්වාභාවික සංසිද්ධි භාවිත කළ හැක ය.\nC - විශේෂඥ පද්ධතියක ඇති අනුමාන එන්ජිම තම තීරණ ගැනීම සඳහා දැනුම් දත්ත ගබඩාවක ඇති කරුණු භාවිත කරයි.",
+  "o": [
+   "A only",
+   "A and B only",
+   "A and C only",
+   "B and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි",
+   "ඉහත සියල්ලම"
+  ],
+  "d": "2022 Q49"
+ },
+ {
+  "n": 20,
+  "q": "Which of the following statements are true?\nA - Generative Artificial Intelligence (AI) tools can produce new content or data, according to their learned patterns.\nB - The use of Generative AI tools such as GPT with user prompts is an example of machine-to-machine coexistence.\nC - Although AI is used today, strong AI (machines possessing general intelligence and capabilities that are similar to human cognition) still remains a theoretical concept.",
+  "qs": "පහත කවර වගන්ති සත්‍ය වේ ද?\nA - ජනක කෘත්‍රිම බුද්ධි මෙවලම්වලට ඔවුන් ඉගෙනගත් රටාවන්ට අනුව අලුත් අන්තර්ගත හෝ දත්ත හෝ නිෂ්පාදනය කළ හැක ය.\nB - පරිශීලක ප්‍රේරක සහිත GPT වැනි ජනක කෘත්‍රිම බුද්ධි මෙවලම් භාවිතය යන්ත්‍ර-යන්ත්‍ර සහ පැවැත්ම සඳහා උදාහරණයකි.\nC - කෘත්‍රිම බුද්ධිය දැනට භාවිත වුවද ප්‍රබල කෘත්‍රිම බුද්ධිය [මිනිස් සංජානනයට සමාන සාමාන්‍ය බුද්ධිය හා හැකියාවන් සහිත යන්ත්‍ර] තවමත් න්‍යායාත්මක සංකල්පයක්ව පවතී.",
+  "o": [
+   "A only",
+   "A and B only",
+   "A and C only",
+   "B and C only",
+   "All of the above"
+  ],
+  "os": [
+   "A පමණි",
+   "A හා B පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි",
+   "ඉහත සියල්ලම"
+  ],
+  "d": "2024 Q49"
+ },
+ {
+  "n": 21,
+  "q": "Consider the following statements P and Q:\nP - A qubit of a quantum computer can have a higher number of states than a bit of a traditional computer.\nQ - Quantum computing promises to perform calculations, currently beyond traditional computer's reach, at incredible speeds.\nWhich of the following is valid regarding the above two statements?",
+  "qs": "පහත P හා Q වගන්ති සලකන්න:\nP - ක්වොන්ටම් පරිගණකයක කියුබිටුවකට, සාම්ප්‍රදායික පරිගණකයක බිටුවකට වඩා වැඩි තත්ත්ව ගණනක් තිබිය හැක.\nQ - දැනට සාම්ප්‍රදායික පරිගණකයකට ළඟා විය නොහැකි ගණනය කිරීමේ ඇදහිය නොහැකි වේගයකින් කිරීමට ක්වොන්ටම් පරිගණනය පොරොන්දු වේ.\nඉහත වගන්ති දෙක සම්බන්ධයෙන් පහත කවරක් වලංගු වේ ද?",
+  "o": [
+   "Both statements P and Q are correct and statement P gives the reason for statement Q.",
+   "Both statements P and Q are correct but the points presented in the two statements are not related.",
+   "Statement P is correct but statement Q is incorrect.",
+   "Statement P is incorrect but statement Q is correct.",
+   "Both statements P and Q are incorrect."
+  ],
+  "os": [
+   "P හා Q යන වගන්ති දෙකම නිවැරදි වන අතර P වගන්තියල Q වගන්තියට හේතුව දක්වයි.",
+   "P හා Q යන වගන්ති දෙකම නිවැරදි වන නමුත්ව එම වගන්ති දෙකෙන් ඉදිරිපත් කෙරෙන කරුණු අතර සම්බන්ධයක් නැත.",
+   "P වගන්තිය නිවැරදි වන අතර Q වගන්තිය වැරදි වේ.",
+   "P වගන්තිය වැරදි වන අතර Q වගන්තිය නිවැරදි වේ.",
+   "P හා Q යන වගන්ති දෙකම වැරදි වේ."
+  ],
+  "d": "2024 Q50"
+ },
+ {
+  "n": 22,
+  "q": "What is the suitable replacement for the blank in the following statement?\nBy analyzing historical data of a person's previous hotel visits and his/her ..................... submitted to social media of the same, an AI-based hotel recommendation system should be successfully able to suggest hotels that the person would like.",
+  "qs": "පහත වගන්තියේ ඇති හිස්තැනට සුදුසු ආදේශකය කුමක් ද?\nපරිශීලකයෙකුගේ පෙර දී හෝටල් නැවත් පිළිබඳ ඉතිහාසගත දත්ත සහ ඔහු/ඇය සමාජ ජාල සමාජ ජාල සමාජ මාධ්‍යයට ඉදිරිපත් කළ ................... විශ්ලේෂණය කිරීම මගින්, කෘත්‍රිම බුද්ධිය මත පදනම් වූ හෝටල් නිර්දේශ පද්ධතියක් පුද්ගලයා කැමති විය හැකි හෝටල් සාර්ථකව යෝජනා කිරීමට හැකියාවක් ඇත.",
+  "o": [
+   "email addresses",
+   "payment records",
+   "phone numbers",
+   "reviews",
+   "street addresses"
+  ],
+  "os": [
+   "ඊමේල් ලිපින",
+   "ගෙවීම් වාර්තා",
+   "දුරකථන අංක",
+   "විචාර",
+   "වීදි ලිපින"
+  ],
+  "d": "2025 Q48"
+ },
+ {
+  "n": 23,
+  "q": "Which of the following statements are true with respect to Artificial Intelligence (AI)?\nA - AI applications are also computer programs.\nB - All AI applications are automatically generated.\nC - When AI technology is used to generate new content, it is suitable to disclose that the content was generated by AI.",
+  "qs": "කෘත්‍රිම බුද්ධිය සම්බන්ධයෙන් පහත කවර වගන්ති සත්‍ය වේ ද?\nA - කෘත්‍රිම බුද්ධි යෙදුම් ද, පරිගණක ක්‍රමලේඛ වේ.\nB - සියලු කෘත්‍රිම බුද්ධි යෙදුම් ස්වයංක්‍රීයව ජනනය කෙරේ.\nC - නව අන්තර්ගතයක් උත්පාදනය කිරීමට කෘත්‍රිම බුද්ධි තාක්ෂණය යොදාගන්නා විට, එම අන්තර්ගතය කෘත්‍රිම බුද්ධිය හරහා උත්පාදනය වූ බව එළිදරව් කිරීම සුදුසු වේ.",
+  "o": [
+   "B",
+   "A+B",
+   "A+C",
+   "B+C",
+   "ALL"
+  ],
+  "d": "2025 Q49"
+ },
+ {
+  "n": 24,
+  "q": "Which of the following problems are suitable to be solved using nature inspired computing technologies?\nA - make the monthly payroll list of the employees of a large multinational organization.\nB - the use of autonomous robots to move goods in a warehouse avoiding collisions.\nC - scheduling hospital operating theatre time slots for the patients in the surgery waiting.",
+  "qs": "පහත කවර ගැටලු ප්‍රකෘති ප්‍රේරිත පරිගණක තාක්ෂණ භාවිතයෙන් විසඳීමට සුදුසු වේ ද?\nA - විශාල බහුජාතික සමාගමක සේවකයන්ගේ මාසික වැටුප් ලැයිස්තුව සෑදීම.\nB - ගැටීම් මඟහරිමින් බඩු ගබඩාවක භාණ්ඩ ගෙනයාමට ස්වයංපාලක රොබෝවරුන් යොදාගැනීම.\nC - ශල්‍යකර්ම පොරොත්තු ලේඛනයේ සිටින රෝගීන්ට, රෝහල් ශල්‍යාගාරවල කාල වේලාවන් සැලසුම් කිරීම.",
+  "o": [
+   "A only",
+   "B only",
+   "C only",
+   "A and C only",
+   "B and C only"
+  ],
+  "os": [
+   "A පමණි",
+   "B පමණි",
+   "C පමණි",
+   "A හා C පමණි",
+   "B හා C පමණි"
+  ],
+  "d": "2025 Q50"
+ }
+]
